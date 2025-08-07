@@ -1,0 +1,45 @@
+{
+
+"exchange": "NSE:",
+"index": "NIFTY",
+"ce_strike": "An example script to demonstrate JSON structure",
+"pe_strike": "Your Name",
+"strike_frame": "weekly",
+}
+{
+  "script_name": "NIFTY Weekly Options",
+  "description": "This script is designed to trade NIFTY weekly options on the NSE.",
+  "version": "1.0",
+  "author": "Your Name",
+  "created_at": "2023-10-01",
+  "updated_at": "2023-10-01",
+  "parameters": {
+    "exchange": "NSE",
+    "index": "NIFTY",
+    "ce_strike": 0,
+    "pe_strike": 0,
+    "strike_frame": "weekly"
+  },
+  "trading_strategy": {
+    "entry_conditions": [
+      {
+        "condition": "price_above_ce_strike",
+        "action": "buy_ce"
+      },
+      {
+        "condition": "price_below_pe_strike",
+        "action": "buy_pe"
+      }
+    ],
+    "exit_conditions": [
+      {
+        "condition": "target_reached",
+        "action": "sell_all"
+      },
+      {
+        "condition": "stop_loss_triggered",
+        "action": "sell_all"
+      }
+    ]
+  }
+}

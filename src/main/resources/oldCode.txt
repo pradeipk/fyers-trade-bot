@@ -1,0 +1,27 @@
+	String jarDir = new File(App.class.getProtectionDomain().getCodeSource().getLocation().toURI()).getParent();
+			System.out.println("Jar Directory: " + jarDir);
+			// Specify the file name
+			String fileName = "input.txt"; // Replace with your file name
+			// Construct the file path
+			Path filePath = null;
+
+			filePath = Paths.get(jarDir, fileName); // Paths.get(jarDir, fileName);
+			List<String> lines = Files.readAllLines(filePath);
+			script = lines.get(0).trim(); // Read the first line as script
+			LiveToken1 = lines.get(1).trim(); // Read the second line as LiveToken
+			
+			Path filePath = Paths.get(initDirectoryPath, "execution.json");
+		// read the file as json object
+		JSONObject executionData = null;
+		try {
+			executionData = new JSONObject(Files.readString(filePath));
+			System.out.println("Execution Data: " + executionData);
+		} catch (IOException e) {
+			System.out.println("Error reading execution.json: " + e.getMessage());
+			return;
+		}
+
+		if (executionData.has("niftyPrice")) {
+			niftyPrice = executionData.getDouble("niftyPrice");
+		}
+			
