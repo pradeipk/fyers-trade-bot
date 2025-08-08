@@ -5,12 +5,12 @@ import com.tts.in.model.FyersClass;
 
 public class RefreshToken {
 
-	static String APPID = "T39EREBI76-100";
-	static String appHashId = "22c8da69d9f404dfcf4e67148bf89ae147e1a0bd2fc71efdd71ac4258de19468";
+	static String APPID = "";
+	static String appHashId = "";
 
 	public static void main(String[] args) {
 
-		String authCode = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfaWQiOiJUMzlFUkVCSTc2IiwidXVpZCI6ImQ2YjUxZjJhMDdmNDQ4ODBhNTdhNjU0NTdlZGU4OTFmIiwiaXBBZGRyIjoiIiwibm9uY2UiOiIiLCJzY29wZSI6IiIsImRpc3BsYXlfbmFtZSI6IlhVMDQzODIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiJhY2EzY2U5Y2MxYTIwOWQ3ZWM1NzA4OTU5NzRkODRkNWEyYzZmZGJkMjg2MzhkN2U4NzJkNzQwMyIsImlzRGRwaUVuYWJsZWQiOiJZIiwiaXNNdGZFbmFibGVkIjoiTiIsImF1ZCI6IltcImQ6MVwiLFwiZDoyXCIsXCJ4OjBcIixcIng6MVwiLFwieDoyXCJdIiwiZXhwIjoxNzU0NTg4NDU4LCJpYXQiOjE3NTQ1NTg0NTgsImlzcyI6ImFwaS5sb2dpbi5meWVycy5pbiIsIm5iZiI6MTc1NDU1ODQ1OCwic3ViIjoiYXV0aF9jb2RlIn0.toB6tn6PvhSIGOpzFrcbZNxEUSzdUpd7iHc0xrRqSQk";
+		String authCode = ""; // Replace with your actual auth code
 
 		FyersClass fyersClass = FyersClass.getInstance();
 		fyersClass.clientId = APPID;

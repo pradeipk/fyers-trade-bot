@@ -10,48 +10,48 @@ import org.json.JSONObject;
 import com.tts.in.model.FyersClass;
 
 public class InitializeApp implements FyerBotInterface {
-
+	public boolean exitOnce = false;
+	public String exitPositionMessage = "";
 	public String liveToken = null;
-
-	static JSONObject script = null;
-	static String mqttTopic = null;
-	MqttMessage message = null;
-	static MqttPublisher mqttPublisher = null;
-	static JSONObject orderScript = null;
-	static JSONObject PE = null;
-	static JSONObject CE = null;
-	static boolean peActive = false;
-	static boolean ceActive = false;
-	static String PE_ORDER_PLACED = null;
-	static String PE_ORDER_SL_PRICE = null;
-	static Double PE_ORDER_SL_INDEX_LEVEL = null;
-
-	String CE_ORDER_PLACED = null;
-	String CE_ORDER_SL_PRICE = null;
-	Double CE_ORDER_SL_INDEX_LEVEL = null;
-	String mqttBroker = null;
-	String clientId;
-	long startTime = System.currentTimeMillis();
-	Boolean isBegining = true; // Set to false for testing
-	String mqttMessage = null;
-	Integer pointsEarned = null;
+	public JSONObject script = null;
+	public String mqttTopic = null;
+	public MqttMessage message = null;
+	public MqttPublisher mqttPublisher = null;
+	public JSONObject orderScript = null;
+	public JSONObject PE = null;
+	public JSONObject CE = null;
+	public boolean peActive = false;
+	public boolean ceActive = false;
+	public String PE_ORDER_PLACED = null;
+	public String PE_ORDER_SL_PRICE = null;
+	public Double PE_ORDER_SL_INDEX_LEVEL = null;
+	public String CE_ORDER_PLACED = null;
+	public String CE_ORDER_SL_PRICE = null;
+	public Double CE_ORDER_SL_INDEX_LEVEL = null;
+	public String mqttBroker = null;
+	public String mqttClientId;
+	public long startTime = System.currentTimeMillis();
+	public Boolean isBegining = true; // Set to false for testing
+	public String mqttMessage = null;
+	public Integer pointsEarned = null;
 	public FyersClass fyersClass = null;
 	private String initDirectoryPath = System.getenv("FYER_SCRIPT_PATH");
-	String appid = null;
-	String redirectURI = null;
+	public String appid = null;
+	public String redirectURI = null;
 	boolean initSucceeded = false;
-	JSONObject initData = null;
-	JSONObject orderData = null;
-	private String pin;
-
-
+	public JSONObject initData = null;
+	public JSONObject orderData = null;
+	private String pin = null;
+	public String STRATEGY = null;
 	private String appHashID;
+	public int notifcationInterval;
 
-	static InitializeApp pool = new InitializeApp();
+	//There will always be only one instance of `pool` in a single JVM, no matter how many times it is accessed.
+	public static InitializeApp pool = new InitializeApp();
 
 	private InitializeApp() {
 
-		getFyersClasss();
+		getFyersClasss(); 
 		init(initDirectoryPath);
 	}
 
@@ -62,6 +62,15 @@ public class InitializeApp implements FyerBotInterface {
 
 		return fyersClass;
 	}
+	
+	
+	public static InitializeApp getInstance() {
+		if(pool == null) {
+			pool = new InitializeApp();
+		}
+		return pool;
+	}
+	
 
 	private void init(String initDirectoryPath) {
 
@@ -69,21 +78,20 @@ public class InitializeApp implements FyerBotInterface {
 			System.out.println("Reading Credentials from key JSON file from Directory " + initDirectoryPath);
 			initData = new JSONObject(Files.readString(new File(initDirectoryPath, "init.json").toPath()));
 			System.out.println("Loading Script to execute from Order JSON file from Directory" + initDirectoryPath);
-			script = new JSONObject(Files.readString(new File(initDirectoryPath, "jsonformatter.json").toPath()));
-
+			script = new JSONObject(Files.readString(new File(initDirectoryPath, "jsonformatter.json").toPath()));			
+			validateScript(script);
 			if (initData.has("appid")) {
 				appid = initData.getString("appid").trim();
 				redirectURI = initData.getString("redirectURI").trim();
 				appHashID = initData.getString("appHashId").trim();
 				pin = initData.getString("pin").trim();
-				
+				fyersClass.clientId = appid;
 				String authCode = null;				
 				Scanner scanner = new Scanner(System.in);
 				System.out.println("Do you have the auth token in the init file? (Y/N): ");
 				String YN = scanner.nextLine();
 				if (YN.equalsIgnoreCase("N")) {
-					System.out.println("Redirecting to Fyers API, Do the required authentication Get the auth key.. ");
-					fyersClass.clientId = appid;
+					System.out.println("Redirecting to Fyers API, Do the required authentication Get the auth key.. ");					
 					fyersClass.GenerateCode(redirectURI);
 					Scanner scanner2 = new Scanner(System.in);
 					System.out.println("Enter the Auth Token from Browser: ");
@@ -110,8 +118,10 @@ public class InitializeApp implements FyerBotInterface {
 			if (script != null) {
 				mqttTopic = script.getString("mqtt_topic");
 				mqttBroker = script.getString("mqtt_broker");
-				clientId = script.getString("client_id");
-				mqttPublisher = new MqttPublisher(mqttBroker, clientId);
+				mqttClientId = script.getString("client_id");
+				mqttPublisher = new MqttPublisher(mqttBroker, mqttClientId);
+				notifcationInterval = script.getInt("notificationInterval_min");
+				STRATEGY = script.getString("strategy").trim();
 
 				if (script.has("sell_order_placed")) {
 					orderScript = script.getJSONObject("sell_order_placed");
@@ -153,5 +163,10 @@ public class InitializeApp implements FyerBotInterface {
 			System.out.println("Error initializing application: " + e.getMessage());
 		}
 
+	}
+
+	private void validateScript(JSONObject script2) {
+		// TODO Auto-generated method stub
+		
 	}
 }

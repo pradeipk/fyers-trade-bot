@@ -1,45 +1,39 @@
 {
-
-"exchange": "NSE:",
-"index": "NIFTY",
-"ce_strike": "An example script to demonstrate JSON structure",
-"pe_strike": "Your Name",
-"strike_frame": "weekly",
+  "exchange": "NSE:",
+  "index": "NIFTY",  
+  "mqtt_topic": "nifty_p2",
+  "mqtt_broker": "tcp://broker.mqtt.cool:1883",
+  "client_id": "javaClientFyers151283",
+  "notificationInterval_min": "1",
+  "strategy": "sell_order_placed",
+  "sell_order_placed": {
+    "pe": {
+      "peActive": "true",
+      "strike": "NIFTY2581425200CE",
+      "price_sl": "",
+      "index_based_sl": "24470",
+      "quantity": "75"
+    },
+    "ce": {
+      "ceActive": "false",
+      "strike": "NIFTY2581425000CE",
+      "price_sl": "124",
+      "index_based_sl": "24428",
+      "quantity": "150"
+    }
+  },  
+  "combined_premium":{
+    "pe": {      
+      "strike": "NIFTY2581425200CE",
+      "price_sl": "",
+      "index_based_sl": "24470",
+      "quantity": "75"
+    },
+    "ce": {      
+      "strike": "NIFTY2581425000CE",
+      "price_sl": "124",
+      "index_based_sl": "24428",
+      "quantity": "75"
+    }  
 }
-{
-  "script_name": "NIFTY Weekly Options",
-  "description": "This script is designed to trade NIFTY weekly options on the NSE.",
-  "version": "1.0",
-  "author": "Your Name",
-  "created_at": "2023-10-01",
-  "updated_at": "2023-10-01",
-  "parameters": {
-    "exchange": "NSE",
-    "index": "NIFTY",
-    "ce_strike": 0,
-    "pe_strike": 0,
-    "strike_frame": "weekly"
-  },
-  "trading_strategy": {
-    "entry_conditions": [
-      {
-        "condition": "price_above_ce_strike",
-        "action": "buy_ce"
-      },
-      {
-        "condition": "price_below_pe_strike",
-        "action": "buy_pe"
-      }
-    ],
-    "exit_conditions": [
-      {
-        "condition": "target_reached",
-        "action": "sell_all"
-      },
-      {
-        "condition": "stop_loss_triggered",
-        "action": "sell_all"
-      }
-    ]
-  }
 }
