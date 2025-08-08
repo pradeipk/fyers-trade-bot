@@ -33,7 +33,7 @@ public class LiveToken {
 			// Prepare JSON body
 			JSONObject jsonBody = new JSONObject();
 			jsonBody.put("grant_type", "refresh_token");
-			jsonBody.put("appIdHash", "22c8da69d9f404dfcf4e67148bf89ae147e1a0bd2fc71efdd71ac4258de19468");
+			jsonBody.put("appIdHash", "");
 			jsonBody.put("refresh_token", this.refresh_token);
 			jsonBody.put("pin", "0304");
 
