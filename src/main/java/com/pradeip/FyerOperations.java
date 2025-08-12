@@ -16,6 +16,10 @@ public class FyerOperations {
 
 	public boolean exitPosition(List<String> positionIDs) {
 		// by sending empty list all posiion will be closed
+		if(positionIDs == null || positionIDs.isEmpty()) {
+			System.out.println("No positions to exit.");
+			return false;
+		}
 		Tuple<JSONObject, JSONObject> jObject = fyersClass.ExitPositions(positionIDs);
 		if (jObject.Item1() != null) {
 			System.out.println("Position Message: " + jObject.Item1());
@@ -33,7 +37,21 @@ public class FyerOperations {
 		fyersClass.GetAllOrders();
 	}
 
-	public PositionDTO getPositions(List<String> positionIDs) {
+	public PositionDTO getAllPositions() {
+		Tuple<JSONObject, JSONObject> positionTuple = fyersClass.GetPositions();
+		PositionDTO positionDTO = null;
+		if (positionTuple.Item1() != null) {
+			positionDTO = new PositionDTO(positionTuple.Item1(), "");
+			System.out.println("Position: " + positionTuple.Item1());
+		} else {
+			System.out.println("Position Error: " + positionTuple.Item2());
+		}
+		return positionDTO;
+
+	}
+	
+	
+	public PositionDTO getPositionsBySymbols(List<String> symbolList) {
 		Tuple<JSONObject, JSONObject> positionTuple = fyersClass.GetPositions();
 		PositionDTO positionDTO = null;
 		if (positionTuple.Item1() != null) {

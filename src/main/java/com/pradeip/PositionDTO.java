@@ -84,12 +84,9 @@ public class PositionDTO {
 				dto.pl = position.getDouble("pl");
 				positionList.add(dto);
 			}
-
 		}
-
 	}
 	public PositionDTO() {
-		// TODO Auto-generated constructor stub
 	}
 
 }

@@ -2,6 +2,9 @@ package com.pradeip;
 
 import java.io.File;
 import java.nio.file.Files;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 import java.util.Scanner;
 
 import org.eclipse.paho.client.mqttv3.MqttMessage;
@@ -45,6 +48,10 @@ public class InitializeApp implements FyerBotInterface {
 	public String STRATEGY = null;
 	private String appHashID;
 	public int notifcationInterval;
+	public List<String> subscriptionlist = new ArrayList<String>();
+	public String ceSymbol = null;
+	public String peSymbol = null;
+	File logFile = null;
 
 	//There will always be only one instance of `pool` in a single JVM, no matter how many times it is accessed.
 	public static InitializeApp pool = new InitializeApp();
@@ -75,6 +82,10 @@ public class InitializeApp implements FyerBotInterface {
 	private void init(String initDirectoryPath) {
 
 		try {
+			
+			logFile = new File(initDirectoryPath, "log.txt");
+			logToFileSystem("Initializing application with directory: " + initDirectoryPath);
+			
 			System.out.println("Reading Credentials from key JSON file from Directory " + initDirectoryPath);
 			initData = new JSONObject(Files.readString(new File(initDirectoryPath, "init.json").toPath()));
 			System.out.println("Loading Script to execute from Order JSON file from Directory" + initDirectoryPath);
@@ -110,7 +121,7 @@ public class InitializeApp implements FyerBotInterface {
 				if (jsonObject != null && jsonObject.has("refresh_token")) {
 					String refresh_token = jsonObject.getString("refresh_token");
 					liveToken = new LiveToken(refresh_token).getLiveToken();
-					System.out.println("Now We have the Live token --: " + liveToken);
+					System.out.println("Now We have the Live token to proceed with the application.");
 					fyersClass.accessToken = liveToken;
 				}
 			}
@@ -123,37 +134,16 @@ public class InitializeApp implements FyerBotInterface {
 				notifcationInterval = script.getInt("notificationInterval_min");
 				STRATEGY = script.getString("strategy").trim();
 
-				if (script.has("sell_order_placed")) {
-					orderScript = script.getJSONObject("sell_order_placed");
-					if (orderScript.has("pe")) {
-						PE = orderScript.getJSONObject("pe");
-						peActive = PE.getBoolean("peActive");
-						if (peActive) {
+				switch (STRATEGY) {
 
-							PE_ORDER_PLACED = EXCHANGE + ":" + PE.getString("strike");
-							PE_ORDER_SL_INDEX_LEVEL = PE.getDouble("index_based_sl");
-							PE_ORDER_SL_PRICE = PE.getString("price_sl");
-
-							System.out.println("Script to execute " + PE_ORDER_PLACED);
-						}
-					} else {
-						System.out.println("Symbol not found in script.json");
-					}
-					if (orderScript.has("ce")) {
-						CE = orderScript.getJSONObject("ce");
-						ceActive = CE.getBoolean("ceActive");
-						if (ceActive) {
-							CE_ORDER_PLACED = EXCHANGE + ":" + CE.getString("strike");
-							CE_ORDER_SL_INDEX_LEVEL = CE.getDouble("index_based_sl");
-							CE_ORDER_SL_PRICE = CE.getString("price_sl");
-
-							System.out.println("Script to execute " + CE_ORDER_PLACED);
-						}
-					} else {
-						System.out.println("Symbol not found in script.json");
-					}
-				} else {
-					System.out.println("Script data not found in orderScript");
+				case STRATEGY_COMBINED_PREMIUM_ALARMS_AND_ACTION:
+					System.out.println("Strategy: " + STRATEGY);
+					combinedPremiuimAlarmsAndAction();
+					break;
+				case STRATEGY_MONITOR_SL_AND_ACTION:
+					System.out.println("Strategy: " + STRATEGY);
+					monitorSLStrategy();
+					break;
 				}
 
 			} else {
@@ -163,6 +153,82 @@ public class InitializeApp implements FyerBotInterface {
 			System.out.println("Error initializing application: " + e.getMessage());
 		}
 
+	}
+
+	private void monitorSLStrategy() {
+		if (script.has(STRATEGY_MONITOR_SL_AND_ACTION)) {
+			orderScript = script.getJSONObject("sell_order_placed");
+			if (orderScript.has("pe")) {
+				PE = orderScript.getJSONObject("pe");
+				peActive = PE.getBoolean("peActive");
+				if (peActive) {
+
+					PE_ORDER_PLACED = EXCHANGE + ":" + PE.getString("strike");
+					PE_ORDER_SL_INDEX_LEVEL = PE.getDouble("index_based_sl");
+					PE_ORDER_SL_PRICE = PE.getString("price_sl");
+
+					System.out.println("Script to execute " + PE_ORDER_PLACED);
+				}
+			} else {
+				System.out.println("Symbol not found in script.json");
+			}
+			if (orderScript.has("ce")) {
+				CE = orderScript.getJSONObject("ce");
+				ceActive = CE.getBoolean("ceActive");
+				if (ceActive) {
+					CE_ORDER_PLACED = EXCHANGE + ":" + CE.getString("strike");
+					CE_ORDER_SL_INDEX_LEVEL = CE.getDouble("index_based_sl");
+					CE_ORDER_SL_PRICE = CE.getString("price_sl");
+
+					System.out.println("Script to execute " + CE_ORDER_PLACED);
+				}
+			} else {
+				System.out.println("Symbol not found in script.json");
+			}
+		} else {
+			System.out.println("Script data not found in orderScript");
+		}
+	}
+	
+	private void combinedPremiuimAlarmsAndAction() {
+		if (script.has(STRATEGY_COMBINED_PREMIUM_ALARMS_AND_ACTION)) {
+			orderScript = script.getJSONObject(STRATEGY_COMBINED_PREMIUM_ALARMS_AND_ACTION);
+			if (orderScript.has("pe")) {				
+				PE = orderScript.getJSONObject("pe");
+				peSymbol = EXCHANGE+":"+PE.getString("strike");
+				subscriptionlist.add(peSymbol);
+			}
+			if (orderScript.has("ce")) {
+				CE = orderScript.getJSONObject("ce");
+				ceSymbol = EXCHANGE+":"+CE.getString("strike");
+				subscriptionlist.add(ceSymbol);				
+			} 
+		} else {
+			System.out.println("Script data not found in orderScript");
+		}
+		
+	}
+	
+	public void logToFileSystem(String message) {
+		try {
+			
+			if (!logFile.exists()) {
+				try {
+					logFile.createNewFile();
+				} catch (Exception e) {
+					System.out.println("Error creating log file: " + e.getMessage());
+				}
+			}
+			
+			
+			
+			Date now = new Date();
+			now.setTime(System.currentTimeMillis());
+			String time = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
+			java.nio.file.Files.write(logFile.toPath(), (time + " : " + message + System.lineSeparator()).getBytes(), java.nio.file.StandardOpenOption.APPEND);
+		} catch (Exception e) {
+			System.out.println("Error writing to log file: " + e.getMessage());
+		}
 	}
 
 	private void validateScript(JSONObject script2) {

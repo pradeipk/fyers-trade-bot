@@ -98,7 +98,7 @@ public class GaurdYourPosition implements FyersSocketDelegate, FyerBotInterface 
 				System.out.println(mqttMessage);
 
 				FyerOperations fyersOperation = new FyerOperations(fyersClass);
-				PositionDTO positions = fyersOperation.getPositions(null);
+				PositionDTO positions = fyersOperation.getAllPositions();
 				if (!pool.exitOnce && positions != null && positions.positionIdList != null
 						&& !positions.positionIdList.isEmpty()) {
 					System.out.println("Positions found to exit.");
