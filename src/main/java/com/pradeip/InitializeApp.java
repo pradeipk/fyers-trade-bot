@@ -52,6 +52,8 @@ public class InitializeApp implements FyerBotInterface {
 	public String ceSymbol = null;
 	public String peSymbol = null;
 	File logFile = null;
+	Date today = new Date();
+	public Double trailMargin = 0.0; // Margin to trail the premium in points
 
 	//There will always be only one instance of `pool` in a single JVM, no matter how many times it is accessed.
 	public static InitializeApp pool = new InitializeApp();
@@ -82,8 +84,8 @@ public class InitializeApp implements FyerBotInterface {
 	private void init(String initDirectoryPath) {
 
 		try {
-			
-			logFile = new File(initDirectoryPath, "log.txt");
+			String date = today.getDate() + "-" + (today.getMonth() + 1) + "-" + (1900 + today.getYear());
+			logFile = new File(initDirectoryPath, date +"_log.txt");
 			logToFileSystem("Initializing application with directory: " + initDirectoryPath);
 			
 			System.out.println("Reading Credentials from key JSON file from Directory " + initDirectoryPath);
@@ -193,6 +195,7 @@ public class InitializeApp implements FyerBotInterface {
 	private void combinedPremiuimAlarmsAndAction() {
 		if (script.has(STRATEGY_COMBINED_PREMIUM_ALARMS_AND_ACTION)) {
 			orderScript = script.getJSONObject(STRATEGY_COMBINED_PREMIUM_ALARMS_AND_ACTION);
+			trailMargin = orderScript.getDouble("trailMargin");
 			if (orderScript.has("pe")) {				
 				PE = orderScript.getJSONObject("pe");
 				peSymbol = EXCHANGE+":"+PE.getString("strike");
@@ -222,9 +225,10 @@ public class InitializeApp implements FyerBotInterface {
 			
 			
 			
-			Date now = new Date();
-			now.setTime(System.currentTimeMillis());
-			String time = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
+			
+			today.setTime(System.currentTimeMillis());
+			
+			String time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 			java.nio.file.Files.write(logFile.toPath(), (time + " : " + message + System.lineSeparator()).getBytes(), java.nio.file.StandardOpenOption.APPEND);
 		} catch (Exception e) {
 			System.out.println("Error writing to log file: " + e.getMessage());

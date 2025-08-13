@@ -33,6 +33,7 @@ public class CombinedPremiuimAlarmsAndAction implements FyersSocketDelegate, Fye
 	private double current_combinedPremium = 0.0;
 	private double ce = 0.0;
 	private double pe = 0.0;
+	private boolean exitDone = false;
 	
 	private double pre_current_combinedPremium = 0.0;
 	private double pre_ce = 0.0;
@@ -42,7 +43,7 @@ public class CombinedPremiuimAlarmsAndAction implements FyersSocketDelegate, Fye
 	
 	private Double combinedPremiumLimit = null;
 	private Double startPremium = null;
-	private Double trailingLimit = 25.0; // Initial trailing limit in points
+	//private Double trailingLimit =  // Initial trailing limit in points
 
 	
 	private List<Double> celist = new ArrayList<Double>();
@@ -92,6 +93,15 @@ public class CombinedPremiuimAlarmsAndAction implements FyersSocketDelegate, Fye
 	
 	@Override
 	public void OnScrips(JSONObject strikePrice) {
+		
+		if(exitDone) {
+			//if(fyersSocket != null)
+			//fyersSocket.Close();
+			System.out.println("Exit already done, skipping further processing.");
+			System.exit(0);
+			return;
+		}
+		
 		MarketData data = MarketData.fromJson(strikePrice);
 		if (pool.ceSymbol.equalsIgnoreCase(data.getSymbol())) {
 			ce = data.getLtp();
@@ -106,7 +116,7 @@ public class CombinedPremiuimAlarmsAndAction implements FyersSocketDelegate, Fye
 			startTime = System.currentTimeMillis();
 			// Initialize the combined premium limit and start premium
 			startPremium = ce + pe;
-			combinedPremiumLimit = startPremium + trailingLimit; // Set initial limit to start premium + 20			
+			combinedPremiumLimit = startPremium + pool.trailMargin + 5; // Set initial limit to start premium + 20			
 			System.out.println("\nInitialized combined premium limit to: " + combinedPremiumLimit);
 			System.out.println(" Premium (ce, pe)--> " + ce + ", " + pe + "(" + startPremium + ")");
 			System.out.println("\nNifty Index: " + niftyIndex);
@@ -142,13 +152,13 @@ public class CombinedPremiuimAlarmsAndAction implements FyersSocketDelegate, Fye
 		}
 		
 		// Check if the combined premium (current_combinedPremium) exceeds the limit
-		if (ce!=0.0 && pe!=0.0 && (combinedPremiumLimit < current_combinedPremium)) {
+		if (ce!=0.0 && pe!=0.0 && (combinedPremiumLimit < current_combinedPremium) && !exitDone) {
 			System.out.println("Current combined Premium  is (" + current_combinedPremium + ") > " + combinedPremiumLimit);
 			fyerOperations = new FyerOperations(fyersClass);
 			PositionDTO positionDTO = fyerOperations.getAllPositions();
 			fyerOperations.exitPosition(positionDTO.positionIdList);
 			pool.logToFileSystem("SL hit for combined premium: " + current_combinedPremium + " at " + niftyIndex + " with limit " + combinedPremiumLimit);
-
+			exitDone = true; // Set exitDone to true to prevent multiple exits
 		} else if (ce!=0.0 && pe!=0.0 && (combinedPremiumLimit >= current_combinedPremium) && (System.currentTimeMillis() - printTimer > 60000)) {
 			System.out.println("\n\n Current combined Premium  is within limits (" + current_combinedPremium + ") < " + combinedPremiumLimit);
 			System.out.println("Nifty Index: " + niftyIndex);
@@ -174,10 +184,8 @@ public class CombinedPremiuimAlarmsAndAction implements FyersSocketDelegate, Fye
 			}
 			peDiff = peDiff / pelist.size();
 
-			System.out.println(
-					" Average CE Premium at interval of every (minutes) " + interval / 60000 + " is " + ceDiff);
-			System.out.println(
-					" Average PE Premium at interval of every (minutes) " + interval / 60000 + " is " + peDiff);
+			System.out.println(" Average CE Premium change per minutes in last  " + celist.size() + " minutes is " + ceDiff);
+			System.out.println(" Average PE Premium change per minutes in last " + pelist.size() + " is " + peDiff);
 			pool.logToFileSystem("Average premeium change for ce is " + ceDiff + " and for pe is " + peDiff);
 
 		}
@@ -186,12 +194,15 @@ public class CombinedPremiuimAlarmsAndAction implements FyersSocketDelegate, Fye
 	// If the stop loss margin is greater than 20 points, then reset the limit to current combined premium + 25 points.
 	private void setTrailingLimit() {
 		
-		if (combinedPremiumLimit - current_combinedPremium > trailingLimit) {
-			trailingLimit = 20.0; // Reset trailing limit to 20 points
-			combinedPremiumLimit = current_combinedPremium + trailingLimit;
+		if (combinedPremiumLimit - current_combinedPremium >  pool.trailMargin) {
+			combinedPremiumLimit = current_combinedPremium +  pool.trailMargin;
 			System.out.println("Updating Stop loss to  " + combinedPremiumLimit);
 			System.out.println("Net Gain in premium is " + (startPremium - current_combinedPremium));
-			pool.logToFileSystem("New premium limit is set to " + combinedPremiumLimit);
+			String message1 = "\nStop loss premium set to : " + combinedPremiumLimit + "\n current combined premium : "
+					+ current_combinedPremium + "\n start price was :" + startPremium + " and initial stop loss : "
+					+ (startPremium + 25) + "\n Nifty index is at: " + niftyIndex + "\n Net gain in premium: "
+					+ (startPremium - current_combinedPremium);
+			pool.logToFileSystem(message1);
 		}
 	}
 	
