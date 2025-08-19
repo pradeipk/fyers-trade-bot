@@ -3,7 +3,9 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
+import org.eclipse.paho.client.mqttv3.MqttPersistenceException;
 import org.json.JSONObject;
 
 import com.pradeip.FyerBotInterface;
@@ -162,29 +164,46 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 			//.append("Combined Premium").append(df.format(startPremium)).append(" ---> ").append(df.format(current_combinedPremium)).append(df.format(delta_Combined_premium)).append(" \n ")
 			.append("Delta Nifty    :").append(" ( ").append(df.format(delta_nifty)).append(" ) ").append(df.format(start_niftyIndex)).append(" --> ").append(df.format(niftyIndex)).append(" \n ")
 			.append("Legs Active    :").append(" : ").append(" PE :").append(!exitDonePE).append(" ; CE :").append(!exitDoneCE).append(" \n\n ");
-			
-			
+								
+			mqttMessage = printBuilder.toString();
 			System.out.println(printBuilder.toString());
 			pool.logToFileSystem(printBuilder.toString());
+			
+			message = new MqttMessage(mqttMessage.getBytes());
+			message.setQos(1);
+			try {
+				pool.mqttPublisher.getMqttClient().publish(pool.mqttTopic, message);
+			} catch (MqttPersistenceException e) {
+				e.printStackTrace();
+			} catch (MqttException e) {
+				e.printStackTrace();
+			}
+			
+			
 			if (delta_nifty > 0) {
 				System.out.println("Index is upwards since start of the Bot ..");
 			}
 			printTimer = System.currentTimeMillis();
 		}
 
-	}
-	
+	}	
 	
 	// If the current stop loss margin is greater than 20 points as compared to current combined premium, then reset the limit to current combined premium + 25 points.
 	private void setTrailingLimit() {
 		
 		if (combinedPremiumLimit - current_combinedPremium >  pool.trailMargin) {
 			combinedPremiumLimit = current_combinedPremium +  pool.trailMargin;
-			System.out.println("Updating trailing Stop loss to  " + df.format(combinedPremiumLimit));			
-			pool.logToFileSystem("Updating Stop loss to  " + combinedPremiumLimit);
+			mqttMessage = "Updating trailing Stop loss to  " + df.format(combinedPremiumLimit);
+			System.out.println(mqttMessage);			
+			pool.logToFileSystem(mqttMessage);
+			try {
+				pool.mqttPublisher.getMqttClient().publish(pool.mqttTopic, new MqttMessage(mqttMessage.getBytes()));
+			} catch (MqttException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
-	}
-	
+	}	
 	
 	private void OnScripeCallback(JSONObject strikePrice) {
 
@@ -231,11 +250,11 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 					+ " with limit " + combinedPremiumLimit);
 
 		} else if (exitDoneCE && (combinedPremiumLimit >= current_combinedPremium)) {
-			// reneter the CE leg if the combined premium has come done.
+			// re-neter the CE leg if the combined premium has come done.
 			fyerOperations.Sell(pool.ceSymbol, 1);
 			
 		} else if (exitDonePE && (combinedPremiumLimit >= current_combinedPremium)) {
-			// reneter the PE leg if the combined premium has come done.
+			// re-neter the PE leg if the combined premium has come done.
 			fyerOperations.Sell(pool.peSymbol, 1);
 		
 		} else {
@@ -278,7 +297,7 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 		
 		// keep track of the premium changes
 		current_combinedPremium = ce + pe;
-		delta_PE = start_pe -pe ; // positive delta means gain in your favour
+		delta_PE = start_pe - pe ; // positive delta means gain in your favour
 		delta_CE = start_ce - ce ; // positive delta means gain in your favour
 		delta_Combined_premium = startPremium - current_combinedPremium;
 		delta_nifty = niftyIndex - start_niftyIndex;
