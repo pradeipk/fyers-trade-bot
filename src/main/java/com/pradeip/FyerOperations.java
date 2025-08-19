@@ -5,6 +5,8 @@ import java.util.List;
 import org.json.JSONObject;
 
 import com.tts.in.model.FyersClass;
+import com.tts.in.model.OrderModel;
+import com.tts.in.model.PlaceOrderModel;
 import com.tts.in.utilities.Tuple;
 
 public class FyerOperations {
@@ -94,8 +96,8 @@ public class FyerOperations {
 	}
 
 	public void GetLogoutValidation(FyersClass fyersClass) {
-		JSONObject jsonObject = fyersClass.LogoutValidation();
-		System.out.println(jsonObject);
+		//JSONObject jsonObject = fyersClass.LogoutValidation();
+		//System.out.println(jsonObject);
 	}
 
 	public void GetMarketDepth(FyersClass fyersClass) {
@@ -121,6 +123,19 @@ public class FyerOperations {
 			System.out.println("OptionChain Error: " + stockTuple.Item2());
 		}
 
+	}
+	
+	
+	public void Sell(String symbol, int quantity) {
+
+		PlaceOrderModel pom = FyerOrderModel.prepareSellOrder(symbol, quantity);
+		Tuple<JSONObject, JSONObject> sellTuple = fyersClass.PlaceOrder(pom);
+
+		if (sellTuple.Item1() == null) {
+			System.out.println("OptionChain:" + sellTuple.Item1());
+		} else {
+			System.out.println("OptionChain Error: " + sellTuple.Item2());
+		}
 	}
 
 }

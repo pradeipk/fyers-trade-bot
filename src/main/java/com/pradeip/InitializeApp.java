@@ -4,7 +4,9 @@ import java.io.File;
 import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 
 import org.eclipse.paho.client.mqttv3.MqttMessage;
@@ -54,12 +56,12 @@ public class InitializeApp implements FyerBotInterface {
 	File logFile = null;
 	Date today = new Date();
 	public Double trailMargin = 0.0; // Margin to trail the premium in points
+	public Map<String,String> symbolAndid = new HashMap<String,String>();
 
 	//There will always be only one instance of `pool` in a single JVM, no matter how many times it is accessed.
 	public static InitializeApp pool = new InitializeApp();
 
 	private InitializeApp() {
-
 		getFyersClasss(); 
 		init(initDirectoryPath);
 	}
@@ -139,14 +141,22 @@ public class InitializeApp implements FyerBotInterface {
 				switch (STRATEGY) {
 
 				case STRATEGY_COMBINED_PREMIUM_ALARMS_AND_ACTION:
-					System.out.println("Strategy: " + STRATEGY);
+					System.out.println("Activating Strategy: " + STRATEGY);
 					combinedPremiuimAlarmsAndAction();
 					break;
 				case STRATEGY_MONITOR_SL_AND_ACTION:
-					System.out.println("Strategy: " + STRATEGY);
+					System.out.println("Activating Strategy: " + STRATEGY);
 					monitorSLStrategy();
 					break;
+				case STRATEGY_ADJUSTING_STRADDLE:
+					System.out.println("Activating Strategy: " + STRATEGY);
+					adjustingStraddle();
+				default:
+					System.out.println("Valid strategy selected.");
+					//System.exit(0);
+					//return;
 				}
+				
 
 			} else {
 				System.out.println("Script is null, please check the JSON file.");
@@ -212,9 +222,29 @@ public class InitializeApp implements FyerBotInterface {
 		
 	}
 	
+	private void adjustingStraddle() {
+		if (script.has(STRATEGY_ADJUSTING_STRADDLE)) {
+			orderScript = script.getJSONObject(STRATEGY_ADJUSTING_STRADDLE);
+			trailMargin = orderScript.getDouble("trailMargin");
+			if (orderScript.has("pe")) {				
+				PE = orderScript.getJSONObject("pe");
+				peSymbol = EXCHANGE+":"+PE.getString("strike");
+				subscriptionlist.add(peSymbol);
+			}
+			if (orderScript.has("ce")) {
+				CE = orderScript.getJSONObject("ce");
+				ceSymbol = EXCHANGE+":"+CE.getString("strike");
+				subscriptionlist.add(ceSymbol);				
+			} 
+		} else {
+			System.out.println("Script data not found in orderScript");
+		}
+		
+	}
+	
 	public void logToFileSystem(String message) {
 		try {
-			
+
 			if (!logFile.exists()) {
 				try {
 					logFile.createNewFile();
@@ -222,14 +252,11 @@ public class InitializeApp implements FyerBotInterface {
 					System.out.println("Error creating log file: " + e.getMessage());
 				}
 			}
-			
-			
-			
-			
+
 			today.setTime(System.currentTimeMillis());
-			
 			String time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-			java.nio.file.Files.write(logFile.toPath(), (time + " : " + message + System.lineSeparator()).getBytes(), java.nio.file.StandardOpenOption.APPEND);
+			java.nio.file.Files.write(logFile.toPath(), (time + " : " + message + System.lineSeparator()).getBytes(),
+					java.nio.file.StandardOpenOption.APPEND);
 		} catch (Exception e) {
 			System.out.println("Error writing to log file: " + e.getMessage());
 		}

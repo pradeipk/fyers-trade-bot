@@ -43,6 +43,8 @@ public class CombinedPremiuimAlarmsAndAction implements FyersSocketDelegate, Fye
 	
 	private Double combinedPremiumLimit = null;
 	private Double startPremium = null;
+	private Double startCE_Premium = null;
+	private Double startPE_Premium = null;
 	//private Double trailingLimit =  // Initial trailing limit in points
 
 	

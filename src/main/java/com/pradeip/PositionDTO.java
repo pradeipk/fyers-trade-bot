@@ -1,7 +1,9 @@
 package com.pradeip;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -40,10 +42,15 @@ public class PositionDTO {
 	public double pl;
 	public List<PositionDTO> positionList = null;
 	public List<String> positionIdList = null;
+	public Map<String,String> symbolAndid = new HashMap<String,String>();
 	public PositionDTO(JSONObject root, String symbol) {
 		this.root = root;
 		positionList = new ArrayList<PositionDTO>();
 		netPositions = root.getJSONArray("netPositions");
+		if(netPositions == null || netPositions.length() == 0) {
+			System.out.println("No net positions found.");
+			return;
+		}
 		positionIdList = new ArrayList<String>();
 
 		// Loop through and print each symbol
@@ -83,6 +90,7 @@ public class PositionDTO {
 				dto.exchange = position.getInt("exchange");
 				dto.pl = position.getDouble("pl");
 				positionList.add(dto);
+				InitializeApp.pool.symbolAndid.put(symbol1, dto.id);
 			}
 		}
 	}

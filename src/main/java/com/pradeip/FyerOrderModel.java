@@ -6,7 +6,7 @@ import com.tts.in.utilities.OrderValidity;
 import com.tts.in.utilities.ProductType;
 import com.tts.in.utilities.TransactionType;
 
-public class OrderModel {
+public class FyerOrderModel {
 
 
 	/**
@@ -18,7 +18,7 @@ public class OrderModel {
 		model.Symbol = symbol;
 		model.Qty = quantity;
 		model.OrderType = OrderType.MarketOrder.getDescription();
-		model.Side = TransactionType.Buy.getValue();
+		model.Side = TransactionType.Sell.getValue();
 		model.ProductType = ProductType.CNC;
 		model.LimitPrice = 0;
 		model.StopPrice = 0;
