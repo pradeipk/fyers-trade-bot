@@ -5,7 +5,6 @@ import java.util.List;
 import org.json.JSONObject;
 
 import com.tts.in.model.FyersClass;
-import com.tts.in.model.OrderModel;
 import com.tts.in.model.PlaceOrderModel;
 import com.tts.in.utilities.Tuple;
 
@@ -43,27 +42,24 @@ public class FyerOperations {
 		Tuple<JSONObject, JSONObject> positionTuple = fyersClass.GetPositions();
 		PositionDTO positionDTO = null;
 		if (positionTuple.Item1() != null) {
-			positionDTO = new PositionDTO(positionTuple.Item1(), "");
+			positionDTO = new PositionDTO(positionTuple.Item1());
 			System.out.println("Position: " + positionTuple.Item1());
 		} else {
 			System.out.println("Position Error: " + positionTuple.Item2());
 		}
 		return positionDTO;
-
-	}
+	}	
 	
-	
-	public PositionDTO getPositionsBySymbols(List<String> symbolList) {
+	public PositionDTO getPositionsBySymbols() {
 		Tuple<JSONObject, JSONObject> positionTuple = fyersClass.GetPositions();
 		PositionDTO positionDTO = null;
 		if (positionTuple.Item1() != null) {
-			positionDTO = new PositionDTO(positionTuple.Item1(), "");
+			positionDTO = new PositionDTO(positionTuple.Item1());
 			System.out.println("Position: " + positionTuple.Item1());
 		} else {
 			System.out.println("Position Error: " + positionTuple.Item2());
 		}
 		return positionDTO;
-
 	}
 
 	public void GetProfile(FyersClass fyersClass) {
@@ -135,6 +131,24 @@ public class FyerOperations {
 			System.out.println("OptionChain:" + sellTuple.Item1());
 		} else {
 			System.out.println("OptionChain Error: " + sellTuple.Item2());
+		}
+	}
+	
+	
+	public boolean exitFromAllPositions(List<String> positionIds) {
+		if (positionIds != null) {
+			Tuple<JSONObject, JSONObject> tuple = fyersClass.ExitPositions(positionIds);
+			
+			if (tuple.Item1() != null && tuple.Item1().getInt("code") == 201) {
+				System.out.println(" Exit successful for all positions.");
+				return true;
+			} else {
+				System.out.println("Error exiting all positions: " + tuple.Item2());
+				return false;
+			}
+		} else {
+			System.out.println("Error exiting position for PE: " + positionIds.get(0));
+			return false;
 		}
 	}
 

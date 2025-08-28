@@ -21,7 +21,7 @@ import com.tts.in.websocket.FyersSocketDelegate;
 import in.tts.hsjavalib.ChannelModes;
 
 //exit from your position if index breaches the SL level.
-public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface {
+public class StraddleWithTrailingSL implements FyersSocketDelegate, FyerBotInterface {
 
 	public InitializeApp pool = null;
 	private MqttMessage message;
@@ -66,7 +66,7 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 		GAURD_SHORT_POSITION_PUT, GAURD_SHORT_POSITION_CALL
 	};
 
-	public AdjustingStraddle() {
+	public StraddleWithTrailingSL() {
 		pool = InitializeApp.pool;
 		fyersClass = pool.getFyersClasss();
 	}
@@ -150,13 +150,7 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 
 	}
 	
-	private void analyzePremiums() {
-		// difference of previous and current premiums and average of all differences
-		// System.out.println("Analyzing premiums for CE and PE...");
-		
-
-	        // Format the date
-	        
+	private void analyzePremiums() {		
 		
 		if (System.currentTimeMillis() - printTimer > 60000) {
 			
@@ -196,8 +190,85 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 			}
 			printTimer = System.currentTimeMillis();
 		}
-
 	}	
+	
+	private void OnScripeCallback(JSONObject strikePrice) {
+
+		MarketData data = MarketData.fromJson(strikePrice);
+		InitializeAndUpdatePremium(data);
+		if (!initialized)
+			return;
+		analyzePremiums();
+		
+		// exit from both Legs if the combined premium goes above the SL
+		if (combinedPremiumLimit < current_combinedPremium) {
+			if (pool.postionIds == null || pool.postionIds.isEmpty()) {
+				System.out.println("No positions found for the given symbols, exiting.");
+				pool.logToFileSystem("No positions found for the given symbols, exiting.");
+				positionDTO = fyerOperations.getPositionsBySymbols();
+			}
+			if (fyerOperations.exitFromAllPositions(pool.postionIds)) {
+				System.out.println("Successfully exited from all positions. Closing the Applications");
+				System.exit(0);
+			}
+		}
+	}	
+
+	private void InitializeAndUpdatePremium(MarketData data) {
+
+		if (pool.ceSymbol.equalsIgnoreCase(data.getSymbol())) {
+			ce = data.getLtp();
+		} else if (pool.peSymbol.equalsIgnoreCase(data.getSymbol())) {
+			pe = data.getLtp();
+		}
+		
+		if(ce == 0.0 || pe == 0.0 || niftyIndex == 0.0) {
+			System.out.println("Either of CE or PE premiums is not initialized, skipping further processing.");
+			return;
+		} else if (!initialized) {
+			// check if you have the positions are not.
+			startTime = System.currentTimeMillis();
+			start_ce = ce;
+			start_pe = pe;
+			fyerOperations = new FyerOperations(pool.getFyersClasss());
+			System.out.println("\n Searching your positions --->  ");
+			positionDTO = fyerOperations.getPositionsBySymbols();		
+			
+			if(pool.postionIds == null|| pool.postionIds.isEmpty()) {
+				System.out.println("No positions found for the given symbols, exiting.");
+				pool.logToFileSystem("No positions found for the given symbols, exiting.");
+				
+			} else {
+				System.out.println("\n found live Positions as below --->  ");
+				pool.positionDTOList.forEach(dto -> {
+					System.out.println("Symbol: " + dto.symbol + " NetQty: " + dto.netQty + " Sell Quantity : " + dto.sellQty + " Sell Quantity : " + dto.buyQty);
+					if(dto.symbol.contains("PE"))
+						start_pe = dto.netAvg;
+					else if(dto.symbol.contains("CE"))
+						start_ce = dto.netAvg;
+				});
+			}	
+			
+			// Initialize the combined premium limit and start premium
+			startPremium = ce + pe;
+			combinedPremiumLimit = startPremium + pool.trailMargin + 5; // Set initial limit to start premium + 20			
+			System.out.println("\nInitialized combined premium limit to: " + df.format(combinedPremiumLimit));
+			System.out.println(" Initial Premium (ce, pe)--> " + ce + ", " + pe + " (" + df.format(startPremium) + ")");
+			System.out.println("\nNifty Index: " + niftyIndex);	
+			start_niftyIndex = niftyIndex;
+			initialized = true;
+			pool.logToFileSystem("Start premium is set to " + startPremium + " with combined premium limit of " + combinedPremiumLimit + " at " + niftyIndex);
+		}
+		
+		// keep track of the premium changes
+		current_combinedPremium = ce + pe;
+		delta_PE = start_pe - pe ; // positive delta means gain in your favour
+		delta_CE = start_ce - ce ; // positive delta means gain in your favour
+		delta_Combined_premium = startPremium - current_combinedPremium;
+		delta_nifty = niftyIndex - start_niftyIndex;
+		setTrailingLimit();	
+		
+	}
 	
 	// If the current stop loss margin is greater than 20 points as compared to current combined premium, then reset the limit to current combined premium + 25 points.
 	private void setTrailingLimit() {
@@ -215,111 +286,4 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 		}
 	}	
 	
-	private void OnScripeCallback(JSONObject strikePrice) {
-
-		MarketData data = MarketData.fromJson(strikePrice);
-		InitializeAndUpdatePremium(data);
-		if (!initialized)
-			return;
-		analyzePremiums();
-
-		if (combinedPremiumLimit < current_combinedPremium) {
-			List<String> exitPositionList = new ArrayList<String>();
-				// Need Fix here 
-			// -ve delta means the premium has gone up, so you need to exit the position. (start -current)
-			if (!exitDonePE && delta_PE < 0) {
-				System.out.println("Market data symbol is : " + data.getSymbol() + " and " + pool.peSymbol);
-				System.out.println(
-						"Premium for PE has increased by :" + df.format(delta_PE) + "Exitting the position." + pool.peSymbol);
-				// check that you are exitiong the right position.
-				String positionID = pool.symbolAndid.get(pool.peSymbol);
-				
-				if(positionID == null) {
-					System.out.println("Position ID is null for " + pool.peSymbol + ", cannot exit position.");
-					
-				} else {
-					exitPositionList.add("NSE:RELIANCE-EQ-CNC");
-				}				
-				
-				if (fyerOperations.exitPosition(exitPositionList)) {
-					exitDonePE = true;
-					System.out.println(" Exit successful for PE: " + pool.peSymbol);
-					exitPositionList.clear();
-				} else {
-					System.out.println("Error exiting position for PE: " + pool.peSymbol);
-				}
-				System.out.println(pool.exitPositionMessage);
-			}
-			// -ve delta means the premium has gone up, so you need to exit the position. (start -current)
-			if (!exitDoneCE && delta_CE < 0) {
-				System.out.println("Market data symbol is :" + data.getSymbol() + " and " + pool.peSymbol);
-				String positionID = pool.symbolAndid.get(pool.ceSymbol);
-				exitPositionList.add("NSE:RELIANCE-EQ-CNC");
-				if (fyerOperations.exitPosition(exitPositionList)) {
-					exitDoneCE = true;
-					System.out.println(" Exit successful for CE: " + pool.ceSymbol);
-				} else {
-					System.out.println("Error exiting position for CE: " + pool.peSymbol);
-				}
-				System.out.println(pool.exitPositionMessage);
-			}
-
-			pool.logToFileSystem("SL hit for combined premium: " + current_combinedPremium + " at " + niftyIndex
-					+ " with limit " + combinedPremiumLimit);
-
-		} else if (exitDoneCE && (combinedPremiumLimit >= current_combinedPremium)) {
-			// re-neter the CE leg if the combined premium has come done.
-			fyerOperations.Sell(pool.ceSymbol, 1);
-			
-		} else if (exitDonePE && (combinedPremiumLimit >= current_combinedPremium)) {
-			// re-neter the PE leg if the combined premium has come done.
-			fyerOperations.Sell(pool.peSymbol, 1);
-		
-		} else {
-			if (System.currentTimeMillis() - printTimer > 60000) {
-				System.out.println("\n\n Current combined Premium  is within limits (" + current_combinedPremium
-						+ ") < " + combinedPremiumLimit);
-				System.out.println("Nifty Index: " + niftyIndex);
-				printTimer = System.currentTimeMillis();
-			}
-		}
-	}
-
-	private void InitializeAndUpdatePremium(MarketData data) {
-		if (pool.ceSymbol.equalsIgnoreCase(data.getSymbol())) {
-			ce = data.getLtp();
-		} else if (pool.peSymbol.equalsIgnoreCase(data.getSymbol())) {
-			pe = data.getLtp();
-		}
-		
-		if(ce == 0.0 || pe == 0.0 || niftyIndex == 0.0) {
-			System.out.println("Either of CE or PE premiums is not initialized, skipping further processing.");
-			return;
-		} else if (!initialized) {
-			// check if you have the positions are not.
-			fyerOperations = new FyerOperations(pool.getFyersClasss());
-			positionDTO = fyerOperations.getPositionsBySymbols();			
-			startTime = System.currentTimeMillis();
-			start_ce = ce;
-			start_pe = pe;
-			// Initialize the combined premium limit and start premium
-			startPremium = ce + pe;
-			combinedPremiumLimit = startPremium + pool.trailMargin + 5; // Set initial limit to start premium + 20			
-			System.out.println("\nInitialized combined premium limit to: " + df.format(combinedPremiumLimit));
-			System.out.println(" Premium (ce, pe)--> " + ce + ", " + pe + " (" + df.format(startPremium) + ")");
-			System.out.println("\nNifty Index: " + niftyIndex);	
-			start_niftyIndex = niftyIndex;
-			initialized = true;
-			pool.logToFileSystem("Start premium is set to " + startPremium + " with combined premium limit of " + combinedPremiumLimit + " at " + niftyIndex);
-		}
-		
-		// keep track of the premium changes
-		current_combinedPremium = ce + pe;
-		delta_PE = start_pe - pe ; // positive delta means gain in your favour
-		delta_CE = start_ce - ce ; // positive delta means gain in your favour
-		delta_Combined_premium = startPremium - current_combinedPremium;
-		delta_nifty = niftyIndex - start_niftyIndex;
-		setTrailingLimit();
-	}
-
 }

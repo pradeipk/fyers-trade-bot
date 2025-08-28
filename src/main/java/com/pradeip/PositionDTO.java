@@ -11,7 +11,6 @@ import org.json.JSONObject;
 public class PositionDTO {
 	JSONObject root = null;
 	JSONArray netPositions = null;
-
 	public String symbol;
 	public double rbiRefRate;
 	public double sellVal;
@@ -40,18 +39,15 @@ public class PositionDTO {
 	public int qty;
 	public int exchange;
 	public double pl;
-	public List<PositionDTO> positionList = null;
-	public List<String> positionIdList = null;
-	public Map<String,String> symbolAndid = new HashMap<String,String>();
-	public PositionDTO(JSONObject root, String symbol) {
+	
+	public PositionDTO(JSONObject root) {
 		this.root = root;
-		positionList = new ArrayList<PositionDTO>();
 		netPositions = root.getJSONArray("netPositions");
 		if(netPositions == null || netPositions.length() == 0) {
 			System.out.println("No net positions found.");
 			return;
 		}
-		positionIdList = new ArrayList<String>();
+		ArrayList<String> positionIdList = new ArrayList<String>();
 
 		// Loop through and print each symbol
 		PositionDTO dto = null;
@@ -59,41 +55,41 @@ public class PositionDTO {
 			JSONObject position = netPositions.getJSONObject(i);
 			String symbol1 = position.getString("symbol");
 			dto = new PositionDTO();
-			if (symbol1.equals(symbol)||symbol.isEmpty()) {
-				dto.symbol = symbol;
-				dto.rbiRefRate = position.getDouble("rbiRefRate");
-				dto.sellVal = position.getDouble("sellVal");
-				dto.sellAvg = position.getDouble("sellAvg");
-				dto.cfBuyQty = position.getInt("cfBuyQty");
-				dto.buyAvg = position.getDouble("buyAvg");
-				dto.netAvg = position.getDouble("netAvg");
-				dto.slNo = position.getInt("slNo");
-				dto.unrealized_profit = position.getDouble("unrealized_profit");
-				dto.segment = position.getInt("segment");
-				dto.buyVal = position.getDouble("buyVal");
-				dto.id = position.getString("id");
-				positionIdList.add(dto.id);
-				dto.productType = position.getString("productType");
-				dto.side = position.getInt("side");
-				dto.qtyMulti_com = position.getInt("qtyMulti_com");
-				dto.netQty = position.getInt("netQty");
-				dto.crossCurrency = position.getString("crossCurrency");
-				dto.dayBuyQty = position.getInt("dayBuyQty");
-				dto.daySellQty = position.getInt("daySellQty");
-				dto.ltp = position.getDouble("ltp");
-				dto.realized_profit = position.getDouble("realized_profit");
-				dto.sellQty = position.getInt("sellQty");
-				dto.fyToken = position.getString("fyToken");
-				dto.cfSellQty = position.getInt("cfSellQty");
-				dto.buyQty = position.getInt("buyQty");
-				dto.qty = position.getInt("qty");
-				dto.exchange = position.getInt("exchange");
-				dto.pl = position.getDouble("pl");
-				positionList.add(dto);
-				InitializeApp.pool.symbolAndid.put(symbol1, dto.id);
-			}
+			dto.symbol = symbol;
+			dto.rbiRefRate = position.getDouble("rbiRefRate");
+			dto.sellVal = position.getDouble("sellVal");
+			dto.sellAvg = position.getDouble("sellAvg");
+			dto.cfBuyQty = position.getInt("cfBuyQty");
+			dto.buyAvg = position.getDouble("buyAvg");
+			dto.netAvg = position.getDouble("netAvg");
+			dto.slNo = position.getInt("slNo");
+			dto.unrealized_profit = position.getDouble("unrealized_profit");
+			dto.segment = position.getInt("segment");
+			dto.buyVal = position.getDouble("buyVal");
+			dto.id = position.getString("id");
+			positionIdList.add(dto.id);
+			dto.productType = position.getString("productType");
+			dto.side = position.getInt("side");
+			dto.qtyMulti_com = position.getInt("qtyMulti_com");
+			dto.netQty = position.getInt("netQty");
+			dto.crossCurrency = position.getString("crossCurrency");
+			dto.dayBuyQty = position.getInt("dayBuyQty");
+			dto.daySellQty = position.getInt("daySellQty");
+			dto.ltp = position.getDouble("ltp");
+			dto.realized_profit = position.getDouble("realized_profit");
+			dto.sellQty = position.getInt("sellQty");
+			dto.fyToken = position.getString("fyToken");
+			dto.cfSellQty = position.getInt("cfSellQty");
+			dto.buyQty = position.getInt("buyQty");
+			dto.qty = position.getInt("qty");
+			dto.exchange = position.getInt("exchange");
+			dto.pl = position.getDouble("pl");
+			InitializeApp.pool.positionDTOList.add(dto);
+			InitializeApp.pool.postionIds.add(dto.id);
+			InitializeApp.pool.symbolAndid.put(symbol1, dto.id);
 		}
 	}
+	
 	public PositionDTO() {
 	}
 

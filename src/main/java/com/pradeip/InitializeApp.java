@@ -1,6 +1,7 @@
 package com.pradeip;
 
 import java.io.File;
+import java.io.IOException;
 import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Date;
@@ -10,6 +11,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 import org.eclipse.paho.client.mqttv3.MqttMessage;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import com.tts.in.model.FyersClass;
@@ -57,6 +59,9 @@ public class InitializeApp implements FyerBotInterface {
 	Date today = new Date();
 	public Double trailMargin = 0.0; // Margin to trail the premium in points
 	public Map<String,String> symbolAndid = new HashMap<String,String>();
+	public java.text.SimpleDateFormat sdf = new java.text.SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+	public static List<PositionDTO> positionDTOList = new ArrayList<PositionDTO>();
+	public static List<String> postionIds = new ArrayList<String>();
 
 	//There will always be only one instance of `pool` in a single JVM, no matter how many times it is accessed.
 	public static InitializeApp pool = new InitializeApp();
@@ -87,26 +92,32 @@ public class InitializeApp implements FyerBotInterface {
 
 		try {
 			String date = today.getDate() + "-" + (today.getMonth() + 1) + "-" + (1900 + today.getYear());
-			logFile = new File(initDirectoryPath, date +"_log.txt");
+			logFile = new File(initDirectoryPath, date + "_log.txt");
 			logToFileSystem("Initializing application with directory: " + initDirectoryPath);
-			
+
 			System.out.println("Reading Credentials from key JSON file from Directory " + initDirectoryPath);
 			initData = new JSONObject(Files.readString(new File(initDirectoryPath, "init.json").toPath()));
 			System.out.println("Loading Script to execute from Order JSON file from Directory" + initDirectoryPath);
-			script = new JSONObject(Files.readString(new File(initDirectoryPath, "jsonformatter.json").toPath()));			
+			script = new JSONObject(Files.readString(new File(initDirectoryPath, "jsonformatter.json").toPath()));
 			validateScript(script);
+		} catch (IOException | JSONException e) {
+			System.out.println("Error reading JSON files: " + e.getMessage());
+		}
+
+		try {
+
 			if (initData.has("appid")) {
 				appid = initData.getString("appid").trim();
 				redirectURI = initData.getString("redirectURI").trim();
 				appHashID = initData.getString("appHashId").trim();
 				pin = initData.getString("pin").trim();
 				fyersClass.clientId = appid;
-				String authCode = null;				
+				String authCode = null;
 				Scanner scanner = new Scanner(System.in);
 				System.out.println("Do you have the auth token in the init file? (Y/N): ");
 				String YN = scanner.nextLine();
 				if (YN.equalsIgnoreCase("N")) {
-					System.out.println("Redirecting to Fyers API, Do the required authentication Get the auth key.. ");					
+					System.out.println("Redirecting to Fyers API, Do the required authentication Get the auth key.. ");
 					fyersClass.GenerateCode(redirectURI);
 					Scanner scanner2 = new Scanner(System.in);
 					System.out.println("Enter the Auth Token from Browser: ");
@@ -118,7 +129,7 @@ public class InitializeApp implements FyerBotInterface {
 				} else {
 					authCode = initData.getString("authToken").trim();
 					System.out.println("Reading auth token from init.json file: " + authCode);
-				}			
+				}
 
 				JSONObject jsonObject = fyersClass.GenerateToken(authCode, appHashID);
 
@@ -153,10 +164,9 @@ public class InitializeApp implements FyerBotInterface {
 					adjustingStraddle();
 				default:
 					System.out.println("Valid strategy selected.");
-					//System.exit(0);
-					//return;
+					// System.exit(0);
+					// return;
 				}
-				
 
 			} else {
 				System.out.println("Script is null, please check the JSON file.");
