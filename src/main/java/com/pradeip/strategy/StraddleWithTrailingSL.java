@@ -2,7 +2,6 @@ package com.pradeip.strategy;
 import java.sql.Date;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
-import java.util.List;
 
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
@@ -25,18 +24,14 @@ public class StraddleWithTrailingSL implements FyersSocketDelegate, FyerBotInter
 
 	public InitializeApp pool = null;
 	private MqttMessage message;
-	private long startTime = System.currentTimeMillis();
 	private long printTimer = System.currentTimeMillis();
 	private String mqttMessage;
-	private Integer pointsEarned;	
 	private boolean initialized = false;
 	private double current_combinedPremium = 0.0;
 	private double ce = 0.0;
 	private double pe = 0.0;
 	private boolean exitDonePE = false;
-	private boolean exitDoneCE = false;
-	private boolean exitDoneBOTH = false;
-	
+	private boolean exitDoneCE = false;	
 	private double start_ce = 0.0;
 	private double start_pe = 0.0;
 	private double delta_PE = 0.0;
@@ -44,27 +39,16 @@ public class StraddleWithTrailingSL implements FyersSocketDelegate, FyerBotInter
 	private Double combinedPremiumLimit = null;
 	private Double startPremium = null;
 	private Double delta_Combined_premium =0.0;
-	private Double delta_nifty = 0.0; // Current combined premium
-	//private Double trailingLimit =  // Initial trailing limit in points
-	private List<Double> celist = new ArrayList<Double>();
-	private List<Double> pelist = new ArrayList<Double>();
-	private List<Double> combinedList = new ArrayList<Double>();
-	private int pointer	= 0;
-	private boolean isBegining;
+	private Double delta_nifty = 0.0; // Current combined premium	
 	FyersClass fyersClass = null;
 	FyersSocket fyersSocket = null;
 	FyerOperations fyerOperations = null;
 	DecimalFormat df = null;
 	double niftyIndex = 0.0;
 	double start_niftyIndex = 0.0;
-	private StringBuilder printBuilder = null;
-	
+	private StringBuilder printBuilder = null;	
 	long interval = 3 * 60000;
-	PositionDTO positionDTO = null;
-
-	private enum CONDITION {
-		GAURD_SHORT_POSITION_PUT, GAURD_SHORT_POSITION_CALL
-	};
+	PositionDTO positionDTO = null;	
 
 	public StraddleWithTrailingSL() {
 		pool = InitializeApp.pool;
@@ -75,10 +59,7 @@ public class StraddleWithTrailingSL implements FyersSocketDelegate, FyerBotInter
 		df = new DecimalFormat();
 		df.setMaximumFractionDigits(2);
 		pool.subscriptionlist.add(NSE_NIFTY);
-		new ArrayList<String>(pool.subscriptionlist).add(NSE_NIFTY);
-		//scripList.add("NSE:NIFTY2581424600CE");
-		//scripList.add("NSE:NIFTY2581424600PE");
-		//scripList.add("NSE:NIFTY50-INDEX");
+		new ArrayList<String>(pool.subscriptionlist).add(NSE_NIFTY);		
 		fyersSocket = new FyersSocket(3);
 		fyersSocket.webSocketDelegate = this;
 		fyersSocket.ConnectHSM(ChannelModes.FULL);
@@ -105,49 +86,48 @@ public class StraddleWithTrailingSL implements FyersSocketDelegate, FyerBotInter
 	
 	@Override
 	public void OnClose(String arg0) {
-		System.out.println("WebSocket connection closed: " + arg0);
+		System.out.println("\nWebSocket connection closed: " + arg0);
 	}
 
 	@Override
 	public void OnDepth(JSONObject arg0) {
-		// TODO Auto-generated method stub
+		System.out.println("\nOn Depth " + arg0);
 
 	}
 
 	@Override
 	public void OnError(JSONObject arg0) {
-		// TODO Auto-generated method stub
+		System.out.println("\nOnError: " + arg0);
 
 	}	
 
 	@Override
 	public void OnMessage(JSONObject arg0) {
-		// TODO Auto-generated method stub
+		System.out.println("\nMessage Update: " + arg0.toString());
 
 	}
 
 	@Override
 	public void OnOpen(String arg0) {
-		// TODO Auto-generated method stub
+		System.out.println("\nOpen Position Update: " + arg0.toString());
 
 	}
 
 	@Override
 	public void OnOrder(JSONObject arg0) {
-		// TODO Auto-generated method stub
+		System.out.println("\nOrder Update: " + arg0.toString());
 
 	}
 
 	@Override
 	public void OnPosition(JSONObject arg0) {
-		// TODO Auto-generated method stub
+		System.out.println("\nPosition Update: " + arg0.toString());
 
 	}
 	
 	@Override
 	public void OnTrade(JSONObject arg0) {
-		// TODO Auto-generated method stub
-
+		System.out.println("\n Trade Update: " + arg0.toString());
 	}
 	
 	private void analyzePremiums() {		
@@ -156,7 +136,6 @@ public class StraddleWithTrailingSL implements FyersSocketDelegate, FyerBotInter
 			
 			printBuilder = new StringBuilder();
 			printBuilder.append("\n---Time : ").append(pool.sdf.format(new Date(System.currentTimeMillis()))).append("---\n")
-			//.append("Gain/Loss in premium for (+ive delta is gain in your favour.)").append("\n")
 			.append("ΔCE   ").append(" : ").append(df.format(delta_CE))
 			.append("; ").append(df.format(start_ce)).append(" -> ").append(df.format(ce)).append("\n")
 			.append("ΔPE   ").append(" : ").append(df.format(delta_PE))
@@ -165,9 +144,6 @@ public class StraddleWithTrailingSL implements FyersSocketDelegate, FyerBotInter
 			.append("ΔGain ").append(" : ").append(df.format(delta_Combined_premium))			
 			.append("; ").append(df.format(startPremium)).append(" -> ").append(df.format(current_combinedPremium)).append(" | SL ").append(df.format(combinedPremiumLimit)).append("\n")
 			.append("---------------------------------").append("\n")
-			//.append("Trail SL").append(" : ").append(df.format(combinedPremiumLimit)).append("\n")
-			//.append("Start Premium").append(" : ").append(df.format(startPremium)).append(" \n ")
-			//.append("Combined Premium").append(df.format(startPremium)).append(" ---> ").append(df.format(current_combinedPremium)).append(df.format(delta_Combined_premium)).append(" \n ")
 			.append("ΔNifty ").append(" : ").append(df.format(delta_nifty)).append("; ").append(df.format(start_niftyIndex)).append(" -> ").append(df.format(niftyIndex)).append("\n")
 			.append("Active ").append(" : ").append(" PE : ").append(!exitDonePE).append(" ; CE : ").append(!exitDoneCE).append(" \n\n");
 								
@@ -227,7 +203,6 @@ public class StraddleWithTrailingSL implements FyersSocketDelegate, FyerBotInter
 			return;
 		} else if (!initialized) {
 			// check if you have the positions are not.
-			startTime = System.currentTimeMillis();
 			start_ce = ce;
 			start_pe = pe;
 			fyerOperations = new FyerOperations(pool.getFyersClasss());
@@ -285,5 +260,4 @@ public class StraddleWithTrailingSL implements FyersSocketDelegate, FyerBotInter
 			}
 		}
 	}	
-	
 }
