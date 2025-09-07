@@ -32,7 +32,7 @@ public class FyerOrderModel {
 
 	}
 
-	public PlaceOrderModel prepareBuyOrder(String symbol, int quantity) {
+	public static PlaceOrderModel prepareBuyOrder(String symbol, int quantity) {
 		PlaceOrderModel model = new PlaceOrderModel();
 		model.Symbol = symbol;
 		model.Qty = quantity;

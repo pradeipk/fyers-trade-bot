@@ -10,6 +10,7 @@ import org.json.JSONObject;
 
 import com.pradeip.FyerBotInterface;
 import com.pradeip.FyerOperations;
+import com.pradeip.FyerOrderModel;
 import com.pradeip.InitializeApp;
 import com.pradeip.PositionDTO;
 import com.pradeip.dto.MarketData;
@@ -20,25 +21,26 @@ import com.tts.in.websocket.FyersSocketDelegate;
 import in.tts.hsjavalib.ChannelModes;
 
 //exit from your position if index breaches the SL level.
-public class StraddleWithTrailingSL implements FyersSocketDelegate, FyerBotInterface {
+public class ProtectSellLeg implements FyersSocketDelegate, FyerBotInterface {
+	
+	// --Read from config Files---------
+	public static  String scripeToBuy = null;
+	public static  String scripeSold = null;
+	public static  String margin = null;
+	public static int quantityToBuy = 0;
+	public static int levelTotriggerBuy = 0;
 
 	public InitializeApp pool = null;
 	private MqttMessage message;
 	private long printTimer = System.currentTimeMillis();
 	private String mqttMessage;
 	private boolean initialized = false;
-	private double current_combinedPremium = 0.0;
-	private double ce = 0.0;
-	private double pe = 0.0;
 	private boolean exitDonePE = false;
 	private boolean exitDoneCE = false;	
-	private double start_ce = 0.0;
-	private double start_pe = 0.0;
-	private double delta_PE = 0.0;
-	private double delta_CE = 0.0;
-	private Double combinedPremiumLimit = null;
+	private double delta_premium = 0.0;
+	private Double SLPremium = null;
+	private Double currentPremium = null;
 	private Double startPremium = null;
-	private Double delta_Combined_premium =0.0;
 	private Double delta_nifty = 0.0; // Current combined premium	
 	FyersClass fyersClass = null;
 	FyersSocket fyersSocket = null;
@@ -49,8 +51,9 @@ public class StraddleWithTrailingSL implements FyersSocketDelegate, FyerBotInter
 	private StringBuilder printBuilder = null;	
 	long interval = 3 * 60000;
 	PositionDTO positionDTO = null;	
+	boolean isSellTye = true;
 
-	public StraddleWithTrailingSL() {
+	public ProtectSellLeg() {
 		pool = InitializeApp.pool;
 		fyersClass = pool.getFyersClasss();
 	}
@@ -136,13 +139,8 @@ public class StraddleWithTrailingSL implements FyersSocketDelegate, FyerBotInter
 			
 			printBuilder = new StringBuilder();
 			printBuilder.append("\n---Time : ").append(pool.sdf.format(new Date(System.currentTimeMillis()))).append("---\n")
-			.append("ΔCE   ").append(" : ").append(df.format(delta_CE))
-			.append("; ").append(df.format(start_ce)).append(" -> ").append(df.format(ce)).append("\n")
-			.append("ΔPE   ").append(" : ").append(df.format(delta_PE))
-			.append("; ").append(df.format(start_pe)).append(" -> ").append(df.format(pe)).append("\n")
-			.append("---------------------------------").append("\n")
-			.append("ΔGain ").append(" : ").append(df.format(delta_Combined_premium))			
-			.append("; ").append(df.format(startPremium)).append(" -> ").append(df.format(current_combinedPremium)).append(" | SL ").append(df.format(combinedPremiumLimit)).append("\n")
+			.append("Δ ").append(pool.symbol).append(" : ").append(df.format(delta_premium))
+			.append("; ").append(df.format(startPremium)).append(" -> ").append(df.format(startPremium)).append("\n")
 			.append("---------------------------------").append("\n")
 			.append("ΔNifty ").append(" : ").append(df.format(delta_nifty)).append("; ").append(df.format(start_niftyIndex)).append(" -> ").append(df.format(niftyIndex)).append("\n")
 			.append("Active ").append(" : ").append(" PE : ").append(!exitDonePE).append(" ; CE : ").append(!exitDoneCE).append(" \n\n");
@@ -164,6 +162,8 @@ public class StraddleWithTrailingSL implements FyersSocketDelegate, FyerBotInter
 			if (delta_nifty > 0) {
 				System.out.println("Index is upwards since start of the Bot ..");
 			}
+
+			
 			printTimer = System.currentTimeMillis();
 		}
 	}	
@@ -176,81 +176,78 @@ public class StraddleWithTrailingSL implements FyersSocketDelegate, FyerBotInter
 			return;
 		analyzePremiums();
 		
-		// exit from both Legs if the combined premium goes above the SL
-		if (combinedPremiumLimit < current_combinedPremium) {
-			if (pool.postionIds == null || pool.postionIds.isEmpty()) {
-				System.out.println("No positions found for the given symbols, exiting.");
-				pool.logToFileSystem("No positions found for the given symbols, exiting.");
-				fyerOperations.populateLivePositions();
-			}
-			if (fyerOperations.exitFromAllPositions(pool.postionIds)) {
-				System.out.println("Successfully exited from all positions. Closing the Applications");
-				System.exit(0);
-			}
+		
+		if (delta_premium < -20) {
+			
+			FyerOrderModel.prepareBuyOrder(scripeToBuy, quantityToBuy);
+			
 		}
 	}	
 
 	private void InitializeAndUpdatePremium(MarketData data) {
 
-		if (pool.ceSymbol.equalsIgnoreCase(data.getSymbol())) {
-			ce = data.getLtp();
-		} else if (pool.peSymbol.equalsIgnoreCase(data.getSymbol())) {
-			pe = data.getLtp();
-		}
-		
-		if(ce == 0.0 || pe == 0.0 || niftyIndex == 0.0) {
-			System.out.println("Either of CE or PE premiums is not initialized, skipping further processing.");
+		currentPremium = data.getLtp();
+		if (currentPremium == 0.0) {
 			return;
 		} else if (!initialized) {
 			// check if you have the positions are not.
-			start_ce = ce;
-			start_pe = pe;
+			if (!pool.symbol.equals(data.getSymbol())) {
+				System.out.println("Initializing setup for Symbol " + pool.symbol + " Premium: " + currentPremium);
+				return;
+			}
 			fyerOperations = new FyerOperations(pool.getFyersClasss());
 			System.out.println("\n Searching your positions --->  ");
-			fyerOperations.populateLivePositions();		
-			
-			if(pool.postionIds == null|| pool.postionIds.isEmpty()) {
+			fyerOperations.populateLivePositions();
+
+			if (pool.postionIds == null || pool.postionIds.isEmpty()) {
 				System.out.println("No positions found for the given symbols, exiting.");
 				pool.logToFileSystem("No positions found for the given symbols, exiting.");
-				
+
 			} else {
 				System.out.println("\n found live Positions as below --->  ");
 				pool.positionDTOList.forEach(dto -> {
-					System.out.println("Symbol: " + dto.symbol + " NetQty: " + dto.netQty + " Sell Quantity : " + dto.sellQty + " Buy Quantity : " + dto.buyQty);
-					if(dto.symbol.contains("PE"))
-						start_pe = dto.netAvg;
-					else if(dto.symbol.contains("CE"))
-						start_ce = dto.netAvg;
+					System.out.println("Symbol: " + dto.symbol + " NetQty: " + dto.netQty + " Sell Quantity : "
+							+ dto.sellQty + " Buy Quantity : " + dto.buyQty + " NetAvg : " + dto.netAvg);
+					if(dto.buyQty > 1)
+						isSellTye = false;
+					
+					if(dto.netQty == 0 || dto.netAvg == 0.0) {
+						System.out.println("No net quantity for the symbol " + dto.symbol + ", exiting.");
+						pool.logToFileSystem("No net quantity for the symbol " + dto.symbol + ", exiting.");
+						System.exit(0);
+					}
+					
+					if (dto.symbol.contains(pool.symbol))
+						startPremium = dto.netAvg;
 				});
-			}	
-			
+			}
+
 			// Initialize the combined premium limit and start premium
-			startPremium = ce + pe;
-			combinedPremiumLimit = startPremium + pool.trailMargin + 5; // Set initial limit to start premium + 20			
-			System.out.println("\nInitialized combined premium limit to: " + df.format(combinedPremiumLimit));
-			System.out.println(" Initial Premium (ce, pe)--> " + ce + ", " + pe + " (" + df.format(startPremium) + ")");
-			System.out.println("\nNifty Index: " + niftyIndex);	
+			SLPremium = startPremium + pool.trailMargin + 5; // Set initial limit to start premium + 20
+			System.out.println("\nInitial SL : " + df.format(SLPremium));
+			System.out.println("\nNifty Index: " + niftyIndex);
 			start_niftyIndex = niftyIndex;
 			initialized = true;
-			pool.logToFileSystem("Start premium is set to " + startPremium + " with combined premium limit of " + combinedPremiumLimit + " at " + niftyIndex);
+			pool.logToFileSystem("Start premium is set to " + startPremium + " with combined premium limit of "
+					+ SLPremium + " at " + niftyIndex);
 		}
-		
+
 		// keep track of the premium changes
-		current_combinedPremium = ce + pe;
-		delta_PE = start_pe - pe ; // positive delta means gain in your favour
-		delta_CE = start_ce - ce ; // positive delta means gain in your favour
-		delta_Combined_premium = startPremium - current_combinedPremium;
+		currentPremium = data.getLtp();
+		if(isSellTye)
+		delta_premium = startPremium - currentPremium; // positive delta means gain in your favour
+		else
+			delta_premium = currentPremium - startPremium; // positive delta means gain in your favour			
 		delta_nifty = niftyIndex - start_niftyIndex;
-		setTrailingLimit();	
-		
+		setTrailingLimit();
 	}
 	
 	// If the current stop loss margin is greater than 20 points as compared to current combined premium, then reset the limit to current combined premium + 25 points.
 	private void setTrailingLimit() {
 		
-		if (combinedPremiumLimit - current_combinedPremium >  pool.trailMargin) {
-			combinedPremiumLimit = current_combinedPremium +  pool.trailMargin;
-			mqttMessage = "Updating trailing Stop loss to  " + df.format(combinedPremiumLimit);
+		if (delta_premium >  pool.trailMargin) {
+			SLPremium = currentPremium +  pool.trailMargin;
+			mqttMessage = "Updating trailing Stop loss to  " + df.format(SLPremium);
 			System.out.println(mqttMessage);			
 			pool.logToFileSystem(mqttMessage);
 			try {

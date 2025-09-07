@@ -53,9 +53,8 @@ public class PositionDTO {
 		PositionDTO dto = null;
 		for (int i = 0; i < netPositions.length(); i++) {
 			JSONObject position = netPositions.getJSONObject(i);
-			String symbol1 = position.getString("symbol");
 			dto = new PositionDTO();
-			dto.symbol = symbol;
+			dto.symbol = position.getString("symbol");;
 			dto.rbiRefRate = position.getDouble("rbiRefRate");
 			dto.sellVal = position.getDouble("sellVal");
 			dto.sellAvg = position.getDouble("sellAvg");
@@ -86,7 +85,7 @@ public class PositionDTO {
 			dto.pl = position.getDouble("pl");
 			InitializeApp.pool.positionDTOList.add(dto);
 			InitializeApp.pool.postionIds.add(dto.id);
-			InitializeApp.pool.symbolAndid.put(symbol1, dto.id);
+			InitializeApp.pool.symbolAndid.put(dto.symbol, dto.id);
 		}
 	}
 	

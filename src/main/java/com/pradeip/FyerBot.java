@@ -2,6 +2,7 @@ package com.pradeip;
 
 import com.pradeip.strategy.AdjustingStraddle;
 import com.pradeip.strategy.StraddleWithTrailingSL;
+import com.pradeip.strategy.TrailSingleLeg;
 
 public class FyerBot implements FyerBotInterface {
 
@@ -25,6 +26,10 @@ public class FyerBot implements FyerBotInterface {
 		case STRATEGY_ADJUSTING_STRADDLE:
 			System.out.println("Strategy: " + STRATEGY_ADJUSTING_STRADDLE);
 			new AdjustingStraddle().WebSocket();
+			break;
+		case TRAILING_LEG:
+			System.out.println("Strategy: " + STRATEGY_ADJUSTING_STRADDLE);
+			new TrailSingleLeg().WebSocket();
 			break;
 		default:
 			System.out.println("No valid strategy selected, exiting.");

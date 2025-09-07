@@ -298,7 +298,7 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 		} else if (!initialized) {
 			// check if you have the positions are not.
 			fyerOperations = new FyerOperations(pool.getFyersClasss());
-			positionDTO = fyerOperations.getPositionsBySymbols();			
+			fyerOperations.populateLivePositions();			
 			startTime = System.currentTimeMillis();
 			start_ce = ce;
 			start_pe = pe;

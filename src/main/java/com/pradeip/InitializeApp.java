@@ -27,6 +27,7 @@ public class InitializeApp implements FyerBotInterface {
 	public JSONObject orderScript = null;
 	public JSONObject PE = null;
 	public JSONObject CE = null;
+	public JSONObject SCRIPE = null;
 	public boolean peActive = false;
 	public boolean ceActive = false;
 	public String PE_ORDER_PLACED = null;
@@ -60,6 +61,7 @@ public class InitializeApp implements FyerBotInterface {
 	public Double trailMargin = 0.0; // Margin to trail the premium in points
 	public Map<String,String> symbolAndid = new HashMap<String,String>();
 	public java.text.SimpleDateFormat sdf = new java.text.SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+	public String symbol;
 	public static List<PositionDTO> positionDTOList = new ArrayList<PositionDTO>();
 	public static List<String> postionIds = new ArrayList<String>();
 
@@ -162,6 +164,12 @@ public class InitializeApp implements FyerBotInterface {
 				case STRATEGY_ADJUSTING_STRADDLE:
 					System.out.println("Activating Strategy: " + STRATEGY);
 					adjustingStraddle();
+				case STRATEGY_STRADDLE_WITH_TRAILING_SL:
+					System.out.println("Activating Strategy: " + STRATEGY_STRADDLE_WITH_TRAILING_SL);
+					straddleWitlSL();
+				case TRAILING_LEG:
+					System.out.println("Activating Strategy: " + STRATEGY_STRADDLE_WITH_TRAILING_SL);
+					trailingLeg();
 				default:
 					System.out.println("Valid strategy selected.");
 					// System.exit(0);
@@ -173,6 +181,22 @@ public class InitializeApp implements FyerBotInterface {
 			}
 		} catch (Exception e) {
 			System.out.println("Error initializing application: " + e.getMessage());
+		}
+
+	}
+
+	private void trailingLeg() {
+
+		if (script.has(TRAILING_LEG)) {
+			orderScript = script.getJSONObject(TRAILING_LEG);
+			trailMargin = orderScript.getDouble("trailMargin");
+			if (orderScript.has("scripe")) {
+				SCRIPE = orderScript.getJSONObject("scripe");
+				symbol = EXCHANGE + ":" + SCRIPE.getString("symbol");
+				subscriptionlist.add(symbol);
+			}
+		} else {
+			System.out.println("Script data not found in orderScript");
 		}
 
 	}
@@ -235,6 +259,26 @@ public class InitializeApp implements FyerBotInterface {
 	private void adjustingStraddle() {
 		if (script.has(STRATEGY_ADJUSTING_STRADDLE)) {
 			orderScript = script.getJSONObject(STRATEGY_ADJUSTING_STRADDLE);
+			trailMargin = orderScript.getDouble("trailMargin");
+			if (orderScript.has("pe")) {				
+				PE = orderScript.getJSONObject("pe");
+				peSymbol = EXCHANGE+":"+PE.getString("strike");
+				subscriptionlist.add(peSymbol);
+			}
+			if (orderScript.has("ce")) {
+				CE = orderScript.getJSONObject("ce");
+				ceSymbol = EXCHANGE+":"+CE.getString("strike");
+				subscriptionlist.add(ceSymbol);				
+			} 
+		} else {
+			System.out.println("Script data not found in orderScript");
+		}
+		
+	}
+	
+	private void straddleWitlSL() {
+		if (script.has(STRATEGY_STRADDLE_WITH_TRAILING_SL)) {
+			orderScript = script.getJSONObject(STRATEGY_STRADDLE_WITH_TRAILING_SL);
 			trailMargin = orderScript.getDouble("trailMargin");
 			if (orderScript.has("pe")) {				
 				PE = orderScript.getJSONObject("pe");

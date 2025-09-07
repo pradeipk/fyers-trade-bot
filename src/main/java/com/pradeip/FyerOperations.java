@@ -50,16 +50,15 @@ public class FyerOperations {
 		return positionDTO;
 	}	
 	
-	public PositionDTO getPositionsBySymbols() {
+	public void populateLivePositions() {
 		Tuple<JSONObject, JSONObject> positionTuple = fyersClass.GetPositions();
-		PositionDTO positionDTO = null;
 		if (positionTuple.Item1() != null) {
-			positionDTO = new PositionDTO(positionTuple.Item1());
-			System.out.println("Position: " + positionTuple.Item1());
+			PositionDTO positionDTO = new PositionDTO(positionTuple.Item1());
+			System.out.println("Position: " + positionDTO.symbol);
+			
 		} else {
 			System.out.println("Position Error: " + positionTuple.Item2());
 		}
-		return positionDTO;
 	}
 
 	public void GetProfile(FyersClass fyersClass) {
@@ -139,8 +138,8 @@ public class FyerOperations {
 		if (positionIds != null) {
 			Tuple<JSONObject, JSONObject> tuple = fyersClass.ExitPositions(positionIds);
 			
-			if (tuple.Item1() != null && tuple.Item1().getInt("code") == 201) {
-				System.out.println(" Exit successful for all positions.");
+			if (tuple.Item1() != null && tuple.Item1().getInt("code") == 200) {
+				System.out.println(" Exit successful for all positions." + tuple.Item1().get("message"));
 				return true;
 			} else {
 				System.out.println("Error exiting all positions: " + tuple.Item2());
