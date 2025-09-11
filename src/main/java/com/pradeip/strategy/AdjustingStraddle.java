@@ -20,7 +20,7 @@ import com.tts.in.websocket.FyersSocketDelegate;
 
 import in.tts.hsjavalib.ChannelModes;
 
-//exit from your position if index breaches the SL level.
+//exit from your position if index breaches the SL level. and then re-enter the position if the combined premium comes back within limits.
 public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface {
 
 	public InitializeApp pool = null;
@@ -71,21 +71,25 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 		fyersClass = pool.getFyersClasss();
 	}
 
-	public void WebSocket() {
+	public void WebSocket(FyersSocket fyersSocket) {
 		df = new DecimalFormat();
 		df.setMaximumFractionDigits(2);
 		pool.subscriptionlist.add(NSE_NIFTY);
 		new ArrayList<String>(pool.subscriptionlist).add(NSE_NIFTY);
-		//scripList.add("NSE:NIFTY2581424600CE");
-		//scripList.add("NSE:NIFTY2581424600PE");
-		//scripList.add("NSE:NIFTY50-INDEX");
-		fyersSocket = new FyersSocket(3);
+		this.fyersSocket = fyersSocket;
 		fyersSocket.webSocketDelegate = this;
 		fyersSocket.ConnectHSM(ChannelModes.FULL);
 		System.out.print("--- \nAbout to Subscribe to the required scrips --> \n");
 		pool.subscriptionlist.forEach(x -> {
 			System.out.println(x);
 		});
+		
+		try {
+			System.out.print("Waiting for 10 seconds before subscribing to the data..");
+			Thread.sleep(10000);
+		} catch (InterruptedException e) {
+			System.out.println(e.getMessage());
+		}
 		fyersSocket.SubscribeData(pool.subscriptionlist);
 
 	}	
@@ -151,12 +155,6 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 	}
 	
 	private void analyzePremiums() {
-		// difference of previous and current premiums and average of all differences
-		// System.out.println("Analyzing premiums for CE and PE...");
-		
-
-	        // Format the date
-	        
 		
 		if (System.currentTimeMillis() - printTimer > 60000) {
 			
@@ -225,22 +223,23 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 
 		if (combinedPremiumLimit < current_combinedPremium) {
 			List<String> exitPositionList = new ArrayList<String>();
-				// Need Fix here 
-			// -ve delta means the premium has gone up, so you need to exit the position. (start -current)
+			// Need Fix here
+			// -ve delta means the premium has gone up, so you need to exit the position.
+			// (start -current)
 			if (!exitDonePE && delta_PE < 0) {
 				System.out.println("Market data symbol is : " + data.getSymbol() + " and " + pool.peSymbol);
-				System.out.println(
-						"Premium for PE has increased by :" + df.format(delta_PE) + "Exitting the position." + pool.peSymbol);
+				System.out.println("Premium for PE has increased by :" + df.format(delta_PE) + "Exitting the position."
+						+ pool.peSymbol);
 				// check that you are exitiong the right position.
 				String positionID = pool.symbolAndid.get(pool.peSymbol);
-				
-				if(positionID == null) {
+
+				if (positionID == null) {
 					System.out.println("Position ID is null for " + pool.peSymbol + ", cannot exit position.");
-					
+
 				} else {
 					exitPositionList.add("NSE:RELIANCE-EQ-CNC");
-				}				
-				
+				}
+
 				if (fyerOperations.exitPosition(exitPositionList)) {
 					exitDonePE = true;
 					System.out.println(" Exit successful for PE: " + pool.peSymbol);
@@ -250,7 +249,8 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 				}
 				System.out.println(pool.exitPositionMessage);
 			}
-			// -ve delta means the premium has gone up, so you need to exit the position. (start -current)
+			// -ve delta means the premium has gone up, so you need to exit the position.
+			// (start -current)
 			if (!exitDoneCE && delta_CE < 0) {
 				System.out.println("Market data symbol is :" + data.getSymbol() + " and " + pool.peSymbol);
 				String positionID = pool.symbolAndid.get(pool.ceSymbol);

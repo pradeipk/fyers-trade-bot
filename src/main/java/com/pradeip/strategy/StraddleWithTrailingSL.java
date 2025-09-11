@@ -55,18 +55,25 @@ public class StraddleWithTrailingSL implements FyersSocketDelegate, FyerBotInter
 		fyersClass = pool.getFyersClasss();
 	}
 
-	public void WebSocket() {
+	public void WebSocket(FyersSocket fyersSocket) {
 		df = new DecimalFormat();
 		df.setMaximumFractionDigits(2);
 		pool.subscriptionlist.add(NSE_NIFTY);
 		new ArrayList<String>(pool.subscriptionlist);		
-		fyersSocket = new FyersSocket(3);
+		//fyersSocket = new FyersSocket(3);
 		fyersSocket.webSocketDelegate = this;
 		fyersSocket.ConnectHSM(ChannelModes.FULL);
 		System.out.print("--- \nAbout to Subscribe to the required scrips --> \n");
 		pool.subscriptionlist.forEach(x -> {
 			System.out.println(x);
 		});
+		
+		try {
+			Thread.sleep(10000);
+		} catch (InterruptedException e) {
+			System.out.println(e.getMessage());
+		}
+		
 		fyersSocket.SubscribeData(pool.subscriptionlist);
 
 	}	

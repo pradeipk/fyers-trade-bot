@@ -20,7 +20,7 @@ import com.tts.in.websocket.FyersSocketDelegate;
 
 import in.tts.hsjavalib.ChannelModes;
 
-//exit from your position if index breaches the SL level.
+//exit from your position if index breaches the SL level. and then renter the position by buying back the leg.
 public class ProtectSellLeg implements FyersSocketDelegate, FyerBotInterface {
 	
 	// --Read from config Files---------
@@ -70,6 +70,11 @@ public class ProtectSellLeg implements FyersSocketDelegate, FyerBotInterface {
 		pool.subscriptionlist.forEach(x -> {
 			System.out.println(x);
 		});
+		try {
+			Thread.sleep(10000);
+		} catch (InterruptedException e) {
+			System.out.println(e.getMessage());
+		}
 		fyersSocket.SubscribeData(pool.subscriptionlist);
 
 	}	

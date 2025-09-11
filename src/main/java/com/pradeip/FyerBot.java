@@ -3,11 +3,11 @@ package com.pradeip;
 import com.pradeip.strategy.AdjustingStraddle;
 import com.pradeip.strategy.StraddleWithTrailingSL;
 import com.pradeip.strategy.TrailSingleLeg;
+import com.tts.in.websocket.FyersSocket;
 
 public class FyerBot implements FyerBotInterface {
 
 	private static InitializeApp pool;
-	static FyerOperations fyerOperations;
 
 	public static void main(String[] args) {
 
@@ -16,23 +16,24 @@ public class FyerBot implements FyerBotInterface {
 			System.out.println("InitializeApp pool is null, exiting.");
 			return;
 		}
+		
+		FyersSocket fyersSocket = new FyersSocket(3);
 
 		switch (pool.STRATEGY) {
 		case STRATEGY_STRADDLE_WITH_TRAILING_SL:
-			StraddleWithTrailingSL straddleWithTrailingSL = new StraddleWithTrailingSL();
-			straddleWithTrailingSL.WebSocket();
-			System.out.println("Strategy: " + STRATEGY_STRADDLE_WITH_TRAILING_SL);
+			new StraddleWithTrailingSL().WebSocket(fyersSocket);
+			System.out.println("\nStrategy : " + STRATEGY_STRADDLE_WITH_TRAILING_SL);
 			break;
 		case STRATEGY_ADJUSTING_STRADDLE:
-			System.out.println("Strategy: " + STRATEGY_ADJUSTING_STRADDLE);
-			new AdjustingStraddle().WebSocket();
+			System.out.println("\nStrategy : " + STRATEGY_ADJUSTING_STRADDLE);
+			new AdjustingStraddle().WebSocket(fyersSocket);
 			break;
 		case TRAILING_LEG:
-			System.out.println("Strategy: " + STRATEGY_ADJUSTING_STRADDLE);
-			new TrailSingleLeg().WebSocket();
+			System.out.println("\nStrategy : " + TRAILING_LEG);
+			new TrailSingleLeg().WebSocket(fyersSocket);
 			break;
 		default:
-			System.out.println("No valid strategy selected, exiting.");
+			System.out.println("\nNo valid strategy selected, exiting.");
 			return;
 		}
 	}

@@ -100,7 +100,7 @@ public class InitializeApp implements FyerBotInterface {
 			System.out.println("Reading Credentials from key JSON file from Directory " + initDirectoryPath);
 			initData = new JSONObject(Files.readString(new File(initDirectoryPath, "init.json").toPath()));
 			System.out.println("Loading Script to execute from Order JSON file from Directory" + initDirectoryPath);
-			script = new JSONObject(Files.readString(new File(initDirectoryPath, "jsonformatter.json").toPath()));
+			script = new JSONObject(Files.readString(new File(initDirectoryPath, "strategy.json").toPath()));
 			validateScript(script);
 		} catch (IOException | JSONException e) {
 			System.out.println("Error reading JSON files: " + e.getMessage());
@@ -135,8 +135,12 @@ public class InitializeApp implements FyerBotInterface {
 
 				JSONObject jsonObject = fyersClass.GenerateToken(authCode, appHashID);
 
-				if (jsonObject != null && jsonObject.has("refresh_token")) {
+				if (jsonObject != null && jsonObject.has("refresh_token") ) {
 					String refresh_token = jsonObject.getString("refresh_token");
+					if(refresh_token == null || refresh_token.isEmpty()) {
+						System.out.println("Refresh token is null or empty, cannot proceed. Please restart with valid or new  Auth token.");
+						System.exit(0);
+					}
 					liveToken = new LiveToken(refresh_token).getLiveToken();
 					System.out.println("Now We have the Live token to proceed with the application.");
 					fyersClass.accessToken = liveToken;
@@ -154,30 +158,33 @@ public class InitializeApp implements FyerBotInterface {
 				switch (STRATEGY) {
 
 				case STRATEGY_COMBINED_PREMIUM_ALARMS_AND_ACTION:
-					System.out.println("Activating Strategy: " + STRATEGY);
+					System.out.println("\nActivating Strategy: " + STRATEGY_COMBINED_PREMIUM_ALARMS_AND_ACTION);
 					combinedPremiuimAlarmsAndAction();
 					break;
 				case STRATEGY_MONITOR_SL_AND_ACTION:
-					System.out.println("Activating Strategy: " + STRATEGY);
+					System.out.println("\nActivating Strategy: " + STRATEGY_MONITOR_SL_AND_ACTION);
 					monitorSLStrategy();
 					break;
 				case STRATEGY_ADJUSTING_STRADDLE:
-					System.out.println("Activating Strategy: " + STRATEGY);
+					System.out.println("\nActivating Strategy: " + STRATEGY_ADJUSTING_STRADDLE);
 					adjustingStraddle();
+					break;
 				case STRATEGY_STRADDLE_WITH_TRAILING_SL:
-					System.out.println("Activating Strategy: " + STRATEGY_STRADDLE_WITH_TRAILING_SL);
+					System.out.println("\nActivating Strategy: " + STRATEGY_STRADDLE_WITH_TRAILING_SL);
 					straddleWitlSL();
+					break;
 				case TRAILING_LEG:
-					System.out.println("Activating Strategy: " + STRATEGY_STRADDLE_WITH_TRAILING_SL);
+					System.out.println("\nActivating Strategy: " + TRAILING_LEG);
 					trailingLeg();
+					break;
 				default:
-					System.out.println("Valid strategy selected.");
-					// System.exit(0);
-					// return;
+					System.out.println("\nNo Valid strategy selected.");
+					System.exit(0);
+					return;
 				}
 
 			} else {
-				System.out.println("Script is null, please check the JSON file.");
+				System.out.println("\nScript is null, please check the JSON file.");
 			}
 		} catch (Exception e) {
 			System.out.println("Error initializing application: " + e.getMessage());

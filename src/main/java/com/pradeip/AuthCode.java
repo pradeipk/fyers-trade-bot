@@ -3,9 +3,7 @@ package com.pradeip;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
-
 import org.json.JSONObject;
-
 import com.tts.in.model.FyersClass;
 
 public class AuthCode {
