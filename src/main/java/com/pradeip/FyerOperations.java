@@ -1,5 +1,6 @@
 package com.pradeip;
 
+import java.util.Arrays;
 import java.util.List;
 
 import org.json.JSONObject;
@@ -147,6 +148,23 @@ public class FyerOperations {
 			}
 		} else {
 			System.out.println("Error exiting position for PE: " + positionIds.get(0));
+			return false;
+		}
+	}
+	
+	public boolean exitPositionById(String positionId) {
+		if (positionId != null) {
+			Tuple<JSONObject, JSONObject> tuple = fyersClass.ExitPositions(Arrays.asList(positionId));
+
+			if (tuple.Item1() != null && tuple.Item1().getInt("code") == 200) {
+				System.out.println(" Exit successful for all positions." + tuple.Item1().get("message"));
+				return true;
+			} else {
+				System.out.println("Error exiting all positions: " + tuple.Item2());
+				return false;
+			}
+		} else {
+			System.out.println("Error exiting position for PE: " + positionId);
 			return false;
 		}
 	}

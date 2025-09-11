@@ -51,6 +51,10 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 	private List<Double> combinedList = new ArrayList<Double>();
 	private int pointer	= 0;
 	private boolean isBegining;
+	
+	String CE_POSITION_ID;
+	String PE_POSITION_ID;
+	
 	FyersClass fyersClass = null;
 	FyersSocket fyersSocket = null;
 	FyerOperations fyerOperations = null;
@@ -114,43 +118,43 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 
 	@Override
 	public void OnDepth(JSONObject arg0) {
-		// TODO Auto-generated method stub
+		System.out.println("Market Depth received: " + arg0.toString());
 
 	}
 
 	@Override
 	public void OnError(JSONObject arg0) {
-		// TODO Auto-generated method stub
+		System.out.println("WebSocket error: " + arg0.toString());
 
 	}	
 
 	@Override
 	public void OnMessage(JSONObject arg0) {
-		// TODO Auto-generated method stub
+		System.out.println("Message received: " + arg0.toString());
 
 	}
 
 	@Override
 	public void OnOpen(String arg0) {
-		// TODO Auto-generated method stub
+		System.out.println("WebSocket connection opened: " + arg0);
 
 	}
 
 	@Override
 	public void OnOrder(JSONObject arg0) {
-		// TODO Auto-generated method stub
+		System.out.println("Order update received: " + arg0.toString());
 
 	}
 
 	@Override
 	public void OnPosition(JSONObject arg0) {
-		// TODO Auto-generated method stub
+		System.out.println("Position update received: " + arg0.toString());
 
 	}
 	
 	@Override
 	public void OnTrade(JSONObject arg0) {
-		// TODO Auto-generated method stub
+		System.out.println("Trade update received: " + arg0.toString());
 
 	}
 	
@@ -190,7 +194,7 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 			}			
 			
 			if (delta_nifty > 0) {
-				System.out.println("Index is upwards since start of the Bot ..");
+				System.out.println("\nIndex is upwards since start of the Bot ..");
 			}
 			printTimer = System.currentTimeMillis();
 		}
@@ -216,11 +220,12 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 	private void OnScripeCallback(JSONObject strikePrice) {
 
 		MarketData data = MarketData.fromJson(strikePrice);
-		InitializeAndUpdatePremium(data);
+		initializeAndUpdatePremium(data);
 		if (!initialized)
 			return;
 		analyzePremiums();
-
+		
+		// SL hit, exit the position.
 		if (combinedPremiumLimit < current_combinedPremium) {
 			List<String> exitPositionList = new ArrayList<String>();
 			// Need Fix here
@@ -231,16 +236,13 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 				System.out.println("Premium for PE has increased by :" + df.format(delta_PE) + "Exitting the position."
 						+ pool.peSymbol);
 				// check that you are exitiong the right position.
-				String positionID = pool.symbolAndid.get(pool.peSymbol);
+				//String positionID = pool.symbolAndid.get(pool.peSymbol).id;
 
-				if (positionID == null) {
+				if (PE_POSITION_ID == null) {
 					System.out.println("Position ID is null for " + pool.peSymbol + ", cannot exit position.");
-
-				} else {
-					exitPositionList.add("NSE:RELIANCE-EQ-CNC");
-				}
-
-				if (fyerOperations.exitPosition(exitPositionList)) {
+				} 
+				
+				if (fyerOperations.exitPositionById(PE_POSITION_ID)) {
 					exitDonePE = true;
 					System.out.println(" Exit successful for PE: " + pool.peSymbol);
 					exitPositionList.clear();
@@ -252,14 +254,13 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 			// -ve delta means the premium has gone up, so you need to exit the position.
 			// (start -current)
 			if (!exitDoneCE && delta_CE < 0) {
-				System.out.println("Market data symbol is :" + data.getSymbol() + " and " + pool.peSymbol);
-				String positionID = pool.symbolAndid.get(pool.ceSymbol);
-				exitPositionList.add("NSE:RELIANCE-EQ-CNC");
-				if (fyerOperations.exitPosition(exitPositionList)) {
+				System.out.println("\nMarket data symbol is :" + data.getSymbol() + " and " + pool.peSymbol);
+				//String positionID = pool.symbolAndid.get(pool.ceSymbol).id;
+				if (fyerOperations.exitPositionById(CE_POSITION_ID)) {
 					exitDoneCE = true;
 					System.out.println(" Exit successful for CE: " + pool.ceSymbol);
 				} else {
-					System.out.println("Error exiting position for CE: " + pool.peSymbol);
+					System.out.println(" Error exiting position for CE: " + pool.peSymbol);
 				}
 				System.out.println(pool.exitPositionMessage);
 			}
@@ -285,7 +286,7 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 		}
 	}
 
-	private void InitializeAndUpdatePremium(MarketData data) {
+	private void initializeAndUpdatePremium(MarketData data) {
 		if (pool.ceSymbol.equalsIgnoreCase(data.getSymbol())) {
 			ce = data.getLtp();
 		} else if (pool.peSymbol.equalsIgnoreCase(data.getSymbol())) {
@@ -293,17 +294,19 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 		}
 		
 		if(ce == 0.0 || pe == 0.0 || niftyIndex == 0.0) {
-			System.out.println("Either of CE or PE premiums is not initialized, skipping further processing.");
+			System.out.println("\nEither of CE or PE premiums is not initialized, skipping further processing.");
 			return;
 		} else if (!initialized) {
 			// check if you have the positions are not.
 			fyerOperations = new FyerOperations(pool.getFyersClasss());
 			fyerOperations.populateLivePositions();			
 			startTime = System.currentTimeMillis();
-			start_ce = ce;
-			start_pe = pe;
+			start_ce =  pool.symbolAndid.get(pool.ceSymbol).symbol!=null ?pool.symbolAndid.get(pool.ceSymbol).sellVal : ce;
+			start_pe = pool.symbolAndid.get(pool.peSymbol).symbol!=null ?pool.symbolAndid.get(pool.peSymbol).sellVal : pe;
+			CE_POSITION_ID = pool.symbolAndid.get(pool.ceSymbol).id;
+			PE_POSITION_ID = pool.symbolAndid.get(pool.peSymbol).id;
 			// Initialize the combined premium limit and start premium
-			startPremium = ce + pe;
+			startPremium = start_ce + start_pe;
 			combinedPremiumLimit = startPremium + pool.trailMargin + 5; // Set initial limit to start premium + 20			
 			System.out.println("\nInitialized combined premium limit to: " + df.format(combinedPremiumLimit));
 			System.out.println(" Premium (ce, pe)--> " + ce + ", " + pe + " (" + df.format(startPremium) + ")");

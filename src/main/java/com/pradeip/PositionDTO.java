@@ -85,7 +85,7 @@ public class PositionDTO {
 			dto.pl = position.getDouble("pl");
 			InitializeApp.pool.positionDTOList.add(dto);
 			InitializeApp.pool.postionIds.add(dto.id);
-			InitializeApp.pool.symbolAndid.put(dto.symbol, dto.id);
+			InitializeApp.pool.symbolAndid.put(dto.symbol, dto);
 		}
 	}
 	

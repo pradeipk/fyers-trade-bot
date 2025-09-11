@@ -59,7 +59,7 @@ public class InitializeApp implements FyerBotInterface {
 	File logFile = null;
 	Date today = new Date();
 	public Double trailMargin = 0.0; // Margin to trail the premium in points
-	public Map<String,String> symbolAndid = new HashMap<String,String>();
+	public Map<String,PositionDTO> symbolAndid = new HashMap<String,PositionDTO>();
 	public java.text.SimpleDateFormat sdf = new java.text.SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
 	public String symbol;
 	public static List<PositionDTO> positionDTOList = new ArrayList<PositionDTO>();
