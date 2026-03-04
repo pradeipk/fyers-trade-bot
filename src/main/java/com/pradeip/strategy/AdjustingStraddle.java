@@ -35,10 +35,18 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 	private double pe = 0.0;
 	private boolean exitDonePE = false;
 	private boolean exitDoneCE = false;
+	private boolean reEnterDoneCE = false;
+	private double bookedPrice = 0.0;
+	private double lossBooked = 0.0;
 	private boolean exitDoneBOTH = false;
 	
-	private double start_ce = 0.0;
-	private double start_pe = 0.0;
+	public boolean stayAwayFlag = false;
+	public static int stayAwayCount = 0;
+	public static int reEnterCount = 0;
+	public boolean renter = false;
+	
+	static public double start_ce = 0.0;
+	static public double start_pe = 0.0;
 	private double delta_PE = 0.0;
 	private double delta_CE = 0.0;
 	private Double combinedPremiumLimit = null;
@@ -65,6 +73,8 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 	
 	long interval = 3 * 60000;
 	PositionDTO positionDTO = null;
+	private boolean keepContinue = true;
+	private  List<Double> deltaGainList = new ArrayList<Double>(); 
 
 	private enum CONDITION {
 		GAURD_SHORT_POSITION_PUT, GAURD_SHORT_POSITION_CALL
@@ -79,18 +89,18 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 		df = new DecimalFormat();
 		df.setMaximumFractionDigits(2);
 		pool.subscriptionlist.add(NSE_NIFTY);
-		new ArrayList<String>(pool.subscriptionlist).add(NSE_NIFTY);
 		this.fyersSocket = fyersSocket;
 		fyersSocket.webSocketDelegate = this;
 		fyersSocket.ConnectHSM(ChannelModes.FULL);
 		System.out.print("--- \nAbout to Subscribe to the required scrips --> \n");
+		
 		pool.subscriptionlist.forEach(x -> {
 			System.out.println(x);
 		});
 		
 		try {
-			System.out.print("Waiting for 10 seconds before subscribing to the data..");
-			Thread.sleep(10000);
+			System.out.print("\nWaiting for" + pool.waitTime + " ms before subscribing to the data..");
+			Thread.sleep(pool.waitTime);
 		} catch (InterruptedException e) {
 			System.out.println(e.getMessage());
 		}
@@ -158,7 +168,20 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 
 	}
 	
-	private void analyzePremiums() {
+	private void analyzePremiums() {		
+		
+		if (delta_Combined_premium < -12) {
+			stayAwayFlag = true;
+			System.out.println("\nStay Away Triggered .." + ++stayAwayCount);
+			pool.logToFileSystem("\nStay Away Triggered .." + stayAwayCount);
+			renter = false;
+			// renter is possible only whenstayAway has happened.
+		} else if (stayAwayFlag && delta_Combined_premium > -10) {
+			stayAwayFlag = false;
+			renter = true;
+			System.out.println("\nre-enter Triggered .." + ++reEnterCount);
+			pool.logToFileSystem("\nre-enter Triggered .." + reEnterCount);
+		}
 		
 		if (System.currentTimeMillis() - printTimer > 60000) {
 			
@@ -178,7 +201,8 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 			//.append("Combined Premium").append(df.format(startPremium)).append(" ---> ").append(df.format(current_combinedPremium)).append(df.format(delta_Combined_premium)).append(" \n ")
 			.append("ΔNifty ").append(" : ").append(df.format(delta_nifty)).append("; ").append(df.format(start_niftyIndex)).append(" -> ").append(df.format(niftyIndex)).append("\n")
 			.append("Active ").append(" : ").append(" PE : ").append(!exitDonePE).append(" ; CE : ").append(!exitDoneCE).append(" \n\n");
-								
+				
+			deltaGainList.add(delta_Combined_premium);
 			mqttMessage = printBuilder.toString();
 			System.out.println(printBuilder.toString());
 			pool.logToFileSystem(printBuilder.toString());
@@ -195,6 +219,8 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 			
 			if (delta_nifty > 0) {
 				System.out.println("\nIndex is upwards since start of the Bot ..");
+			}  else {
+				System.out.println("\nIndex has declined since start of the Bot ..");
 			}
 			printTimer = System.currentTimeMillis();
 		}
@@ -221,25 +247,58 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 
 		MarketData data = MarketData.fromJson(strikePrice);
 		initializeAndUpdatePremium(data);
+		
 		if (!initialized)
 			return;
-		analyzePremiums();
 		
+		analyzePremiums();		
+		
+		if(keepContinue) {
+			
+		}
+		
+		if(stayAwayFlag) {
+			if(!exitDonePE && delta_PE < 0) {
+				System.out.println("\n Staying away from PE side of the straddle as index has moved down by more than 12 points.");
+				stayAwayFromPE();
+			}
+			if(!exitDoneCE & delta_CE < 0) {
+				System.out.println("\n Staying away from CE side of the straddle as index has moved down by more than 12 points.");
+				stayAwayFromCE();
+			}
+		}
+		
+		if(renter && !reEnterDoneCE) {
+			if(exitDonePE && (combinedPremiumLimit >= current_combinedPremium)) {
+				// re-neter the PE leg if the combined premium has come done.
+				fyerOperations.Sell(pool.peSymbol, 1);
+				renter = false;
+				exitDonePE = false;
+			}
+			if(exitDoneCE && (combinedPremiumLimit >= current_combinedPremium)) {
+				// re-neter the CE leg if the combined premium has come done.
+				fyerOperations.Sell(pool.ceSymbol, 1);
+				renter = false;
+				exitDoneCE = false;
+			}
+		}		
 		// SL hit, exit the position.
 		if (combinedPremiumLimit < current_combinedPremium) {
 			List<String> exitPositionList = new ArrayList<String>();
 			// Need Fix here
 			// -ve delta means the premium has gone up, so you need to exit the position.
 			// (start -current)
-			if (!exitDonePE && delta_PE < 0) {
-				System.out.println("Market data symbol is : " + data.getSymbol() + " and " + pool.peSymbol);
-				System.out.println("Premium for PE has increased by :" + df.format(delta_PE) + "Exitting the position."
+			if (!exitDonePE && delta_PE < 0 && pool.ENABLE_TRADE) {
+				
+				System.out.println("\n Market data symbol is : " + data.getSymbol() + " and " + pool.peSymbol);
+				System.out.println("\n Premium for PE has increased by :" + df.format(delta_PE) + " Exitting the position."
 						+ pool.peSymbol);
 				// check that you are exitiong the right position.
 				//String positionID = pool.symbolAndid.get(pool.peSymbol).id;
 
 				if (PE_POSITION_ID == null) {
-					System.out.println("Position ID is null for " + pool.peSymbol + ", cannot exit position.");
+					//System.out.println("\n Position ID is null for " + pool.peSymbol + ", cannot exit position.");
+					return;
 				} 
 				
 				if (fyerOperations.exitPositionById(PE_POSITION_ID)) {
@@ -253,9 +312,14 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 			}
 			// -ve delta means the premium has gone up, so you need to exit the position.
 			// (start -current)
-			if (!exitDoneCE && delta_CE < 0) {
+			if (!exitDoneCE && delta_CE < 0 && pool.ENABLE_TRADE) {
 				System.out.println("\nMarket data symbol is :" + data.getSymbol() + " and " + pool.peSymbol);
 				//String positionID = pool.symbolAndid.get(pool.ceSymbol).id;
+				if (CE_POSITION_ID == null) {
+					//System.out.println("\n Position ID is null for " + pool.peSymbol + ", cannot exit position.");
+					return;
+				} 
+				
 				if (fyerOperations.exitPositionById(CE_POSITION_ID)) {
 					exitDoneCE = true;
 					System.out.println(" Exit successful for CE: " + pool.ceSymbol);
@@ -285,7 +349,7 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 			}
 		}
 	}
-
+	// keep a check of the latest data and update the premiums.
 	private void initializeAndUpdatePremium(MarketData data) {
 		if (pool.ceSymbol.equalsIgnoreCase(data.getSymbol())) {
 			ce = data.getLtp();
@@ -301,10 +365,25 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 			fyerOperations = new FyerOperations(pool.getFyersClasss());
 			fyerOperations.populateLivePositions();			
 			startTime = System.currentTimeMillis();
-			start_ce =  pool.symbolAndid.get(pool.ceSymbol).symbol!=null ?pool.symbolAndid.get(pool.ceSymbol).sellVal : ce;
-			start_pe = pool.symbolAndid.get(pool.peSymbol).symbol!=null ?pool.symbolAndid.get(pool.peSymbol).sellVal : pe;
+			// if the sell price is not give in strategy.json, then take the current ltp as the start price.
+			if(pool.symbolAndid.isEmpty() || pool.symbolAndid.get(pool.ceSymbol) == null || pool.symbolAndid.get(pool.peSymbol) == null) {
+				System.out.println("Either of CE or PE position is not found in live positions, exiting.");
+				pool.logToFileSystem("Either of CE or PE position is not found in live positions, exiting.");
+				//System.exit(0);
+			}
+			if(start_ce == 0.0 || start_pe == 0.0) {
+				System.out.println("\n initial sell price not found in strategy.json, taking current ltp as start price.");			
+			start_ce = ce;
+			start_pe = pe;
+			}
+			if(!pool.symbolAndid.isEmpty() && pool.symbolAndid.get(pool.ceSymbol) != null && pool.symbolAndid.get(pool.peSymbol) != null) {
 			CE_POSITION_ID = pool.symbolAndid.get(pool.ceSymbol).id;
 			PE_POSITION_ID = pool.symbolAndid.get(pool.peSymbol).id;
+			} else {
+				System.out.println("Either of CE or PE position is not found in live positions, exiting.");
+				pool.logToFileSystem("Either of CE or PE position is not found in live positions, exiting.");
+				//System.exit(0);
+			}
 			// Initialize the combined premium limit and start premium
 			startPremium = start_ce + start_pe;
 			combinedPremiumLimit = startPremium + pool.trailMargin + 5; // Set initial limit to start premium + 20			
@@ -323,6 +402,53 @@ public class AdjustingStraddle implements FyersSocketDelegate, FyerBotInterface 
 		delta_Combined_premium = startPremium - current_combinedPremium;
 		delta_nifty = niftyIndex - start_niftyIndex;
 		setTrailingLimit();
+	}
+	
+	
+	private void stayAwayFromPE() {
+		
+		if (!exitDonePE && delta_PE < 0 && pool.ENABLE_TRADE) {			
+			System.out.println("\n Premium for PE has increased by :" + df.format(delta_PE) + " Exitting the position."
+					+ pool.peSymbol);
+			// check that you are exitiong the right position.
+			//String positionID = pool.symbolAndid.get(pool.peSymbol).id;
+
+			if (PE_POSITION_ID == null) {
+				//System.out.println("\n Position ID is null for " + pool.peSymbol + ", cannot exit position.");
+				return;
+			} 
+			
+			if (fyerOperations.exitPositionById(PE_POSITION_ID)) {
+				exitDonePE = true;
+				System.out.println(" Exit successful for PE: " + pool.peSymbol);
+				bookedPrice = 0.0;
+				lossBooked = 0.0;
+			} else {
+				System.out.println("Error exiting position for PE: " + pool.peSymbol);
+			}
+			System.out.println(pool.exitPositionMessage);
+		}
+		
+	}
+	
+	
+	private void stayAwayFromCE() {
+
+		//System.out.println("\nMarket data symbol is :" + data.getSymbol() + " and " + pool.peSymbol);
+		//String positionID = pool.symbolAndid.get(pool.ceSymbol).id;
+		if (CE_POSITION_ID == null) {
+			//System.out.println("\n Position ID is null for " + pool.peSymbol + ", cannot exit position.");
+			return;
+		} 
+		
+		if (fyerOperations.exitPositionById(CE_POSITION_ID)) {
+			exitDoneCE = true;
+			System.out.println(" Exit successful for CE: " + pool.ceSymbol);
+		} else {
+			System.out.println(" Error exiting position for CE: " + pool.peSymbol);
+		}
+		System.out.println(pool.exitPositionMessage);
+	
 	}
 
 }

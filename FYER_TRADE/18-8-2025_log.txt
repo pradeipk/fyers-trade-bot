@@ -1,0 +1,4222 @@
+9:22:29 : Initializing application with directory: C:\FYER_TRADE
+9:23:1 : Start premium is set to 268.3 with combined premium limit of 293.3 at 24941.2
+9:23:2 : Updating Stop loss to  288.3
+9:23:2 : Updating Stop loss to  287.95000000000005
+9:23:2 : Updating Stop loss to  287.20000000000005
+9:23:3 : Updating Stop loss to  287.04999999999995
+9:24:0 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -3.05 
+ PE : 1 
+ Combined Premium gain : -2.05 
+ Trailing Stop Loss : 287.05 
+ Start Premium : 268.3 
+ Current Combined Premium : 270.35 
+ Nifty Index changed by : -0.75 
+ Legs Active : :  PE :true ; CE :true
+9:25:0 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -1.55 
+ PE : 1.35 
+ Combined Premium gain : -0.2 
+ Trailing Stop Loss : 287.05 
+ Start Premium : 268.3 
+ Current Combined Premium : 268.5 
+ Nifty Index changed by : -1.15 
+ Legs Active : :  PE :true ; CE :true
+9:26:0 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -2.2 
+ PE : 2.15 
+ Combined Premium gain : -0.05 
+ Trailing Stop Loss : 287.05 
+ Start Premium : 268.3 
+ Current Combined Premium : 268.35 
+ Nifty Index changed by : -7.25 
+ Legs Active : :  PE :true ; CE :true
+9:26:12 : Updating Stop loss to  287.0
+9:26:22 : Updating Stop loss to  286.9
+9:26:22 : Updating Stop loss to  286.5
+9:26:23 : Updating Stop loss to  286.4
+9:26:29 : Updating Stop loss to  286.25
+9:26:29 : Updating Stop loss to  285.8
+9:26:44 : Updating Stop loss to  285.7
+9:26:49 : Updating Stop loss to  285.65
+9:26:50 : Updating Stop loss to  284.9
+9:27:0 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 1.45 
+ PE : -0.1 
+ Combined Premium gain : 1.35 
+ Trailing Stop Loss : 284.9 
+ Start Premium : 268.3 
+ Current Combined Premium : 266.95 
+ Nifty Index changed by : -5.3 
+ Legs Active : :  PE :true ; CE :true
+9:27:15 : Updating Stop loss to  284.45
+9:27:29 : Updating Stop loss to  284.1
+9:27:31 : Updating Stop loss to  283.9
+9:28:0 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -7 
+ PE : 9.1 
+ Combined Premium gain : 2.1 
+ Trailing Stop Loss : 283.9 
+ Start Premium : 268.3 
+ Current Combined Premium : 266.2 
+ Nifty Index changed by : -19 
+ Legs Active : :  PE :true ; CE :true
+9:28:0 : Updating Stop loss to  283.75
+9:29:0 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -11.2 
+ PE : 12.75 
+ Combined Premium gain : 1.55 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 266.75 
+ Nifty Index changed by : -27.2 
+ Legs Active : :  PE :true ; CE :true
+9:30:0 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -8.85 
+ PE : 12.55 
+ Combined Premium gain : 3.7 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 264.6 
+ Nifty Index changed by : -22.7 
+ Legs Active : :  PE :true ; CE :true
+9:31:0 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -15.75 
+ PE : 17.15 
+ Combined Premium gain : 1.4 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 266.9 
+ Nifty Index changed by : -39.85 
+ Legs Active : :  PE :true ; CE :true
+9:32:1 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -21.95 
+ PE : 17.65 
+ Combined Premium gain : -4.3 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 272.6 
+ Nifty Index changed by : -45.7 
+ Legs Active : :  PE :true ; CE :true
+9:33:1 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -18.55 
+ PE : 16.85 
+ Combined Premium gain : -1.7 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 270 
+ Nifty Index changed by : -39.85 
+ Legs Active : :  PE :true ; CE :true
+9:34:1 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -19.45 
+ PE : 19.5 
+ Combined Premium gain : 0.05 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 268.25 
+ Nifty Index changed by : -49.75 
+ Legs Active : :  PE :true ; CE :true
+9:35:1 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -20.5 
+ PE : 21.1 
+ Combined Premium gain : 0.6 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 267.7 
+ Nifty Index changed by : -48 
+ Legs Active : :  PE :true ; CE :true
+9:36:1 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -19.35 
+ PE : 19.95 
+ Combined Premium gain : 0.6 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 267.7 
+ Nifty Index changed by : -49.05 
+ Legs Active : :  PE :true ; CE :true
+9:37:2 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -23.55 
+ PE : 21.3 
+ Combined Premium gain : -2.25 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 270.55 
+ Nifty Index changed by : -53.3 
+ Legs Active : :  PE :true ; CE :true
+9:38:2 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -23.8 
+ PE : 19.35 
+ Combined Premium gain : -4.45 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 272.75 
+ Nifty Index changed by : -52.7 
+ Legs Active : :  PE :true ; CE :true
+9:39:2 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -22.05 
+ PE : 18.65 
+ Combined Premium gain : -3.4 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 271.7 
+ Nifty Index changed by : -47.35 
+ Legs Active : :  PE :true ; CE :true
+9:40:2 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -23 
+ PE : 21.2 
+ Combined Premium gain : -1.8 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 270.1 
+ Nifty Index changed by : -53.8 
+ Legs Active : :  PE :true ; CE :true
+9:41:2 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -23.2 
+ PE : 20.05 
+ Combined Premium gain : -3.15 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 271.45 
+ Nifty Index changed by : -51.55 
+ Legs Active : :  PE :true ; CE :true
+9:42:2 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -23.35 
+ PE : 20.7 
+ Combined Premium gain : -2.65 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 270.95 
+ Nifty Index changed by : -51.05 
+ Legs Active : :  PE :true ; CE :true
+9:43:3 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -26.6 
+ PE : 21.5 
+ Combined Premium gain : -5.1 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 273.4 
+ Nifty Index changed by : -54.5 
+ Legs Active : :  PE :true ; CE :true
+9:44:3 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -25.15 
+ PE : 21.7 
+ Combined Premium gain : -3.45 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 271.75 
+ Nifty Index changed by : -50.85 
+ Legs Active : :  PE :true ; CE :true
+9:45:3 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -29.6 
+ PE : 26.5 
+ Combined Premium gain : -3.1 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 271.4 
+ Nifty Index changed by : -61.35 
+ Legs Active : :  PE :true ; CE :true
+9:46:3 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -33.35 
+ PE : 27.95 
+ Combined Premium gain : -5.4 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 273.7 
+ Nifty Index changed by : -64 
+ Legs Active : :  PE :true ; CE :true
+9:47:3 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -38.7 
+ PE : 29.55 
+ Combined Premium gain : -9.15 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 277.45 
+ Nifty Index changed by : -70 
+ Legs Active : :  PE :true ; CE :true
+9:48:3 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -38.5 
+ PE : 28.15 
+ Combined Premium gain : -10.35 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 278.65 
+ Nifty Index changed by : -69.7 
+ Legs Active : :  PE :true ; CE :true
+9:48:28 : SL hit for combined premium: 284.0 at 25016.3 with limit 283.75
+9:48:28 : SL hit for combined premium: 284.1 at 25016.3 with limit 283.75
+9:49:3 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : -38.6 
+ PE : 26.55 
+ Combined Premium gain : -12.05 
+ Trailing Stop Loss : 283.75 
+ Start Premium : 268.3 
+ Current Combined Premium : 280.35 
+ Nifty Index changed by : -70.05 
+ Legs Active : :  PE :true ; CE :true
+9:54:19 : Initializing application with directory: C:\FYER_TRADE
+9:55:14 : Initializing application with directory: C:\FYER_TRADE
+9:55:38 : Start premium is set to 275.04999999999995 with combined premium limit of 300.04999999999995 at 24990.9
+9:55:38 : Updating Stop loss to  295.04999999999995
+9:55:38 : Updating Stop loss to  294.6
+9:56:36 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 4.75 
+ Delta PE : -3 
+ Delta Premium  : 1.75 
+ Trailing Stop Loss : 294.6 
+ Start Premium : 275.05 
+ Current Combined Premium : 276.8 
+ Nifty Index changed by : 3.85 
+ Nifty Index : 24,994.75 
+ Legs Active : :  PE :true ; CE :true
+9:57:36 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 6.7 
+ Delta PE : -3.05 
+ Delta Premium  : 3.65 
+ Trailing Stop Loss : 294.6 
+ Start Premium : 275.05 
+ Current Combined Premium : 278.7 
+ Nifty Index changed by : 8.1 
+ Nifty Index : 24,999 
+ Legs Active : :  PE :true ; CE :true
+9:58:37 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 5.25 
+ Delta PE : -1.5 
+ Delta Premium  : 3.75 
+ Trailing Stop Loss : 294.6 
+ Start Premium : 275.05 
+ Current Combined Premium : 278.8 
+ Nifty Index changed by : 6.75 
+ Nifty Index : 24,997.65 
+ Legs Active : :  PE :true ; CE :true
+9:59:37 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 8.05 
+ Delta PE : -5.6 
+ Delta Premium  : 2.45 
+ Trailing Stop Loss : 294.6 
+ Start Premium : 275.05 
+ Current Combined Premium : 277.5 
+ Nifty Index changed by : 14.25 
+ Nifty Index : 25,005.15 
+ Legs Active : :  PE :true ; CE :true
+10:0:37 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 10.75 
+ Delta PE : -7.15 
+ Delta Premium  : 3.6 
+ Trailing Stop Loss : 294.6 
+ Start Premium : 275.05 
+ Current Combined Premium : 278.65 
+ Nifty Index changed by : 14.75 
+ Nifty Index : 25,005.65 
+ Legs Active : :  PE :true ; CE :true
+10:1:37 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 8.15 
+ Delta PE : -5.75 
+ Delta Premium  : 2.4 
+ Trailing Stop Loss : 294.6 
+ Start Premium : 275.05 
+ Current Combined Premium : 277.45 
+ Nifty Index changed by : 16.3 
+ Nifty Index : 25,007.2 
+ Legs Active : :  PE :true ; CE :true
+10:2:38 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 7.35 
+ Delta PE : -5 
+ Delta Premium  : 2.35 
+ Trailing Stop Loss : 294.6 
+ Start Premium : 275.05 
+ Current Combined Premium : 277.4 
+ Nifty Index changed by : 14.05 
+ Nifty Index : 25,004.95 
+ Legs Active : :  PE :true ; CE :true
+10:3:38 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 6.55 
+ Delta PE : -3.65 
+ Delta Premium  : 2.9 
+ Trailing Stop Loss : 294.6 
+ Start Premium : 275.05 
+ Current Combined Premium : 277.95 
+ Nifty Index changed by : 12.7 
+ Nifty Index : 25,003.6 
+ Legs Active : :  PE :true ; CE :true
+10:4:38 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 6.65 
+ Delta PE : -4.15 
+ Delta Premium  : 2.5 
+ Trailing Stop Loss : 294.6 
+ Start Premium : 275.05 
+ Current Combined Premium : 277.55 
+ Nifty Index changed by : 11.05 
+ Nifty Index : 25,001.95 
+ Legs Active : :  PE :true ; CE :true
+10:4:54 : Updating Stop loss to  294.5
+10:5:38 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 5.65 
+ Delta PE : -3.4 
+ Delta Premium  : 2.25 
+ Trailing Stop Loss : 294.5 
+ Start Premium : 275.05 
+ Current Combined Premium : 277.3 
+ Nifty Index changed by : 10.65 
+ Nifty Index : 25,001.55 
+ Legs Active : :  PE :true ; CE :true
+10:6:38 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 4.25 
+ Delta PE : -1.75 
+ Delta Premium  : 2.5 
+ Trailing Stop Loss : 294.5 
+ Start Premium : 275.05 
+ Current Combined Premium : 277.55 
+ Nifty Index changed by : 7.9 
+ Nifty Index : 24,998.8 
+ Legs Active : :  PE :true ; CE :true
+10:7:20 : Updating Stop loss to  294.45
+10:7:21 : Updating Stop loss to  294.4
+10:7:22 : Updating Stop loss to  293.75
+10:7:38 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : -1.4 
+ Delta PE : 0.3 
+ Delta Premium  : -1.1 
+ Trailing Stop Loss : 293.75 
+ Start Premium : 275.05 
+ Current Combined Premium : 273.95 
+ Nifty Index changed by : 2.7 
+ Nifty Index : 24,993.6 
+ Legs Active : :  PE :true ; CE :true
+10:7:40 : Updating Stop loss to  293.1
+10:7:48 : Updating Stop loss to  292.75
+10:7:53 : Updating Stop loss to  292.3
+10:7:54 : Updating Stop loss to  292.29999999999995
+10:8:7 : Updating Stop loss to  291.9
+10:8:13 : Updating Stop loss to  291.55
+10:8:14 : Updating Stop loss to  291.5
+10:8:17 : Updating Stop loss to  291.35
+10:8:38 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : -2.6 
+ Delta PE : 0.4 
+ Delta Premium  : -2.2 
+ Trailing Stop Loss : 291.35 
+ Start Premium : 275.05 
+ Current Combined Premium : 272.85 
+ Nifty Index changed by : -1.35 
+ Nifty Index : 24,989.55 
+ Legs Active : :  PE :true ; CE :true
+10:12:16 : Initializing application with directory: C:\FYER_TRADE
+10:12:37 : Start premium is set to 271.3 with combined premium limit of 296.3 at 24987.25
+10:12:37 : Updating Stop loss to  291.3
+10:12:44 : Updating Stop loss to  291.15
+10:12:46 : Updating Stop loss to  291.05
+10:12:54 : Updating Stop loss to  290.9
+10:13:35 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : -2.1 
+ Delta PE : 0.85 
+ Delta Premium  : -1.25 
+ Trailing Stop Loss : 290.9 
+ Start Premium : 271.3 
+ Current Combined Premium : 272.55 
+ Nifty Index changed by : -1.85 
+ Nifty Index : 24,985.4 
+ Legs Active : :  PE :true ; CE :true
+10:14:35 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : -5 
+ Delta PE : 2.4 
+ Delta Premium  : -2.6 
+ Trailing Stop Loss : 290.9 
+ Start Premium : 271.3 
+ Current Combined Premium : 273.9 
+ Nifty Index changed by : 2.85 
+ Nifty Index : 24,990.1 
+ Legs Active : :  PE :true ; CE :true
+10:14:52 : Updating Stop loss to  290.6
+10:14:56 : Updating Stop loss to  290.54999999999995
+10:14:58 : Updating Stop loss to  290.4
+10:15:0 : Updating Stop loss to  290.29999999999995
+10:15:1 : Updating Stop loss to  290.0
+10:15:6 : Updating Stop loss to  289.9
+10:15:35 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : -2.55 
+ Delta PE : 3.45 
+ Delta Premium  : 0.9 
+ Trailing Stop Loss : 289.9 
+ Start Premium : 271.3 
+ Current Combined Premium : 270.4 
+ Nifty Index changed by : 0.75 
+ Nifty Index : 24,988 
+ Legs Active : :  PE :true ; CE :true
+10:15:47 : Updating Stop loss to  289.79999999999995
+10:15:55 : Updating Stop loss to  289.65
+10:15:55 : Updating Stop loss to  289.4
+10:15:58 : Updating Stop loss to  289.25
+10:16:0 : Updating Stop loss to  289.2
+10:16:3 : Updating Stop loss to  289.0
+10:16:9 : Updating Stop loss to  288.95
+10:16:10 : Updating Stop loss to  288.6
+10:16:11 : Updating Stop loss to  288.05
+10:16:12 : Updating Stop loss to  287.5
+10:16:14 : Updating Stop loss to  286.9
+10:16:20 : Updating Stop loss to  286.35
+10:16:35 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 1.8 
+ Delta PE : 1.35 
+ Delta Premium  : 3.15 
+ Trailing Stop Loss : 286.35 
+ Start Premium : 271.3 
+ Current Combined Premium : 268.15 
+ Nifty Index changed by : -1.3 
+ Nifty Index : 24,985.95 
+ Legs Active : :  PE :true ; CE :true
+10:16:48 : Updating Stop loss to  286.15
+10:16:50 : Updating Stop loss to  285.6
+10:16:56 : Updating Stop loss to  285.35
+10:17:35 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 2.25 
+ Delta PE : 1.4 
+ Delta Premium  : 3.65 
+ Trailing Stop Loss : 285.35 
+ Start Premium : 271.3 
+ Current Combined Premium : 267.65 
+ Nifty Index changed by : -1.35 
+ Nifty Index : 24,985.9 
+ Legs Active : :  PE :true ; CE :true
+10:18:35 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 0.8 
+ Delta PE : 3.8 
+ Delta Premium  : 4.6 
+ Trailing Stop Loss : 285.35 
+ Start Premium : 271.3 
+ Current Combined Premium : 266.7 
+ Nifty Index changed by : 1.55 
+ Nifty Index : 24,988.8 
+ Legs Active : :  PE :true ; CE :true
+10:19:35 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : -3.6 
+ Delta PE : 5.85 
+ Delta Premium  : 2.25 
+ Trailing Stop Loss : 285.35 
+ Start Premium : 271.3 
+ Current Combined Premium : 269.05 
+ Nifty Index changed by : 5.3 
+ Nifty Index : 24,992.55 
+ Legs Active : :  PE :true ; CE :true
+10:20:36 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : -4.9 
+ Delta PE : 6.05 
+ Delta Premium  : 1.15 
+ Trailing Stop Loss : 285.35 
+ Start Premium : 271.3 
+ Current Combined Premium : 270.15 
+ Nifty Index changed by : 10.5 
+ Nifty Index : 24,997.75 
+ Legs Active : :  PE :true ; CE :true
+10:22:44 : Initializing application with directory: C:\FYER_TRADE
+10:22:50 : Start premium is set to 266.8 with combined premium limit of 291.8 at 24988.5
+10:22:50 : Updating Stop loss to  286.8
+10:22:51 : Updating Stop loss to  286.75
+10:22:52 : Updating Stop loss to  286.25
+10:22:57 : Updating Stop loss to  285.8
+10:22:58 : Updating Stop loss to  285.79999999999995
+10:23:2 : Updating Stop loss to  285.0
+10:23:49 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 0 
+ Delta PE : -0.45 
+ Delta Premium  : -0.45 
+ Trailing Stop Loss : 285 
+ Start Premium : 266.8 
+ Current Combined Premium : 267.25 
+ Nifty Index changed by : -2.3 
+ Current Nifty level  : 24,986.2 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:24:49 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : -2.8 
+ Delta PE : 1.95 
+ Delta Premium  : -0.85 
+ Trailing Stop Loss : 285 
+ Start Premium : 266.8 
+ Current Combined Premium : 267.65 
+ Nifty Index changed by : -0.65 
+ Current Nifty level  : 24,987.85 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:25:35 : Updating Stop loss to  282.95
+10:25:49 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 1.65 
+ Delta PE : -0.45 
+ Delta Premium  : 1.2 
+ Trailing Stop Loss : 282.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 265.6 
+ Nifty Index changed by : -8.65 
+ Current Nifty level  : 24,979.85 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:26:49 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 3.25 
+ Delta PE : -0.95 
+ Delta Premium  : 2.3 
+ Trailing Stop Loss : 282.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 264.5 
+ Nifty Index changed by : -9 
+ Current Nifty level  : 24,979.5 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:26:57 : Updating Stop loss to  282.9
+10:26:57 : Updating Stop loss to  282.5
+10:26:59 : Updating Stop loss to  282.4
+10:26:59 : Updating Stop loss to  282.15
+10:27:13 : Updating Stop loss to  281.45
+10:27:40 : Updating Stop loss to  281.3
+10:27:45 : Updating Stop loss to  281.0
+10:27:45 : Updating Stop loss to  280.9
+10:27:49 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 6.5 
+ Delta PE : -1.55 
+ Delta Premium  : 4.95 
+ Trailing Stop Loss : 280.9 
+ Start Premium : 266.8 
+ Current Combined Premium : 261.85 
+ Nifty Index changed by : -12.6 
+ Current Nifty level  : 24,975.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:28:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 6 
+ Delta PE : -1.9 
+ Delta Premium  : 4.1 
+ Trailing Stop Loss : 280.9 
+ Start Premium : 266.8 
+ Current Combined Premium : 262.7 
+ Nifty Index changed by : -15.2 
+ Current Nifty level  : 24,973.3 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:29:1 : Updating Stop loss to  280.7
+10:29:3 : Updating Stop loss to  280.45
+10:29:4 : Updating Stop loss to  280.35
+10:29:5 : Updating Stop loss to  280.29999999999995
+10:29:6 : Updating Stop loss to  279.95
+10:29:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 6 
+ Delta PE : -0.9 
+ Delta Premium  : 5.1 
+ Trailing Stop Loss : 279.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 261.7 
+ Nifty Index changed by : -13.6 
+ Current Nifty level  : 24,974.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:30:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 2.55 
+ Delta PE : 1.65 
+ Delta Premium  : 4.2 
+ Trailing Stop Loss : 279.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 262.6 
+ Nifty Index changed by : -2.5 
+ Current Nifty level  : 24,986 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:31:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 1.35 
+ Delta PE : 3.45 
+ Delta Premium  : 4.8 
+ Trailing Stop Loss : 279.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 262 
+ Nifty Index changed by : -3.3 
+ Current Nifty level  : 24,985.2 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:32:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 4 
+ Delta PE : 1.4 
+ Delta Premium  : 5.4 
+ Trailing Stop Loss : 279.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 261.4 
+ Nifty Index changed by : -7.2 
+ Current Nifty level  : 24,981.3 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:33:2 : Updating Stop loss to  279.85
+10:33:24 : Updating Stop loss to  279.55
+10:33:25 : Updating Stop loss to  279.4
+10:33:49 : Updating Stop loss to  278.75
+10:33:49 : Updating Stop loss to  278.05
+10:33:50 : Updating Stop loss to  277.7
+10:33:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 10.65 
+ Delta PE : -1.55 
+ Delta Premium  : 9.1 
+ Trailing Stop Loss : 277.7 
+ Start Premium : 266.8 
+ Current Combined Premium : 257.7 
+ Nifty Index changed by : -11.35 
+ Current Nifty level  : 24,977.15 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:33:50 : Updating Stop loss to  277.29999999999995
+10:33:53 : Updating Stop loss to  276.5
+10:34:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 9.65 
+ Delta PE : -0.8 
+ Delta Premium  : 8.85 
+ Trailing Stop Loss : 276.5 
+ Start Premium : 266.8 
+ Current Combined Premium : 257.95 
+ Nifty Index changed by : -14.4 
+ Current Nifty level  : 24,974.1 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:35:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 7.55 
+ Delta PE : 0.2 
+ Delta Premium  : 7.75 
+ Trailing Stop Loss : 276.5 
+ Start Premium : 266.8 
+ Current Combined Premium : 259.05 
+ Nifty Index changed by : -11.3 
+ Current Nifty level  : 24,977.2 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:36:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 5.5 
+ Delta PE : 1.25 
+ Delta Premium  : 6.75 
+ Trailing Stop Loss : 276.5 
+ Start Premium : 266.8 
+ Current Combined Premium : 260.05 
+ Nifty Index changed by : -7.95 
+ Current Nifty level  : 24,980.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:37:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 5 
+ Delta PE : 1.55 
+ Delta Premium  : 6.55 
+ Trailing Stop Loss : 276.5 
+ Start Premium : 266.8 
+ Current Combined Premium : 260.25 
+ Nifty Index changed by : -7.9 
+ Current Nifty level  : 24,980.6 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:38:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 9.1 
+ Delta PE : -0.1 
+ Delta Premium  : 9 
+ Trailing Stop Loss : 276.5 
+ Start Premium : 266.8 
+ Current Combined Premium : 257.8 
+ Nifty Index changed by : -11.5 
+ Current Nifty level  : 24,977 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:39:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 2.35 
+ Delta PE : 4.2 
+ Delta Premium  : 6.55 
+ Trailing Stop Loss : 276.5 
+ Start Premium : 266.8 
+ Current Combined Premium : 260.25 
+ Nifty Index changed by : -3.3 
+ Current Nifty level  : 24,985.2 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:40:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 0.5 
+ Delta PE : 5.05 
+ Delta Premium  : 5.55 
+ Trailing Stop Loss : 276.5 
+ Start Premium : 266.8 
+ Current Combined Premium : 261.25 
+ Nifty Index changed by : -0.65 
+ Current Nifty level  : 24,987.85 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:41:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : -1.75 
+ Delta PE : 6 
+ Delta Premium  : 4.25 
+ Trailing Stop Loss : 276.5 
+ Start Premium : 266.8 
+ Current Combined Premium : 262.55 
+ Nifty Index changed by : 5.4 
+ Current Nifty level  : 24,993.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:42:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : -1.6 
+ Delta PE : 5.8 
+ Delta Premium  : 4.2 
+ Trailing Stop Loss : 276.5 
+ Start Premium : 266.8 
+ Current Combined Premium : 262.6 
+ Nifty Index changed by : 4.75 
+ Current Nifty level  : 24,993.25 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:43:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 4.15 
+ Delta PE : 3.3 
+ Delta Premium  : 7.45 
+ Trailing Stop Loss : 276.5 
+ Start Premium : 266.8 
+ Current Combined Premium : 259.35 
+ Nifty Index changed by : -1.5 
+ Current Nifty level  : 24,987 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:44:51 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 6.3 
+ Delta PE : 2.3 
+ Delta Premium  : 8.6 
+ Trailing Stop Loss : 276.5 
+ Start Premium : 266.8 
+ Current Combined Premium : 258.2 
+ Nifty Index changed by : -5.95 
+ Current Nifty level  : 24,982.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:45:51 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 5.7 
+ Delta PE : 3.1 
+ Delta Premium  : 8.8 
+ Trailing Stop Loss : 276.5 
+ Start Premium : 266.8 
+ Current Combined Premium : 258 
+ Nifty Index changed by : -8.15 
+ Current Nifty level  : 24,980.35 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:46:51 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 6.65 
+ Delta PE : 2.5 
+ Delta Premium  : 9.15 
+ Trailing Stop Loss : 276.5 
+ Start Premium : 266.8 
+ Current Combined Premium : 257.65 
+ Nifty Index changed by : -9.2 
+ Current Nifty level  : 24,979.3 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:47:3 : Updating Stop loss to  276.15
+10:47:4 : Updating Stop loss to  275.65
+10:47:6 : Updating Stop loss to  275.6
+10:47:37 : Updating Stop loss to  275.0
+10:47:38 : Updating Stop loss to  274.8
+10:47:51 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 10.4 
+ Delta PE : 0.7 
+ Delta Premium  : 11.1 
+ Trailing Stop Loss : 274.8 
+ Start Premium : 266.8 
+ Current Combined Premium : 255.7 
+ Nifty Index changed by : -14.35 
+ Current Nifty level  : 24,974.15 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:48:51 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 8.25 
+ Delta PE : 1.6 
+ Delta Premium  : 9.85 
+ Trailing Stop Loss : 274.8 
+ Start Premium : 266.8 
+ Current Combined Premium : 256.95 
+ Nifty Index changed by : -16.4 
+ Current Nifty level  : 24,972.1 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:49:40 : Updating Stop loss to  274.65
+10:49:51 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 10.6 
+ Delta PE : 0.3 
+ Delta Premium  : 10.9 
+ Trailing Stop Loss : 274.65 
+ Start Premium : 266.8 
+ Current Combined Premium : 255.9 
+ Nifty Index changed by : -16.5 
+ Current Nifty level  : 24,972 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:50:6 : Updating Stop loss to  273.95
+10:50:7 : Updating Stop loss to  273.7
+10:50:49 : Updating Stop loss to  273.35
+10:50:51 : Updating Stop loss to  273.3
+10:50:51 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 14.25 
+ Delta PE : -0.75 
+ Delta Premium  : 13.5 
+ Trailing Stop Loss : 273.3 
+ Start Premium : 266.8 
+ Current Combined Premium : 253.3 
+ Nifty Index changed by : -20 
+ Current Nifty level  : 24,968.5 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:50:51 : Updating Stop loss to  273.25
+10:50:51 : Updating Stop loss to  271.75
+10:51:0 : Updating Stop loss to  271.4
+10:51:51 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 13.2 
+ Delta PE : -0.55 
+ Delta Premium  : 12.65 
+ Trailing Stop Loss : 271.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 254.15 
+ Nifty Index changed by : -21.15 
+ Current Nifty level  : 24,967.35 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:52:28 : Updating Stop loss to  271.20000000000005
+10:52:36 : Updating Stop loss to  271.1
+10:52:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 16.2 
+ Delta PE : -1.25 
+ Delta Premium  : 14.95 
+ Trailing Stop Loss : 271.1 
+ Start Premium : 266.8 
+ Current Combined Premium : 251.85 
+ Nifty Index changed by : -25.7 
+ Current Nifty level  : 24,962.8 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:53:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 14.8 
+ Delta PE : -0.2 
+ Delta Premium  : 14.6 
+ Trailing Stop Loss : 271.1 
+ Start Premium : 266.8 
+ Current Combined Premium : 252.2 
+ Nifty Index changed by : -24.6 
+ Current Nifty level  : 24,963.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:54:17 : Updating Stop loss to  270.65
+10:54:30 : Updating Stop loss to  270.5
+10:54:31 : Updating Stop loss to  270.2
+10:54:41 : Updating Stop loss to  269.55
+10:54:42 : Updating Stop loss to  269.1
+10:54:44 : Updating Stop loss to  269.1
+10:54:44 : Updating Stop loss to  269.1
+10:54:44 : Updating Stop loss to  268.95
+10:54:46 : Updating Stop loss to  268.85
+10:54:49 : Updating Stop loss to  268.65
+10:54:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 19.85 
+ Delta PE : -2.2 
+ Delta Premium  : 17.65 
+ Trailing Stop Loss : 268.65 
+ Start Premium : 266.8 
+ Current Combined Premium : 249.15 
+ Nifty Index changed by : -28.9 
+ Current Nifty level  : 24,959.6 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:54:59 : Updating Stop loss to  268.6
+10:54:59 : Updating Stop loss to  268.6
+10:55:0 : Updating Stop loss to  268.6
+10:55:0 : Updating Stop loss to  268.29999999999995
+10:55:1 : Updating Stop loss to  268.0
+10:55:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 17.8 
+ Delta PE : -0.7 
+ Delta Premium  : 17.1 
+ Trailing Stop Loss : 268 
+ Start Premium : 266.8 
+ Current Combined Premium : 249.7 
+ Nifty Index changed by : -31.1 
+ Current Nifty level  : 24,957.4 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:56:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 18.3 
+ Delta PE : -1.1 
+ Delta Premium  : 17.2 
+ Trailing Stop Loss : 268 
+ Start Premium : 266.8 
+ Current Combined Premium : 249.6 
+ Nifty Index changed by : -30 
+ Current Nifty level  : 24,958.5 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:57:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 17.65 
+ Delta PE : -1.55 
+ Delta Premium  : 16.1 
+ Trailing Stop Loss : 268 
+ Start Premium : 266.8 
+ Current Combined Premium : 250.7 
+ Nifty Index changed by : -31.4 
+ Current Nifty level  : 24,957.1 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:58:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 16.7 
+ Delta PE : -0.7 
+ Delta Premium  : 16 
+ Trailing Stop Loss : 268 
+ Start Premium : 266.8 
+ Current Combined Premium : 250.8 
+ Nifty Index changed by : -29.75 
+ Current Nifty level  : 24,958.75 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+10:59:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 15.1 
+ Delta PE : 0 
+ Delta Premium  : 15.1 
+ Trailing Stop Loss : 268 
+ Start Premium : 266.8 
+ Current Combined Premium : 251.7 
+ Nifty Index changed by : -27.4 
+ Current Nifty level  : 24,961.1 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:0:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 13.15 
+ Delta PE : 2 
+ Delta Premium  : 15.15 
+ Trailing Stop Loss : 268 
+ Start Premium : 266.8 
+ Current Combined Premium : 251.65 
+ Nifty Index changed by : -19.05 
+ Current Nifty level  : 24,969.45 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:1:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 16.4 
+ Delta PE : 0.45 
+ Delta Premium  : 16.85 
+ Trailing Stop Loss : 268 
+ Start Premium : 266.8 
+ Current Combined Premium : 249.95 
+ Nifty Index changed by : -21.05 
+ Current Nifty level  : 24,967.45 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:2:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 17.85 
+ Delta PE : 0.5 
+ Delta Premium  : 18.35 
+ Trailing Stop Loss : 268 
+ Start Premium : 266.8 
+ Current Combined Premium : 248.45 
+ Nifty Index changed by : -24.85 
+ Current Nifty level  : 24,963.65 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:3:8 : Updating Stop loss to  267.9
+11:3:8 : Updating Stop loss to  267.85
+11:3:9 : Updating Stop loss to  267.75
+11:3:9 : Updating Stop loss to  267.70000000000005
+11:3:10 : Updating Stop loss to  266.8
+11:3:18 : Updating Stop loss to  265.7
+11:3:22 : Updating Stop loss to  265.5
+11:3:26 : Updating Stop loss to  265.1
+11:3:27 : Updating Stop loss to  264.6
+11:3:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 24.5 
+ Delta PE : -3.8 
+ Delta Premium  : 20.7 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 246.1 
+ Nifty Index changed by : -33.2 
+ Current Nifty level  : 24,955.3 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:4:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 22.65 
+ Delta PE : -3.15 
+ Delta Premium  : 19.5 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 247.3 
+ Nifty Index changed by : -32.2 
+ Current Nifty level  : 24,956.3 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:5:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 24.35 
+ Delta PE : -4.4 
+ Delta Premium  : 19.95 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 246.85 
+ Nifty Index changed by : -36.65 
+ Current Nifty level  : 24,951.85 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:6:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 25.45 
+ Delta PE : -4.85 
+ Delta Premium  : 20.6 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 246.2 
+ Nifty Index changed by : -39.75 
+ Current Nifty level  : 24,948.75 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:7:53 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 22.3 
+ Delta PE : -1.7 
+ Delta Premium  : 20.6 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 246.2 
+ Nifty Index changed by : -35.7 
+ Current Nifty level  : 24,952.8 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:8:53 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 22.7 
+ Delta PE : -2.05 
+ Delta Premium  : 20.65 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 246.15 
+ Nifty Index changed by : -36 
+ Current Nifty level  : 24,952.5 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:9:53 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 21.6 
+ Delta PE : -1.45 
+ Delta Premium  : 20.15 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 246.65 
+ Nifty Index changed by : -34.6 
+ Current Nifty level  : 24,953.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:10:53 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 19.5 
+ Delta PE : 1.1 
+ Delta Premium  : 20.6 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 246.2 
+ Nifty Index changed by : -32.55 
+ Current Nifty level  : 24,955.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:11:53 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 21.15 
+ Delta PE : -0.35 
+ Delta Premium  : 20.8 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 246 
+ Nifty Index changed by : -34.4 
+ Current Nifty level  : 24,954.1 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:12:54 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 22.9 
+ Delta PE : -2 
+ Delta Premium  : 20.9 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 245.9 
+ Nifty Index changed by : -36.6 
+ Current Nifty level  : 24,951.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:13:54 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 21.15 
+ Delta PE : -0.85 
+ Delta Premium  : 20.3 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 246.5 
+ Nifty Index changed by : -35.7 
+ Current Nifty level  : 24,952.8 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:14:54 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 18.9 
+ Delta PE : -0.2 
+ Delta Premium  : 18.7 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 248.1 
+ Nifty Index changed by : -31.35 
+ Current Nifty level  : 24,957.15 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:15:54 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 14.6 
+ Delta PE : 2.6 
+ Delta Premium  : 17.2 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 249.6 
+ Nifty Index changed by : -21.05 
+ Current Nifty level  : 24,967.45 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:16:54 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 14.85 
+ Delta PE : 2.4 
+ Delta Premium  : 17.25 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 249.55 
+ Nifty Index changed by : -21.95 
+ Current Nifty level  : 24,966.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:17:54 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 16.6 
+ Delta PE : 1.25 
+ Delta Premium  : 17.85 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 248.95 
+ Nifty Index changed by : -25.55 
+ Current Nifty level  : 24,962.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:18:55 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 19.5 
+ Delta PE : -1.1 
+ Delta Premium  : 18.4 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 248.4 
+ Nifty Index changed by : -31.3 
+ Current Nifty level  : 24,957.2 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:19:56 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 22.05 
+ Delta PE : -2.75 
+ Delta Premium  : 19.3 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 247.5 
+ Nifty Index changed by : -33.25 
+ Current Nifty level  : 24,955.25 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:20:56 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 18.55 
+ Delta PE : 0.8 
+ Delta Premium  : 19.35 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 247.45 
+ Nifty Index changed by : -30.2 
+ Current Nifty level  : 24,958.3 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:21:56 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 20.3 
+ Delta PE : -1.65 
+ Delta Premium  : 18.65 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 248.15 
+ Nifty Index changed by : -34.95 
+ Current Nifty level  : 24,953.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:22:56 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 16.95 
+ Delta PE : 0.35 
+ Delta Premium  : 17.3 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 249.5 
+ Nifty Index changed by : -26.3 
+ Current Nifty level  : 24,962.2 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:23:56 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 18.35 
+ Delta PE : 0.4 
+ Delta Premium  : 18.75 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 248.05 
+ Nifty Index changed by : -25.6 
+ Current Nifty level  : 24,962.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:24:56 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 17.45 
+ Delta PE : 1.45 
+ Delta Premium  : 18.9 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 247.9 
+ Nifty Index changed by : -22.2 
+ Current Nifty level  : 24,966.3 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:25:56 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 17.85 
+ Delta PE : -0.3 
+ Delta Premium  : 17.55 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 249.25 
+ Nifty Index changed by : -25.85 
+ Current Nifty level  : 24,962.65 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:26:56 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 15.7 
+ Delta PE : 0.3 
+ Delta Premium  : 16 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 250.8 
+ Nifty Index changed by : -21.35 
+ Current Nifty level  : 24,967.15 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:27:56 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 16.95 
+ Delta PE : 0.5 
+ Delta Premium  : 17.45 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 249.35 
+ Nifty Index changed by : -24.95 
+ Current Nifty level  : 24,963.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:28:56 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 19.15 
+ Delta PE : 0.8 
+ Delta Premium  : 19.95 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 246.85 
+ Nifty Index changed by : -34.95 
+ Current Nifty level  : 24,953.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:29:56 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 15.45 
+ Delta PE : 3.55 
+ Delta Premium  : 19 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 247.8 
+ Nifty Index changed by : -26 
+ Current Nifty level  : 24,962.5 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:30:56 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 19.3 
+ Delta PE : 1.45 
+ Delta Premium  : 20.75 
+ Trailing Stop Loss : 264.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 246.05 
+ Nifty Index changed by : -26.55 
+ Current Nifty level  : 24,961.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:31:39 : Updating Stop loss to  264.6
+11:31:40 : Updating Stop loss to  264.35
+11:31:56 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 23.05 
+ Delta PE : -1.55 
+ Delta Premium  : 21.5 
+ Trailing Stop Loss : 264.35 
+ Start Premium : 266.8 
+ Current Combined Premium : 245.3 
+ Nifty Index changed by : -35.4 
+ Current Nifty level  : 24,953.1 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:32:1 : Updating Stop loss to  263.95
+11:32:6 : Updating Stop loss to  263.85
+11:32:6 : Updating Stop loss to  263.85
+11:32:9 : Updating Stop loss to  263.8
+11:32:20 : Updating Stop loss to  263.75
+11:32:33 : Updating Stop loss to  263.5
+11:32:34 : Updating Stop loss to  263.4
+11:32:36 : Updating Stop loss to  263.35
+11:32:39 : Updating Stop loss to  263.0
+11:32:47 : Updating Stop loss to  261.85
+11:32:57 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 28.15 
+ Delta PE : -5.4 
+ Delta Premium  : 22.75 
+ Trailing Stop Loss : 261.85 
+ Start Premium : 266.8 
+ Current Combined Premium : 244.05 
+ Nifty Index changed by : -45.55 
+ Current Nifty level  : 24,942.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:33:57 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 27.5 
+ Delta PE : -4.05 
+ Delta Premium  : 23.45 
+ Trailing Stop Loss : 261.85 
+ Start Premium : 266.8 
+ Current Combined Premium : 243.35 
+ Nifty Index changed by : -43.35 
+ Current Nifty level  : 24,945.15 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:34:42 : Updating Stop loss to  261.5
+11:34:53 : Updating Stop loss to  261.05
+11:34:57 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 30.05 
+ Delta PE : -5.95 
+ Delta Premium  : 24.1 
+ Trailing Stop Loss : 261.05 
+ Start Premium : 266.8 
+ Current Combined Premium : 242.7 
+ Nifty Index changed by : -48.5 
+ Current Nifty level  : 24,940 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:35:46 : Updating Stop loss to  260.75
+11:35:57 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 32.55 
+ Delta PE : -7.65 
+ Delta Premium  : 24.9 
+ Trailing Stop Loss : 260.75 
+ Start Premium : 266.8 
+ Current Combined Premium : 241.9 
+ Nifty Index changed by : -48.8 
+ Current Nifty level  : 24,939.7 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:36:57 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 30.65 
+ Delta PE : -6.6 
+ Delta Premium  : 24.05 
+ Trailing Stop Loss : 260.75 
+ Start Premium : 266.8 
+ Current Combined Premium : 242.75 
+ Nifty Index changed by : -47.75 
+ Current Nifty level  : 24,940.75 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:37:57 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 31.9 
+ Delta PE : -6.65 
+ Delta Premium  : 25.25 
+ Trailing Stop Loss : 260.75 
+ Start Premium : 266.8 
+ Current Combined Premium : 241.55 
+ Nifty Index changed by : -49.35 
+ Current Nifty level  : 24,939.15 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:38:2 : Updating Stop loss to  260.6
+11:38:9 : Updating Stop loss to  260.0
+11:38:57 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 30.8 
+ Delta PE : -5.7 
+ Delta Premium  : 25.1 
+ Trailing Stop Loss : 260 
+ Start Premium : 266.8 
+ Current Combined Premium : 241.7 
+ Nifty Index changed by : -50.75 
+ Current Nifty level  : 24,937.75 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:39:57 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 30.35 
+ Delta PE : -5.55 
+ Delta Premium  : 24.8 
+ Trailing Stop Loss : 260 
+ Start Premium : 266.8 
+ Current Combined Premium : 242 
+ Nifty Index changed by : -49.05 
+ Current Nifty level  : 24,939.45 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:40:58 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 28.35 
+ Delta PE : -4.7 
+ Delta Premium  : 23.65 
+ Trailing Stop Loss : 260 
+ Start Premium : 266.8 
+ Current Combined Premium : 243.15 
+ Nifty Index changed by : -45.25 
+ Current Nifty level  : 24,943.25 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:41:58 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 26.35 
+ Delta PE : -3.1 
+ Delta Premium  : 23.25 
+ Trailing Stop Loss : 260 
+ Start Premium : 266.8 
+ Current Combined Premium : 243.55 
+ Nifty Index changed by : -41.8 
+ Current Nifty level  : 24,946.7 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:42:58 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 26.05 
+ Delta PE : -2.4 
+ Delta Premium  : 23.65 
+ Trailing Stop Loss : 260 
+ Start Premium : 266.8 
+ Current Combined Premium : 243.15 
+ Nifty Index changed by : -39.6 
+ Current Nifty level  : 24,948.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:43:58 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 25.8 
+ Delta PE : -2.2 
+ Delta Premium  : 23.6 
+ Trailing Stop Loss : 260 
+ Start Premium : 266.8 
+ Current Combined Premium : 243.2 
+ Nifty Index changed by : -39.75 
+ Current Nifty level  : 24,948.75 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:44:58 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 28.2 
+ Delta PE : -5 
+ Delta Premium  : 23.2 
+ Trailing Stop Loss : 260 
+ Start Premium : 266.8 
+ Current Combined Premium : 243.6 
+ Nifty Index changed by : -42.65 
+ Current Nifty level  : 24,945.85 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:45:59 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 25.75 
+ Delta PE : -2.65 
+ Delta Premium  : 23.1 
+ Trailing Stop Loss : 260 
+ Start Premium : 266.8 
+ Current Combined Premium : 243.7 
+ Nifty Index changed by : -38.95 
+ Current Nifty level  : 24,949.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:46:59 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 25.35 
+ Delta PE : -2.55 
+ Delta Premium  : 22.8 
+ Trailing Stop Loss : 260 
+ Start Premium : 266.8 
+ Current Combined Premium : 244 
+ Nifty Index changed by : -36.8 
+ Current Nifty level  : 24,951.7 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:47:59 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 28.4 
+ Delta PE : -4.25 
+ Delta Premium  : 24.15 
+ Trailing Stop Loss : 260 
+ Start Premium : 266.8 
+ Current Combined Premium : 242.65 
+ Nifty Index changed by : -43.6 
+ Current Nifty level  : 24,944.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:48:59 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 28.6 
+ Delta PE : -5.2 
+ Delta Premium  : 23.4 
+ Trailing Stop Loss : 260 
+ Start Premium : 266.8 
+ Current Combined Premium : 243.4 
+ Nifty Index changed by : -43.45 
+ Current Nifty level  : 24,945.05 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:49:59 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 28.15 
+ Delta PE : -4.95 
+ Delta Premium  : 23.2 
+ Trailing Stop Loss : 260 
+ Start Premium : 266.8 
+ Current Combined Premium : 243.6 
+ Nifty Index changed by : -46.8 
+ Current Nifty level  : 24,941.7 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:50:59 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 28.55 
+ Delta PE : -5.4 
+ Delta Premium  : 23.15 
+ Trailing Stop Loss : 260 
+ Start Premium : 266.8 
+ Current Combined Premium : 243.65 
+ Nifty Index changed by : -49.1 
+ Current Nifty level  : 24,939.4 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:51:59 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 28.95 
+ Delta PE : -4.75 
+ Delta Premium  : 24.2 
+ Trailing Stop Loss : 260 
+ Start Premium : 266.8 
+ Current Combined Premium : 242.6 
+ Nifty Index changed by : -42.2 
+ Current Nifty level  : 24,946.3 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:52:59 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 32.25 
+ Delta PE : -7.2 
+ Delta Premium  : 25.05 
+ Trailing Stop Loss : 260 
+ Start Premium : 266.8 
+ Current Combined Premium : 241.75 
+ Nifty Index changed by : -45.25 
+ Current Nifty level  : 24,943.25 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:53:30 : Updating Stop loss to  259.35
+11:53:59 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 34 
+ Delta PE : -7.2 
+ Delta Premium  : 26.8 
+ Trailing Stop Loss : 259.35 
+ Start Premium : 266.8 
+ Current Combined Premium : 240 
+ Nifty Index changed by : -52.75 
+ Current Nifty level  : 24,935.75 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:54:41 : Updating Stop loss to  259.0
+11:54:43 : Updating Stop loss to  258.85
+11:54:44 : Updating Stop loss to  258.75
+11:54:59 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 37 
+ Delta PE : -9.15 
+ Delta Premium  : 27.85 
+ Trailing Stop Loss : 258.75 
+ Start Premium : 266.8 
+ Current Combined Premium : 238.95 
+ Nifty Index changed by : -55.35 
+ Current Nifty level  : 24,933.15 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:54:59 : Updating Stop loss to  258.7
+11:55:4 : Updating Stop loss to  258.6
+11:55:5 : Updating Stop loss to  258.45
+11:55:7 : Updating Stop loss to  257.95
+11:55:7 : Updating Stop loss to  257.85
+11:55:59 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 36.05 
+ Delta PE : -8.3 
+ Delta Premium  : 27.75 
+ Trailing Stop Loss : 257.85 
+ Start Premium : 266.8 
+ Current Combined Premium : 239.05 
+ Nifty Index changed by : -55.2 
+ Current Nifty level  : 24,933.3 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:56:5 : Updating Stop loss to  257.3
+11:56:59 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 35.7 
+ Delta PE : -7.8 
+ Delta Premium  : 27.9 
+ Trailing Stop Loss : 257.3 
+ Start Premium : 266.8 
+ Current Combined Premium : 238.9 
+ Nifty Index changed by : -54 
+ Current Nifty level  : 24,934.5 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:57:59 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 37 
+ Delta PE : -9.95 
+ Delta Premium  : 27.05 
+ Trailing Stop Loss : 257.3 
+ Start Premium : 266.8 
+ Current Combined Premium : 239.75 
+ Nifty Index changed by : -60.25 
+ Current Nifty level  : 24,928.25 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:58:53 : Updating Stop loss to  257.25
+11:58:54 : Updating Stop loss to  257.1
+11:58:55 : Updating Stop loss to  257.05
+11:58:56 : Updating Stop loss to  257.0
+11:58:57 : Updating Stop loss to  256.9
+11:59:0 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 41.95 
+ Delta PE : -12.45 
+ Delta Premium  : 29.5 
+ Trailing Stop Loss : 256.9 
+ Start Premium : 266.8 
+ Current Combined Premium : 237.3 
+ Nifty Index changed by : -66 
+ Current Nifty level  : 24,922.5 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+11:59:1 : Updating Stop loss to  256.45
+12:0:0 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 42.5 
+ Delta PE : -13.2 
+ Delta Premium  : 29.3 
+ Trailing Stop Loss : 256.45 
+ Start Premium : 266.8 
+ Current Combined Premium : 237.5 
+ Nifty Index changed by : -71.85 
+ Current Nifty level  : 24,916.65 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:0:1 : Updating Stop loss to  256.0
+12:0:6 : Updating Stop loss to  255.8
+12:0:7 : Updating Stop loss to  255.7
+12:0:11 : Updating Stop loss to  255.65
+12:0:55 : Updating Stop loss to  255.14999999999998
+12:1:0 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 44.4 
+ Delta PE : -13.95 
+ Delta Premium  : 30.45 
+ Trailing Stop Loss : 255.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 236.35 
+ Nifty Index changed by : -73.45 
+ Current Nifty level  : 24,915.05 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:1:26 : Updating Stop loss to  255.05
+12:2:0 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 42.1 
+ Delta PE : -11 
+ Delta Premium  : 31.1 
+ Trailing Stop Loss : 255.05 
+ Start Premium : 266.8 
+ Current Combined Premium : 235.7 
+ Nifty Index changed by : -70.25 
+ Current Nifty level  : 24,918.25 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:2:3 : Updating Stop loss to  254.8
+12:2:6 : Updating Stop loss to  254.75
+12:2:38 : Updating Stop loss to  254.25
+12:3:0 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 44 
+ Delta PE : -13.15 
+ Delta Premium  : 30.85 
+ Trailing Stop Loss : 254.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 235.95 
+ Nifty Index changed by : -73.45 
+ Current Nifty level  : 24,915.05 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:4:0 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 42.85 
+ Delta PE : -10.9 
+ Delta Premium  : 31.95 
+ Trailing Stop Loss : 254.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 234.85 
+ Nifty Index changed by : -71.3 
+ Current Nifty level  : 24,917.2 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:5:0 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 42 
+ Delta PE : -11.35 
+ Delta Premium  : 30.65 
+ Trailing Stop Loss : 254.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 236.15 
+ Nifty Index changed by : -68.3 
+ Current Nifty level  : 24,920.2 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:6:0 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 43.85 
+ Delta PE : -14.1 
+ Delta Premium  : 29.75 
+ Trailing Stop Loss : 254.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 237.05 
+ Nifty Index changed by : -70.25 
+ Current Nifty level  : 24,918.25 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:7:0 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 48.2 
+ Delta PE : -17.2 
+ Delta Premium  : 31 
+ Trailing Stop Loss : 254.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 235.8 
+ Nifty Index changed by : -76.65 
+ Current Nifty level  : 24,911.85 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:7:10 : Updating Stop loss to  253.95
+12:7:49 : Updating Stop loss to  253.9
+12:7:53 : Updating Stop loss to  253.8
+12:7:58 : Updating Stop loss to  253.75
+12:7:59 : Updating Stop loss to  253.7
+12:8:1 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 51.25 
+ Delta PE : -18.65 
+ Delta Premium  : 32.6 
+ Trailing Stop Loss : 253.7 
+ Start Premium : 266.8 
+ Current Combined Premium : 234.2 
+ Nifty Index changed by : -79.6 
+ Current Nifty level  : 24,908.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:8:7 : Updating Stop loss to  253.55
+12:8:9 : Updating Stop loss to  253.5
+12:8:9 : Updating Stop loss to  253.35
+12:8:12 : Updating Stop loss to  253.15
+12:8:13 : Updating Stop loss to  252.9
+12:8:13 : Updating Stop loss to  251.95
+12:9:1 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 57.5 
+ Delta PE : -28.65 
+ Delta Premium  : 28.85 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 237.95 
+ Nifty Index changed by : -90.9 
+ Current Nifty level  : 24,897.6 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:10:1 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 60.8 
+ Delta PE : -34.05 
+ Delta Premium  : 26.75 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 240.05 
+ Nifty Index changed by : -96.25 
+ Current Nifty level  : 24,892.25 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:11:1 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 59.2 
+ Delta PE : -31.2 
+ Delta Premium  : 28 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 238.8 
+ Nifty Index changed by : -94.9 
+ Current Nifty level  : 24,893.6 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:12:1 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 60.4 
+ Delta PE : -31.9 
+ Delta Premium  : 28.5 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 238.3 
+ Nifty Index changed by : -100.2 
+ Current Nifty level  : 24,888.3 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:13:1 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 58.8 
+ Delta PE : -31.2 
+ Delta Premium  : 27.6 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 239.2 
+ Nifty Index changed by : -98.95 
+ Current Nifty level  : 24,889.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:14:1 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 64.2 
+ Delta PE : -41.75 
+ Delta Premium  : 22.45 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 244.35 
+ Nifty Index changed by : -105.1 
+ Current Nifty level  : 24,883.4 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:15:1 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 68 
+ Delta PE : -47.25 
+ Delta Premium  : 20.75 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 246.05 
+ Nifty Index changed by : -114.8 
+ Current Nifty level  : 24,873.7 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:16:1 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 68.55 
+ Delta PE : -48.4 
+ Delta Premium  : 20.15 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 246.65 
+ Nifty Index changed by : -112.5 
+ Current Nifty level  : 24,876 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:17:1 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 66.1 
+ Delta PE : -44.25 
+ Delta Premium  : 21.85 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 244.95 
+ Nifty Index changed by : -125.1 
+ Current Nifty level  : 24,863.4 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:18:1 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 61.6 
+ Delta PE : -32.95 
+ Delta Premium  : 28.65 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 238.15 
+ Nifty Index changed by : -108.35 
+ Current Nifty level  : 24,880.15 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:19:1 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 62.3 
+ Delta PE : -34.55 
+ Delta Premium  : 27.75 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 239.05 
+ Nifty Index changed by : -107.95 
+ Current Nifty level  : 24,880.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:20:1 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 59.95 
+ Delta PE : -32.15 
+ Delta Premium  : 27.8 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 239 
+ Nifty Index changed by : -104.75 
+ Current Nifty level  : 24,883.75 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:21:1 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 59.15 
+ Delta PE : -30.9 
+ Delta Premium  : 28.25 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 238.55 
+ Nifty Index changed by : -104.6 
+ Current Nifty level  : 24,883.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:22:1 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 56.95 
+ Delta PE : -25.15 
+ Delta Premium  : 31.8 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 235 
+ Nifty Index changed by : -96.9 
+ Current Nifty level  : 24,891.6 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:23:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 58.4 
+ Delta PE : -28.5 
+ Delta Premium  : 29.9 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 236.9 
+ Nifty Index changed by : -101 
+ Current Nifty level  : 24,887.5 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:24:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 56.9 
+ Delta PE : -27.25 
+ Delta Premium  : 29.65 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 237.15 
+ Nifty Index changed by : -98.25 
+ Current Nifty level  : 24,890.25 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:25:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 56.25 
+ Delta PE : -26.15 
+ Delta Premium  : 30.1 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 236.7 
+ Nifty Index changed by : -96.3 
+ Current Nifty level  : 24,892.2 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:26:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 57.7 
+ Delta PE : -27.5 
+ Delta Premium  : 30.2 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 236.6 
+ Nifty Index changed by : -95.65 
+ Current Nifty level  : 24,892.85 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:27:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 55.2 
+ Delta PE : -25.25 
+ Delta Premium  : 29.95 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 236.85 
+ Nifty Index changed by : -93.8 
+ Current Nifty level  : 24,894.7 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:28:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 55 
+ Delta PE : -24.6 
+ Delta Premium  : 30.4 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 236.4 
+ Nifty Index changed by : -92.85 
+ Current Nifty level  : 24,895.65 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:29:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 56.3 
+ Delta PE : -26.4 
+ Delta Premium  : 29.9 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 236.9 
+ Nifty Index changed by : -94.6 
+ Current Nifty level  : 24,893.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:30:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 58.1 
+ Delta PE : -27.5 
+ Delta Premium  : 30.6 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 236.2 
+ Nifty Index changed by : -94.75 
+ Current Nifty level  : 24,893.75 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:31:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 61.55 
+ Delta PE : -32.8 
+ Delta Premium  : 28.75 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 238.05 
+ Nifty Index changed by : -101.7 
+ Current Nifty level  : 24,886.8 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:32:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 60.5 
+ Delta PE : -32.3 
+ Delta Premium  : 28.2 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 238.6 
+ Nifty Index changed by : -102.25 
+ Current Nifty level  : 24,886.25 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:33:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 60.3 
+ Delta PE : -32.9 
+ Delta Premium  : 27.4 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 239.4 
+ Nifty Index changed by : -102.15 
+ Current Nifty level  : 24,886.35 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:34:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 62.05 
+ Delta PE : -35.3 
+ Delta Premium  : 26.75 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 240.05 
+ Nifty Index changed by : -104.2 
+ Current Nifty level  : 24,884.3 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:35:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 60 
+ Delta PE : -32.7 
+ Delta Premium  : 27.3 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 239.5 
+ Nifty Index changed by : -103.85 
+ Current Nifty level  : 24,884.65 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:36:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 60.75 
+ Delta PE : -33.25 
+ Delta Premium  : 27.5 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 239.3 
+ Nifty Index changed by : -101.35 
+ Current Nifty level  : 24,887.15 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:37:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 63.4 
+ Delta PE : -38.1 
+ Delta Premium  : 25.3 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 241.5 
+ Nifty Index changed by : -105.8 
+ Current Nifty level  : 24,882.7 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:38:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 64.7 
+ Delta PE : -40.4 
+ Delta Premium  : 24.3 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 242.5 
+ Nifty Index changed by : -107.9 
+ Current Nifty level  : 24,880.6 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:39:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 65.15 
+ Delta PE : -41.1 
+ Delta Premium  : 24.05 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 242.75 
+ Nifty Index changed by : -110.25 
+ Current Nifty level  : 24,878.25 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:40:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 63.75 
+ Delta PE : -37.25 
+ Delta Premium  : 26.5 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 240.3 
+ Nifty Index changed by : -106.75 
+ Current Nifty level  : 24,881.75 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:41:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 61.05 
+ Delta PE : -32.75 
+ Delta Premium  : 28.3 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 238.5 
+ Nifty Index changed by : -99.45 
+ Current Nifty level  : 24,889.05 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:42:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 60.05 
+ Delta PE : -31.6 
+ Delta Premium  : 28.45 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 238.35 
+ Nifty Index changed by : -99.35 
+ Current Nifty level  : 24,889.15 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:43:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 57.7 
+ Delta PE : -28.65 
+ Delta Premium  : 29.05 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 237.75 
+ Nifty Index changed by : -96.6 
+ Current Nifty level  : 24,891.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:44:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 52.65 
+ Delta PE : -21.05 
+ Delta Premium  : 31.6 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 235.2 
+ Nifty Index changed by : -86.35 
+ Current Nifty level  : 24,902.15 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:45:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 54 
+ Delta PE : -23.05 
+ Delta Premium  : 30.95 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 235.85 
+ Nifty Index changed by : -83.6 
+ Current Nifty level  : 24,904.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:46:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 53.8 
+ Delta PE : -23.1 
+ Delta Premium  : 30.7 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 236.1 
+ Nifty Index changed by : -83.05 
+ Current Nifty level  : 24,905.45 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:47:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 50.75 
+ Delta PE : -20.95 
+ Delta Premium  : 29.8 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 237 
+ Nifty Index changed by : -79.95 
+ Current Nifty level  : 24,908.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:48:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 49.1 
+ Delta PE : -14.55 
+ Delta Premium  : 34.55 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 232.25 
+ Nifty Index changed by : -74.75 
+ Current Nifty level  : 24,913.75 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:49:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 50.1 
+ Delta PE : -18.15 
+ Delta Premium  : 31.95 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 234.85 
+ Nifty Index changed by : -76.2 
+ Current Nifty level  : 24,912.3 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:50:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 54 
+ Delta PE : -21.6 
+ Delta Premium  : 32.4 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 234.4 
+ Nifty Index changed by : -78 
+ Current Nifty level  : 24,910.5 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:51:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 50 
+ Delta PE : -19.1 
+ Delta Premium  : 30.9 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 235.9 
+ Nifty Index changed by : -72.7 
+ Current Nifty level  : 24,915.8 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:52:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 49.5 
+ Delta PE : -18.75 
+ Delta Premium  : 30.75 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 236.05 
+ Nifty Index changed by : -68.95 
+ Current Nifty level  : 24,919.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:53:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 50.05 
+ Delta PE : -19.2 
+ Delta Premium  : 30.85 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 235.95 
+ Nifty Index changed by : -68.45 
+ Current Nifty level  : 24,920.05 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:54:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 51.3 
+ Delta PE : -18.65 
+ Delta Premium  : 32.65 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 234.15 
+ Nifty Index changed by : -70.9 
+ Current Nifty level  : 24,917.6 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:55:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 48.55 
+ Delta PE : -16.4 
+ Delta Premium  : 32.15 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 234.65 
+ Nifty Index changed by : -66.7 
+ Current Nifty level  : 24,921.8 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:56:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 50.3 
+ Delta PE : -17.15 
+ Delta Premium  : 33.15 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 233.65 
+ Nifty Index changed by : -66.95 
+ Current Nifty level  : 24,921.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:57:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 46.6 
+ Delta PE : -12.9 
+ Delta Premium  : 33.7 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 233.1 
+ Nifty Index changed by : -58 
+ Current Nifty level  : 24,930.5 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:58:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 42.85 
+ Delta PE : -8.7 
+ Delta Premium  : 34.15 
+ Trailing Stop Loss : 251.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 232.65 
+ Nifty Index changed by : -49.25 
+ Current Nifty level  : 24,939.25 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+12:58:54 : Updating Stop loss to  251.45
+12:59:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 43 
+ Delta PE : -8.8 
+ Delta Premium  : 34.2 
+ Trailing Stop Loss : 251.45 
+ Start Premium : 266.8 
+ Current Combined Premium : 232.6 
+ Nifty Index changed by : -51.3 
+ Current Nifty level  : 24,937.2 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:0:0 : Updating Stop loss to  251.39999999999998
+13:0:1 : Updating Stop loss to  250.0
+13:0:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 46.9 
+ Delta PE : -11.95 
+ Delta Premium  : 34.95 
+ Trailing Stop Loss : 250 
+ Start Premium : 266.8 
+ Current Combined Premium : 231.85 
+ Nifty Index changed by : -60.25 
+ Current Nifty level  : 24,928.25 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:1:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 48.1 
+ Delta PE : -12.6 
+ Delta Premium  : 35.5 
+ Trailing Stop Loss : 250 
+ Start Premium : 266.8 
+ Current Combined Premium : 231.3 
+ Nifty Index changed by : -59.35 
+ Current Nifty level  : 24,929.15 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:2:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 46.05 
+ Delta PE : -11.6 
+ Delta Premium  : 34.45 
+ Trailing Stop Loss : 250 
+ Start Premium : 266.8 
+ Current Combined Premium : 232.35 
+ Nifty Index changed by : -56.3 
+ Current Nifty level  : 24,932.2 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:3:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 44.15 
+ Delta PE : -9.9 
+ Delta Premium  : 34.25 
+ Trailing Stop Loss : 250 
+ Start Premium : 266.8 
+ Current Combined Premium : 232.55 
+ Nifty Index changed by : -51.75 
+ Current Nifty level  : 24,936.75 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:4:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 43.1 
+ Delta PE : -8.45 
+ Delta Premium  : 34.65 
+ Trailing Stop Loss : 250 
+ Start Premium : 266.8 
+ Current Combined Premium : 232.15 
+ Nifty Index changed by : -51.05 
+ Current Nifty level  : 24,937.45 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:5:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 45.05 
+ Delta PE : -10.9 
+ Delta Premium  : 34.15 
+ Trailing Stop Loss : 250 
+ Start Premium : 266.8 
+ Current Combined Premium : 232.65 
+ Nifty Index changed by : -53.1 
+ Current Nifty level  : 24,935.4 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:6:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 46.75 
+ Delta PE : -11.8 
+ Delta Premium  : 34.95 
+ Trailing Stop Loss : 250 
+ Start Premium : 266.8 
+ Current Combined Premium : 231.85 
+ Nifty Index changed by : -55.4 
+ Current Nifty level  : 24,933.1 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:7:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 43.5 
+ Delta PE : -8.5 
+ Delta Premium  : 35 
+ Trailing Stop Loss : 250 
+ Start Premium : 266.8 
+ Current Combined Premium : 231.8 
+ Nifty Index changed by : -50.3 
+ Current Nifty level  : 24,938.2 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:8:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 42.35 
+ Delta PE : -6.1 
+ Delta Premium  : 36.25 
+ Trailing Stop Loss : 250 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.55 
+ Nifty Index changed by : -47.35 
+ Current Nifty level  : 24,941.15 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:8:9 : Updating Stop loss to  249.85000000000002
+13:9:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 40.9 
+ Delta PE : -4.5 
+ Delta Premium  : 36.4 
+ Trailing Stop Loss : 249.85 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.4 
+ Nifty Index changed by : -44.2 
+ Current Nifty level  : 24,944.3 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:9:7 : Updating Stop loss to  249.45
+13:10:3 : Updating Stop loss to  249.0
+13:10:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 39.65 
+ Delta PE : -2.9 
+ Delta Premium  : 36.75 
+ Trailing Stop Loss : 249 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.05 
+ Nifty Index changed by : -43.65 
+ Current Nifty level  : 24,944.85 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:10:26 : Updating Stop loss to  248.4
+13:11:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 40.65 
+ Delta PE : -3.7 
+ Delta Premium  : 36.95 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 229.85 
+ Nifty Index changed by : -42.25 
+ Current Nifty level  : 24,946.25 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:12:5 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 38.05 
+ Delta PE : -0.9 
+ Delta Premium  : 37.15 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 229.65 
+ Nifty Index changed by : -37.45 
+ Current Nifty level  : 24,951.05 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:13:2 : Updating Stop loss to  248.39999999999998
+13:13:5 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 40.45 
+ Delta PE : -3.1 
+ Delta Premium  : 37.35 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 229.45 
+ Nifty Index changed by : -40.7 
+ Current Nifty level  : 24,947.8 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:14:5 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 39.45 
+ Delta PE : -3.55 
+ Delta Premium  : 35.9 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.9 
+ Nifty Index changed by : -41.1 
+ Current Nifty level  : 24,947.4 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:15:5 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 41.25 
+ Delta PE : -3.85 
+ Delta Premium  : 37.4 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 229.4 
+ Nifty Index changed by : -42.05 
+ Current Nifty level  : 24,946.45 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:16:5 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 39.3 
+ Delta PE : -2.85 
+ Delta Premium  : 36.45 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.35 
+ Nifty Index changed by : -37.15 
+ Current Nifty level  : 24,951.35 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:17:5 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 41.85 
+ Delta PE : -5.35 
+ Delta Premium  : 36.5 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.3 
+ Nifty Index changed by : -43.2 
+ Current Nifty level  : 24,945.3 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:18:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 44.75 
+ Delta PE : -7.4 
+ Delta Premium  : 37.35 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 229.45 
+ Nifty Index changed by : -45.25 
+ Current Nifty level  : 24,943.25 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:19:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 42.25 
+ Delta PE : -5.6 
+ Delta Premium  : 36.65 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.15 
+ Nifty Index changed by : -44.55 
+ Current Nifty level  : 24,943.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:20:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 40.1 
+ Delta PE : -3.45 
+ Delta Premium  : 36.65 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.15 
+ Nifty Index changed by : -45.7 
+ Current Nifty level  : 24,942.8 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:21:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 35.4 
+ Delta PE : -0.95 
+ Delta Premium  : 34.45 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 232.35 
+ Nifty Index changed by : -31.95 
+ Current Nifty level  : 24,956.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:22:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 41.6 
+ Delta PE : -5.6 
+ Delta Premium  : 36 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.8 
+ Nifty Index changed by : -43.05 
+ Current Nifty level  : 24,945.45 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:23:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 47.05 
+ Delta PE : -9.95 
+ Delta Premium  : 37.1 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 229.7 
+ Nifty Index changed by : -51.05 
+ Current Nifty level  : 24,937.45 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:24:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 46.45 
+ Delta PE : -10.4 
+ Delta Premium  : 36.05 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.75 
+ Nifty Index changed by : -52.45 
+ Current Nifty level  : 24,936.05 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:25:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 45.2 
+ Delta PE : -9.6 
+ Delta Premium  : 35.6 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 231.2 
+ Nifty Index changed by : -53.55 
+ Current Nifty level  : 24,934.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:26:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 47.45 
+ Delta PE : -11.3 
+ Delta Premium  : 36.15 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.65 
+ Nifty Index changed by : -58.5 
+ Current Nifty level  : 24,930 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:27:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 43.05 
+ Delta PE : -7.6 
+ Delta Premium  : 35.45 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 231.35 
+ Nifty Index changed by : -54.05 
+ Current Nifty level  : 24,934.45 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:28:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 44.5 
+ Delta PE : -8.35 
+ Delta Premium  : 36.15 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.65 
+ Nifty Index changed by : -53.55 
+ Current Nifty level  : 24,934.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:29:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 46.3 
+ Delta PE : -10.45 
+ Delta Premium  : 35.85 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.95 
+ Nifty Index changed by : -59.75 
+ Current Nifty level  : 24,928.75 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:30:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 44.7 
+ Delta PE : -8.8 
+ Delta Premium  : 35.9 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.9 
+ Nifty Index changed by : -59.5 
+ Current Nifty level  : 24,929 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:31:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 45.75 
+ Delta PE : -10.3 
+ Delta Premium  : 35.45 
+ Trailing Stop Loss : 248.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 231.35 
+ Nifty Index changed by : -61.6 
+ Current Nifty level  : 24,926.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:32:7 : Updating Stop loss to  248.25
+13:32:7 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 50.85 
+ Delta PE : -12.3 
+ Delta Premium  : 38.55 
+ Trailing Stop Loss : 248.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 228.25 
+ Nifty Index changed by : -66.35 
+ Current Nifty level  : 24,922.15 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:33:7 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 49.75 
+ Delta PE : -12.05 
+ Delta Premium  : 37.7 
+ Trailing Stop Loss : 248.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 229.1 
+ Nifty Index changed by : -67.55 
+ Current Nifty level  : 24,920.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:33:48 : Updating Stop loss to  247.95
+13:33:51 : Updating Stop loss to  247.85000000000002
+13:34:7 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 50.4 
+ Delta PE : -12.05 
+ Delta Premium  : 38.35 
+ Trailing Stop Loss : 247.85 
+ Start Premium : 266.8 
+ Current Combined Premium : 228.45 
+ Nifty Index changed by : -71.15 
+ Current Nifty level  : 24,917.35 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:34:17 : Updating Stop loss to  247.75
+13:34:18 : Updating Stop loss to  247.7
+13:34:19 : Updating Stop loss to  247.64999999999998
+13:34:19 : Updating Stop loss to  247.15
+13:35:7 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 47.4 
+ Delta PE : -8.8 
+ Delta Premium  : 38.6 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 228.2 
+ Nifty Index changed by : -64.45 
+ Current Nifty level  : 24,924.05 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:36:7 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 46 
+ Delta PE : -8.35 
+ Delta Premium  : 37.65 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 229.15 
+ Nifty Index changed by : -63.45 
+ Current Nifty level  : 24,925.05 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:37:7 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 45.25 
+ Delta PE : -7.75 
+ Delta Premium  : 37.5 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 229.3 
+ Nifty Index changed by : -61.95 
+ Current Nifty level  : 24,926.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:38:7 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 45.8 
+ Delta PE : -9.45 
+ Delta Premium  : 36.35 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.45 
+ Nifty Index changed by : -64.7 
+ Current Nifty level  : 24,923.8 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:39:7 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 44.85 
+ Delta PE : -7.85 
+ Delta Premium  : 37 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 229.8 
+ Nifty Index changed by : -60.6 
+ Current Nifty level  : 24,927.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:40:8 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 42.4 
+ Delta PE : -5.65 
+ Delta Premium  : 36.75 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.05 
+ Nifty Index changed by : -54.8 
+ Current Nifty level  : 24,933.7 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:41:8 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 43.2 
+ Delta PE : -6.5 
+ Delta Premium  : 36.7 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.1 
+ Nifty Index changed by : -57.6 
+ Current Nifty level  : 24,930.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:42:8 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 42.8 
+ Delta PE : -7 
+ Delta Premium  : 35.8 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 231 
+ Nifty Index changed by : -61.15 
+ Current Nifty level  : 24,927.35 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:43:8 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 44 
+ Delta PE : -7.05 
+ Delta Premium  : 36.95 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 229.85 
+ Nifty Index changed by : -53.3 
+ Current Nifty level  : 24,935.2 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:44:8 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 43.1 
+ Delta PE : -6.45 
+ Delta Premium  : 36.65 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.15 
+ Nifty Index changed by : -54.35 
+ Current Nifty level  : 24,934.15 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:45:8 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 45.7 
+ Delta PE : -8.2 
+ Delta Premium  : 37.5 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 229.3 
+ Nifty Index changed by : -57.7 
+ Current Nifty level  : 24,930.8 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:46:8 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 45.2 
+ Delta PE : -8.75 
+ Delta Premium  : 36.45 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.35 
+ Nifty Index changed by : -62.1 
+ Current Nifty level  : 24,926.4 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:47:9 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 48.2 
+ Delta PE : -10.85 
+ Delta Premium  : 37.35 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 229.45 
+ Nifty Index changed by : -64.55 
+ Current Nifty level  : 24,923.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:48:9 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 47.05 
+ Delta PE : -10.7 
+ Delta Premium  : 36.35 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.45 
+ Nifty Index changed by : -64.65 
+ Current Nifty level  : 24,923.85 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:49:9 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 46.5 
+ Delta PE : -10 
+ Delta Premium  : 36.5 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.3 
+ Nifty Index changed by : -65.9 
+ Current Nifty level  : 24,922.6 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:50:9 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 47.35 
+ Delta PE : -10.85 
+ Delta Premium  : 36.5 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.3 
+ Nifty Index changed by : -66.1 
+ Current Nifty level  : 24,922.4 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:51:9 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 46 
+ Delta PE : -10.05 
+ Delta Premium  : 35.95 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.85 
+ Nifty Index changed by : -64.7 
+ Current Nifty level  : 24,923.8 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:52:9 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 48.3 
+ Delta PE : -11.5 
+ Delta Premium  : 36.8 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 230 
+ Nifty Index changed by : -65.05 
+ Current Nifty level  : 24,923.45 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:53:9 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 48.2 
+ Delta PE : -11.8 
+ Delta Premium  : 36.4 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.4 
+ Nifty Index changed by : -65.5 
+ Current Nifty level  : 24,923 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:54:9 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 47.25 
+ Delta PE : -10.6 
+ Delta Premium  : 36.65 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.15 
+ Nifty Index changed by : -62.25 
+ Current Nifty level  : 24,926.25 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:55:9 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 46.3 
+ Delta PE : -9.75 
+ Delta Premium  : 36.55 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 230.25 
+ Nifty Index changed by : -64.1 
+ Current Nifty level  : 24,924.4 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:56:9 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 46 
+ Delta PE : -9.2 
+ Delta Premium  : 36.8 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 230 
+ Nifty Index changed by : -62.35 
+ Current Nifty level  : 24,926.15 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:57:9 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 49.4 
+ Delta PE : -11.45 
+ Delta Premium  : 37.95 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 228.85 
+ Nifty Index changed by : -71.7 
+ Current Nifty level  : 24,916.8 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:58:9 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 51.85 
+ Delta PE : -14.2 
+ Delta Premium  : 37.65 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 229.15 
+ Nifty Index changed by : -77.95 
+ Current Nifty level  : 24,910.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+13:59:10 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 49 
+ Delta PE : -10.65 
+ Delta Premium  : 38.35 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 228.45 
+ Nifty Index changed by : -71.5 
+ Current Nifty level  : 24,917 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:0:10 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 53.4 
+ Delta PE : -15.95 
+ Delta Premium  : 37.45 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 229.35 
+ Nifty Index changed by : -74.75 
+ Current Nifty level  : 24,913.75 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:1:10 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 55.75 
+ Delta PE : -18.05 
+ Delta Premium  : 37.7 
+ Trailing Stop Loss : 247.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 229.1 
+ Nifty Index changed by : -94.55 
+ Current Nifty level  : 24,893.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:2:5 : Updating Stop loss to  246.8
+14:2:8 : Updating Stop loss to  246.7
+14:2:10 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 53.65 
+ Delta PE : -14.4 
+ Delta Premium  : 39.25 
+ Trailing Stop Loss : 246.7 
+ Start Premium : 266.8 
+ Current Combined Premium : 227.55 
+ Nifty Index changed by : -79.5 
+ Current Nifty level  : 24,909 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:2:22 : Updating Stop loss to  246.5
+14:2:29 : Updating Stop loss to  246.45
+14:3:10 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 53.25 
+ Delta PE : -13.3 
+ Delta Premium  : 39.95 
+ Trailing Stop Loss : 246.45 
+ Start Premium : 266.8 
+ Current Combined Premium : 226.85 
+ Nifty Index changed by : -78.15 
+ Current Nifty level  : 24,910.35 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:3:32 : Updating Stop loss to  246.4
+14:3:38 : Updating Stop loss to  246.35000000000002
+14:3:39 : Updating Stop loss to  246.25
+14:3:42 : Updating Stop loss to  246.15
+14:3:43 : Updating Stop loss to  245.95
+14:4:10 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 51.05 
+ Delta PE : -12.3 
+ Delta Premium  : 38.75 
+ Trailing Stop Loss : 245.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 228.05 
+ Nifty Index changed by : -74.6 
+ Current Nifty level  : 24,913.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:5:10 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 48.45 
+ Delta PE : -10.2 
+ Delta Premium  : 38.25 
+ Trailing Stop Loss : 245.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 228.55 
+ Nifty Index changed by : -71.95 
+ Current Nifty level  : 24,916.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:6:10 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 46.8 
+ Delta PE : -8.35 
+ Delta Premium  : 38.45 
+ Trailing Stop Loss : 245.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 228.35 
+ Nifty Index changed by : -68 
+ Current Nifty level  : 24,920.5 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:7:10 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 45.5 
+ Delta PE : -7.6 
+ Delta Premium  : 37.9 
+ Trailing Stop Loss : 245.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 228.9 
+ Nifty Index changed by : -66.25 
+ Current Nifty level  : 24,922.25 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:8:10 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 42.4 
+ Delta PE : -4 
+ Delta Premium  : 38.4 
+ Trailing Stop Loss : 245.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 228.4 
+ Nifty Index changed by : -62.15 
+ Current Nifty level  : 24,926.35 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:9:11 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 44 
+ Delta PE : -5.3 
+ Delta Premium  : 38.7 
+ Trailing Stop Loss : 245.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 228.1 
+ Nifty Index changed by : -61.65 
+ Current Nifty level  : 24,926.85 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:10:11 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 40.3 
+ Delta PE : -2.6 
+ Delta Premium  : 37.7 
+ Trailing Stop Loss : 245.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 229.1 
+ Nifty Index changed by : -59.9 
+ Current Nifty level  : 24,928.6 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:11:11 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 42.7 
+ Delta PE : -4.1 
+ Delta Premium  : 38.6 
+ Trailing Stop Loss : 245.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 228.2 
+ Nifty Index changed by : -58.95 
+ Current Nifty level  : 24,929.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:12:11 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 45.8 
+ Delta PE : -6 
+ Delta Premium  : 39.8 
+ Trailing Stop Loss : 245.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 227 
+ Nifty Index changed by : -61.6 
+ Current Nifty level  : 24,926.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:13:11 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 45 
+ Delta PE : -5.75 
+ Delta Premium  : 39.25 
+ Trailing Stop Loss : 245.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 227.55 
+ Nifty Index changed by : -61.3 
+ Current Nifty level  : 24,927.2 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:14:11 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 41.6 
+ Delta PE : -2.85 
+ Delta Premium  : 38.75 
+ Trailing Stop Loss : 245.95 
+ Start Premium : 266.8 
+ Current Combined Premium : 228.05 
+ Nifty Index changed by : -59.2 
+ Current Nifty level  : 24,929.3 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:14:19 : Updating Stop loss to  245.25
+14:15:12 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 42.8 
+ Delta PE : -3 
+ Delta Premium  : 39.8 
+ Trailing Stop Loss : 245.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 227 
+ Nifty Index changed by : -57.4 
+ Current Nifty level  : 24,931.1 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:16:12 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 41.6 
+ Delta PE : -2.25 
+ Delta Premium  : 39.35 
+ Trailing Stop Loss : 245.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 227.45 
+ Nifty Index changed by : -56.05 
+ Current Nifty level  : 24,932.45 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:17:12 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 41.2 
+ Delta PE : -1.95 
+ Delta Premium  : 39.25 
+ Trailing Stop Loss : 245.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 227.55 
+ Nifty Index changed by : -55.9 
+ Current Nifty level  : 24,932.6 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:18:12 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 41.75 
+ Delta PE : -2 
+ Delta Premium  : 39.75 
+ Trailing Stop Loss : 245.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 227.05 
+ Nifty Index changed by : -55.35 
+ Current Nifty level  : 24,933.15 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:19:12 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 44.3 
+ Delta PE : -4.65 
+ Delta Premium  : 39.65 
+ Trailing Stop Loss : 245.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 227.15 
+ Nifty Index changed by : -59.85 
+ Current Nifty level  : 24,928.65 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:20:12 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 44.1 
+ Delta PE : -4.8 
+ Delta Premium  : 39.3 
+ Trailing Stop Loss : 245.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 227.5 
+ Nifty Index changed by : -61.5 
+ Current Nifty level  : 24,927 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:21:12 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 45.3 
+ Delta PE : -5.5 
+ Delta Premium  : 39.8 
+ Trailing Stop Loss : 245.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 227 
+ Nifty Index changed by : -62.55 
+ Current Nifty level  : 24,925.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:22:13 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 46.2 
+ Delta PE : -6.3 
+ Delta Premium  : 39.9 
+ Trailing Stop Loss : 245.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 226.9 
+ Nifty Index changed by : -65.05 
+ Current Nifty level  : 24,923.45 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:23:13 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 44 
+ Delta PE : -4.7 
+ Delta Premium  : 39.3 
+ Trailing Stop Loss : 245.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 227.5 
+ Nifty Index changed by : -62.6 
+ Current Nifty level  : 24,925.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:24:13 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 43.75 
+ Delta PE : -4.15 
+ Delta Premium  : 39.6 
+ Trailing Stop Loss : 245.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 227.2 
+ Nifty Index changed by : -61.4 
+ Current Nifty level  : 24,927.1 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:25:13 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 44.3 
+ Delta PE : -4.9 
+ Delta Premium  : 39.4 
+ Trailing Stop Loss : 245.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 227.4 
+ Nifty Index changed by : -62.9 
+ Current Nifty level  : 24,925.6 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:26:13 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 41.75 
+ Delta PE : -3.4 
+ Delta Premium  : 38.35 
+ Trailing Stop Loss : 245.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 228.45 
+ Nifty Index changed by : -61.5 
+ Current Nifty level  : 24,927 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:27:13 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 40.3 
+ Delta PE : -1.4 
+ Delta Premium  : 38.9 
+ Trailing Stop Loss : 245.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 227.9 
+ Nifty Index changed by : -53.05 
+ Current Nifty level  : 24,935.45 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:28:13 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 42.45 
+ Delta PE : -3.1 
+ Delta Premium  : 39.35 
+ Trailing Stop Loss : 245.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 227.45 
+ Nifty Index changed by : -51.75 
+ Current Nifty level  : 24,936.75 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:29:14 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 41.6 
+ Delta PE : -2.95 
+ Delta Premium  : 38.65 
+ Trailing Stop Loss : 245.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 228.15 
+ Nifty Index changed by : -48.25 
+ Current Nifty level  : 24,940.25 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:30:14 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 45.3 
+ Delta PE : -5 
+ Delta Premium  : 40.3 
+ Trailing Stop Loss : 245.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 226.5 
+ Nifty Index changed by : -59.05 
+ Current Nifty level  : 24,929.45 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:31:14 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 39.6 
+ Delta PE : -0.6 
+ Delta Premium  : 39 
+ Trailing Stop Loss : 245.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 227.8 
+ Nifty Index changed by : -45.8 
+ Current Nifty level  : 24,942.7 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:31:31 : Updating Stop loss to  244.8
+14:32:14 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 45.25 
+ Delta PE : -3.75 
+ Delta Premium  : 41.5 
+ Trailing Stop Loss : 244.8 
+ Start Premium : 266.8 
+ Current Combined Premium : 225.3 
+ Nifty Index changed by : -56.35 
+ Current Nifty level  : 24,932.15 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:32:24 : Updating Stop loss to  244.4
+14:32:25 : Updating Stop loss to  243.85000000000002
+14:32:29 : Updating Stop loss to  243.6
+14:33:14 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 50.25 
+ Delta PE : -8.2 
+ Delta Premium  : 42.05 
+ Trailing Stop Loss : 243.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 224.75 
+ Nifty Index changed by : -60.9 
+ Current Nifty level  : 24,927.6 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:33:34 : Updating Stop loss to  243.55
+14:33:46 : Updating Stop loss to  243.3
+14:33:48 : Updating Stop loss to  243.0
+14:33:49 : Updating Stop loss to  242.9
+14:33:51 : Updating Stop loss to  242.85
+14:33:59 : Updating Stop loss to  242.5
+14:34:14 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 54.4 
+ Delta PE : -10.4 
+ Delta Premium  : 44 
+ Trailing Stop Loss : 242.5 
+ Start Premium : 266.8 
+ Current Combined Premium : 222.8 
+ Nifty Index changed by : -66.2 
+ Current Nifty level  : 24,922.3 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:35:14 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 51.85 
+ Delta PE : -10 
+ Delta Premium  : 41.85 
+ Trailing Stop Loss : 242.5 
+ Start Premium : 266.8 
+ Current Combined Premium : 224.95 
+ Nifty Index changed by : -72.8 
+ Current Nifty level  : 24,915.7 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:36:14 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 51.3 
+ Delta PE : -9 
+ Delta Premium  : 42.3 
+ Trailing Stop Loss : 242.5 
+ Start Premium : 266.8 
+ Current Combined Premium : 224.5 
+ Nifty Index changed by : -73.05 
+ Current Nifty level  : 24,915.45 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:36:23 : Updating Stop loss to  242.39999999999998
+14:37:14 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 55 
+ Delta PE : -11.45 
+ Delta Premium  : 43.55 
+ Trailing Stop Loss : 242.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 223.25 
+ Nifty Index changed by : -81 
+ Current Nifty level  : 24,907.5 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:38:14 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 53.4 
+ Delta PE : -10.25 
+ Delta Premium  : 43.15 
+ Trailing Stop Loss : 242.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 223.65 
+ Nifty Index changed by : -79 
+ Current Nifty level  : 24,909.5 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:39:1 : Updating Stop loss to  242.35000000000002
+14:39:14 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 49.7 
+ Delta PE : -5.65 
+ Delta Premium  : 44.05 
+ Trailing Stop Loss : 242.35 
+ Start Premium : 266.8 
+ Current Combined Premium : 222.75 
+ Nifty Index changed by : -72.2 
+ Current Nifty level  : 24,916.3 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:40:7 : Updating Stop loss to  242.2
+14:40:15 : Updating Stop loss to  241.75
+14:40:15 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 50.3 
+ Delta PE : -5.25 
+ Delta Premium  : 45.05 
+ Trailing Stop Loss : 241.75 
+ Start Premium : 266.8 
+ Current Combined Premium : 221.75 
+ Nifty Index changed by : -70.8 
+ Current Nifty level  : 24,917.7 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:40:58 : Updating Stop loss to  241.55
+14:41:9 : Updating Stop loss to  241.2
+14:41:15 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 46.6 
+ Delta PE : -2.3 
+ Delta Premium  : 44.3 
+ Trailing Stop Loss : 241.2 
+ Start Premium : 266.8 
+ Current Combined Premium : 222.5 
+ Nifty Index changed by : -68.6 
+ Current Nifty level  : 24,919.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:42:15 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 47.3 
+ Delta PE : -3.35 
+ Delta Premium  : 43.95 
+ Trailing Stop Loss : 241.2 
+ Start Premium : 266.8 
+ Current Combined Premium : 222.85 
+ Nifty Index changed by : -67.4 
+ Current Nifty level  : 24,921.1 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:43:15 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 49.25 
+ Delta PE : -5.6 
+ Delta Premium  : 43.65 
+ Trailing Stop Loss : 241.2 
+ Start Premium : 266.8 
+ Current Combined Premium : 223.15 
+ Nifty Index changed by : -69.25 
+ Current Nifty level  : 24,919.25 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:44:15 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 52.15 
+ Delta PE : -8.95 
+ Delta Premium  : 43.2 
+ Trailing Stop Loss : 241.2 
+ Start Premium : 266.8 
+ Current Combined Premium : 223.6 
+ Nifty Index changed by : -72.75 
+ Current Nifty level  : 24,915.75 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:45:15 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 52.05 
+ Delta PE : -9 
+ Delta Premium  : 43.05 
+ Trailing Stop Loss : 241.2 
+ Start Premium : 266.8 
+ Current Combined Premium : 223.75 
+ Nifty Index changed by : -73.5 
+ Current Nifty level  : 24,915 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:46:16 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 57.7 
+ Delta PE : -14.5 
+ Delta Premium  : 43.2 
+ Trailing Stop Loss : 241.2 
+ Start Premium : 266.8 
+ Current Combined Premium : 223.6 
+ Nifty Index changed by : -85.8 
+ Current Nifty level  : 24,902.7 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:47:3 : Updating Stop loss to  241.05
+14:47:5 : Updating Stop loss to  240.25
+14:47:16 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 54.15 
+ Delta PE : -8.2 
+ Delta Premium  : 45.95 
+ Trailing Stop Loss : 240.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 220.85 
+ Nifty Index changed by : -74.7 
+ Current Nifty level  : 24,913.8 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:48:2 : Updating Stop loss to  240.2
+14:48:16 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 56.2 
+ Delta PE : -11.55 
+ Delta Premium  : 44.65 
+ Trailing Stop Loss : 240.2 
+ Start Premium : 266.8 
+ Current Combined Premium : 222.15 
+ Nifty Index changed by : -76.1 
+ Current Nifty level  : 24,912.4 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:49:16 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 53.5 
+ Delta PE : -8.7 
+ Delta Premium  : 44.8 
+ Trailing Stop Loss : 240.2 
+ Start Premium : 266.8 
+ Current Combined Premium : 222 
+ Nifty Index changed by : -73.1 
+ Current Nifty level  : 24,915.4 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:50:16 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 50.1 
+ Delta PE : -5.2 
+ Delta Premium  : 44.9 
+ Trailing Stop Loss : 240.2 
+ Start Premium : 266.8 
+ Current Combined Premium : 221.9 
+ Nifty Index changed by : -70.2 
+ Current Nifty level  : 24,918.3 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:51:16 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 49.25 
+ Delta PE : -4.05 
+ Delta Premium  : 45.2 
+ Trailing Stop Loss : 240.2 
+ Start Premium : 266.8 
+ Current Combined Premium : 221.6 
+ Nifty Index changed by : -68.45 
+ Current Nifty level  : 24,920.05 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:52:6 : Updating Stop loss to  240.0
+14:52:16 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 53 
+ Delta PE : -7.8 
+ Delta Premium  : 45.2 
+ Trailing Stop Loss : 240 
+ Start Premium : 266.8 
+ Current Combined Premium : 221.6 
+ Nifty Index changed by : -75.3 
+ Current Nifty level  : 24,913.2 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:53:16 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 53.05 
+ Delta PE : -8.15 
+ Delta Premium  : 44.9 
+ Trailing Stop Loss : 240 
+ Start Premium : 266.8 
+ Current Combined Premium : 221.9 
+ Nifty Index changed by : -74.75 
+ Current Nifty level  : 24,913.75 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:54:16 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 53.05 
+ Delta PE : -8.15 
+ Delta Premium  : 44.9 
+ Trailing Stop Loss : 240 
+ Start Premium : 266.8 
+ Current Combined Premium : 221.9 
+ Nifty Index changed by : -75.35 
+ Current Nifty level  : 24,913.15 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:55:16 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 51.55 
+ Delta PE : -7.1 
+ Delta Premium  : 44.45 
+ Trailing Stop Loss : 240 
+ Start Premium : 266.8 
+ Current Combined Premium : 222.35 
+ Nifty Index changed by : -73.05 
+ Current Nifty level  : 24,915.45 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:56:16 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 53.15 
+ Delta PE : -8.1 
+ Delta Premium  : 45.05 
+ Trailing Stop Loss : 240 
+ Start Premium : 266.8 
+ Current Combined Premium : 221.75 
+ Nifty Index changed by : -73.8 
+ Current Nifty level  : 24,914.7 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:57:16 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 52.2 
+ Delta PE : -7.15 
+ Delta Premium  : 45.05 
+ Trailing Stop Loss : 240 
+ Start Premium : 266.8 
+ Current Combined Premium : 221.75 
+ Nifty Index changed by : -73.5 
+ Current Nifty level  : 24,915 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:58:16 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 54.35 
+ Delta PE : -8.25 
+ Delta Premium  : 46.1 
+ Trailing Stop Loss : 240 
+ Start Premium : 266.8 
+ Current Combined Premium : 220.7 
+ Nifty Index changed by : -75.55 
+ Current Nifty level  : 24,912.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+14:59:16 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 54 
+ Delta PE : -8.7 
+ Delta Premium  : 45.3 
+ Trailing Stop Loss : 240 
+ Start Premium : 266.8 
+ Current Combined Premium : 221.5 
+ Nifty Index changed by : -74.65 
+ Current Nifty level  : 24,913.85 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:0:16 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 56.5 
+ Delta PE : -12.7 
+ Delta Premium  : 43.8 
+ Trailing Stop Loss : 240 
+ Start Premium : 266.8 
+ Current Combined Premium : 223 
+ Nifty Index changed by : -87.65 
+ Current Nifty level  : 24,900.85 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:1:16 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 58.45 
+ Delta PE : -13.55 
+ Delta Premium  : 44.9 
+ Trailing Stop Loss : 240 
+ Start Premium : 266.8 
+ Current Combined Premium : 221.9 
+ Nifty Index changed by : -95.3 
+ Current Nifty level  : 24,893.2 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:2:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 60.75 
+ Delta PE : -15 
+ Delta Premium  : 45.75 
+ Trailing Stop Loss : 240 
+ Start Premium : 266.8 
+ Current Combined Premium : 221.05 
+ Nifty Index changed by : -98.45 
+ Current Nifty level  : 24,890.05 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:2:58 : Updating Stop loss to  239.7
+15:2:59 : Updating Stop loss to  239.65
+15:3:1 : Updating Stop loss to  239.39999999999998
+15:3:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 65.3 
+ Delta PE : -19.2 
+ Delta Premium  : 46.1 
+ Trailing Stop Loss : 239.4 
+ Start Premium : 266.8 
+ Current Combined Premium : 220.7 
+ Nifty Index changed by : -105.6 
+ Current Nifty level  : 24,882.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:3:56 : Updating Stop loss to  238.85000000000002
+15:4:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 64.25 
+ Delta PE : -18.15 
+ Delta Premium  : 46.1 
+ Trailing Stop Loss : 238.85 
+ Start Premium : 266.8 
+ Current Combined Premium : 220.7 
+ Nifty Index changed by : -109.55 
+ Current Nifty level  : 24,878.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:4:48 : Updating Stop loss to  238.75
+15:4:49 : Updating Stop loss to  238.64999999999998
+15:4:50 : Updating Stop loss to  238.3
+15:5:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 63.8 
+ Delta PE : -16.4 
+ Delta Premium  : 47.4 
+ Trailing Stop Loss : 238.3 
+ Start Premium : 266.8 
+ Current Combined Premium : 219.4 
+ Nifty Index changed by : -105.9 
+ Current Nifty level  : 24,882.6 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:5:18 : Updating Stop loss to  238.15
+15:6:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 63.7 
+ Delta PE : -17.15 
+ Delta Premium  : 46.55 
+ Trailing Stop Loss : 238.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 220.25 
+ Nifty Index changed by : -107.95 
+ Current Nifty level  : 24,880.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:7:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 63 
+ Delta PE : -17.3 
+ Delta Premium  : 45.7 
+ Trailing Stop Loss : 238.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 221.1 
+ Nifty Index changed by : -106.9 
+ Current Nifty level  : 24,881.6 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:8:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 63.45 
+ Delta PE : -17 
+ Delta Premium  : 46.45 
+ Trailing Stop Loss : 238.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 220.35 
+ Nifty Index changed by : -107.95 
+ Current Nifty level  : 24,880.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:9:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 64.7 
+ Delta PE : -18.75 
+ Delta Premium  : 45.95 
+ Trailing Stop Loss : 238.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 220.85 
+ Nifty Index changed by : -111.2 
+ Current Nifty level  : 24,877.3 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:10:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 64.35 
+ Delta PE : -19.85 
+ Delta Premium  : 44.5 
+ Trailing Stop Loss : 238.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 222.3 
+ Nifty Index changed by : -111.55 
+ Current Nifty level  : 24,876.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:11:8 : Updating Stop loss to  238.10000000000002
+15:11:9 : Updating Stop loss to  238.1
+15:11:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 63.2 
+ Delta PE : -15.6 
+ Delta Premium  : 47.6 
+ Trailing Stop Loss : 238.1 
+ Start Premium : 266.8 
+ Current Combined Premium : 219.2 
+ Nifty Index changed by : -109 
+ Current Nifty level  : 24,879.5 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:12:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 66.3 
+ Delta PE : -19.2 
+ Delta Premium  : 47.1 
+ Trailing Stop Loss : 238.1 
+ Start Premium : 266.8 
+ Current Combined Premium : 219.7 
+ Nifty Index changed by : -111.75 
+ Current Nifty level  : 24,876.75 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:13:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 67.7 
+ Delta PE : -19.9 
+ Delta Premium  : 47.8 
+ Trailing Stop Loss : 238.1 
+ Start Premium : 266.8 
+ Current Combined Premium : 219 
+ Nifty Index changed by : -116.95 
+ Current Nifty level  : 24,871.55 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:13:28 : Updating Stop loss to  237.95
+15:13:34 : Updating Stop loss to  237.9
+15:13:38 : Updating Stop loss to  237.89999999999998
+15:13:45 : Updating Stop loss to  237.8
+15:13:54 : Updating Stop loss to  237.1
+15:14:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 66.1 
+ Delta PE : -17.25 
+ Delta Premium  : 48.85 
+ Trailing Stop Loss : 237.1 
+ Start Premium : 266.8 
+ Current Combined Premium : 217.95 
+ Nifty Index changed by : -115.45 
+ Current Nifty level  : 24,873.05 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:14:37 : Updating Stop loss to  236.95
+15:14:41 : Updating Stop loss to  236.85000000000002
+15:15:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 64.1 
+ Delta PE : -15.4 
+ Delta Premium  : 48.7 
+ Trailing Stop Loss : 236.85 
+ Start Premium : 266.8 
+ Current Combined Premium : 218.1 
+ Nifty Index changed by : -115.05 
+ Current Nifty level  : 24,873.45 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:15:44 : Updating Stop loss to  236.5
+15:15:44 : Updating Stop loss to  236.35000000000002
+15:15:46 : Updating Stop loss to  236.3
+15:16:15 : Updating Stop loss to  236.25
+15:16:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 60.95 
+ Delta PE : -11.1 
+ Delta Premium  : 49.85 
+ Trailing Stop Loss : 236.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 216.95 
+ Nifty Index changed by : -110.8 
+ Current Nifty level  : 24,877.7 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:16:52 : Updating Stop loss to  236.15
+15:17:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 61.55 
+ Delta PE : -13.15 
+ Delta Premium  : 48.4 
+ Trailing Stop Loss : 236.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 218.4 
+ Nifty Index changed by : -113.15 
+ Current Nifty level  : 24,875.35 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:18:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 60.1 
+ Delta PE : -10.95 
+ Delta Premium  : 49.15 
+ Trailing Stop Loss : 236.15 
+ Start Premium : 266.8 
+ Current Combined Premium : 217.65 
+ Nifty Index changed by : -112.6 
+ Current Nifty level  : 24,875.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:18:30 : Updating Stop loss to  235.75
+15:18:32 : Updating Stop loss to  235.7
+15:18:33 : Updating Stop loss to  235.55
+15:18:34 : Updating Stop loss to  235.5
+15:19:18 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 59.7 
+ Delta PE : -9.45 
+ Delta Premium  : 50.25 
+ Trailing Stop Loss : 235.5 
+ Start Premium : 266.8 
+ Current Combined Premium : 216.55 
+ Nifty Index changed by : -107.45 
+ Current Nifty level  : 24,881.05 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:20:18 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 60.95 
+ Delta PE : -11.1 
+ Delta Premium  : 49.85 
+ Trailing Stop Loss : 235.5 
+ Start Premium : 266.8 
+ Current Combined Premium : 216.95 
+ Nifty Index changed by : -112.6 
+ Current Nifty level  : 24,875.9 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:20:32 : Updating Stop loss to  235.3
+15:21:18 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 61.2 
+ Delta PE : -10.25 
+ Delta Premium  : 50.95 
+ Trailing Stop Loss : 235.3 
+ Start Premium : 266.8 
+ Current Combined Premium : 215.85 
+ Nifty Index changed by : -113.75 
+ Current Nifty level  : 24,874.75 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:21:30 : Updating Stop loss to  235.25
+15:21:32 : Updating Stop loss to  235.1
+15:21:34 : Updating Stop loss to  234.8
+15:22:6 : Updating Stop loss to  234.60000000000002
+15:22:18 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 60.65 
+ Delta PE : -9.9 
+ Delta Premium  : 50.75 
+ Trailing Stop Loss : 234.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 216.05 
+ Nifty Index changed by : -115 
+ Current Nifty level  : 24,873.5 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:23:18 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 61.05 
+ Delta PE : -9.7 
+ Delta Premium  : 51.35 
+ Trailing Stop Loss : 234.6 
+ Start Premium : 266.8 
+ Current Combined Premium : 215.45 
+ Nifty Index changed by : -113.75 
+ Current Nifty level  : 24,874.75 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:23:42 : Updating Stop loss to  234.55
+15:24:18 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 62.5 
+ Delta PE : -11.45 
+ Delta Premium  : 51.05 
+ Trailing Stop Loss : 234.55 
+ Start Premium : 266.8 
+ Current Combined Premium : 215.75 
+ Nifty Index changed by : -116.55 
+ Current Nifty level  : 24,871.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:25:8 : Updating Stop loss to  234.45
+15:25:8 : Updating Stop loss to  234.14999999999998
+15:25:12 : Updating Stop loss to  234.1
+15:25:13 : Updating Stop loss to  233.9
+15:25:13 : Updating Stop loss to  233.55
+15:25:14 : Updating Stop loss to  233.39999999999998
+15:25:15 : Updating Stop loss to  233.25
+15:25:18 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 62.25 
+ Delta PE : -9 
+ Delta Premium  : 53.25 
+ Trailing Stop Loss : 233.25 
+ Start Premium : 266.8 
+ Current Combined Premium : 213.55 
+ Nifty Index changed by : -114.9 
+ Current Nifty level  : 24,873.6 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:25:26 : Updating Stop loss to  233.14999999999998
+15:25:26 : Updating Stop loss to  233.1
+15:25:28 : Updating Stop loss to  233.0
+15:25:29 : Updating Stop loss to  232.75
+15:25:32 : Updating Stop loss to  232.7
+15:25:33 : Updating Stop loss to  232.64999999999998
+15:26:18 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 63.15 
+ Delta PE : -9.75 
+ Delta Premium  : 53.4 
+ Trailing Stop Loss : 232.65 
+ Start Premium : 266.8 
+ Current Combined Premium : 213.4 
+ Nifty Index changed by : -110.05 
+ Current Nifty level  : 24,878.45 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:26:35 : Updating Stop loss to  232.35
+15:26:44 : Updating Stop loss to  231.95
+15:26:44 : Updating Stop loss to  231.89999999999998
+15:26:45 : Updating Stop loss to  231.7
+15:27:18 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 63.95 
+ Delta PE : -10.15 
+ Delta Premium  : 53.8 
+ Trailing Stop Loss : 231.7 
+ Start Premium : 266.8 
+ Current Combined Premium : 213 
+ Nifty Index changed by : -115.1 
+ Current Nifty level  : 24,873.4 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:27:59 : Updating Stop loss to  231.65
+15:28:18 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 64.2 
+ Delta PE : -9.85 
+ Delta Premium  : 54.35 
+ Trailing Stop Loss : 231.65 
+ Start Premium : 266.8 
+ Current Combined Premium : 212.45 
+ Nifty Index changed by : -109.55 
+ Current Nifty level  : 24,878.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:28:31 : Updating Stop loss to  231.5
+15:28:32 : Updating Stop loss to  231.45
+15:28:35 : Updating Stop loss to  231.35000000000002
+15:28:45 : Updating Stop loss to  231.3
+15:28:45 : Updating Stop loss to  231.25
+15:28:50 : Updating Stop loss to  231.2
+15:29:18 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 62.9 
+ Delta PE : -7.9 
+ Delta Premium  : 55 
+ Trailing Stop Loss : 231.2 
+ Start Premium : 266.8 
+ Current Combined Premium : 211.8 
+ Nifty Index changed by : -102.8 
+ Current Nifty level  : 24,885.7 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+15:43:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 63.4 
+ Delta PE : -8.1 
+ Delta Premium  : 55.3 
+ Trailing Stop Loss : 231.2 
+ Start Premium : 266.8 
+ Current Combined Premium : 211.5 
+ Nifty Index changed by : -111.55 
+ Current Nifty level  : 24,876.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+16:20:25 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 63.4 
+ Delta PE : -8.1 
+ Delta Premium  : 55.3 
+ Trailing Stop Loss : 231.2 
+ Start Premium : 266.8 
+ Current Combined Premium : 211.5 
+ Nifty Index changed by : -111.55 
+ Current Nifty level  : 24,876.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+16:21:31 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 63.4 
+ Delta PE : -8.1 
+ Delta Premium  : 55.3 
+ Trailing Stop Loss : 231.2 
+ Start Premium : 266.8 
+ Current Combined Premium : 211.5 
+ Nifty Index changed by : -111.55 
+ Current Nifty level  : 24,876.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+16:46:13 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 63.4 
+ Delta PE : -8.1 
+ Delta Premium  : 55.3 
+ Trailing Stop Loss : 231.2 
+ Start Premium : 266.8 
+ Current Combined Premium : 211.5 
+ Nifty Index changed by : -111.55 
+ Current Nifty level  : 24,876.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+17:9:7 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 63.4 
+ Delta PE : -8.1 
+ Delta Premium  : 55.3 
+ Trailing Stop Loss : 231.2 
+ Start Premium : 266.8 
+ Current Combined Premium : 211.5 
+ Nifty Index changed by : -111.55 
+ Current Nifty level  : 24,876.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+17:22:8 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 63.4 
+ Delta PE : -8.1 
+ Delta Premium  : 55.3 
+ Trailing Stop Loss : 231.2 
+ Start Premium : 266.8 
+ Current Combined Premium : 211.5 
+ Nifty Index changed by : -111.55 
+ Current Nifty level  : 24,876.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true
+17:24:57 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+ Delta CE : 63.4 
+ Delta PE : -8.1 
+ Delta Premium  : 55.3 
+ Trailing Stop Loss : 231.2 
+ Start Premium : 266.8 
+ Current Combined Premium : 211.5 
+ Nifty Index changed by : -111.55 
+ Current Nifty level  : 24,876.95 At start of the App : 24,988.5 
+ Legs Active : :  PE :true ; CE :true

@@ -1,0 +1,513 @@
+14:5:6 : Initializing application with directory: C:\FYER_TRADE
+14:6:2 : Initializing application with directory: C:\FYER_TRADE
+14:6:8 : Start premium is set to 129.3 with combined premium limit of 154.3 at 0.0
+14:6:8 : 
+Stop loss premium set to : 149.3
+ current combined premium : 129.3
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 0.0
+ Net gain in premium: 0.0
+14:6:9 : 
+Stop loss premium set to : 148.8
+ current combined premium : 128.8
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24647.1
+ Net gain in premium: 0.5
+14:7:21 : 
+Stop loss premium set to : 148.7
+ current combined premium : 128.7
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24648.5
+ Net gain in premium: 0.6000000000000227
+14:7:22 : 
+Stop loss premium set to : 148.15
+ current combined premium : 128.15
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24647.55
+ Net gain in premium: 1.1500000000000057
+14:7:26 : 
+Stop loss premium set to : 148.0
+ current combined premium : 128.0
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24648.25
+ Net gain in premium: 1.3000000000000114
+14:9:9 : Average premeium change for ce is 0.6000000000000014 and for pe is -0.27500000000000213
+14:9:45 : 
+Stop loss premium set to : 147.95
+ current combined premium : 127.94999999999999
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24649.1
+ Net gain in premium: 1.3500000000000227
+14:10:9 : Average premeium change for ce is 0.75 and for pe is -0.3500000000000014
+14:10:32 : 
+Stop loss premium set to : 147.65
+ current combined premium : 127.65
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24649.0
+ Net gain in premium: 1.6500000000000057
+14:10:34 : 
+Stop loss premium set to : 147.55
+ current combined premium : 127.55
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24649.55
+ Net gain in premium: 1.7500000000000142
+14:10:36 : 
+Stop loss premium set to : 147.55
+ current combined premium : 127.55
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24649.65
+ Net gain in premium: 1.7500000000000142
+14:11:10 : Average premeium change for ce is 0.7375000000000007 and for pe is -0.45000000000000107
+14:12:10 : Average premeium change for ce is 0.5300000000000011 and for pe is -0.32999999999999974
+14:13:4 : 
+Stop loss premium set to : 146.35
+ current combined premium : 126.35
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24648.65
+ Net gain in premium: 2.950000000000017
+14:13:10 : Average premeium change for ce is 0.7333333333333343 and for pe is -0.4166666666666667
+14:13:34 : 
+Stop loss premium set to : 145.7
+ current combined premium : 125.7
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24645.95
+ Net gain in premium: 3.6000000000000085
+14:14:10 : Average premeium change for ce is 0.49285714285714327 and for pe is -0.14285714285714285
+14:15:10 : Average premeium change for ce is 0.3562499999999993 and for pe is -0.13125000000000053
+14:16:10 : Average premeium change for ce is 0.17222222222222192 and for pe is -0.050000000000000315
+14:17:10 : Average premeium change for ce is 0.24000000000000057 and for pe is -0.10500000000000043
+14:18:10 : Average premeium change for ce is 0.38636363636363635 and for pe is -0.1727272727272726
+14:19:10 : Average premeium change for ce is 0.5125000000000005 and for pe is -0.35000000000000026
+14:20:10 : Average premeium change for ce is 0.4115384615384611 and for pe is -0.23461538461538495
+14:21:10 : Average premeium change for ce is 0.596428571428571 and for pe is -0.332142857142857
+14:21:19 : 
+Stop loss premium set to : 145.4
+ current combined premium : 125.4
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24644.75
+ Net gain in premium: 3.9000000000000057
+14:21:21 : 
+Stop loss premium set to : 145.35
+ current combined premium : 125.35
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24643.4
+ Net gain in premium: 3.950000000000017
+14:21:22 : 
+Stop loss premium set to : 144.75
+ current combined premium : 124.75
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24642.9
+ Net gain in premium: 4.550000000000011
+14:22:11 : Average premeium change for ce is 0.7133333333333335 and for pe is -0.42333333333333345
+14:22:36 : 
+Stop loss premium set to : 144.55
+ current combined premium : 124.55000000000001
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24642.05
+ Net gain in premium: 4.75
+14:22:44 : 
+Stop loss premium set to : 144.45
+ current combined premium : 124.45
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24640.95
+ Net gain in premium: 4.8500000000000085
+14:22:44 : 
+Stop loss premium set to : 144.4
+ current combined premium : 124.4
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24640.95
+ Net gain in premium: 4.900000000000006
+14:22:44 : 
+Stop loss premium set to : 144.15
+ current combined premium : 124.15
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24640.95
+ Net gain in premium: 5.150000000000006
+14:22:46 : 
+Stop loss premium set to : 144.1
+ current combined premium : 124.1
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24640.05
+ Net gain in premium: 5.200000000000017
+14:22:51 : 
+Stop loss premium set to : 143.85
+ current combined premium : 123.85
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24639.8
+ Net gain in premium: 5.450000000000017
+14:22:53 : 
+Stop loss premium set to : 143.65
+ current combined premium : 123.65
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24638.7
+ Net gain in premium: 5.650000000000006
+14:22:56 : 
+Stop loss premium set to : 143.5
+ current combined premium : 123.5
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24637.2
+ Net gain in premium: 5.800000000000011
+14:23:11 : Average premeium change for ce is 0.8062499999999999 and for pe is -0.5031250000000003
+14:24:11 : Average premeium change for ce is 0.6882352941176473 and for pe is -0.40588235294117636
+14:25:11 : Average premeium change for ce is 0.5500000000000003 and for pe is -0.32222222222222247
+14:26:11 : Average premeium change for ce is 0.40263157894736873 and for pe is -0.19473684210526332
+14:27:11 : Average premeium change for ce is 0.3674999999999997 and for pe is -0.18249999999999994
+14:28:11 : Average premeium change for ce is 0.5261904761904761 and for pe is -0.3309523809523811
+14:29:11 : Average premeium change for ce is 0.5727272727272728 and for pe is -0.3818181818181818
+14:29:30 : 
+Stop loss premium set to : 143.1
+ current combined premium : 123.1
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24624.3
+ Net gain in premium: 6.200000000000017
+14:30:12 : Average premeium change for ce is 0.40652173913043455 and for pe is -0.18695652173913063
+14:31:12 : Average premeium change for ce is 0.36666666666666653 and for pe is -0.1416666666666666
+14:32:12 : Average premeium change for ce is 0.2639999999999998 and for pe is -0.055999999999999946
+14:32:59 : 
+Stop loss premium set to : 142.9
+ current combined premium : 122.9
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24641.95
+ Net gain in premium: 6.400000000000006
+14:33:12 : Average premeium change for ce is 0.22499999999999978 and for pe is 0.007692307692307528
+14:34:12 : Average premeium change for ce is 0.2425925925925925 and for pe is -0.027777777777777776
+14:35:13 : Average premeium change for ce is 0.2249999999999999 and for pe is -0.03035714285714291
+14:36:11 : 
+Stop loss premium set to : 142.75
+ current combined premium : 122.75
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24636.4
+ Net gain in premium: 6.550000000000011
+14:36:13 : Average premeium change for ce is 0.40689655172413786 and for pe is -0.16724137931034488
+14:36:25 : 
+Stop loss premium set to : 142.4
+ current combined premium : 122.4
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24634.65
+ Net gain in premium: 6.900000000000006
+14:36:29 : 
+Stop loss premium set to : 142.0
+ current combined premium : 122.0
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24633.1
+ Net gain in premium: 7.300000000000011
+14:36:42 : 
+Stop loss premium set to : 141.7
+ current combined premium : 121.7
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24634.9
+ Net gain in premium: 7.6000000000000085
+14:37:13 : Average premeium change for ce is 0.3866666666666665 and for pe is -0.15833333333333333
+14:38:13 : Average premeium change for ce is 0.29838709677419356 and for pe is -0.06451612903225806
+14:39:13 : Average premeium change for ce is 0.3109375000000001 and for pe is -0.09375
+14:40:13 : Average premeium change for ce is 0.23939393939393958 and for pe is -0.03939393939393952
+14:41:13 : Average premeium change for ce is 0.2426470588235294 and for pe is -0.06911764705882358
+14:42:13 : Average premeium change for ce is 0.2085714285714285 and for pe is -0.04285714285714286
+14:43:13 : Average premeium change for ce is 0.2152777777777778 and for pe is -0.04305555555555567
+14:44:13 : Average premeium change for ce is 0.19054054054054045 and for pe is 0.0
+14:45:13 : Average premeium change for ce is 0.13289473684210518 and for pe is 0.06052631578947361
+14:46:13 : Average premeium change for ce is 0.0653846153846153 and for pe is 0.10384615384615377
+14:47:13 : Average premeium change for ce is 0.04375 and for pe is 0.12624999999999992
+14:47:36 : 
+Stop loss premium set to : 140.85
+ current combined premium : 120.85
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24648.3
+ Net gain in premium: 8.450000000000017
+14:48:13 : Average premeium change for ce is 0.14146341463414627 and for pe is 0.03048780487804878
+14:49:2 : 
+Stop loss premium set to : 140.5
+ current combined premium : 120.5
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24644.6
+ Net gain in premium: 8.800000000000011
+14:49:13 : Average premeium change for ce is 0.17857142857142858 and for pe is 0.022619047619047518
+14:50:13 : Average premeium change for ce is 0.14302325581395361 and for pe is 0.03837209302325578
+14:51:13 : Average premeium change for ce is 0.14999999999999988 and for pe is 0.049999999999999906
+14:51:42 : 
+Stop loss premium set to : 140.45
+ current combined premium : 120.45
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24643.8
+ Net gain in premium: 8.850000000000009
+14:51:44 : 
+Stop loss premium set to : 140.35
+ current combined premium : 120.35
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24644.2
+ Net gain in premium: 8.950000000000017
+14:52:7 : 
+Stop loss premium set to : 139.8
+ current combined premium : 119.8
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24642.2
+ Net gain in premium: 9.500000000000014
+14:52:7 : 
+Stop loss premium set to : 139.65
+ current combined premium : 119.65
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24642.2
+ Net gain in premium: 9.650000000000006
+14:52:14 : Average premeium change for ce is 0.20333333333333345 and for pe is 0.006666666666666604
+14:53:14 : Average premeium change for ce is 0.20543478260869572 and for pe is -0.001086956521739223
+14:53:36 : 
+Stop loss premium set to : 139.39999999999998
+ current combined premium : 119.39999999999999
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24642.9
+ Net gain in premium: 9.90000000000002
+14:53:42 : 
+Stop loss premium set to : 139.0
+ current combined premium : 119.0
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24653.8
+ Net gain in premium: 10.300000000000011
+14:54:14 : Average premeium change for ce is 0.13829787234042554 and for pe is 0.05000000000000003
+14:55:14 : Average premeium change for ce is 0.10624999999999989 and for pe is 0.07708333333333324
+14:56:14 : Average premeium change for ce is 0.09387755102040805 and for pe is 0.08469387755102038
+14:57:14 : Average premeium change for ce is 0.085 and for pe is 0.08700000000000002
+14:58:14 : Average premeium change for ce is 0.0990196078431372 and for pe is 0.0823529411764705
+14:59:14 : Average premeium change for ce is 0.11057692307692307 and for pe is 0.07499999999999997
+15:0:5 : 
+Stop loss premium set to : 138.35000000000002
+ current combined premium : 118.35000000000001
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24636.5
+ Net gain in premium: 10.950000000000003
+15:0:14 : Average premeium change for ce is 0.1792452830188679 and for pe is 0.007547169811320728
+15:1:14 : Average premeium change for ce is 0.23888888888888887 and for pe is -0.052777777777777805
+15:1:23 : 
+Stop loss premium set to : 137.9
+ current combined premium : 117.9
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24630.3
+ Net gain in premium: 11.400000000000006
+15:1:29 : 
+Stop loss premium set to : 137.7
+ current combined premium : 117.69999999999999
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24630.45
+ Net gain in premium: 11.600000000000023
+15:1:29 : 
+Stop loss premium set to : 137.35
+ current combined premium : 117.35
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24630.35
+ Net gain in premium: 11.950000000000017
+15:2:14 : Average premeium change for ce is 0.24181818181818177 and for pe is -0.04363636363636361
+15:3:14 : Average premeium change for ce is 0.28125 and for pe is -0.08303571428571425
+15:4:14 : Average premeium change for ce is 0.2666666666666667 and for pe is -0.05614035087719303
+15:4:30 : 
+Stop loss premium set to : 136.85
+ current combined premium : 116.85
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24628.15
+ Net gain in premium: 12.450000000000017
+15:5:10 : 
+Stop loss premium set to : 136.6
+ current combined premium : 116.6
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24620.5
+ Net gain in premium: 12.700000000000017
+15:5:14 : Average premeium change for ce is 0.3922413793103448 and for pe is -0.1879310344827586
+15:6:13 : 
+Stop loss premium set to : 136.25
+ current combined premium : 116.25
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24619.75
+ Net gain in premium: 13.050000000000011
+15:6:14 : Average premeium change for ce is 0.33813559322033904 and for pe is -0.10847457627118641
+15:6:18 : 
+Stop loss premium set to : 136.15
+ current combined premium : 116.15
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24622.4
+ Net gain in premium: 13.150000000000006
+15:7:15 : Average premeium change for ce is 0.3733333333333333 and for pe is -0.16583333333333325
+15:8:15 : Average premeium change for ce is 0.36557377049180323 and for pe is -0.1606557377049181
+15:9:15 : Average premeium change for ce is 0.360483870967742 and for pe is -0.16612903225806458
+15:9:39 : 
+Stop loss premium set to : 135.75
+ current combined premium : 115.75
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24619.4
+ Net gain in premium: 13.550000000000011
+15:9:40 : 
+Stop loss premium set to : 135.5
+ current combined premium : 115.5
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24619.45
+ Net gain in premium: 13.800000000000011
+15:9:43 : 
+Stop loss premium set to : 135.45
+ current combined premium : 115.44999999999999
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24620.25
+ Net gain in premium: 13.850000000000023
+15:10:15 : Average premeium change for ce is 0.3373015873015873 and for pe is -0.1571428571428571
+15:11:15 : Average premeium change for ce is 0.28984374999999996 and for pe is -0.09687500000000004
+15:12:15 : Average premeium change for ce is 0.3053846153846154 and for pe is -0.1315384615384616
+15:13:15 : Average premeium change for ce is 0.3909090909090909 and for pe is -0.19242424242424236
+15:13:23 : 
+Stop loss premium set to : 135.05
+ current combined premium : 115.05
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24615.4
+ Net gain in premium: 14.250000000000014
+15:14:15 : Average premeium change for ce is 0.367910447761194 and for pe is -0.16492537313432842
+15:14:39 : 
+Stop loss premium set to : 135.05
+ current combined premium : 115.05
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24617.9
+ Net gain in premium: 14.250000000000014
+15:14:41 : 
+Stop loss premium set to : 134.9
+ current combined premium : 114.9
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24618.6
+ Net gain in premium: 14.400000000000006
+15:14:41 : 
+Stop loss premium set to : 134.85
+ current combined premium : 114.85
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24618.05
+ Net gain in premium: 14.450000000000017
+15:14:44 : 
+Stop loss premium set to : 134.6
+ current combined premium : 114.6
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24617.35
+ Net gain in premium: 14.700000000000017
+15:15:15 : Average premeium change for ce is 0.325 and for pe is -0.12867647058823528
+15:16:16 : Average premeium change for ce is 0.2826086956521739 and for pe is -0.10724637681159419
+15:17:16 : Average premeium change for ce is 0.3157142857142857 and for pe is -0.14285714285714296
+15:18:16 : Average premeium change for ce is 0.3147887323943662 and for pe is -0.14154929577464795
+15:19:16 : Average premeium change for ce is 0.30277777777777776 and for pe is -0.13125000000000003
+15:20:16 : Average premeium change for ce is 0.2883561643835616 and for pe is -0.1431506849315068
+15:21:16 : Average premeium change for ce is 0.3101351351351352 and for pe is -0.1385135135135136
+15:22:16 : Average premeium change for ce is 0.302 and for pe is -0.12800000000000003
+15:23:16 : Average premeium change for ce is 0.2993421052631579 and for pe is -0.13092105263157888
+15:23:54 : 
+Stop loss premium set to : 134.25
+ current combined premium : 114.25
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24615.85
+ Net gain in premium: 15.050000000000011
+15:23:55 : 
+Stop loss premium set to : 134.0
+ current combined premium : 114.0
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24615.45
+ Net gain in premium: 15.300000000000011
+15:23:56 : 
+Stop loss premium set to : 133.95
+ current combined premium : 113.94999999999999
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24616.35
+ Net gain in premium: 15.350000000000023
+15:23:58 : 
+Stop loss premium set to : 133.7
+ current combined premium : 113.7
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24616.1
+ Net gain in premium: 15.600000000000009
+15:24:16 : Average premeium change for ce is 0.2811688311688311 and for pe is -0.09350649350649354
+15:24:27 : 
+Stop loss premium set to : 133.65
+ current combined premium : 113.65
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24617.4
+ Net gain in premium: 15.650000000000006
+15:24:27 : 
+Stop loss premium set to : 133.6
+ current combined premium : 113.6
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24616.75
+ Net gain in premium: 15.700000000000017
+15:24:29 : 
+Stop loss premium set to : 133.55
+ current combined premium : 113.55
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24617.75
+ Net gain in premium: 15.750000000000014
+15:24:30 : 
+Stop loss premium set to : 133.55
+ current combined premium : 113.55
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24617.6
+ Net gain in premium: 15.750000000000014
+15:24:30 : 
+Stop loss premium set to : 133.45
+ current combined premium : 113.44999999999999
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24617.9
+ Net gain in premium: 15.850000000000023
+15:24:32 : 
+Stop loss premium set to : 133.05
+ current combined premium : 113.05
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24618.2
+ Net gain in premium: 16.250000000000014
+15:24:32 : 
+Stop loss premium set to : 133.0
+ current combined premium : 113.0
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24618.4
+ Net gain in premium: 16.30000000000001
+15:25:16 : Average premeium change for ce is 0.27307692307692305 and for pe is -0.0653846153846154
+15:25:20 : 
+Stop loss premium set to : 132.85
+ current combined premium : 112.85
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24616.45
+ Net gain in premium: 16.450000000000017
+15:25:21 : 
+Stop loss premium set to : 132.5
+ current combined premium : 112.5
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24616.65
+ Net gain in premium: 16.80000000000001
+15:26:16 : Average premeium change for ce is 0.2664556962025316 and for pe is -0.06265822784810131
+15:26:37 : 
+Stop loss premium set to : 132.3
+ current combined premium : 112.30000000000001
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24622.8
+ Net gain in premium: 17.0
+15:26:38 : 
+Stop loss premium set to : 132.25
+ current combined premium : 112.25
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24622.1
+ Net gain in premium: 17.05000000000001
+15:26:38 : 
+Stop loss premium set to : 131.95
+ current combined premium : 111.94999999999999
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24622.1
+ Net gain in premium: 17.350000000000023
+15:26:39 : 
+Stop loss premium set to : 131.65
+ current combined premium : 111.65
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24622.0
+ Net gain in premium: 17.650000000000006
+15:26:40 : 
+Stop loss premium set to : 131.55
+ current combined premium : 111.55000000000001
+ start price was :129.3 and initial stop loss : 154.3
+ Nifty index is at: 24622.15
+ Net gain in premium: 17.75
+15:27:16 : Average premeium change for ce is 0.27375 and for pe is -0.06687500000000002
+15:28:16 : Average premeium change for ce is 0.26913580246913577 and for pe is -0.05987654320987656
+15:29:17 : Average premeium change for ce is 0.25975609756097556 and for pe is -0.05548780487804883
+15:40:3 : Average premeium change for ce is 0.2572289156626506 and for pe is -0.046385542168674715
+15:42:27 : Average premeium change for ce is 0.2541666666666667 and for pe is -0.04583333333333335
+16:1:26 : Average premeium change for ce is 0.25117647058823533 and for pe is -0.04529411764705884
+16:20:8 : Average premeium change for ce is 0.2482558139534884 and for pe is -0.044767441860465135
+16:21:8 : Average premeium change for ce is 0.24540229885057474 and for pe is -0.04425287356321841
+16:42:57 : Average premeium change for ce is 0.2426136363636364 and for pe is -0.04375000000000002
+17:37:53 : Average premeium change for ce is 0.23988764044943822 and for pe is -0.04325842696629215
+19:17:31 : Average premeium change for ce is 0.23722222222222225 and for pe is -0.042777777777777796
+20:44:6 : Initializing application with directory: C:\FYER_TRADE

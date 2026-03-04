@@ -1,0 +1,10 @@
+{
+  "exchange": "NSE:",
+  "index": "NIFTY",
+  "ce_strike": "An example script to demonstrate JSON structure",
+  "pe_strike": "Your Name",
+  "strike_frame": "weekly",
+  "mqtt_topic": "nifty_p2",
+  "orderScript": {"pe": "NIFTY2580724600PE",
+			"ce": "NIFTY2580724500CE"}
+}

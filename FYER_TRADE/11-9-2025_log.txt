@@ -1,0 +1,36 @@
+18:3:53 : Initializing application with directory: C:\FYER_TRADE
+18:11:9 : Initializing application with directory: C:\FYER_TRADE
+18:13:39 : Initializing application with directory: C:\FYER_TRADE
+18:14:24 : Initializing application with directory: C:\FYER_TRADE
+18:14:35 : Initializing application with directory: C:\FYER_TRADE
+18:22:57 : Initializing application with directory: C:\FYER_TRADE
+18:23:24 : Initializing application with directory: C:\FYER_TRADE
+18:26:22 : Initializing application with directory: C:\FYER_TRADE
+18:27:34 : Initializing application with directory: C:\FYER_TRADE
+18:31:32 : Initializing application with directory: C:\FYER_TRADE
+18:33:36 : Initializing application with directory: C:\FYER_TRADE
+18:36:42 : Initializing application with directory: C:\FYER_TRADE
+20:37:4 : Start premium is set to 231.05 with combined premium limit of 236.55 at 25005.5
+20:37:4 : Updating trailing Stop loss to  231.55
+20:37:4 : 
+---Time : 11-09-2025 20:37:04---
+ΔCE    : 0; 192.05 -> 192.05
+ΔPE    : 0; 39 -> 39
+---------------------------------
+ΔGain  : 0; 231.05 -> 231.05 | SL 231.55
+---------------------------------
+ΔNifty  : 0; 25,005.5 -> 25,005.5
+Active  :  PE : true ; CE : true 
+
+
+21:8:17 : 
+---Time : 11-09-2025 21:08:17---
+ΔCE    : 0; 192.05 -> 192.05
+ΔPE    : 0; 39 -> 39
+---------------------------------
+ΔGain  : 0; 231.05 -> 231.05 | SL 231.55
+---------------------------------
+ΔNifty  : 0; 25,005.5 -> 25,005.5
+Active  :  PE : true ; CE : true 
+
+

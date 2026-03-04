@@ -1,0 +1,24 @@
+{
+  "exchange": "NSE:",
+  "index": "NIFTY",  
+  "mqtt_topic": "nifty_p2",
+  "mqtt_broker": "tcp://broker.mqtt.cool:1883",
+  "client_id": "javaClientFyers151283",
+  "notificationInterval_min": "1",
+  "strategy": "combined_premium", 
+  "combined_premium":{	
+	"exitPrice":"",
+    "pe": {      
+      "strike": "NIFTY2631024350PE",
+      "price_sl": "",
+      "index_based_sl": "24470",
+      "quantity": "75"
+    },
+    "ce": {      
+      "strike": "NIFTY2631024350PE",
+      "price_sl": "124",
+      "index_based_sl": "24428",
+      "quantity": "75"
+    }  
+}
+}

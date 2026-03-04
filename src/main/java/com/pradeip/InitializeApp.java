@@ -14,6 +14,7 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import com.pradeip.strategy.AdjustingStraddle;
 import com.tts.in.model.FyersClass;
 
 public class InitializeApp implements FyerBotInterface {
@@ -55,7 +56,10 @@ public class InitializeApp implements FyerBotInterface {
 	public int notifcationInterval;
 	public List<String> subscriptionlist = new ArrayList<String>();
 	public String ceSymbol = null;
-	public String peSymbol = null;
+	public String peSymbol = null;	
+	public Boolean ENABLE_TRADE = false;
+	public int waitTime = 0;
+	
 	File logFile = null;
 	Date today = new Date();
 	public Double trailMargin = 0.0; // Margin to trail the premium in points
@@ -154,6 +158,8 @@ public class InitializeApp implements FyerBotInterface {
 				mqttPublisher = new MqttPublisher(mqttBroker, mqttClientId);
 				notifcationInterval = script.getInt("notificationInterval_min");
 				STRATEGY = script.getString("strategy").trim();
+				ENABLE_TRADE = script.getBoolean("enable_trade");
+				waitTime = script.getInt("waitTime");
 
 				switch (STRATEGY) {
 
@@ -263,6 +269,7 @@ public class InitializeApp implements FyerBotInterface {
 		
 	}
 	
+	// read the actual sell price from strategy json.
 	private void adjustingStraddle() {
 		if (script.has(STRATEGY_ADJUSTING_STRADDLE)) {
 			orderScript = script.getJSONObject(STRATEGY_ADJUSTING_STRADDLE);
@@ -270,11 +277,13 @@ public class InitializeApp implements FyerBotInterface {
 			if (orderScript.has("pe")) {				
 				PE = orderScript.getJSONObject("pe");
 				peSymbol = EXCHANGE+":"+PE.getString("strike");
+				AdjustingStraddle.start_pe = PE.getDouble("sell_price");
 				subscriptionlist.add(peSymbol);
 			}
 			if (orderScript.has("ce")) {
 				CE = orderScript.getJSONObject("ce");
 				ceSymbol = EXCHANGE+":"+CE.getString("strike");
+				AdjustingStraddle.start_ce = CE.getDouble("sell_price");
 				subscriptionlist.add(ceSymbol);				
 			} 
 		} else {

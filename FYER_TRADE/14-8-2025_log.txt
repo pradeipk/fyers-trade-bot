@@ -1,0 +1,1194 @@
+11:1:35 : Initializing application with directory: C:\FYER_TRADE
+11:2:37 : Start premium is set to 75.95 with combined premium limit of 100.95 at 0.0
+11:2:37 : 
+Stop loss premium set to : 95.95
+ current combined premium : 75.95
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 0.0
+ Net gain in premium: 0.0
+11:2:43 : 
+Stop loss premium set to : 95.5
+ current combined premium : 75.5
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24661.75
+ Net gain in premium: 0.45000000000000284
+11:3:5 : 
+Stop loss premium set to : 95.4
+ current combined premium : 75.4
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24660.75
+ Net gain in premium: 0.5499999999999972
+11:3:12 : 
+Stop loss premium set to : 94.7
+ current combined premium : 74.7
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24659.95
+ Net gain in premium: 1.25
+11:3:40 : 
+Stop loss premium set to : 94.45
+ current combined premium : 74.45
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24659.35
+ Net gain in premium: 1.5
+11:3:42 : 
+Stop loss premium set to : 93.75
+ current combined premium : 73.75
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24658.6
+ Net gain in premium: 2.200000000000003
+11:4:1 : 
+Stop loss premium set to : 93.4
+ current combined premium : 73.4
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24657.35
+ Net gain in premium: 2.549999999999997
+11:4:4 : 
+Stop loss premium set to : 93.35
+ current combined premium : 73.35
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24657.4
+ Net gain in premium: 2.6000000000000085
+11:5:5 : 
+Stop loss premium set to : 93.2
+ current combined premium : 73.2
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24659.25
+ Net gain in premium: 2.75
+11:5:31 : 
+Stop loss premium set to : 93.05
+ current combined premium : 73.05
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24659.8
+ Net gain in premium: 2.9000000000000057
+11:5:31 : 
+Stop loss premium set to : 92.6
+ current combined premium : 72.6
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24659.75
+ Net gain in premium: 3.3500000000000085
+11:5:37 : Average premeium change for ce is 0.5749999999999993 and for pe is 0.3999999999999986
+11:5:44 : 
+Stop loss premium set to : 92.4
+ current combined premium : 72.4
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24658.7
+ Net gain in premium: 3.549999999999997
+11:5:45 : 
+Stop loss premium set to : 91.6
+ current combined premium : 71.6
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24658.55
+ Net gain in premium: 4.3500000000000085
+11:6:0 : 
+Stop loss premium set to : 91.15
+ current combined premium : 71.15
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24656.4
+ Net gain in premium: 4.799999999999997
+11:6:4 : 
+Stop loss premium set to : 90.85
+ current combined premium : 70.85
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24655.8
+ Net gain in premium: 5.1000000000000085
+11:6:30 : 
+Stop loss premium set to : 90.4
+ current combined premium : 70.4
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24653.65
+ Net gain in premium: 5.549999999999997
+11:6:34 : 
+Stop loss premium set to : 90.3
+ current combined premium : 70.3
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24651.55
+ Net gain in premium: 5.650000000000006
+11:6:34 : 
+Stop loss premium set to : 90.25
+ current combined premium : 70.25
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24651.5
+ Net gain in premium: 5.700000000000003
+11:6:37 : 
+Stop loss premium set to : 90.05000000000001
+ current combined premium : 70.05000000000001
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24651.95
+ Net gain in premium: 5.8999999999999915
+11:6:37 : Average premeium change for ce is 2.0166666666666657 and for pe is -0.38333333333333525
+11:6:42 : 
+Stop loss premium set to : 90.0
+ current combined premium : 70.0
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24650.3
+ Net gain in premium: 5.950000000000003
+11:6:44 : 
+Stop loss premium set to : 89.9
+ current combined premium : 69.9
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24651.25
+ Net gain in premium: 6.049999999999997
+11:6:46 : 
+Stop loss premium set to : 89.8
+ current combined premium : 69.8
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24651.4
+ Net gain in premium: 6.150000000000006
+11:7:38 : Average premeium change for ce is 1.0625 and for pe is -0.27500000000000036
+11:8:38 : Average premeium change for ce is 0.8299999999999997 and for pe is -0.22000000000000028
+11:9:38 : Average premeium change for ce is 0.6583333333333327 and for pe is -0.1750000000000007
+11:10:38 : Average premeium change for ce is 0.3785714285714284 and for pe is -0.05714285714285795
+11:11:39 : Average premeium change for ce is 0.5 and for pe is -0.19375000000000053
+11:12:39 : Average premeium change for ce is 0.3388888888888886 and for pe is -0.16666666666666666
+11:13:39 : Average premeium change for ce is 0.41000000000000014 and for pe is -0.1700000000000003
+11:14:39 : Average premeium change for ce is 0.6090909090909087 and for pe is -0.34545454545454585
+11:15:39 : Average premeium change for ce is 0.39166666666666633 and for pe is -0.10416666666666667
+11:16:39 : Average premeium change for ce is 0.5076923076923078 and for pe is -0.23461538461538495
+11:17:40 : Average premeium change for ce is 0.5464285714285714 and for pe is -0.23214285714285715
+11:17:59 : 
+Stop loss premium set to : 89.7
+ current combined premium : 69.7
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24646.75
+ Net gain in premium: 6.25
+11:17:59 : 
+Stop loss premium set to : 89.55000000000001
+ current combined premium : 69.55000000000001
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24646.75
+ Net gain in premium: 6.3999999999999915
+11:18:1 : 
+Stop loss premium set to : 89.35
+ current combined premium : 69.35
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24647.45
+ Net gain in premium: 6.6000000000000085
+11:18:2 : 
+Stop loss premium set to : 89.3
+ current combined premium : 69.3
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24647.3
+ Net gain in premium: 6.650000000000006
+11:18:4 : 
+Stop loss premium set to : 89.1
+ current combined premium : 69.1
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24647.35
+ Net gain in premium: 6.8500000000000085
+11:18:6 : 
+Stop loss premium set to : 89.05
+ current combined premium : 69.05
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24646.6
+ Net gain in premium: 6.900000000000006
+11:18:11 : 
+Stop loss premium set to : 89.0
+ current combined premium : 69.0
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24647.25
+ Net gain in premium: 6.950000000000003
+11:18:12 : 
+Stop loss premium set to : 88.9
+ current combined premium : 68.9
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24647.6
+ Net gain in premium: 7.049999999999997
+11:18:12 : 
+Stop loss premium set to : 88.8
+ current combined premium : 68.8
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24647.85
+ Net gain in premium: 7.150000000000006
+11:18:13 : 
+Stop loss premium set to : 88.65
+ current combined premium : 68.65
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24648.45
+ Net gain in premium: 7.299999999999997
+11:18:17 : 
+Stop loss premium set to : 88.45
+ current combined premium : 68.45
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24648.8
+ Net gain in premium: 7.5
+11:18:23 : 
+Stop loss premium set to : 88.4
+ current combined premium : 68.4
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24647.95
+ Net gain in premium: 7.549999999999997
+11:18:38 : 
+Stop loss premium set to : 88.25
+ current combined premium : 68.25
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24648.6
+ Net gain in premium: 7.700000000000003
+11:18:40 : Average premeium change for ce is 0.4799999999999997 and for pe is -0.06333333333333352
+11:18:49 : 
+Stop loss premium set to : 88.19999999999999
+ current combined premium : 68.19999999999999
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24650.6
+ Net gain in premium: 7.750000000000014
+11:19:40 : Average premeium change for ce is 0.4125000000000001 and for pe is -0.040625000000000355
+11:20:40 : Average premeium change for ce is 0.35294117647058826 and for pe is -0.050000000000000086
+11:21:40 : Average premeium change for ce is 0.34999999999999987 and for pe is -0.016666666666666902
+11:22:25 : 
+Stop loss premium set to : 88.1
+ current combined premium : 68.1
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24651.5
+ Net gain in premium: 7.8500000000000085
+11:22:30 : 
+Stop loss premium set to : 87.75
+ current combined premium : 67.75
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24649.65
+ Net gain in premium: 8.200000000000003
+11:22:36 : 
+Stop loss premium set to : 87.65
+ current combined premium : 67.65
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24649.6
+ Net gain in premium: 8.299999999999997
+11:22:40 : Average premeium change for ce is 0.41315789473684217 and for pe is -0.05789473684210534
+11:23:6 : 
+Stop loss premium set to : 86.75
+ current combined premium : 66.75
+ start price was :75.95 and initial stop loss : 100.95
+ Nifty index is at: 24646.8
+ Net gain in premium: 9.200000000000003
+11:23:41 : Average premeium change for ce is 0.45500000000000007 and for pe is -0.1375
+11:24:41 : Average premeium change for ce is 0.4833333333333333 and for pe is -0.15000000000000027
+11:25:41 : Average premeium change for ce is 0.634090909090909 and for pe is -0.4386363636363639
+11:26:41 : Average premeium change for ce is 0.5760869565217391 and for pe is -0.358695652173913
+11:27:41 : Average premeium change for ce is 0.5291666666666667 and for pe is -0.3416666666666668
+11:28:41 : Average premeium change for ce is 0.5019999999999999 and for pe is -0.3420000000000002
+11:29:41 : Average premeium change for ce is 0.4865384615384615 and for pe is -0.3076923076923077
+11:30:41 : Average premeium change for ce is 0.49444444444444435 and for pe is -0.3314814814814816
+13:9:27 : Initializing application with directory: C:\FYER_TRADE
+13:9:53 : Start premium is set to 54.25 with combined premium limit of 79.25 at 0.0
+13:9:53 : 
+Stop loss premium set to : 74.25
+ current combined premium : 54.25
+ start price was :54.25 and initial stop loss : 79.25
+ Nifty index is at: 0.0
+ Net gain in premium: 0.0
+13:9:54 : 
+Stop loss premium set to : 74.15
+ current combined premium : 54.15
+ start price was :54.25 and initial stop loss : 79.25
+ Nifty index is at: 24652.75
+ Net gain in premium: 0.10000000000000142
+13:9:54 : 
+Stop loss premium set to : 74.15
+ current combined premium : 54.15
+ start price was :54.25 and initial stop loss : 79.25
+ Nifty index is at: 24652.75
+ Net gain in premium: 0.10000000000000142
+13:9:55 : 
+Stop loss premium set to : 74.1
+ current combined premium : 54.1
+ start price was :54.25 and initial stop loss : 79.25
+ Nifty index is at: 24652.2
+ Net gain in premium: 0.14999999999999858
+13:9:55 : 
+Stop loss premium set to : 74.05
+ current combined premium : 54.05
+ start price was :54.25 and initial stop loss : 79.25
+ Nifty index is at: 24652.1
+ Net gain in premium: 0.20000000000000284
+13:9:59 : 
+Stop loss premium set to : 73.6
+ current combined premium : 53.6
+ start price was :54.25 and initial stop loss : 79.25
+ Nifty index is at: 24652.8
+ Net gain in premium: 0.6499999999999986
+13:10:0 : 
+Stop loss premium set to : 73.5
+ current combined premium : 53.5
+ start price was :54.25 and initial stop loss : 79.25
+ Nifty index is at: 24652.9
+ Net gain in premium: 0.75
+13:10:1 : 
+Stop loss premium set to : 73.44999999999999
+ current combined premium : 53.449999999999996
+ start price was :54.25 and initial stop loss : 79.25
+ Nifty index is at: 24652.45
+ Net gain in premium: 0.8000000000000043
+13:10:1 : 
+Stop loss premium set to : 73.4
+ current combined premium : 53.4
+ start price was :54.25 and initial stop loss : 79.25
+ Nifty index is at: 24652.45
+ Net gain in premium: 0.8500000000000014
+13:10:2 : 
+Stop loss premium set to : 73.15
+ current combined premium : 53.15
+ start price was :54.25 and initial stop loss : 79.25
+ Nifty index is at: 24651.55
+ Net gain in premium: 1.1000000000000014
+13:10:3 : 
+Stop loss premium set to : 73.1
+ current combined premium : 53.1
+ start price was :54.25 and initial stop loss : 79.25
+ Nifty index is at: 24651.55
+ Net gain in premium: 1.1499999999999986
+13:10:3 : 
+Stop loss premium set to : 71.85
+ current combined premium : 51.85
+ start price was :54.25 and initial stop loss : 79.25
+ Nifty index is at: 24652.7
+ Net gain in premium: 2.3999999999999986
+13:11:17 : Initializing application with directory: C:\FYER_TRADE
+13:14:15 : Initializing application with directory: C:\FYER_TRADE
+13:16:56 : Initializing application with directory: C:\FYER_TRADE
+13:18:24 : Initializing application with directory: C:\FYER_TRADE
+13:20:7 : Initializing application with directory: C:\FYER_TRADE
+13:20:25 : Initializing application with directory: C:\FYER_TRADE
+13:25:47 : Initializing application with directory: C:\FYER_TRADE
+13:38:42 : Initializing application with directory: C:\FYER_TRADE
+13:47:17 : Start premium is set to 45.55 with combined premium limit of 70.55 at 0.0
+13:47:17 : 
+Stop loss premium set to : 65.55
+ current combined premium : 45.55
+ start price was :45.55 and initial stop loss : 70.55
+ Nifty index is at: 0.0
+ Net gain in premium: 0.0
+13:47:20 : 
+Stop loss premium set to : 62.95
+ current combined premium : 42.95
+ start price was :45.55 and initial stop loss : 70.55
+ Nifty index is at: 0.0
+ Net gain in premium: 2.5999999999999943
+13:49:7 : Initializing application with directory: C:\FYER_TRADE
+13:50:24 : Start premium is set to 42.45 with combined premium limit of 67.45 at 0.0
+13:50:24 : 
+Stop loss premium set to : 62.45
+ current combined premium : 42.45
+ start price was :42.45 and initial stop loss : 67.45
+ Nifty index is at: 0.0
+ Net gain in premium: 0.0
+13:50:24 : 
+Stop loss premium set to : 62.35
+ current combined premium : 42.35
+ start price was :42.45 and initial stop loss : 67.45
+ Nifty index is at: 24642.75
+ Net gain in premium: 0.10000000000000142
+13:50:24 : 
+Stop loss premium set to : 62.349999999999994
+ current combined premium : 42.349999999999994
+ start price was :42.45 and initial stop loss : 67.45
+ Nifty index is at: 24642.9
+ Net gain in premium: 0.10000000000000853
+13:50:24 : 
+Stop loss premium set to : 62.150000000000006
+ current combined premium : 42.150000000000006
+ start price was :42.45 and initial stop loss : 67.45
+ Nifty index is at: 24643.55
+ Net gain in premium: 0.29999999999999716
+13:50:24 : 
+Stop loss premium set to : 61.900000000000006
+ current combined premium : 41.900000000000006
+ start price was :42.45 and initial stop loss : 67.45
+ Nifty index is at: 24643.25
+ Net gain in premium: 0.5499999999999972
+13:50:24 : 
+Stop loss premium set to : 61.400000000000006
+ current combined premium : 41.400000000000006
+ start price was :42.45 and initial stop loss : 67.45
+ Nifty index is at: 24643.05
+ Net gain in premium: 1.0499999999999972
+13:51:29 : Initializing application with directory: C:\FYER_TRADE
+13:52:43 : Start premium is set to 41.2 with combined premium limit of 66.2 at 0.0
+13:53:42 : 
+Stop loss premium set to : 63.55
+ current combined premium : 43.55
+ start price was :41.2 and initial stop loss : 66.2
+ Nifty index is at: 0.0
+ Net gain in premium: -2.3499999999999943
+13:53:42 : 
+Stop loss premium set to : 60.25
+ current combined premium : 40.25
+ start price was :41.2 and initial stop loss : 66.2
+ Nifty index is at: 0.0
+ Net gain in premium: 0.9500000000000028
+13:53:43 : 
+Stop loss premium set to : 60.150000000000006
+ current combined premium : 40.150000000000006
+ start price was :41.2 and initial stop loss : 66.2
+ Nifty index is at: 24655.4
+ Net gain in premium: 1.0499999999999972
+13:53:44 : 
+Stop loss premium set to : 60.1
+ current combined premium : 40.1
+ start price was :41.2 and initial stop loss : 66.2
+ Nifty index is at: 24655.5
+ Net gain in premium: 1.1000000000000014
+13:53:56 : 
+Stop loss premium set to : 60.0
+ current combined premium : 40.0
+ start price was :41.2 and initial stop loss : 66.2
+ Nifty index is at: 24655.0
+ Net gain in premium: 1.2000000000000028
+13:53:58 : 
+Stop loss premium set to : 59.6
+ current combined premium : 39.6
+ start price was :41.2 and initial stop loss : 66.2
+ Nifty index is at: 24654.65
+ Net gain in premium: 1.6000000000000014
+13:54:0 : 
+Stop loss premium set to : 59.4
+ current combined premium : 39.4
+ start price was :41.2 and initial stop loss : 66.2
+ Nifty index is at: 24654.0
+ Net gain in premium: 1.8000000000000043
+13:54:0 : 
+Stop loss premium set to : 59.25
+ current combined premium : 39.25
+ start price was :41.2 and initial stop loss : 66.2
+ Nifty index is at: 24654.0
+ Net gain in premium: 1.9500000000000028
+13:54:1 : 
+Stop loss premium set to : 59.2
+ current combined premium : 39.2
+ start price was :41.2 and initial stop loss : 66.2
+ Nifty index is at: 24653.55
+ Net gain in premium: 2.0
+13:54:12 : 
+Stop loss premium set to : 59.15
+ current combined premium : 39.15
+ start price was :41.2 and initial stop loss : 66.2
+ Nifty index is at: 24653.15
+ Net gain in premium: 2.0500000000000043
+13:54:36 : 
+Stop loss premium set to : 58.849999999999994
+ current combined premium : 38.849999999999994
+ start price was :41.2 and initial stop loss : 66.2
+ Nifty index is at: 24653.45
+ Net gain in premium: 2.3500000000000085
+13:54:40 : 
+Stop loss premium set to : 58.7
+ current combined premium : 38.7
+ start price was :41.2 and initial stop loss : 66.2
+ Nifty index is at: 24653.45
+ Net gain in premium: 2.5
+13:54:43 : 
+Stop loss premium set to : 58.349999999999994
+ current combined premium : 38.349999999999994
+ start price was :41.2 and initial stop loss : 66.2
+ Nifty index is at: 24653.15
+ Net gain in premium: 2.8500000000000085
+14:4:12 : Initializing application with directory: C:\FYER_TRADE
+14:4:41 : Start premium is set to 36.5 with combined premium limit of 61.5 at 0.0
+14:4:41 : 
+Stop loss premium set to : 56.5
+ current combined premium : 36.5
+ start price was :36.5 and initial stop loss : 61.5
+ Nifty index is at: 0.0
+ Net gain in premium: 0.0
+14:4:41 : 
+Stop loss premium set to : 56.4
+ current combined premium : 36.4
+ start price was :36.5 and initial stop loss : 61.5
+ Nifty index is at: 24639.3
+ Net gain in premium: 0.10000000000000142
+14:4:41 : 
+Stop loss premium set to : 56.3
+ current combined premium : 36.3
+ start price was :36.5 and initial stop loss : 61.5
+ Nifty index is at: 24639.3
+ Net gain in premium: 0.20000000000000284
+14:4:41 : 
+Stop loss premium set to : 56.2
+ current combined premium : 36.2
+ start price was :36.5 and initial stop loss : 61.5
+ Nifty index is at: 24639.5
+ Net gain in premium: 0.29999999999999716
+14:4:41 : 
+Stop loss premium set to : 56.1
+ current combined premium : 36.1
+ start price was :36.5 and initial stop loss : 61.5
+ Nifty index is at: 24639.05
+ Net gain in premium: 0.3999999999999986
+14:4:41 : 
+Stop loss premium set to : 55.75
+ current combined premium : 35.75
+ start price was :36.5 and initial stop loss : 61.5
+ Nifty index is at: 24640.25
+ Net gain in premium: 0.75
+14:9:30 : 
+Stop loss premium set to : 55.7
+ current combined premium : 35.7
+ start price was :36.5 and initial stop loss : 61.5
+ Nifty index is at: 24643.05
+ Net gain in premium: 0.7999999999999972
+14:9:32 : 
+Stop loss premium set to : 55.6
+ current combined premium : 35.6
+ start price was :36.5 and initial stop loss : 61.5
+ Nifty index is at: 24642.5
+ Net gain in premium: 0.8999999999999986
+14:9:49 : 
+Stop loss premium set to : 55.1
+ current combined premium : 35.1
+ start price was :36.5 and initial stop loss : 61.5
+ Nifty index is at: 24645.05
+ Net gain in premium: 1.3999999999999986
+14:9:49 : 
+Stop loss premium set to : 54.9
+ current combined premium : 34.9
+ start price was :36.5 and initial stop loss : 61.5
+ Nifty index is at: 24644.6
+ Net gain in premium: 1.6000000000000014
+14:9:51 : 
+Stop loss premium set to : 54.85
+ current combined premium : 34.85
+ start price was :36.5 and initial stop loss : 61.5
+ Nifty index is at: 24644.6
+ Net gain in premium: 1.6499999999999986
+14:10:0 : 
+Stop loss premium set to : 54.8
+ current combined premium : 34.8
+ start price was :36.5 and initial stop loss : 61.5
+ Nifty index is at: 24646.05
+ Net gain in premium: 1.7000000000000028
+14:10:0 : 
+Stop loss premium set to : 54.7
+ current combined premium : 34.7
+ start price was :36.5 and initial stop loss : 61.5
+ Nifty index is at: 24646.45
+ Net gain in premium: 1.7999999999999972
+14:10:37 : 
+Stop loss premium set to : 54.3
+ current combined premium : 34.3
+ start price was :36.5 and initial stop loss : 61.5
+ Nifty index is at: 24649.15
+ Net gain in premium: 2.200000000000003
+14:10:37 : 
+Stop loss premium set to : 54.150000000000006
+ current combined premium : 34.150000000000006
+ start price was :36.5 and initial stop loss : 61.5
+ Nifty index is at: 24649.15
+ Net gain in premium: 2.3499999999999943
+14:10:38 : 
+Stop loss premium set to : 54.1
+ current combined premium : 34.1
+ start price was :36.5 and initial stop loss : 61.5
+ Nifty index is at: 24649.25
+ Net gain in premium: 2.3999999999999986
+14:11:48 : 
+Stop loss premium set to : 54.0
+ current combined premium : 34.0
+ start price was :36.5 and initial stop loss : 61.5
+ Nifty index is at: 24645.6
+ Net gain in premium: 2.5
+14:12:26 : 
+Stop loss premium set to : 53.7
+ current combined premium : 33.7
+ start price was :36.5 and initial stop loss : 61.5
+ Nifty index is at: 24642.85
+ Net gain in premium: 2.799999999999997
+14:12:31 : 
+Stop loss premium set to : 53.2
+ current combined premium : 33.2
+ start price was :36.5 and initial stop loss : 61.5
+ Nifty index is at: 24642.55
+ Net gain in premium: 3.299999999999997
+14:15:32 : Initializing application with directory: C:\FYER_TRADE
+14:15:39 : Start premium is set to 36.15 with combined premium limit of 61.15 at 0.0
+14:15:39 : 
+Stop loss premium set to : 56.15
+ current combined premium : 36.15
+ start price was :36.15 and initial stop loss : 61.15
+ Nifty index is at: 0.0
+ Net gain in premium: 0.0
+14:15:40 : 
+Stop loss premium set to : 55.85
+ current combined premium : 35.85
+ start price was :36.15 and initial stop loss : 61.15
+ Nifty index is at: 24636.35
+ Net gain in premium: 0.29999999999999716
+14:15:44 : 
+Stop loss premium set to : 55.75
+ current combined premium : 35.75
+ start price was :36.15 and initial stop loss : 61.15
+ Nifty index is at: 24634.8
+ Net gain in premium: 0.3999999999999986
+14:15:45 : 
+Stop loss premium set to : 55.7
+ current combined premium : 35.7
+ start price was :36.15 and initial stop loss : 61.15
+ Nifty index is at: 24634.65
+ Net gain in premium: 0.44999999999999574
+14:15:45 : 
+Stop loss premium set to : 55.65
+ current combined premium : 35.65
+ start price was :36.15 and initial stop loss : 61.15
+ Nifty index is at: 24635.25
+ Net gain in premium: 0.5
+14:18:1 : SL hit for combined premium: 58.3 at 24617.65 with limit 55.65
+14:18:2 : SL hit for combined premium: 58.4 at 24617.5 with limit 55.65
+14:18:2 : SL hit for combined premium: 59.75 at 24617.5 with limit 55.65
+14:18:2 : SL hit for combined premium: 60.0 at 24618.15 with limit 55.65
+14:18:2 : SL hit for combined premium: 60.05 at 24618.15 with limit 55.65
+14:18:3 : SL hit for combined premium: 60.099999999999994 at 24618.15 with limit 55.65
+14:18:3 : SL hit for combined premium: 58.8 at 24618.15 with limit 55.65
+14:18:4 : SL hit for combined premium: 58.75 at 24616.95 with limit 55.65
+14:18:4 : SL hit for combined premium: 57.4 at 24616.95 with limit 55.65
+14:18:4 : SL hit for combined premium: 57.45 at 24616.75 with limit 55.65
+14:18:4 : SL hit for combined premium: 56.349999999999994 at 24616.75 with limit 55.65
+14:18:5 : SL hit for combined premium: 56.2 at 24616.95 with limit 55.65
+14:18:5 : SL hit for combined premium: 57.55 at 24616.95 with limit 55.65
+14:18:5 : SL hit for combined premium: 56.8 at 24616.9 with limit 55.65
+14:18:6 : SL hit for combined premium: 56.95 at 24617.35 with limit 55.65
+14:18:6 : SL hit for combined premium: 55.95 at 24617.35 with limit 55.65
+14:18:7 : SL hit for combined premium: 55.9 at 24617.5 with limit 55.65
+14:44:49 : Initializing application with directory: C:\FYER_TRADE
+14:44:57 : Start premium is set to 35.0 with combined premium limit of 60.0 at 0.0
+14:44:57 : Updating Stop loss to  55.0
+14:44:57 : Updating Stop loss to  54.949999999999996
+14:44:59 : Updating Stop loss to  54.9
+14:44:59 : Updating Stop loss to  54.15
+14:45:1 : Updating Stop loss to  53.8
+14:45:2 : Updating Stop loss to  53.75
+14:45:2 : Updating Stop loss to  53.550000000000004
+14:45:3 : Updating Stop loss to  53.15
+14:45:4 : Updating Stop loss to  53.1
+14:45:4 : Updating Stop loss to  53.05
+14:45:5 : Updating Stop loss to  52.95
+14:45:7 : Updating Stop loss to  52.55
+14:45:11 : Updating Stop loss to  51.85
+14:45:12 : Updating Stop loss to  51.75
+14:45:12 : Updating Stop loss to  51.6
+14:45:49 : Updating Stop loss to  51.2
+14:45:50 : Updating Stop loss to  51.05
+14:45:56 : Gain/Loss in premium for 
+ CE : -1.15 
+ PE : 4.8 
+ Combined Premium gain : 3.65 
+ Trailing Stop Loss : 51.05 
+ Current Combined Premium : 31.35 
+ Nifty Index changed by : 0 
+ 
+14:46:1 : Updating Stop loss to  50.45
+14:46:2 : Updating Stop loss to  49.9
+14:46:3 : Updating Stop loss to  49.400000000000006
+14:46:5 : Updating Stop loss to  48.55
+14:46:6 : Updating Stop loss to  48.1
+14:46:8 : Updating Stop loss to  47.75
+14:46:37 : Updating Stop loss to  47.55
+14:46:56 : Updating Stop loss to  46.0
+14:46:56 : Gain/Loss in premium for 
+ CE : -2.7 
+ PE : 11.7 
+ Combined Premium gain : 9 
+ Trailing Stop Loss : 46 
+ Current Combined Premium : 26 
+ Nifty Index changed by : 0 
+ 
+14:47:56 : Gain/Loss in premium for 
+ CE : -0.95 
+ PE : 7.9 
+ Combined Premium gain : 6.95 
+ Trailing Stop Loss : 46 
+ Current Combined Premium : 28.05 
+ Nifty Index changed by : 0 
+ 
+14:48:56 : Gain/Loss in premium for 
+ CE : 0.25 
+ PE : 7.8 
+ Combined Premium gain : 8.05 
+ Trailing Stop Loss : 46 
+ Current Combined Premium : 26.95 
+ Nifty Index changed by : 0 
+ 
+14:49:12 : Updating Stop loss to  45.9
+14:49:20 : Updating Stop loss to  45.7
+14:49:23 : Updating Stop loss to  45.65
+14:49:26 : Updating Stop loss to  45.45
+14:49:56 : Gain/Loss in premium for 
+ CE : -2.8 
+ PE : 11.5 
+ Combined Premium gain : 8.7 
+ Trailing Stop Loss : 45.45 
+ Current Combined Premium : 26.3 
+ Nifty Index changed by : 0 
+ 
+14:49:58 : Updating Stop loss to  45.45
+14:49:59 : Updating Stop loss to  45.35
+14:50:0 : Updating Stop loss to  45.1
+14:50:2 : Updating Stop loss to  44.55
+14:50:56 : Gain/Loss in premium for 
+ CE : -5.55 
+ PE : 14.45 
+ Combined Premium gain : 8.9 
+ Trailing Stop Loss : 44.55 
+ Current Combined Premium : 26.1 
+ Nifty Index changed by : 0 
+ 
+14:51:48 : Updating Stop loss to  43.7
+14:51:49 : Updating Stop loss to  43.45
+14:51:51 : Updating Stop loss to  43.4
+14:51:56 : Gain/Loss in premium for 
+ CE : -3.85 
+ PE : 14.9 
+ Combined Premium gain : 11.05 
+ Trailing Stop Loss : 43.4 
+ Current Combined Premium : 23.95 
+ Nifty Index changed by : 0 
+ 
+14:52:56 : Gain/Loss in premium for 
+ CE : -6.7 
+ PE : 17.45 
+ Combined Premium gain : 10.75 
+ Trailing Stop Loss : 43.4 
+ Current Combined Premium : 24.25 
+ Nifty Index changed by : 0 
+ 
+14:53:56 : Gain/Loss in premium for 
+ CE : -5.6 
+ PE : 16.4 
+ Combined Premium gain : 10.8 
+ Trailing Stop Loss : 43.4 
+ Current Combined Premium : 24.2 
+ Nifty Index changed by : 0 
+ 
+14:54:56 : Gain/Loss in premium for 
+ CE : -6.85 
+ PE : 16.4 
+ Combined Premium gain : 9.55 
+ Trailing Stop Loss : 43.4 
+ Current Combined Premium : 25.45 
+ Nifty Index changed by : 0 
+ 
+14:55:56 : Gain/Loss in premium for 
+ CE : -9.3 
+ PE : 20 
+ Combined Premium gain : 10.7 
+ Trailing Stop Loss : 43.4 
+ Current Combined Premium : 24.3 
+ Nifty Index changed by : 0 
+ 
+14:56:4 : Updating Stop loss to  43.3
+14:56:7 : Updating Stop loss to  42.75
+14:56:8 : Updating Stop loss to  42.7
+14:56:8 : Updating Stop loss to  42.7
+14:56:9 : Updating Stop loss to  42.35
+14:56:11 : Updating Stop loss to  41.85
+14:56:13 : Updating Stop loss to  41.5
+14:56:16 : Updating Stop loss to  41.2
+14:56:17 : Updating Stop loss to  41.15
+14:56:18 : Updating Stop loss to  40.05
+14:56:19 : Updating Stop loss to  39.9
+14:56:20 : Updating Stop loss to  39.6
+14:56:20 : Updating Stop loss to  39.25
+14:56:56 : Gain/Loss in premium for 
+ CE : -4.9 
+ PE : 18.65 
+ Combined Premium gain : 13.75 
+ Trailing Stop Loss : 39.25 
+ Current Combined Premium : 21.25 
+ Nifty Index changed by : 0 
+ 
+14:57:57 : Gain/Loss in premium for 
+ CE : -3.7 
+ PE : 17.7 
+ Combined Premium gain : 14 
+ Trailing Stop Loss : 39.25 
+ Current Combined Premium : 21 
+ Nifty Index changed by : 0 
+ 
+14:58:21 : Updating Stop loss to  39.2
+14:58:23 : Updating Stop loss to  38.9
+14:58:25 : Updating Stop loss to  38.75
+14:58:31 : Updating Stop loss to  38.7
+14:58:57 : Gain/Loss in premium for 
+ CE : -3 
+ PE : 18.3 
+ Combined Premium gain : 15.3 
+ Trailing Stop Loss : 38.7 
+ Current Combined Premium : 19.7 
+ Nifty Index changed by : 0 
+ 
+14:59:57 : Gain/Loss in premium for 
+ CE : -5.8 
+ PE : 20.85 
+ Combined Premium gain : 15.05 
+ Trailing Stop Loss : 38.7 
+ Current Combined Premium : 19.95 
+ Nifty Index changed by : 0 
+ 
+15:0:6 : Updating Stop loss to  38.7
+15:0:8 : Updating Stop loss to  38.4
+15:0:8 : Updating Stop loss to  38.2
+15:0:10 : Updating Stop loss to  37.1
+15:0:12 : Updating Stop loss to  37.05
+15:0:36 : Initializing application with directory: C:\FYER_TRADE
+15:0:43 : Start premium is set to 16.2 with combined premium limit of 41.2 at 24646.25
+15:0:43 : Updating Stop loss to  36.2
+15:0:45 : Updating Stop loss to  36.05
+15:0:47 : Updating Stop loss to  35.45
+15:0:49 : Updating Stop loss to  34.9
+15:0:50 : Updating Stop loss to  34.8
+15:1:0 : Updating Stop loss to  33.95
+15:1:15 : Updating Stop loss to  33.5
+15:1:16 : Updating Stop loss to  33.45
+15:1:17 : Updating Stop loss to  33.3
+15:1:19 : Updating Stop loss to  32.95
+15:1:21 : Updating Stop loss to  32.6
+15:1:21 : Updating Stop loss to  32.55
+15:1:41 : Gain/Loss in premium for (- indicates loss 
+ CE : 7.3 
+ PE : -5.9 
+ Combined Premium gain : 1.4 
+ Trailing Stop Loss : 32.55 
+ Current Combined Premium : 14.8 
+ Nifty Index changed by : 9.65 
+ 
+15:2:41 : Gain/Loss in premium for (- indicates loss 
+ CE : 6.9 
+ PE : -4.2 
+ Combined Premium gain : 2.7 
+ Trailing Stop Loss : 32.55 
+ Current Combined Premium : 13.5 
+ Nifty Index changed by : 8.8 
+ 
+15:3:42 : Gain/Loss in premium for (- indicates loss 
+ CE : 8.5 
+ PE : -11.7 
+ Combined Premium gain : -3.2 
+ Trailing Stop Loss : 32.55 
+ Current Combined Premium : 19.4 
+ Nifty Index changed by : 10.55 
+ 
+15:4:42 : Gain/Loss in premium for (- indicates loss 
+ CE : 8.8 
+ PE : -9.2 
+ Combined Premium gain : -0.4 
+ Trailing Stop Loss : 32.55 
+ Current Combined Premium : 16.6 
+ Nifty Index changed by : 8.75 
+ 
+15:5:42 : Gain/Loss in premium for (- indicates loss 
+ CE : 8.65 
+ PE : -7 
+ Combined Premium gain : 1.65 
+ Trailing Stop Loss : 32.55 
+ Current Combined Premium : 14.55 
+ Nifty Index changed by : 5.35 
+ 
+15:6:3 : Updating Stop loss to  32.45
+15:6:4 : Updating Stop loss to  32.15
+15:6:4 : Updating Stop loss to  32.05
+15:6:8 : Updating Stop loss to  32.0
+15:6:14 : Updating Stop loss to  31.8
+15:6:15 : Updating Stop loss to  31.7
+15:6:31 : Updating Stop loss to  31.65
+15:6:32 : Updating Stop loss to  31.45
+15:6:34 : Updating Stop loss to  31.35
+15:6:36 : Updating Stop loss to  31.15
+15:6:39 : Updating Stop loss to  31.0
+15:6:39 : Updating Stop loss to  30.9
+15:6:40 : Updating Stop loss to  30.85
+15:6:40 : Updating Stop loss to  30.7
+15:6:42 : Updating Stop loss to  30.65
+15:6:42 : Updating Stop loss to  30.55
+15:6:42 : Gain/Loss in premium for (- indicates loss 
+ CE : 8.15 
+ PE : -2.5 
+ Combined Premium gain : 5.65 
+ Trailing Stop Loss : 30.55 
+ Current Combined Premium : 10.55 
+ Nifty Index changed by : 7.15 
+ 
+15:6:48 : Updating Stop loss to  30.05
+15:6:50 : Updating Stop loss to  30.0
+15:6:50 : Updating Stop loss to  29.45
+15:6:51 : Updating Stop loss to  29.4
+15:6:52 : Updating Stop loss to  29.3
+15:6:53 : Updating Stop loss to  29.25
+15:6:54 : Updating Stop loss to  28.95
+15:7:42 : Gain/Loss in premium for (- indicates loss 
+ CE : 8.9 
+ PE : -5.15 
+ Combined Premium gain : 3.75 
+ Trailing Stop Loss : 28.95 
+ Current Combined Premium : 12.45 
+ Nifty Index changed by : 9.05 
+ 
+15:8:42 : Gain/Loss in premium for (- indicates loss 
+ CE : 9.7 
+ PE : -7.25 
+ Combined Premium gain : 2.45 
+ Trailing Stop Loss : 28.95 
+ Current Combined Premium : 13.75 
+ Nifty Index changed by : 8.35 
+ 
+15:9:42 : Gain/Loss in premium for (- indicates loss 
+ CE : 9.75 
+ PE : -5.6 
+ Combined Premium gain : 4.15 
+ Trailing Stop Loss : 28.95 
+ Current Combined Premium : 12.05 
+ Nifty Index changed by : 8.15 
+ 
+15:10:43 : Gain/Loss in premium for (- indicates loss 
+ CE : 10.05 
+ PE : -6.7 
+ Combined Premium gain : 3.35 
+ Trailing Stop Loss : 28.95 
+ Current Combined Premium : 12.85 
+ Nifty Index changed by : 9.2 
+ 
+15:11:43 : Gain/Loss in premium for (- indicates loss 
+ CE : 10.3 
+ PE : -8.75 
+ Combined Premium gain : 1.55 
+ Trailing Stop Loss : 28.95 
+ Current Combined Premium : 14.65 
+ Nifty Index changed by : 10.65 
+ 
+15:13:28 : Initializing application with directory: C:\FYER_TRADE
+15:13:37 : Start premium is set to 18.65 with combined premium limit of 43.65 at 24631.85
+15:13:37 : Updating Stop loss to  38.65
+15:13:43 : Updating Stop loss to  38.5
+15:13:44 : Updating Stop loss to  38.45
+15:13:45 : Updating Stop loss to  38.45
+15:13:51 : Updating Stop loss to  38.0
+15:13:54 : Updating Stop loss to  37.7
+15:13:54 : Updating Stop loss to  37.7
+15:13:55 : Updating Stop loss to  37.599999999999994
+15:13:59 : Updating Stop loss to  37.0
+15:14:5 : Updating Stop loss to  36.9
+15:14:35 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0.05 
+ PE : -0.4 
+ Combined Premium gain : -0.35 
+ Trailing Stop Loss : 36.9 
+ Current Combined Premium : 19 
+ Nifty Index changed by : 0.55 
+ Legs Active : : PE :trueCE :true
+15:15:35 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0.05 
+ PE : -0.5 
+ Combined Premium gain : -0.45 
+ Trailing Stop Loss : 36.9 
+ Current Combined Premium : 19.1 
+ Nifty Index changed by : 3.75 
+ Legs Active : : PE :trueCE :true
+15:16:35 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0.05 
+ PE : -5.3 
+ Combined Premium gain : -5.25 
+ Trailing Stop Loss : 36.9 
+ Current Combined Premium : 23.9 
+ Nifty Index changed by : 7.9 
+ Legs Active : : PE :trueCE :true
+15:17:35 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0.1 
+ PE : -4.4 
+ Combined Premium gain : -4.3 
+ Trailing Stop Loss : 36.9 
+ Current Combined Premium : 22.95 
+ Nifty Index changed by : 9.15 
+ Legs Active : : PE :trueCE :true
+15:18:35 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0.05 
+ PE : -1.85 
+ Combined Premium gain : -1.8 
+ Trailing Stop Loss : 36.9 
+ Current Combined Premium : 20.45 
+ Nifty Index changed by : 8.65 
+ Legs Active : : PE :trueCE :true
+15:19:9 : Updating Stop loss to  36.8
+15:19:10 : Updating Stop loss to  36.75
+15:19:11 : Updating Stop loss to  36.7
+15:19:14 : Updating Stop loss to  36.35
+15:19:35 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0.05 
+ PE : -0.5 
+ Combined Premium gain : -0.45 
+ Trailing Stop Loss : 36.35 
+ Current Combined Premium : 19.1 
+ Nifty Index changed by : 1.85 
+ Legs Active : : PE :trueCE :true
+15:20:35 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0.1 
+ PE : 0.75 
+ Combined Premium gain : 0.85 
+ Trailing Stop Loss : 36.35 
+ Current Combined Premium : 17.8 
+ Nifty Index changed by : 1.25 
+ Legs Active : : PE :trueCE :true
+15:21:35 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0.15 
+ PE : 1.2 
+ Combined Premium gain : 1.35 
+ Trailing Stop Loss : 36.35 
+ Current Combined Premium : 17.3 
+ Nifty Index changed by : 2.55 
+ Legs Active : : PE :trueCE :true
+15:22:16 : Initializing application with directory: C:\FYER_TRADE
+15:22:25 : Start premium is set to 19.0 with combined premium limit of 44.0 at 24622.2
+15:22:25 : Updating Stop loss to  39.0
+15:23:7 : Updating Stop loss to  38.7
+15:23:8 : Updating Stop loss to  38.650000000000006
+15:23:8 : Updating Stop loss to  38.55
+15:23:10 : Updating Stop loss to  38.5
+15:23:10 : Updating Stop loss to  38.3
+15:23:12 : Updating Stop loss to  38.05
+15:23:13 : Updating Stop loss to  37.85
+15:23:24 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0 
+ PE : 0.65 
+ Combined Premium gain : 0.65 
+ Trailing Stop Loss : 37.85 
+ Current Combined Premium : 18.35 
+ Nifty Index changed by : -4.7 
+ Legs Active : :  PE :true ; CE :true
+15:24:24 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0 
+ PE : 0.3 
+ Combined Premium gain : 0.3 
+ Trailing Stop Loss : 37.85 
+ Current Combined Premium : 18.7 
+ Nifty Index changed by : -2.45 
+ Legs Active : :  PE :true ; CE :true
+15:25:24 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0 
+ PE : 0 
+ Combined Premium gain : 0 
+ Trailing Stop Loss : 37.85 
+ Current Combined Premium : 19 
+ Nifty Index changed by : -1.2 
+ Legs Active : :  PE :true ; CE :true
+15:25:52 : Initializing application with directory: C:\FYER_TRADE
+15:25:59 : Start premium is set to 18.7 with combined premium limit of 43.7 at 24623.6
+15:25:59 : Updating Stop loss to  38.7
+15:26:0 : Updating Stop loss to  38.7
+15:26:1 : Updating Stop loss to  38.7
+15:26:2 : Updating Stop loss to  38.7
+15:26:3 : Updating Stop loss to  38.7
+15:26:3 : Updating Stop loss to  38.55
+15:26:58 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0 
+ PE : -0.05 
+ Combined Premium gain : -0.05 
+ Trailing Stop Loss : 38.55 
+ Start Premium : 18.7 
+ Current Combined Premium : 18.75 
+ Nifty Index changed by : 2.15 
+ Legs Active : :  PE :true ; CE :true
+15:27:59 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0 
+ PE : -0.35 
+ Combined Premium gain : -0.35 
+ Trailing Stop Loss : 38.55 
+ Start Premium : 18.7 
+ Current Combined Premium : 19.05 
+ Nifty Index changed by : 4.45 
+ Legs Active : :  PE :true ; CE :true
+15:28:59 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0 
+ PE : -0.1 
+ Combined Premium gain : -0.1 
+ Trailing Stop Loss : 38.55 
+ Start Premium : 18.7 
+ Current Combined Premium : 18.8 
+ Nifty Index changed by : 9.7 
+ Legs Active : :  PE :true ; CE :true
+15:29:59 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0 
+ PE : 0 
+ Combined Premium gain : 0 
+ Trailing Stop Loss : 38.55 
+ Start Premium : 18.7 
+ Current Combined Premium : 18.7 
+ Nifty Index changed by : 8.9 
+ Legs Active : :  PE :true ; CE :true
+15:43:13 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0 
+ PE : 0 
+ Combined Premium gain : 0 
+ Trailing Stop Loss : 38.55 
+ Start Premium : 18.7 
+ Current Combined Premium : 18.7 
+ Nifty Index changed by : -7.7 
+ Legs Active : :  PE :true ; CE :true
+16:22:50 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0 
+ PE : 0 
+ Combined Premium gain : 0 
+ Trailing Stop Loss : 38.55 
+ Start Premium : 18.7 
+ Current Combined Premium : 18.7 
+ Nifty Index changed by : -7.7 
+ Legs Active : :  PE :true ; CE :true
+16:23:50 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0 
+ PE : 0 
+ Combined Premium gain : 0 
+ Trailing Stop Loss : 38.55 
+ Start Premium : 18.7 
+ Current Combined Premium : 18.7 
+ Nifty Index changed by : -7.7 
+ Legs Active : :  PE :true ; CE :true
+17:17:12 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0 
+ PE : 0 
+ Combined Premium gain : 0 
+ Trailing Stop Loss : 38.55 
+ Start Premium : 18.7 
+ Current Combined Premium : 18.7 
+ Nifty Index changed by : -7.7 
+ Legs Active : :  PE :true ; CE :true
+0:47:2 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0 
+ PE : 0 
+ Combined Premium gain : 0 
+ Trailing Stop Loss : 38.55 
+ Start Premium : 18.7 
+ Current Combined Premium : 18.7 
+ Nifty Index changed by : -7.7 
+ Legs Active : :  PE :true ; CE :true
+2:46:19 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0 
+ PE : 0 
+ Combined Premium gain : 0 
+ Trailing Stop Loss : 38.55 
+ Start Premium : 18.7 
+ Current Combined Premium : 18.7 
+ Nifty Index changed by : -7.7 
+ Legs Active : :  PE :true ; CE :true
+3:52:22 : 
+Gain/Loss in premium for (- indicates premium loss against you.) 
+ CE : 0 
+ PE : 0 
+ Combined Premium gain : 0 
+ Trailing Stop Loss : 38.55 
+ Start Premium : 18.7 
+ Current Combined Premium : 18.7 
+ Nifty Index changed by : -7.7 
+ Legs Active : :  PE :true ; CE :true

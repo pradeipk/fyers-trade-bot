@@ -1,0 +1,1990 @@
+9:36:22 : Initializing application with directory: C:\FYER_TRADE
+9:37:13 : Start premium is set to 296.04999999999995 with combined premium limit of 321.04999999999995 at 24955.95
+9:37:13 : Updating trailing Stop loss to  316.05
+9:37:13 : Updating trailing Stop loss to  316
+9:37:14 : Updating trailing Stop loss to  315.7
+9:37:14 : Updating trailing Stop loss to  315.4
+9:37:19 : Updating trailing Stop loss to  315.35
+9:37:34 : Updating trailing Stop loss to  314.8
+9:37:51 : Updating trailing Stop loss to  314.65
+9:38:11 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE        : 1.1 ( 164.2 --> 163.1 )
+Delta PE        : -0.15 ( 131.85 --> 132 )
+Delta Premium   : 0.95 ( 296.05 --> 295.1 )
+Trailing SL     : 314.65
+Delta Nifty     :  ( -0.65 ) 24,955.95 --> 24,955.3 
+ Legs Active     :  PE :true ; CE :true 
+
+ 
+9:38:12 : Updating trailing Stop loss to  314.6
+9:38:36 : Updating trailing Stop loss to  314.5
+9:38:36 : Updating trailing Stop loss to  314.3
+9:38:44 : Updating trailing Stop loss to  313.85
+9:39:3 : Updating trailing Stop loss to  312.5
+9:39:12 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE        : 3.7 ( 164.2 --> 160.5 )
+Delta PE        : -2.8 ( 131.85 --> 134.65 )
+Delta Premium   : 0.9 ( 296.05 --> 295.15 )
+Trailing SL     : 312.5
+Delta Nifty     :  ( -4.75 ) 24,955.95 --> 24,951.2 
+ Legs Active     :  PE :true ; CE :true 
+
+ 
+9:40:12 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE        : 6.15 ( 164.2 --> 158.05 )
+Delta PE        : -3.15 ( 131.85 --> 135 )
+Delta Premium   : 3 ( 296.05 --> 293.05 )
+Trailing SL     : 312.5
+Delta Nifty     :  ( -9.3 ) 24,955.95 --> 24,946.65 
+ Legs Active     :  PE :true ; CE :true 
+
+ 
+9:41:7 : Updating trailing Stop loss to  311.85
+9:41:13 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE        : 2.8 ( 164.2 --> 161.4 )
+Delta PE        : -0.15 ( 131.85 --> 132 )
+Delta Premium   : 2.65 ( 296.05 --> 293.4 )
+Trailing SL     : 311.85
+Delta Nifty     :  ( -0.95 ) 24,955.95 --> 24,955 
+ Legs Active     :  PE :true ; CE :true 
+
+ 
+9:42:14 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE        : 6.55 ( 164.2 --> 157.65 )
+Delta PE        : -3.15 ( 131.85 --> 135 )
+Delta Premium   : 3.4 ( 296.05 --> 292.65 )
+Trailing SL     : 311.85
+Delta Nifty     :  ( -6.85 ) 24,955.95 --> 24,949.1 
+ Legs Active     :  PE :true ; CE :true 
+
+ 
+9:43:14 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE        : 0.3 ( 164.2 --> 163.9 )
+Delta PE        : 0.9 ( 131.85 --> 130.95 )
+Delta Premium   : 1.2 ( 296.05 --> 294.85 )
+Trailing SL     : 311.85
+Delta Nifty     :  ( -0.5 ) 24,955.95 --> 24,955.45 
+ Legs Active     :  PE :true ; CE :true 
+
+ 
+9:44:15 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE        : -4.8 ( 164.2 --> 169 )
+Delta PE        : 4.2 ( 131.85 --> 127.65 )
+Delta Premium   : -0.6 ( 296.05 --> 296.65 )
+Trailing SL     : 311.85
+Delta Nifty     :  ( 14.05 ) 24,955.95 --> 24,970 
+ Legs Active     :  PE :true ; CE :true 
+
+ 
+9:45:16 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE        : -4.95 ( 164.2 --> 169.15 )
+Delta PE        : 4.85 ( 131.85 --> 127 )
+Delta Premium   : -0.1 ( 296.05 --> 296.15 )
+Trailing SL     : 311.85
+Delta Nifty     :  ( 11.15 ) 24,955.95 --> 24,967.1 
+ Legs Active     :  PE :true ; CE :true 
+
+ 
+9:46:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE        : -9.15 ( 164.2 --> 173.35 )
+Delta PE        : 7.35 ( 131.85 --> 124.5 )
+Delta Premium   : -1.8 ( 296.05 --> 297.85 )
+Trailing SL     : 311.85
+Delta Nifty     :  ( 17.6 ) 24,955.95 --> 24,973.55 
+ Legs Active     :  PE :true ; CE :true 
+
+ 
+9:47:18 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE        : -10.45 ( 164.2 --> 174.65 )
+Delta PE        : 8.65 ( 131.85 --> 123.2 )
+Delta Premium   : -1.8 ( 296.05 --> 297.85 )
+Trailing SL     : 311.85
+Delta Nifty     :  ( 17.85 ) 24,955.95 --> 24,973.8 
+ Legs Active     :  PE :true ; CE :true 
+
+ 
+9:48:19 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE        : -10.1 ( 164.2 --> 174.3 )
+Delta PE        : 8.75 ( 131.85 --> 123.1 )
+Delta Premium   : -1.35 ( 296.05 --> 297.4 )
+Trailing SL     : 311.85
+Delta Nifty     :  ( 22.35 ) 24,955.95 --> 24,978.3 
+ Legs Active     :  PE :true ; CE :true 
+
+ 
+9:49:19 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE        : -13.8 ( 164.2 --> 178 )
+Delta PE        : 10.35 ( 131.85 --> 121.5 )
+Delta Premium   : -3.45 ( 296.05 --> 299.5 )
+Trailing SL     : 311.85
+Delta Nifty     :  ( 24.25 ) 24,955.95 --> 24,980.2 
+ Legs Active     :  PE :true ; CE :true 
+
+ 
+9:50:20 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE        : -14.75 ( 164.2 --> 178.95 )
+Delta PE        : 11.3 ( 131.85 --> 120.55 )
+Delta Premium   : -3.45 ( 296.05 --> 299.5 )
+Trailing SL     : 311.85
+Delta Nifty     :  ( 27 ) 24,955.95 --> 24,982.95 
+ Legs Active     :  PE :true ; CE :true 
+
+ 
+9:51:21 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE        : -11.15 ( 164.2 --> 175.35 )
+Delta PE        : 8.5 ( 131.85 --> 123.35 )
+Delta Premium   : -2.65 ( 296.05 --> 298.7 )
+Trailing SL     : 311.85
+Delta Nifty     :  ( 17.8 ) 24,955.95 --> 24,973.75 
+ Legs Active     :  PE :true ; CE :true 
+
+ 
+9:52:21 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE        : -11.55 ( 164.2 --> 175.75 )
+Delta PE        : 9.3 ( 131.85 --> 122.55 )
+Delta Premium   : -2.25 ( 296.05 --> 298.3 )
+Trailing SL     : 311.85
+Delta Nifty     :  ( 18.85 ) 24,955.95 --> 24,974.8 
+ Legs Active     :  PE :true ; CE :true 
+
+ 
+9:53:22 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE        : -6.8 ( 164.2 --> 171 )
+Delta PE        : 7.85 ( 131.85 --> 124 )
+Delta Premium   : 1.05 ( 296.05 --> 295 )
+Trailing SL     : 311.85
+Delta Nifty     :  ( 12.65 ) 24,955.95 --> 24,968.6 
+ Legs Active     :  PE :true ; CE :true 
+
+ 
+9:54:19 : Initializing application with directory: C:\FYER_TRADE
+9:54:36 : Start premium is set to 296.85 with combined premium limit of 321.85 at 24970.55
+9:54:36 : Updating trailing Stop loss to  316.85
+9:54:36 : Updating trailing Stop loss to  316.8
+9:54:38 : Updating trailing Stop loss to  316.45
+9:54:40 : Updating trailing Stop loss to  315.9
+9:54:44 : Updating trailing Stop loss to  315.5
+9:54:49 : Updating trailing Stop loss to  315.35
+9:54:50 : Updating trailing Stop loss to  315.25
+9:55:28 : Updating trailing Stop loss to  315.2
+9:55:32 : Updating trailing Stop loss to  314.55
+9:55:34 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE      : 3.35; 174.35 -> 171
+Delta PE        : -2.6; 122.5 -> 125.1
+Delta Premium : 0.75; 296.85 -> 296.1
+Trailing SL   : 314.55
+Delta Nifty   : 1.2; 24,970.55 --> 24,971.75
+ Legs Active   :  PE : true ; CE : true 
+
+ 
+9:55:41 : Updating trailing Stop loss to  314.5
+9:55:43 : Updating trailing Stop loss to  313.95
+9:55:46 : Updating trailing Stop loss to  313.3
+9:56:6 : Updating trailing Stop loss to  313.15
+9:56:6 : Updating trailing Stop loss to  312.65
+9:56:8 : Updating trailing Stop loss to  312.6
+9:56:10 : Updating trailing Stop loss to  312
+9:56:10 : Updating trailing Stop loss to  311.9
+9:56:11 : Updating trailing Stop loss to  311.1
+9:56:14 : Updating trailing Stop loss to  310.45
+9:56:35 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE      : 8.1; 174.35 -> 166.25
+Delta PE        : -5.15; 122.5 -> 127.65
+Delta Premium : 2.95; 296.85 -> 293.9
+Trailing SL   : 310.45
+Delta Nifty   : -15.65; 24,970.55 --> 24,954.9
+ Legs Active   :  PE : true ; CE : true 
+
+ 
+9:57:35 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE      : 6.35; 174.35 -> 168
+Delta PE        : -4.6; 122.5 -> 127.1
+Delta Premium : 1.75; 296.85 -> 295.1
+Trailing SL   : 310.45
+Delta Nifty   : -6.4; 24,970.55 --> 24,964.15
+ Legs Active   :  PE : true ; CE : true 
+
+ 
+9:58:36 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE      : 1.95; 174.35 -> 172.4
+Delta PE        : -1.5; 122.5 -> 124
+Delta Premium : 0.45; 296.85 -> 296.4
+Trailing SL   : 310.45
+Delta Nifty   : -2.45; 24,970.55 --> 24,968.1
+ Legs Active   :  PE : true ; CE : true 
+
+ 
+9:59:37 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE      : -0.8; 174.35 -> 175.15
+Delta PE        : -0.3; 122.5 -> 122.8
+Delta Premium : -1.1; 296.85 -> 297.95
+Trailing SL   : 310.45
+Delta Nifty   : 5.85; 24,970.55 --> 24,976.4
+ Legs Active   :  PE : true ; CE : true 
+
+ 
+10:0:38 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE      : -4.3; 174.35 -> 178.65
+Delta PE        : 1.5; 122.5 -> 121
+Delta Premium : -2.8; 296.85 -> 299.65
+Trailing SL   : 310.45
+Delta Nifty   : 8.4; 24,970.55 --> 24,978.95
+ Legs Active   :  PE : true ; CE : true 
+
+ 
+10:1:38 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE      : -4.3; 174.35 -> 178.65
+Delta PE        : 1.15; 122.5 -> 121.35
+Delta Premium : -3.15; 296.85 -> 300
+Trailing SL   : 310.45
+Delta Nifty   : 5.15; 24,970.55 --> 24,975.7
+ Legs Active   :  PE : true ; CE : true 
+
+ 
+10:2:39 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE      : -3.65; 174.35 -> 178
+Delta PE        : 1; 122.5 -> 121.5
+Delta Premium : -2.65; 296.85 -> 299.5
+Trailing SL   : 310.45
+Delta Nifty   : 4.25; 24,970.55 --> 24,974.8
+ Legs Active   :  PE : true ; CE : true 
+
+ 
+10:3:40 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE      : -10.35; 174.35 -> 184.7
+Delta PE        : 5.5; 122.5 -> 117
+Delta Premium : -4.85; 296.85 -> 301.7
+Trailing SL   : 310.45
+Delta Nifty   : 16.15; 24,970.55 --> 24,986.7
+ Legs Active   :  PE : true ; CE : true 
+
+ 
+10:4:40 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE      : -9.15; 174.35 -> 183.5
+Delta PE        : 4.75; 122.5 -> 117.75
+Delta Premium : -4.4; 296.85 -> 301.25
+Trailing SL   : 310.45
+Delta Nifty   : 17.45; 24,970.55 --> 24,988
+ Legs Active   :  PE : true ; CE : true 
+
+ 
+10:5:41 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE      : -8.7; 174.35 -> 183.05
+Delta PE        : 4.4; 122.5 -> 118.1
+Delta Premium : -4.3; 296.85 -> 301.15
+Trailing SL   : 310.45
+Delta Nifty   : 15.95; 24,970.55 --> 24,986.5
+ Legs Active   :  PE : true ; CE : true 
+
+ 
+10:6:41 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE      : -6.05; 174.35 -> 180.4
+Delta PE        : 2.35; 122.5 -> 120.15
+Delta Premium : -3.7; 296.85 -> 300.55
+Trailing SL   : 310.45
+Delta Nifty   : 11.25; 24,970.55 --> 24,981.8
+ Legs Active   :  PE : true ; CE : true 
+
+ 
+10:7:42 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE      : -10.1; 174.35 -> 184.45
+Delta PE        : 5.45; 122.5 -> 117.05
+Delta Premium : -4.65; 296.85 -> 301.5
+Trailing SL   : 310.45
+Delta Nifty   : 16.55; 24,970.55 --> 24,987.1
+ Legs Active   :  PE : true ; CE : true 
+
+ 
+10:8:43 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE      : -8.25; 174.35 -> 182.6
+Delta PE        : 3.9; 122.5 -> 118.6
+Delta Premium : -4.35; 296.85 -> 301.2
+Trailing SL   : 310.45
+Delta Nifty   : 14.8; 24,970.55 --> 24,985.35
+ Legs Active   :  PE : true ; CE : true 
+
+ 
+10:9:44 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE      : -7.55; 174.35 -> 181.9
+Delta PE        : 3.55; 122.5 -> 118.95
+Delta Premium : -4; 296.85 -> 300.85
+Trailing SL   : 310.45
+Delta Nifty   : 14.55; 24,970.55 --> 24,985.1
+ Legs Active   :  PE : true ; CE : true 
+
+ 
+10:10:44 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.) 
+Delta CE      : -6.05; 174.35 -> 180.4
+Delta PE        : 2.55; 122.5 -> 119.95
+Delta Premium : -3.5; 296.85 -> 300.35
+Trailing SL   : 310.45
+Delta Nifty   : 13; 24,970.55 --> 24,983.55
+ Legs Active   :  PE : true ; CE : true 
+
+ 
+10:10:59 : Initializing application with directory: C:\FYER_TRADE
+10:11:5 : Start premium is set to 301.1 with combined premium limit of 326.1 at 24983.3
+10:11:5 : Updating trailing Stop loss to  321.1
+10:11:7 : Updating trailing Stop loss to  321.05
+10:11:10 : Updating trailing Stop loss to  320.9
+10:11:15 : Updating trailing Stop loss to  320.85
+10:11:31 : Updating trailing Stop loss to  320.25
+10:11:40 : Updating trailing Stop loss to  319
+10:11:42 : Updating trailing Stop loss to  318.35
+10:12:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+Delta CE      : 4.05; 182.4 -> 178.35
+Delta PE      : -2.3; 118.7 -> 121
+Delta Premium : 1.75; 301.1 -> 299.35
+Trailing SL   : 318.35
+Delta Nifty   : -1.75; 24,983.3 -> 24,981.55
+Legs Active   :  PE : true ; CE : true 
+
+
+10:12:58 : Updating trailing Stop loss to  318.3
+10:12:59 : Updating trailing Stop loss to  317.85
+10:13:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+Delta CE      : 5.2; 182.4 -> 177.2
+Delta PE      : -2.65; 118.7 -> 121.35
+Delta Premium : 2.55; 301.1 -> 298.55
+Trailing SL   : 317.85
+Delta Nifty   : -3.25; 24,983.3 -> 24,980.05
+Legs Active   :  PE : true ; CE : true 
+
+
+10:14:5 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+Delta CE      : -0.4; 182.4 -> 182.8
+Delta PE      : -0.3; 118.7 -> 119
+Delta Premium : -0.7; 301.1 -> 301.8
+Trailing SL   : 317.85
+Delta Nifty   : 1.65; 24,983.3 -> 24,984.95
+Legs Active   :  PE : true ; CE : true 
+
+
+10:15:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+Delta CE      : -6.55; 182.4 -> 188.95
+Delta PE      : 2.35; 118.7 -> 116.35
+Delta Premium : -4.2; 301.1 -> 305.3
+Trailing SL   : 317.85
+Delta Nifty   : 12.35; 24,983.3 -> 24,995.65
+Legs Active   :  PE : true ; CE : true 
+
+
+10:16:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+Delta CE      : -9.3; 182.4 -> 191.7
+Delta PE      : 3.75; 118.7 -> 114.95
+Delta Premium : -5.55; 301.1 -> 306.65
+Trailing SL   : 317.85
+Delta Nifty   : 12.35; 24,983.3 -> 24,995.65
+Legs Active   :  PE : true ; CE : true 
+
+
+10:16:48 : Initializing application with directory: C:\FYER_TRADE
+10:16:55 : Start premium is set to 304.1 with combined premium limit of 329.1 at 24993.5
+10:16:55 : Updating trailing Stop loss to  324.1
+10:16:55 : Updating trailing Stop loss to  323.9
+10:16:56 : Updating trailing Stop loss to  323.6
+10:16:56 : Updating trailing Stop loss to  323.45
+10:17:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+"Δ" CE   : -1.25; 188.8 -> 190.05
+Delta PE      : 0.45; 115.3 -> 114.85
+Delta Premium : -0.8; 304.1 -> 304.9
+Trailing SL   : 323.45
+Delta Nifty   : 4.75; 24,993.5 -> 24,998.25
+Legs Active   :  PE : true ; CE : true 
+
+
+10:18:53 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+"Δ" CE   : -1.85; 188.8 -> 190.65
+Delta PE      : 1.65; 115.3 -> 113.65
+Delta Premium : -0.2; 304.1 -> 304.3
+Trailing SL   : 323.45
+Delta Nifty   : 6.05; 24,993.5 -> 24,999.55
+Legs Active   :  PE : true ; CE : true 
+
+
+10:19:1 : Updating trailing Stop loss to  323.2
+10:19:2 : Updating trailing Stop loss to  323.15
+10:19:2 : Updating trailing Stop loss to  322.95
+10:19:3 : Updating trailing Stop loss to  322.85
+10:19:45 : Initializing application with directory: C:\FYER_TRADE
+10:19:52 : Start premium is set to 304.05 with combined premium limit of 329.05 at 24998.8
+10:19:52 : Updating trailing Stop loss to  324.05
+10:19:53 : Updating trailing Stop loss to  323.75
+10:20:1 : Updating trailing Stop loss to  323.45
+10:20:1 : Updating trailing Stop loss to  323.4
+10:20:6 : Updating trailing Stop loss to  323.2
+10:20:11 : Updating trailing Stop loss to  323.05
+10:20:11 : Updating trailing Stop loss to  322.7
+10:20:16 : Updating trailing Stop loss to  322.5
+10:20:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+Δ CE   : -2.3; 189.55 -> 191.85
+Delta PE      : 1.5; 114.5 -> 113
+Delta Premium : -0.8; 304.05 -> 304.85
+Trailing SL   : 322.5
+Delta Nifty   : 0.9; 24,998.8 -> 24,999.7
+Legs Active   :  PE : true ; CE : true 
+
+
+10:21:24 : Updating trailing Stop loss to  322.15
+10:21:36 : Updating trailing Stop loss to  322.05
+10:21:37 : Updating trailing Stop loss to  321.4
+10:21:37 : Updating trailing Stop loss to  321.35
+10:21:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+Δ CE   : 3.25; 189.55 -> 186.3
+Delta PE      : -1.9; 114.5 -> 116.4
+Delta Premium : 1.35; 304.05 -> 302.7
+Trailing SL   : 321.35
+Delta Nifty   : -5; 24,998.8 -> 24,993.8
+Legs Active   :  PE : true ; CE : true 
+
+
+10:21:52 : Updating trailing Stop loss to  320.9
+10:22:13 : Updating trailing Stop loss to  320.7
+10:22:27 : Updating trailing Stop loss to  320.35
+10:22:27 : Updating trailing Stop loss to  320.15
+10:22:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+Δ CE   : 6.05; 189.55 -> 183.5
+Delta PE      : -3.45; 114.5 -> 117.95
+Delta Premium : 2.6; 304.05 -> 301.45
+Trailing SL   : 320.15
+Delta Nifty   : -9.8; 24,998.8 -> 24,989
+Legs Active   :  PE : true ; CE : true 
+
+
+10:23:13 : Initializing application with directory: C:\FYER_TRADE
+10:23:19 : Start premium is set to 303.05 with combined premium limit of 328.05 at 24994.05
+10:23:19 : Updating trailing Stop loss to  323.05
+10:23:21 : Updating trailing Stop loss to  323.05
+10:24:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -1.65; 187.9 -> 189.55
+ΔPE         : 0.8; 115.15 -> 114.35
+ΔPremium    : -0.85; 303.05 -> 303.9
+Trailing SL : 323.05
+ΔNifty      : 3.05; 24,994.05 -> 24,997.1
+Legs Active :  PE : true ; CE : true 
+
+
+10:24:25 : Updating trailing Stop loss to  322.75
+10:24:28 : Updating trailing Stop loss to  322.4
+10:24:33 : Updating trailing Stop loss to  322
+10:25:18 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -1.85; 187.9 -> 189.75
+ΔPE         : 0.7; 115.15 -> 114.45
+ΔPremium    : -1.15; 303.05 -> 304.2
+Trailing SL : 322
+ΔNifty      : 4.3; 24,994.05 -> 24,998.35
+Legs Active :  PE : true ; CE : true 
+
+
+10:26:19 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -0.45; 187.9 -> 188.35
+ΔPE         : -1.25; 115.15 -> 116.4
+ΔPremium    : -1.7; 303.05 -> 304.75
+Trailing SL : 322
+ΔNifty      : 3.05; 24,994.05 -> 24,997.1
+Legs Active :  PE : true ; CE : true 
+
+
+10:27:20 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -1.55; 187.9 -> 189.45
+ΔPE         : -0.35; 115.15 -> 115.5
+ΔPremium    : -1.9; 303.05 -> 304.95
+Trailing SL : 322
+ΔNifty      : 3.65; 24,994.05 -> 24,997.7
+Legs Active :  PE : true ; CE : true 
+
+
+10:28:21 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : 1.7; 187.9 -> 186.2
+ΔPE         : -1.35; 115.15 -> 116.5
+ΔPremium    : 0.35; 303.05 -> 302.7
+Trailing SL : 322
+ΔNifty      : 0.1; 24,994.05 -> 24,994.15
+Legs Active :  PE : true ; CE : true 
+
+
+10:29:22 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -2.5; 187.9 -> 190.4
+ΔPE         : 0.85; 115.15 -> 114.3
+ΔPremium    : -1.65; 303.05 -> 304.7
+Trailing SL : 322
+ΔNifty      : 5.55; 24,994.05 -> 24,999.6
+Legs Active :  PE : true ; CE : true 
+
+
+10:30:22 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -4; 187.9 -> 191.9
+ΔPE         : 1.35; 115.15 -> 113.8
+ΔPremium    : -2.65; 303.05 -> 305.7
+Trailing SL : 322
+ΔNifty      : 7.85; 24,994.05 -> 25,001.9
+Legs Active :  PE : true ; CE : true 
+
+
+10:31:7 : Updating trailing Stop loss to  321.85
+10:31:11 : Updating trailing Stop loss to  321.75
+10:31:23 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : 0.45; 187.9 -> 187.45
+ΔPE         : -1.4; 115.15 -> 116.55
+ΔPremium    : -0.95; 303.05 -> 304
+Trailing SL : 321.75
+ΔNifty      : 1.95; 24,994.05 -> 24,996
+Legs Active :  PE : true ; CE : true 
+
+
+10:32:24 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -0.9; 187.9 -> 188.8
+ΔPE         : -0.05; 115.15 -> 115.2
+ΔPremium    : -0.95; 303.05 -> 304
+Trailing SL : 321.75
+ΔNifty      : 1.95; 24,994.05 -> 24,996
+Legs Active :  PE : true ; CE : true 
+
+
+10:32:54 : Updating trailing Stop loss to  321.55
+10:32:59 : Updating trailing Stop loss to  320.95
+10:33:2 : Updating trailing Stop loss to  320.75
+10:33:24 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : 0.9; 187.9 -> 187
+ΔPE         : 0.1; 115.15 -> 115.05
+ΔPremium    : 1; 303.05 -> 302.05
+Trailing SL : 320.75
+ΔNifty      : 0.95; 24,994.05 -> 24,995
+Legs Active :  PE : true ; CE : true 
+
+
+10:33:48 : Updating trailing Stop loss to  320.35
+10:34:25 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -4.2; 187.9 -> 192.1
+ΔPE         : 3.95; 115.15 -> 111.2
+ΔPremium    : -0.25; 303.05 -> 303.3
+Trailing SL : 320.35
+ΔNifty      : 7.85; 24,994.05 -> 25,001.9
+Legs Active :  PE : true ; CE : true 
+
+
+10:35:26 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -3.1; 187.9 -> 191
+ΔPE         : 3.1; 115.15 -> 112.05
+ΔPremium    : 0; 303.05 -> 303.05
+Trailing SL : 320.35
+ΔNifty      : 10.65; 24,994.05 -> 25,004.7
+Legs Active :  PE : true ; CE : true 
+
+
+10:36:26 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -6.2; 187.9 -> 194.1
+ΔPE         : 4.65; 115.15 -> 110.5
+ΔPremium    : -1.55; 303.05 -> 304.6
+Trailing SL : 320.35
+ΔNifty      : 12.5; 24,994.05 -> 25,006.55
+Legs Active :  PE : true ; CE : true 
+
+
+10:37:27 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -13.1; 187.9 -> 201
+ΔPE         : 7.8; 115.15 -> 107.35
+ΔPremium    : -5.3; 303.05 -> 308.35
+Trailing SL : 320.35
+ΔNifty      : 20.2; 24,994.05 -> 25,014.25
+Legs Active :  PE : true ; CE : true 
+
+
+10:38:28 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -10.1; 187.9 -> 198
+ΔPE         : 6.5; 115.15 -> 108.65
+ΔPremium    : -3.6; 303.05 -> 306.65
+Trailing SL : 320.35
+ΔNifty      : 19; 24,994.05 -> 25,013.05
+Legs Active :  PE : true ; CE : true 
+
+
+10:39:29 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -11.55; 187.9 -> 199.45
+ΔPE         : 7.25; 115.15 -> 107.9
+ΔPremium    : -4.3; 303.05 -> 307.35
+Trailing SL : 320.35
+ΔNifty      : 19.35; 24,994.05 -> 25,013.4
+Legs Active :  PE : true ; CE : true 
+
+
+10:40:30 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -7.7; 187.9 -> 195.6
+ΔPE         : 5.9; 115.15 -> 109.25
+ΔPremium    : -1.8; 303.05 -> 304.85
+Trailing SL : 320.35
+ΔNifty      : 5.2; 24,994.05 -> 24,999.25
+Legs Active :  PE : true ; CE : true 
+
+
+10:41:30 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -10.5; 187.9 -> 198.4
+ΔPE         : 7.35; 115.15 -> 107.8
+ΔPremium    : -3.15; 303.05 -> 306.2
+Trailing SL : 320.35
+ΔNifty      : 17.2; 24,994.05 -> 25,011.25
+Legs Active :  PE : true ; CE : true 
+
+
+10:42:31 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -10.7; 187.9 -> 198.6
+ΔPE         : 7.35; 115.15 -> 107.8
+ΔPremium    : -3.35; 303.05 -> 306.4
+Trailing SL : 320.35
+ΔNifty      : 18; 24,994.05 -> 25,012.05
+Legs Active :  PE : true ; CE : true 
+
+
+10:43:32 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -12.6; 187.9 -> 200.5
+ΔPE         : 7.7; 115.15 -> 107.45
+ΔPremium    : -4.9; 303.05 -> 307.95
+Trailing SL : 320.35
+ΔNifty      : 20; 24,994.05 -> 25,014.05
+Legs Active :  PE : true ; CE : true 
+
+
+10:44:32 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -12.1; 187.9 -> 200
+ΔPE         : 7.8; 115.15 -> 107.35
+ΔPremium    : -4.3; 303.05 -> 307.35
+Trailing SL : 320.35
+ΔNifty      : 18.5; 24,994.05 -> 25,012.55
+Legs Active :  PE : true ; CE : true 
+
+
+10:45:33 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -9.2; 187.9 -> 197.1
+ΔPE         : 6.35; 115.15 -> 108.8
+ΔPremium    : -2.85; 303.05 -> 305.9
+Trailing SL : 320.35
+ΔNifty      : 14.1; 24,994.05 -> 25,008.15
+Legs Active :  PE : true ; CE : true 
+
+
+10:46:34 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -9.15; 187.9 -> 197.05
+ΔPE         : 6.15; 115.15 -> 109
+ΔPremium    : -3; 303.05 -> 306.05
+Trailing SL : 320.35
+ΔNifty      : 14.2; 24,994.05 -> 25,008.25
+Legs Active :  PE : true ; CE : true 
+
+
+10:47:35 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -9.65; 187.9 -> 197.55
+ΔPE         : 6.3; 115.15 -> 108.85
+ΔPremium    : -3.35; 303.05 -> 306.4
+Trailing SL : 320.35
+ΔNifty      : 16.5; 24,994.05 -> 25,010.55
+Legs Active :  PE : true ; CE : true 
+
+
+10:48:35 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -11.25; 187.9 -> 199.15
+ΔPE         : 6.65; 115.15 -> 108.5
+ΔPremium    : -4.6; 303.05 -> 307.65
+Trailing SL : 320.35
+ΔNifty      : 18.35; 24,994.05 -> 25,012.4
+Legs Active :  PE : true ; CE : true 
+
+
+10:49:36 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -13.4; 187.9 -> 201.3
+ΔPE         : 7.75; 115.15 -> 107.4
+ΔPremium    : -5.65; 303.05 -> 308.7
+Trailing SL : 320.35
+ΔNifty      : 22.25; 24,994.05 -> 25,016.3
+Legs Active :  PE : true ; CE : true 
+
+
+10:50:37 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -13.15; 187.9 -> 201.05
+ΔPE         : 8; 115.15 -> 107.15
+ΔPremium    : -5.15; 303.05 -> 308.2
+Trailing SL : 320.35
+ΔNifty      : 24.05; 24,994.05 -> 25,018.1
+Legs Active :  PE : true ; CE : true 
+
+
+10:51:38 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -9.85; 187.9 -> 197.75
+ΔPE         : 6.25; 115.15 -> 108.9
+ΔPremium    : -3.6; 303.05 -> 306.65
+Trailing SL : 320.35
+ΔNifty      : 18.6; 24,994.05 -> 25,012.65
+Legs Active :  PE : true ; CE : true 
+
+
+10:52:39 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -8.55; 187.9 -> 196.45
+ΔPE         : 5.35; 115.15 -> 109.8
+ΔPremium    : -3.2; 303.05 -> 306.25
+Trailing SL : 320.35
+ΔNifty      : 13.95; 24,994.05 -> 25,008
+Legs Active :  PE : true ; CE : true 
+
+
+10:53:39 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -7; 187.9 -> 194.9
+ΔPE         : 5.05; 115.15 -> 110.1
+ΔPremium    : -1.95; 303.05 -> 305
+Trailing SL : 320.35
+ΔNifty      : 10.85; 24,994.05 -> 25,004.9
+Legs Active :  PE : true ; CE : true 
+
+
+10:54:40 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -6.6; 187.9 -> 194.5
+ΔPE         : 4.1; 115.15 -> 111.05
+ΔPremium    : -2.5; 303.05 -> 305.55
+Trailing SL : 320.35
+ΔNifty      : 11.05; 24,994.05 -> 25,005.1
+Legs Active :  PE : true ; CE : true 
+
+
+10:55:41 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -1.7; 187.9 -> 189.6
+ΔPE         : 1.95; 115.15 -> 113.2
+ΔPremium    : 0.25; 303.05 -> 302.8
+Trailing SL : 320.35
+ΔNifty      : 6.05; 24,994.05 -> 25,000.1
+Legs Active :  PE : true ; CE : true 
+
+
+10:56:41 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -5.5; 187.9 -> 193.4
+ΔPE         : 3.8; 115.15 -> 111.35
+ΔPremium    : -1.7; 303.05 -> 304.75
+Trailing SL : 320.35
+ΔNifty      : 10.7; 24,994.05 -> 25,004.75
+Legs Active :  PE : true ; CE : true 
+
+
+10:57:42 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -0.95; 187.9 -> 188.85
+ΔPE         : 1.4; 115.15 -> 113.75
+ΔPremium    : 0.45; 303.05 -> 302.6
+Trailing SL : 320.35
+ΔNifty      : 5.6; 24,994.05 -> 24,999.65
+Legs Active :  PE : true ; CE : true 
+
+
+10:58:43 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : 1.9; 187.9 -> 186
+ΔPE         : -0.1; 115.15 -> 115.25
+ΔPremium    : 1.8; 303.05 -> 301.25
+Trailing SL : 320.35
+ΔNifty      : 0.4; 24,994.05 -> 24,994.45
+Legs Active :  PE : true ; CE : true 
+
+
+10:59:34 : Updating trailing Stop loss to  319.8
+10:59:35 : Updating trailing Stop loss to  319.75
+10:59:37 : Updating trailing Stop loss to  319.2
+10:59:43 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : 3.15; 187.9 -> 184.75
+ΔPE         : -0.25; 115.15 -> 115.4
+ΔPremium    : 2.9; 303.05 -> 300.15
+Trailing SL : 319.2
+ΔNifty      : -2.35; 24,994.05 -> 24,991.7
+Legs Active :  PE : true ; CE : true 
+
+
+11:0:10 : Updating trailing Stop loss to  319.05
+11:0:10 : Updating trailing Stop loss to  319
+11:0:11 : Updating trailing Stop loss to  318.7
+11:0:12 : Updating trailing Stop loss to  318.7
+11:0:44 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : 2.25; 187.9 -> 185.65
+ΔPE         : 0.35; 115.15 -> 114.8
+ΔPremium    : 2.6; 303.05 -> 300.45
+Trailing SL : 318.7
+ΔNifty      : -0.4; 24,994.05 -> 24,993.65
+Legs Active :  PE : true ; CE : true 
+
+
+11:1:3 : Updating trailing Stop loss to  318.5
+11:1:5 : Updating trailing Stop loss to  316.85
+11:1:45 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : 2.9; 187.9 -> 185
+ΔPE         : 0.15; 115.15 -> 115
+ΔPremium    : 3.05; 303.05 -> 300
+Trailing SL : 316.85
+ΔNifty      : -2.1; 24,994.05 -> 24,991.95
+Legs Active :  PE : true ; CE : true 
+
+
+11:2:47 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -1.4; 187.9 -> 189.3
+ΔPE         : 2.9; 115.15 -> 112.25
+ΔPremium    : 1.5; 303.05 -> 301.55
+Trailing SL : 316.85
+ΔNifty      : 3.35; 24,994.05 -> 24,997.4
+Legs Active :  PE : true ; CE : true 
+
+
+11:3:47 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -1.45; 187.9 -> 189.35
+ΔPE         : 3.15; 115.15 -> 112
+ΔPremium    : 1.7; 303.05 -> 301.35
+Trailing SL : 316.85
+ΔNifty      : 5.5; 24,994.05 -> 24,999.55
+Legs Active :  PE : true ; CE : true 
+
+
+11:4:48 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -2.8; 187.9 -> 190.7
+ΔPE         : 4; 115.15 -> 111.15
+ΔPremium    : 1.2; 303.05 -> 301.85
+Trailing SL : 316.85
+ΔNifty      : 4.85; 24,994.05 -> 24,998.9
+Legs Active :  PE : true ; CE : true 
+
+
+11:5:49 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -7.15; 187.9 -> 195.05
+ΔPE         : 6.5; 115.15 -> 108.65
+ΔPremium    : -0.65; 303.05 -> 303.7
+Trailing SL : 316.85
+ΔNifty      : 13.1; 24,994.05 -> 25,007.15
+Legs Active :  PE : true ; CE : true 
+
+
+11:6:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -4.65; 187.9 -> 192.55
+ΔPE         : 5.5; 115.15 -> 109.65
+ΔPremium    : 0.85; 303.05 -> 302.2
+Trailing SL : 316.85
+ΔNifty      : 10.15; 24,994.05 -> 25,004.2
+Legs Active :  PE : true ; CE : true 
+
+
+11:7:51 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -11.15; 187.9 -> 199.05
+ΔPE         : 8.55; 115.15 -> 106.6
+ΔPremium    : -2.6; 303.05 -> 305.65
+Trailing SL : 316.85
+ΔNifty      : 18.7; 24,994.05 -> 25,012.75
+Legs Active :  PE : true ; CE : true 
+
+
+11:8:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -12.05; 187.9 -> 199.95
+ΔPE         : 9.65; 115.15 -> 105.5
+ΔPremium    : -2.4; 303.05 -> 305.45
+Trailing SL : 316.85
+ΔNifty      : 20.35; 24,994.05 -> 25,014.4
+Legs Active :  PE : true ; CE : true 
+
+
+11:9:53 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -9.5; 187.9 -> 197.4
+ΔPE         : 8.55; 115.15 -> 106.6
+ΔPremium    : -0.95; 303.05 -> 304
+Trailing SL : 316.85
+ΔNifty      : 16.15; 24,994.05 -> 25,010.2
+Legs Active :  PE : true ; CE : true 
+
+
+11:10:54 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -11.1; 187.9 -> 199
+ΔPE         : 9.45; 115.15 -> 105.7
+ΔPremium    : -1.65; 303.05 -> 304.7
+Trailing SL : 316.85
+ΔNifty      : 16.35; 24,994.05 -> 25,010.4
+Legs Active :  PE : true ; CE : true 
+
+
+11:11:55 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -12.65; 187.9 -> 200.55
+ΔPE         : 9.85; 115.15 -> 105.3
+ΔPremium    : -2.8; 303.05 -> 305.85
+Trailing SL : 316.85
+ΔNifty      : 18.5; 24,994.05 -> 25,012.55
+Legs Active :  PE : true ; CE : true 
+
+
+11:12:56 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -21.2; 187.9 -> 209.1
+ΔPE         : 13.75; 115.15 -> 101.4
+ΔPremium    : -7.45; 303.05 -> 310.5
+Trailing SL : 316.85
+ΔNifty      : 30.25; 24,994.05 -> 25,024.3
+Legs Active :  PE : true ; CE : true 
+
+
+11:13:56 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -26.75; 187.9 -> 214.65
+ΔPE         : 14.6; 115.15 -> 100.55
+ΔPremium    : -12.15; 303.05 -> 315.2
+Trailing SL : 316.85
+ΔNifty      : 34.6; 24,994.05 -> 25,028.65
+Legs Active :  PE : true ; CE : true 
+
+
+11:14:57 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -25.45; 187.9 -> 213.35
+ΔPE         : 15.55; 115.15 -> 99.6
+ΔPremium    : -9.9; 303.05 -> 312.95
+Trailing SL : 316.85
+ΔNifty      : 34.15; 24,994.05 -> 25,028.2
+Legs Active :  PE : true ; CE : true 
+
+
+11:15:58 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -21.65; 187.9 -> 209.55
+ΔPE         : 14; 115.15 -> 101.15
+ΔPremium    : -7.65; 303.05 -> 310.7
+Trailing SL : 316.85
+ΔNifty      : 26.2; 24,994.05 -> 25,020.25
+Legs Active :  PE : true ; CE : true 
+
+
+11:16:58 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -20.8; 187.9 -> 208.7
+ΔPE         : 13.6; 115.15 -> 101.55
+ΔPremium    : -7.2; 303.05 -> 310.25
+Trailing SL : 316.85
+ΔNifty      : 25.8; 24,994.05 -> 25,019.85
+Legs Active :  PE : true ; CE : true 
+
+
+11:17:59 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -22.45; 187.9 -> 210.35
+ΔPE         : 14.4; 115.15 -> 100.75
+ΔPremium    : -8.05; 303.05 -> 311.1
+Trailing SL : 316.85
+ΔNifty      : 26.3; 24,994.05 -> 25,020.35
+Legs Active :  PE : true ; CE : true 
+
+
+11:19:0 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -22.4; 187.9 -> 210.3
+ΔPE         : 14.1; 115.15 -> 101.05
+ΔPremium    : -8.3; 303.05 -> 311.35
+Trailing SL : 316.85
+ΔNifty      : 27.3; 24,994.05 -> 25,021.35
+Legs Active :  PE : true ; CE : true 
+
+
+11:20:0 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -16.2; 187.9 -> 204.1
+ΔPE         : 12.1; 115.15 -> 103.05
+ΔPremium    : -4.1; 303.05 -> 307.15
+Trailing SL : 316.85
+ΔNifty      : 19.35; 24,994.05 -> 25,013.4
+Legs Active :  PE : true ; CE : true 
+
+
+11:21:1 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -19.65; 187.9 -> 207.55
+ΔPE         : 13.65; 115.15 -> 101.5
+ΔPremium    : -6; 303.05 -> 309.05
+Trailing SL : 316.85
+ΔNifty      : 24.25; 24,994.05 -> 25,018.3
+Legs Active :  PE : true ; CE : true 
+
+
+11:22:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -22.3; 187.9 -> 210.2
+ΔPE         : 14.6; 115.15 -> 100.55
+ΔPremium    : -7.7; 303.05 -> 310.75
+Trailing SL : 316.85
+ΔNifty      : 27.3; 24,994.05 -> 25,021.35
+Legs Active :  PE : true ; CE : true 
+
+
+11:23:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -19.5; 187.9 -> 207.4
+ΔPE         : 13.2; 115.15 -> 101.95
+ΔPremium    : -6.3; 303.05 -> 309.35
+Trailing SL : 316.85
+ΔNifty      : 24.45; 24,994.05 -> 25,018.5
+Legs Active :  PE : true ; CE : true 
+
+
+11:24:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -17; 187.9 -> 204.9
+ΔPE         : 11.95; 115.15 -> 103.2
+ΔPremium    : -5.05; 303.05 -> 308.1
+Trailing SL : 316.85
+ΔNifty      : 20.25; 24,994.05 -> 25,014.3
+Legs Active :  PE : true ; CE : true 
+
+
+11:25:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -16.3; 187.9 -> 204.2
+ΔPE         : 11.95; 115.15 -> 103.2
+ΔPremium    : -4.35; 303.05 -> 307.4
+Trailing SL : 316.85
+ΔNifty      : 17.05; 24,994.05 -> 25,011.1
+Legs Active :  PE : true ; CE : true 
+
+
+11:26:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -15.05; 187.9 -> 202.95
+ΔPE         : 10.9; 115.15 -> 104.25
+ΔPremium    : -4.15; 303.05 -> 307.2
+Trailing SL : 316.85
+ΔNifty      : 16.3; 24,994.05 -> 25,010.35
+Legs Active :  PE : true ; CE : true 
+
+
+11:27:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -17.55; 187.9 -> 205.45
+ΔPE         : 11.85; 115.15 -> 103.3
+ΔPremium    : -5.7; 303.05 -> 308.75
+Trailing SL : 316.85
+ΔNifty      : 19; 24,994.05 -> 25,013.05
+Legs Active :  PE : true ; CE : true 
+
+
+11:28:8 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -17.25; 187.9 -> 205.15
+ΔPE         : 11.4; 115.15 -> 103.75
+ΔPremium    : -5.85; 303.05 -> 308.9
+Trailing SL : 316.85
+ΔNifty      : 18; 24,994.05 -> 25,012.05
+Legs Active :  PE : true ; CE : true 
+
+
+11:29:9 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -19.45; 187.9 -> 207.35
+ΔPE         : 12.7; 115.15 -> 102.45
+ΔPremium    : -6.75; 303.05 -> 309.8
+Trailing SL : 316.85
+ΔNifty      : 23.15; 24,994.05 -> 25,017.2
+Legs Active :  PE : true ; CE : true 
+
+
+11:30:10 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -22.4; 187.9 -> 210.3
+ΔPE         : 13.8; 115.15 -> 101.35
+ΔPremium    : -8.6; 303.05 -> 311.65
+Trailing SL : 316.85
+ΔNifty      : 29.8; 24,994.05 -> 25,023.85
+Legs Active :  PE : true ; CE : true 
+
+
+11:31:10 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -23.1; 187.9 -> 211
+ΔPE         : 14.1; 115.15 -> 101.05
+ΔPremium    : -9; 303.05 -> 312.05
+Trailing SL : 316.85
+ΔNifty      : 29.35; 24,994.05 -> 25,023.4
+Legs Active :  PE : true ; CE : true 
+
+
+11:32:12 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -19.55; 187.9 -> 207.45
+ΔPE         : 12.05; 115.15 -> 103.1
+ΔPremium    : -7.5; 303.05 -> 310.55
+Trailing SL : 316.85
+ΔNifty      : 26.7; 24,994.05 -> 25,020.75
+Legs Active :  PE : true ; CE : true 
+
+
+11:33:12 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -23.95; 187.9 -> 211.85
+ΔPE         : 13.85; 115.15 -> 101.3
+ΔPremium    : -10.1; 303.05 -> 313.15
+Trailing SL : 316.85
+ΔNifty      : 31.15; 24,994.05 -> 25,025.2
+Legs Active :  PE : true ; CE : true 
+
+
+11:34:14 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -24.1; 187.9 -> 212
+ΔPE         : 14.25; 115.15 -> 100.9
+ΔPremium    : -9.85; 303.05 -> 312.9
+Trailing SL : 316.85
+ΔNifty      : 30.4; 24,994.05 -> 25,024.45
+Legs Active :  PE : true ; CE : true 
+
+
+11:35:14 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -22.75; 187.9 -> 210.65
+ΔPE         : 14.1; 115.15 -> 101.05
+ΔPremium    : -8.65; 303.05 -> 311.7
+Trailing SL : 316.85
+ΔNifty      : 29.3; 24,994.05 -> 25,023.35
+Legs Active :  PE : true ; CE : true 
+
+
+11:36:15 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -21.05; 187.9 -> 208.95
+ΔPE         : 13.05; 115.15 -> 102.1
+ΔPremium    : -8; 303.05 -> 311.05
+Trailing SL : 316.85
+ΔNifty      : 29.35; 24,994.05 -> 25,023.4
+Legs Active :  PE : true ; CE : true 
+
+
+11:37:16 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -21.8; 187.9 -> 209.7
+ΔPE         : 13.65; 115.15 -> 101.5
+ΔPremium    : -8.15; 303.05 -> 311.2
+Trailing SL : 316.85
+ΔNifty      : 29.1; 24,994.05 -> 25,023.15
+Legs Active :  PE : true ; CE : true 
+
+
+11:38:16 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -19.3; 187.9 -> 207.2
+ΔPE         : 12.05; 115.15 -> 103.1
+ΔPremium    : -7.25; 303.05 -> 310.3
+Trailing SL : 316.85
+ΔNifty      : 24.45; 24,994.05 -> 25,018.5
+Legs Active :  PE : true ; CE : true 
+
+
+11:39:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -17.95; 187.9 -> 205.85
+ΔPE         : 11.5; 115.15 -> 103.65
+ΔPremium    : -6.45; 303.05 -> 309.5
+Trailing SL : 316.85
+ΔNifty      : 23.2; 24,994.05 -> 25,017.25
+Legs Active :  PE : true ; CE : true 
+
+
+11:40:18 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -19.1; 187.9 -> 207
+ΔPE         : 12.15; 115.15 -> 103
+ΔPremium    : -6.95; 303.05 -> 310
+Trailing SL : 316.85
+ΔNifty      : 23.8; 24,994.05 -> 25,017.85
+Legs Active :  PE : true ; CE : true 
+
+
+11:41:18 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -21.05; 187.9 -> 208.95
+ΔPE         : 13.15; 115.15 -> 102
+ΔPremium    : -7.9; 303.05 -> 310.95
+Trailing SL : 316.85
+ΔNifty      : 25.15; 24,994.05 -> 25,019.2
+Legs Active :  PE : true ; CE : true 
+
+
+11:42:19 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -16.8; 187.9 -> 204.7
+ΔPE         : 10.95; 115.15 -> 104.2
+ΔPremium    : -5.85; 303.05 -> 308.9
+Trailing SL : 316.85
+ΔNifty      : 20; 24,994.05 -> 25,014.05
+Legs Active :  PE : true ; CE : true 
+
+
+11:43:20 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -19.25; 187.9 -> 207.15
+ΔPE         : 12.4; 115.15 -> 102.75
+ΔPremium    : -6.85; 303.05 -> 309.9
+Trailing SL : 316.85
+ΔNifty      : 23.65; 24,994.05 -> 25,017.7
+Legs Active :  PE : true ; CE : true 
+
+
+11:44:21 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -19.9; 187.9 -> 207.8
+ΔPE         : 12.4; 115.15 -> 102.75
+ΔPremium    : -7.5; 303.05 -> 310.55
+Trailing SL : 316.85
+ΔNifty      : 24.8; 24,994.05 -> 25,018.85
+Legs Active :  PE : true ; CE : true 
+
+
+11:45:22 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -21.05; 187.9 -> 208.95
+ΔPE         : 12.85; 115.15 -> 102.3
+ΔPremium    : -8.2; 303.05 -> 311.25
+Trailing SL : 316.85
+ΔNifty      : 26.5; 24,994.05 -> 25,020.55
+Legs Active :  PE : true ; CE : true 
+
+
+11:46:23 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -21.4; 187.9 -> 209.3
+ΔPE         : 13.15; 115.15 -> 102
+ΔPremium    : -8.25; 303.05 -> 311.3
+Trailing SL : 316.85
+ΔNifty      : 28.6; 24,994.05 -> 25,022.65
+Legs Active :  PE : true ; CE : true 
+
+
+11:47:24 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -20.75; 187.9 -> 208.65
+ΔPE         : 12.9; 115.15 -> 102.25
+ΔPremium    : -7.85; 303.05 -> 310.9
+Trailing SL : 316.85
+ΔNifty      : 29.1; 24,994.05 -> 25,023.15
+Legs Active :  PE : true ; CE : true 
+
+
+11:48:24 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -17.85; 187.9 -> 205.75
+ΔPE         : 11.15; 115.15 -> 104
+ΔPremium    : -6.7; 303.05 -> 309.75
+Trailing SL : 316.85
+ΔNifty      : 22.1; 24,994.05 -> 25,016.15
+Legs Active :  PE : true ; CE : true 
+
+
+11:49:25 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -21.2; 187.9 -> 209.1
+ΔPE         : 13.2; 115.15 -> 101.95
+ΔPremium    : -8; 303.05 -> 311.05
+Trailing SL : 316.85
+ΔNifty      : 26.4; 24,994.05 -> 25,020.45
+Legs Active :  PE : true ; CE : true 
+
+
+11:50:26 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -20.85; 187.9 -> 208.75
+ΔPE         : 12.6; 115.15 -> 102.55
+ΔPremium    : -8.25; 303.05 -> 311.3
+Trailing SL : 316.85
+ΔNifty      : 28.15; 24,994.05 -> 25,022.2
+Legs Active :  PE : true ; CE : true 
+
+
+11:51:26 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -19.6; 187.9 -> 207.5
+ΔPE         : 12.4; 115.15 -> 102.75
+ΔPremium    : -7.2; 303.05 -> 310.25
+Trailing SL : 316.85
+ΔNifty      : 27.25; 24,994.05 -> 25,021.3
+Legs Active :  PE : true ; CE : true 
+
+
+11:52:27 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -19.25; 187.9 -> 207.15
+ΔPE         : 12.45; 115.15 -> 102.7
+ΔPremium    : -6.8; 303.05 -> 309.85
+Trailing SL : 316.85
+ΔNifty      : 27; 24,994.05 -> 25,021.05
+Legs Active :  PE : true ; CE : true 
+
+
+11:53:28 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -19.25; 187.9 -> 207.15
+ΔPE         : 12.25; 115.15 -> 102.9
+ΔPremium    : -7; 303.05 -> 310.05
+Trailing SL : 316.85
+ΔNifty      : 25.35; 24,994.05 -> 25,019.4
+Legs Active :  PE : true ; CE : true 
+
+
+11:54:28 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -18.15; 187.9 -> 206.05
+ΔPE         : 11.8; 115.15 -> 103.35
+ΔPremium    : -6.35; 303.05 -> 309.4
+Trailing SL : 316.85
+ΔNifty      : 24.7; 24,994.05 -> 25,018.75
+Legs Active :  PE : true ; CE : true 
+
+
+11:55:29 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -17.95; 187.9 -> 205.85
+ΔPE         : 11.95; 115.15 -> 103.2
+ΔPremium    : -6; 303.05 -> 309.05
+Trailing SL : 316.85
+ΔNifty      : 23.8; 24,994.05 -> 25,017.85
+Legs Active :  PE : true ; CE : true 
+
+
+11:56:30 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -20.85; 187.9 -> 208.75
+ΔPE         : 13.35; 115.15 -> 101.8
+ΔPremium    : -7.5; 303.05 -> 310.55
+Trailing SL : 316.85
+ΔNifty      : 28.45; 24,994.05 -> 25,022.5
+Legs Active :  PE : true ; CE : true 
+
+
+11:57:30 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -24.8; 187.9 -> 212.7
+ΔPE         : 14.95; 115.15 -> 100.2
+ΔPremium    : -9.85; 303.05 -> 312.9
+Trailing SL : 316.85
+ΔNifty      : 33.65; 24,994.05 -> 25,027.7
+Legs Active :  PE : true ; CE : true 
+
+
+11:58:26 : SL hit for combined premium: 320.55 at 25032.7 with limit 316.85
+11:58:26 : SL hit for combined premium: 317.85 at 25032.7 with limit 316.85
+11:58:26 : SL hit for combined premium: 319.65 at 25033.15 with limit 316.85
+11:58:27 : SL hit for combined premium: 319.35 at 25033.15 with limit 316.85
+11:58:28 : SL hit for combined premium: 318.75 at 25033.8 with limit 316.85
+11:58:28 : SL hit for combined premium: 319.15 at 25033.8 with limit 316.85
+11:58:28 : SL hit for combined premium: 318.9 at 25033.85 with limit 316.85
+11:58:28 : SL hit for combined premium: 318.9 at 25033.85 with limit 316.85
+11:58:29 : SL hit for combined premium: 320.15 at 25033.85 with limit 316.85
+11:58:29 : SL hit for combined premium: 319.9 at 25033.85 with limit 316.85
+11:58:29 : SL hit for combined premium: 318.85 at 25034.2 with limit 316.85
+11:58:30 : SL hit for combined premium: 318.9 at 25034.2 with limit 316.85
+11:58:30 : SL hit for combined premium: 319.2 at 25034.35 with limit 316.85
+11:58:30 : SL hit for combined premium: 319.25 at 25034.35 with limit 316.85
+11:58:31 : SL hit for combined premium: 318.65 at 25033.95 with limit 316.85
+11:58:31 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -33.5; 187.9 -> 221.4
+ΔPE         : 17.6; 115.15 -> 97.55
+ΔPremium    : -15.9; 303.05 -> 318.95
+Trailing SL : 316.85
+ΔNifty      : 39.9; 24,994.05 -> 25,033.95
+Legs Active :  PE : true ; CE : true 
+
+
+11:58:31 : SL hit for combined premium: 318.95 at 25033.95 with limit 316.85
+11:58:31 : SL hit for combined premium: 318.4 at 25033.6 with limit 316.85
+11:58:31 : SL hit for combined premium: 318.65 at 25033.6 with limit 316.85
+11:58:32 : SL hit for combined premium: 318.35 at 25033.45 with limit 316.85
+11:58:33 : SL hit for combined premium: 317.6 at 25034.1 with limit 316.85
+11:58:33 : SL hit for combined premium: 317.70000000000005 at 25034.1 with limit 316.85
+11:58:33 : SL hit for combined premium: 318.35 at 25034.35 with limit 316.85
+11:58:33 : SL hit for combined premium: 318.35 at 25034.35 with limit 316.85
+11:58:34 : SL hit for combined premium: 318.35 at 25033.8 with limit 316.85
+11:58:34 : SL hit for combined premium: 318.35 at 25033.8 with limit 316.85
+11:58:35 : SL hit for combined premium: 318.35 at 25035.1 with limit 316.85
+11:58:35 : SL hit for combined premium: 318.25 at 25035.1 with limit 316.85
+11:58:36 : SL hit for combined premium: 318.25 at 25034.3 with limit 316.85
+11:58:36 : SL hit for combined premium: 318.35 at 25034.3 with limit 316.85
+11:58:36 : SL hit for combined premium: 317.4 at 25034.3 with limit 316.85
+11:58:37 : SL hit for combined premium: 317.4 at 25034.45 with limit 316.85
+11:58:37 : SL hit for combined premium: 317.5 at 25034.45 with limit 316.85
+11:58:37 : SL hit for combined premium: 317.05 at 25034.0 with limit 316.85
+11:58:38 : SL hit for combined premium: 317.1 at 25034.0 with limit 316.85
+11:58:38 : SL hit for combined premium: 317.25 at 25034.05 with limit 316.85
+11:58:38 : SL hit for combined premium: 317.45 at 25034.05 with limit 316.85
+11:58:39 : SL hit for combined premium: 317.6 at 25034.35 with limit 316.85
+11:58:39 : SL hit for combined premium: 317.6 at 25033.95 with limit 316.85
+11:58:39 : SL hit for combined premium: 317.6 at 25033.95 with limit 316.85
+11:58:40 : SL hit for combined premium: 317.6 at 25033.95 with limit 316.85
+11:58:40 : SL hit for combined premium: 317.6 at 25033.95 with limit 316.85
+11:58:41 : SL hit for combined premium: 318.1 at 25034.3 with limit 316.85
+11:58:41 : SL hit for combined premium: 317.7 at 25034.3 with limit 316.85
+11:58:42 : SL hit for combined premium: 317.04999999999995 at 25032.85 with limit 316.85
+11:58:42 : SL hit for combined premium: 317.6 at 25032.85 with limit 316.85
+11:58:42 : SL hit for combined premium: 318.1 at 25032.85 with limit 316.85
+11:58:42 : SL hit for combined premium: 317.75 at 25032.85 with limit 316.85
+11:58:43 : SL hit for combined premium: 317.75 at 25033.95 with limit 316.85
+11:58:43 : SL hit for combined premium: 317.7 at 25033.95 with limit 316.85
+11:58:44 : SL hit for combined premium: 317.9 at 25034.15 with limit 316.85
+11:58:44 : SL hit for combined premium: 317.55 at 25033.35 with limit 316.85
+11:58:44 : SL hit for combined premium: 317.55 at 25033.35 with limit 316.85
+11:58:45 : SL hit for combined premium: 318.0 at 25033.6 with limit 316.85
+11:58:45 : SL hit for combined premium: 317.7 at 25033.6 with limit 316.85
+11:58:45 : SL hit for combined premium: 317.7 at 25034.2 with limit 316.85
+11:58:45 : SL hit for combined premium: 317.55 at 25034.2 with limit 316.85
+11:58:47 : SL hit for combined premium: 317.1 at 25033.25 with limit 316.85
+11:58:47 : SL hit for combined premium: 317.3 at 25033.25 with limit 316.85
+11:58:47 : SL hit for combined premium: 317.3 at 25034.1 with limit 316.85
+11:58:47 : SL hit for combined premium: 317.20000000000005 at 25034.1 with limit 316.85
+11:58:48 : SL hit for combined premium: 318.1 at 25034.15 with limit 316.85
+11:58:48 : SL hit for combined premium: 317.6 at 25034.15 with limit 316.85
+11:58:49 : SL hit for combined premium: 317.6 at 25034.15 with limit 316.85
+11:58:49 : SL hit for combined premium: 317.6 at 25034.15 with limit 316.85
+11:58:49 : SL hit for combined premium: 317.79999999999995 at 25034.15 with limit 316.85
+11:58:50 : SL hit for combined premium: 317.7 at 25034.15 with limit 316.85
+11:58:50 : SL hit for combined premium: 317.7 at 25034.15 with limit 316.85
+11:58:50 : SL hit for combined premium: 317.79999999999995 at 25034.15 with limit 316.85
+11:58:50 : SL hit for combined premium: 317.79999999999995 at 25034.15 with limit 316.85
+11:58:51 : SL hit for combined premium: 317.65 at 25033.6 with limit 316.85
+11:58:52 : SL hit for combined premium: 317.5 at 25033.6 with limit 316.85
+11:58:52 : SL hit for combined premium: 317.5 at 25033.7 with limit 316.85
+11:58:53 : SL hit for combined premium: 317.5 at 25033.7 with limit 316.85
+11:58:53 : SL hit for combined premium: 317.55 at 25033.7 with limit 316.85
+11:58:53 : SL hit for combined premium: 317.45000000000005 at 25033.8 with limit 316.85
+11:58:54 : SL hit for combined premium: 317.5 at 25034.05 with limit 316.85
+11:58:54 : SL hit for combined premium: 317.5 at 25034.05 with limit 316.85
+11:58:55 : SL hit for combined premium: 317.20000000000005 at 25033.85 with limit 316.85
+11:58:55 : SL hit for combined premium: 317.25 at 25033.85 with limit 316.85
+11:58:55 : SL hit for combined premium: 318.15 at 25033.7 with limit 316.85
+11:58:55 : SL hit for combined premium: 318.15 at 25033.7 with limit 316.85
+11:58:56 : SL hit for combined premium: 318.15 at 25034.45 with limit 316.85
+11:58:56 : SL hit for combined premium: 317.65 at 25034.45 with limit 316.85
+11:58:56 : SL hit for combined premium: 317.4 at 25034.45 with limit 316.85
+11:58:56 : SL hit for combined premium: 317.7 at 25034.45 with limit 316.85
+11:58:58 : SL hit for combined premium: 317.3 at 25035.2 with limit 316.85
+11:58:58 : SL hit for combined premium: 317.55 at 25035.2 with limit 316.85
+11:58:58 : SL hit for combined premium: 317.55 at 25034.25 with limit 316.85
+11:58:58 : SL hit for combined premium: 317.55 at 25034.25 with limit 316.85
+11:58:59 : SL hit for combined premium: 317.55 at 25034.15 with limit 316.85
+11:58:59 : SL hit for combined premium: 317.3 at 25034.15 with limit 316.85
+11:58:59 : SL hit for combined premium: 317.3 at 25034.55 with limit 316.85
+11:59:2 : SL hit for combined premium: 317.25 at 25033.1 with limit 316.85
+11:59:3 : SL hit for combined premium: 317.45 at 25033.1 with limit 316.85
+11:59:3 : SL hit for combined premium: 317.45 at 25033.1 with limit 316.85
+11:59:3 : SL hit for combined premium: 317.45 at 25033.1 with limit 316.85
+11:59:4 : SL hit for combined premium: 317.45 at 25033.25 with limit 316.85
+11:59:4 : SL hit for combined premium: 317.4 at 25033.25 with limit 316.85
+11:59:5 : SL hit for combined premium: 317.85 at 25033.15 with limit 316.85
+11:59:5 : SL hit for combined premium: 317.85 at 25033.15 with limit 316.85
+11:59:6 : SL hit for combined premium: 317.9 at 25033.3 with limit 316.85
+11:59:6 : SL hit for combined premium: 317.85 at 25033.3 with limit 316.85
+11:59:7 : SL hit for combined premium: 317.75 at 25033.4 with limit 316.85
+11:59:7 : SL hit for combined premium: 317.75 at 25033.4 with limit 316.85
+11:59:7 : SL hit for combined premium: 317.75 at 25033.35 with limit 316.85
+11:59:8 : SL hit for combined premium: 317.45 at 25033.35 with limit 316.85
+11:59:8 : SL hit for combined premium: 317.45 at 25033.7 with limit 316.85
+11:59:8 : SL hit for combined premium: 317.45 at 25033.7 with limit 316.85
+11:59:9 : SL hit for combined premium: 317.15 at 25033.75 with limit 316.85
+11:59:10 : SL hit for combined premium: 317.15 at 25032.9 with limit 316.85
+11:59:10 : SL hit for combined premium: 317.25 at 25032.9 with limit 316.85
+11:59:10 : SL hit for combined premium: 317.25 at 25032.7 with limit 316.85
+11:59:11 : SL hit for combined premium: 317.3 at 25032.7 with limit 316.85
+11:59:11 : SL hit for combined premium: 317.85 at 25032.85 with limit 316.85
+11:59:12 : SL hit for combined premium: 317.85 at 25033.6 with limit 316.85
+11:59:12 : SL hit for combined premium: 317.85 at 25033.6 with limit 316.85
+11:59:12 : SL hit for combined premium: 317.55 at 25033.85 with limit 316.85
+11:59:12 : SL hit for combined premium: 317.55 at 25033.85 with limit 316.85
+11:59:14 : SL hit for combined premium: 317.95 at 25033.0 with limit 316.85
+11:59:14 : SL hit for combined premium: 317.45 at 25033.0 with limit 316.85
+11:59:14 : SL hit for combined premium: 317.55 at 25032.55 with limit 316.85
+11:59:14 : SL hit for combined premium: 317.65 at 25032.55 with limit 316.85
+11:59:15 : SL hit for combined premium: 317.35 at 25033.25 with limit 316.85
+11:59:15 : SL hit for combined premium: 317.35 at 25033.25 with limit 316.85
+11:59:15 : SL hit for combined premium: 317.20000000000005 at 25033.2 with limit 316.85
+11:59:16 : SL hit for combined premium: 317.20000000000005 at 25033.2 with limit 316.85
+11:59:17 : SL hit for combined premium: 317.9 at 25033.45 with limit 316.85
+11:59:17 : SL hit for combined premium: 317.9 at 25033.45 with limit 316.85
+11:59:17 : SL hit for combined premium: 317.65 at 25033.85 with limit 316.85
+11:59:17 : SL hit for combined premium: 317.6 at 25033.85 with limit 316.85
+11:59:18 : SL hit for combined premium: 318.0 at 25033.9 with limit 316.85
+11:59:18 : SL hit for combined premium: 318.0 at 25032.5 with limit 316.85
+11:59:19 : SL hit for combined premium: 318.1 at 25032.5 with limit 316.85
+11:59:19 : SL hit for combined premium: 318.1 at 25033.6 with limit 316.85
+11:59:19 : SL hit for combined premium: 318.1 at 25033.6 with limit 316.85
+11:59:20 : SL hit for combined premium: 318.2 at 25033.7 with limit 316.85
+11:59:20 : SL hit for combined premium: 318.2 at 25033.2 with limit 316.85
+11:59:20 : SL hit for combined premium: 318.3 at 25033.2 with limit 316.85
+11:59:22 : SL hit for combined premium: 318.3 at 25034.6 with limit 316.85
+11:59:22 : SL hit for combined premium: 318.3 at 25034.6 with limit 316.85
+11:59:22 : SL hit for combined premium: 317.15 at 25033.45 with limit 316.85
+11:59:23 : SL hit for combined premium: 317.15 at 25033.45 with limit 316.85
+11:59:23 : SL hit for combined premium: 317.15 at 25033.45 with limit 316.85
+11:59:24 : SL hit for combined premium: 317.20000000000005 at 25033.8 with limit 316.85
+11:59:24 : SL hit for combined premium: 317.20000000000005 at 25033.8 with limit 316.85
+11:59:25 : SL hit for combined premium: 317.3 at 25033.75 with limit 316.85
+11:59:25 : SL hit for combined premium: 317.15 at 25033.75 with limit 316.85
+11:59:25 : SL hit for combined premium: 317.15 at 25033.15 with limit 316.85
+11:59:25 : SL hit for combined premium: 317.1 at 25033.15 with limit 316.85
+11:59:26 : SL hit for combined premium: 317.1 at 25033.1 with limit 316.85
+11:59:26 : SL hit for combined premium: 317.1 at 25033.1 with limit 316.85
+11:59:26 : SL hit for combined premium: 317.1 at 25034.15 with limit 316.85
+11:59:27 : SL hit for combined premium: 317.15 at 25034.15 with limit 316.85
+11:59:27 : SL hit for combined premium: 317.5 at 25033.8 with limit 316.85
+11:59:28 : SL hit for combined premium: 317.5 at 25033.75 with limit 316.85
+11:59:28 : SL hit for combined premium: 317.5 at 25033.75 with limit 316.85
+11:59:28 : SL hit for combined premium: 317.55 at 25034.25 with limit 316.85
+11:59:28 : SL hit for combined premium: 317.6 at 25034.25 with limit 316.85
+11:59:29 : SL hit for combined premium: 317.05 at 25034.0 with limit 316.85
+11:59:29 : SL hit for combined premium: 317.05 at 25034.0 with limit 316.85
+11:59:29 : SL hit for combined premium: 317.3 at 25033.4 with limit 316.85
+11:59:30 : SL hit for combined premium: 317.55 at 25034.25 with limit 316.85
+11:59:30 : SL hit for combined premium: 317.55 at 25034.25 with limit 316.85
+11:59:31 : SL hit for combined premium: 317.35 at 25033.45 with limit 316.85
+11:59:31 : SL hit for combined premium: 317.35 at 25033.45 with limit 316.85
+11:59:31 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -31.4; 187.9 -> 219.3
+ΔPE         : 17.1; 115.15 -> 98.05
+ΔPremium    : -14.3; 303.05 -> 317.35
+Trailing SL : 316.85
+ΔNifty      : 40; 24,994.05 -> 25,034.05
+Legs Active :  PE : true ; CE : true 
+
+
+11:59:31 : SL hit for combined premium: 317.35 at 25034.05 with limit 316.85
+11:59:32 : SL hit for combined premium: 317.1 at 25034.05 with limit 316.85
+11:59:35 : SL hit for combined premium: 316.95000000000005 at 25032.8 with limit 316.85
+11:59:36 : SL hit for combined premium: 316.95000000000005 at 25032.8 with limit 316.85
+11:59:36 : SL hit for combined premium: 316.95000000000005 at 25032.8 with limit 316.85
+11:59:36 : SL hit for combined premium: 316.95000000000005 at 25033.05 with limit 316.85
+11:59:39 : SL hit for combined premium: 317.1 at 25032.85 with limit 316.85
+11:59:39 : SL hit for combined premium: 317.1 at 25032.85 with limit 316.85
+11:59:40 : SL hit for combined premium: 317.0 at 25032.05 with limit 316.85
+11:59:41 : SL hit for combined premium: 317.0 at 25032.05 with limit 316.85
+11:59:41 : SL hit for combined premium: 317.0 at 25032.4 with limit 316.85
+11:59:54 : SL hit for combined premium: 317.0 at 25032.55 with limit 316.85
+11:59:58 : SL hit for combined premium: 317.15 at 25033.55 with limit 316.85
+11:59:59 : SL hit for combined premium: 317.15 at 25033.6 with limit 316.85
+11:59:59 : SL hit for combined premium: 317.05 at 25033.6 with limit 316.85
+12:0:0 : SL hit for combined premium: 317.05 at 25033.7 with limit 316.85
+12:0:0 : SL hit for combined premium: 317.25 at 25033.7 with limit 316.85
+12:0:1 : SL hit for combined premium: 317.25 at 25032.85 with limit 316.85
+12:0:1 : SL hit for combined premium: 317.15 at 25032.85 with limit 316.85
+12:0:1 : SL hit for combined premium: 317.1 at 25033.15 with limit 316.85
+12:0:2 : SL hit for combined premium: 317.1 at 25033.8 with limit 316.85
+12:0:2 : SL hit for combined premium: 317.1 at 25033.8 with limit 316.85
+12:0:5 : SL hit for combined premium: 316.9 at 25033.2 with limit 316.85
+12:0:7 : SL hit for combined premium: 317.65 at 25033.95 with limit 316.85
+12:0:8 : SL hit for combined premium: 317.65 at 25033.95 with limit 316.85
+12:0:9 : SL hit for combined premium: 317.1 at 25034.05 with limit 316.85
+12:0:9 : SL hit for combined premium: 317.05 at 25033.75 with limit 316.85
+12:0:10 : SL hit for combined premium: 317.05 at 25033.2 with limit 316.85
+12:0:10 : SL hit for combined premium: 316.95000000000005 at 25033.2 with limit 316.85
+12:0:13 : SL hit for combined premium: 317.35 at 25033.75 with limit 316.85
+12:0:14 : SL hit for combined premium: 317.35 at 25033.45 with limit 316.85
+12:0:14 : SL hit for combined premium: 317.79999999999995 at 25033.1 with limit 316.85
+12:0:14 : SL hit for combined premium: 317.79999999999995 at 25033.1 with limit 316.85
+12:0:15 : SL hit for combined premium: 317.79999999999995 at 25033.2 with limit 316.85
+12:0:15 : SL hit for combined premium: 317.79999999999995 at 25033.2 with limit 316.85
+12:0:16 : SL hit for combined premium: 317.1 at 25033.4 with limit 316.85
+12:0:16 : SL hit for combined premium: 317.1 at 25033.4 with limit 316.85
+12:0:17 : SL hit for combined premium: 317.45 at 25033.5 with limit 316.85
+12:0:17 : SL hit for combined premium: 317.5 at 25033.5 with limit 316.85
+12:0:17 : SL hit for combined premium: 317.5 at 25034.1 with limit 316.85
+12:0:17 : SL hit for combined premium: 317.35 at 25034.1 with limit 316.85
+12:0:18 : SL hit for combined premium: 317.15 at 25034.2 with limit 316.85
+12:0:18 : SL hit for combined premium: 317.2 at 25033.85 with limit 316.85
+12:0:19 : SL hit for combined premium: 317.15 at 25033.85 with limit 316.85
+12:0:19 : SL hit for combined premium: 317.15 at 25033.4 with limit 316.85
+12:0:19 : SL hit for combined premium: 317.15 at 25033.4 with limit 316.85
+12:0:20 : SL hit for combined premium: 317.4 at 25033.8 with limit 316.85
+12:0:20 : SL hit for combined premium: 317.4 at 25033.3 with limit 316.85
+12:0:20 : SL hit for combined premium: 317.4 at 25033.3 with limit 316.85
+12:0:21 : SL hit for combined premium: 317.25 at 25033.35 with limit 316.85
+12:0:22 : SL hit for combined premium: 318.2 at 25033.8 with limit 316.85
+12:0:22 : SL hit for combined premium: 317.65 at 25033.8 with limit 316.85
+12:0:23 : SL hit for combined premium: 317.65 at 25033.7 with limit 316.85
+12:0:23 : SL hit for combined premium: 317.65 at 25033.7 with limit 316.85
+12:0:23 : SL hit for combined premium: 317.65 at 25034.25 with limit 316.85
+12:0:24 : SL hit for combined premium: 317.65 at 25034.25 with limit 316.85
+12:0:24 : SL hit for combined premium: 317.65 at 25034.8 with limit 316.85
+12:0:24 : SL hit for combined premium: 317.95 at 25034.8 with limit 316.85
+12:0:25 : SL hit for combined premium: 317.95 at 25034.65 with limit 316.85
+12:0:25 : SL hit for combined premium: 317.85 at 25034.65 with limit 316.85
+12:0:26 : SL hit for combined premium: 317.9 at 25034.55 with limit 316.85
+12:0:26 : SL hit for combined premium: 318.0 at 25034.9 with limit 316.85
+12:0:27 : SL hit for combined premium: 317.8 at 25034.9 with limit 316.85
+12:0:27 : SL hit for combined premium: 317.8 at 25036.1 with limit 316.85
+12:0:28 : SL hit for combined premium: 318.15 at 25036.65 with limit 316.85
+12:0:28 : SL hit for combined premium: 318.3 at 25036.65 with limit 316.85
+12:0:28 : SL hit for combined premium: 317.95000000000005 at 25036.4 with limit 316.85
+12:0:28 : SL hit for combined premium: 317.95000000000005 at 25036.4 with limit 316.85
+12:0:29 : SL hit for combined premium: 317.95000000000005 at 25036.35 with limit 316.85
+12:0:29 : SL hit for combined premium: 318.0 at 25036.35 with limit 316.85
+12:0:30 : SL hit for combined premium: 317.65 at 25035.05 with limit 316.85
+12:0:30 : SL hit for combined premium: 317.35 at 25035.05 with limit 316.85
+12:0:30 : SL hit for combined premium: 317.35 at 25035.1 with limit 316.85
+12:0:30 : SL hit for combined premium: 317.35 at 25035.1 with limit 316.85
+12:0:31 : SL hit for combined premium: 317.6 at 25035.75 with limit 316.85
+12:0:31 : SL hit for combined premium: 317.6 at 25035.75 with limit 316.85
+12:0:32 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -32.95; 187.9 -> 220.85
+ΔPE         : 18.75; 115.15 -> 96.4
+ΔPremium    : -14.2; 303.05 -> 317.25
+Trailing SL : 316.85
+ΔNifty      : 41.3; 24,994.05 -> 25,035.35
+Legs Active :  PE : true ; CE : true 
+
+
+12:0:32 : SL hit for combined premium: 317.25 at 25035.35 with limit 316.85
+12:0:32 : SL hit for combined premium: 317.7 at 25035.35 with limit 316.85
+12:0:33 : SL hit for combined premium: 318.04999999999995 at 25035.4 with limit 316.85
+12:0:33 : SL hit for combined premium: 317.29999999999995 at 25035.4 with limit 316.85
+12:0:33 : SL hit for combined premium: 317.5 at 25035.9 with limit 316.85
+12:0:33 : SL hit for combined premium: 317.65 at 25035.9 with limit 316.85
+12:0:34 : SL hit for combined premium: 318.25 at 25036.6 with limit 316.85
+12:0:34 : SL hit for combined premium: 318.25 at 25036.6 with limit 316.85
+12:0:35 : SL hit for combined premium: 318.25 at 25036.4 with limit 316.85
+12:0:35 : SL hit for combined premium: 318.25 at 25036.4 with limit 316.85
+12:0:36 : SL hit for combined premium: 318.25 at 25036.5 with limit 316.85
+12:0:36 : SL hit for combined premium: 318.5 at 25036.5 with limit 316.85
+12:0:36 : SL hit for combined premium: 318.55 at 25036.5 with limit 316.85
+12:0:36 : SL hit for combined premium: 318.20000000000005 at 25036.5 with limit 316.85
+12:0:37 : SL hit for combined premium: 318.20000000000005 at 25037.1 with limit 316.85
+12:0:38 : SL hit for combined premium: 318.45000000000005 at 25036.7 with limit 316.85
+12:0:38 : SL hit for combined premium: 318.05 at 25036.7 with limit 316.85
+12:0:39 : SL hit for combined premium: 317.95 at 25036.85 with limit 316.85
+12:0:39 : SL hit for combined premium: 317.95 at 25036.85 with limit 316.85
+12:0:40 : SL hit for combined premium: 317.8 at 25036.55 with limit 316.85
+12:0:40 : SL hit for combined premium: 318.20000000000005 at 25036.55 with limit 316.85
+12:0:41 : SL hit for combined premium: 318.5 at 25036.35 with limit 316.85
+12:0:41 : SL hit for combined premium: 318.25 at 25036.35 with limit 316.85
+12:0:41 : SL hit for combined premium: 317.70000000000005 at 25036.8 with limit 316.85
+12:0:41 : SL hit for combined premium: 317.70000000000005 at 25036.8 with limit 316.85
+12:0:42 : SL hit for combined premium: 317.70000000000005 at 25037.05 with limit 316.85
+12:0:42 : SL hit for combined premium: 317.70000000000005 at 25037.05 with limit 316.85
+12:0:42 : SL hit for combined premium: 318.0 at 25037.05 with limit 316.85
+12:0:42 : SL hit for combined premium: 317.9 at 25037.05 with limit 316.85
+12:0:44 : SL hit for combined premium: 318.25 at 25036.9 with limit 316.85
+12:0:44 : SL hit for combined premium: 318.4 at 25036.9 with limit 316.85
+12:0:44 : SL hit for combined premium: 317.95 at 25037.3 with limit 316.85
+12:0:44 : SL hit for combined premium: 317.95 at 25037.3 with limit 316.85
+12:0:45 : SL hit for combined premium: 317.95 at 25036.85 with limit 316.85
+12:0:45 : SL hit for combined premium: 317.85 at 25036.85 with limit 316.85
+12:0:45 : SL hit for combined premium: 317.85 at 25037.65 with limit 316.85
+12:0:46 : SL hit for combined premium: 318.0 at 25037.65 with limit 316.85
+12:0:46 : SL hit for combined premium: 317.9 at 25037.5 with limit 316.85
+12:0:47 : SL hit for combined premium: 317.8 at 25037.5 with limit 316.85
+12:0:47 : SL hit for combined premium: 317.8 at 25037.5 with limit 316.85
+12:0:47 : SL hit for combined premium: 317.6 at 25037.05 with limit 316.85
+12:0:47 : SL hit for combined premium: 317.4 at 25037.05 with limit 316.85
+12:0:48 : SL hit for combined premium: 317.75 at 25037.65 with limit 316.85
+12:0:48 : SL hit for combined premium: 317.8 at 25037.65 with limit 316.85
+12:0:49 : SL hit for combined premium: 317.95 at 25037.75 with limit 316.85
+12:0:49 : SL hit for combined premium: 317.65 at 25037.75 with limit 316.85
+12:0:49 : SL hit for combined premium: 317.65 at 25037.75 with limit 316.85
+12:0:49 : SL hit for combined premium: 317.65 at 25037.75 with limit 316.85
+12:0:50 : SL hit for combined premium: 317.1 at 25036.9 with limit 316.85
+12:0:50 : SL hit for combined premium: 317.15 at 25036.9 with limit 316.85
+12:0:51 : SL hit for combined premium: 317.15 at 25037.2 with limit 316.85
+12:0:51 : SL hit for combined premium: 317.1 at 25037.2 with limit 316.85
+12:0:52 : SL hit for combined premium: 317.05 at 25037.35 with limit 316.85
+12:0:52 : SL hit for combined premium: 317.3 at 25037.35 with limit 316.85
+12:0:52 : SL hit for combined premium: 317.35 at 25037.55 with limit 316.85
+12:0:52 : SL hit for combined premium: 317.15 at 25037.55 with limit 316.85
+12:0:53 : SL hit for combined premium: 317.0 at 25037.7 with limit 316.85
+12:0:56 : SL hit for combined premium: 317.2 at 25037.1 with limit 316.85
+12:0:56 : SL hit for combined premium: 317.6 at 25037.1 with limit 316.85
+12:0:57 : SL hit for combined premium: 317.45 at 25037.8 with limit 316.85
+12:0:57 : SL hit for combined premium: 317.4 at 25037.9 with limit 316.85
+12:0:57 : SL hit for combined premium: 317.4 at 25037.9 with limit 316.85
+12:0:58 : SL hit for combined premium: 318.1 at 25037.6 with limit 316.85
+12:0:58 : SL hit for combined premium: 317.95 at 25037.6 with limit 316.85
+12:0:58 : SL hit for combined premium: 317.6 at 25037.55 with limit 316.85
+12:0:59 : SL hit for combined premium: 317.7 at 25037.55 with limit 316.85
+12:1:1 : SL hit for combined premium: 317.0 at 25037.85 with limit 316.85
+12:1:1 : SL hit for combined premium: 316.9 at 25037.85 with limit 316.85
+12:1:3 : SL hit for combined premium: 317.2 at 25037.05 with limit 316.85
+12:1:4 : SL hit for combined premium: 317.05 at 25038.5 with limit 316.85
+12:1:4 : SL hit for combined premium: 317.0 at 25038.5 with limit 316.85
+12:1:4 : SL hit for combined premium: 316.9 at 25038.25 with limit 316.85
+12:1:5 : SL hit for combined premium: 316.9 at 25038.25 with limit 316.85
+12:1:5 : SL hit for combined premium: 317.6 at 25037.75 with limit 316.85
+12:1:5 : SL hit for combined premium: 317.5 at 25037.75 with limit 316.85
+12:1:6 : SL hit for combined premium: 317.5 at 25037.75 with limit 316.85
+12:1:6 : SL hit for combined premium: 317.7 at 25037.75 with limit 316.85
+12:1:6 : SL hit for combined premium: 317.7 at 25038.1 with limit 316.85
+12:1:6 : SL hit for combined premium: 317.75 at 25038.1 with limit 316.85
+12:1:7 : SL hit for combined premium: 317.75 at 25038.5 with limit 316.85
+12:1:8 : SL hit for combined premium: 317.0 at 25039.25 with limit 316.85
+12:1:9 : SL hit for combined premium: 317.15 at 25038.35 with limit 316.85
+12:1:9 : SL hit for combined premium: 316.95 at 25038.35 with limit 316.85
+12:1:10 : SL hit for combined premium: 317.25 at 25038.45 with limit 316.85
+12:1:10 : SL hit for combined premium: 317.25 at 25038.45 with limit 316.85
+12:1:11 : SL hit for combined premium: 317.25 at 25037.65 with limit 316.85
+12:1:11 : SL hit for combined premium: 317.6 at 25037.65 with limit 316.85
+12:1:11 : SL hit for combined premium: 317.4 at 25038.0 with limit 316.85
+12:1:11 : SL hit for combined premium: 317.25 at 25038.0 with limit 316.85
+12:1:12 : SL hit for combined premium: 316.95 at 25039.0 with limit 316.85
+12:1:12 : SL hit for combined premium: 316.95 at 25039.0 with limit 316.85
+12:1:12 : SL hit for combined premium: 317.25 at 25038.5 with limit 316.85
+12:1:13 : SL hit for combined premium: 317.25 at 25038.5 with limit 316.85
+12:1:13 : SL hit for combined premium: 317.15 at 25038.65 with limit 316.85
+12:1:14 : SL hit for combined premium: 317.25 at 25038.95 with limit 316.85
+12:1:14 : SL hit for combined premium: 317.25 at 25038.95 with limit 316.85
+12:1:14 : SL hit for combined premium: 317.25 at 25039.0 with limit 316.85
+12:1:14 : SL hit for combined premium: 317.25 at 25039.0 with limit 316.85
+12:1:15 : SL hit for combined premium: 317.4 at 25038.9 with limit 316.85
+12:1:15 : SL hit for combined premium: 317.6 at 25038.9 with limit 316.85
+12:1:15 : SL hit for combined premium: 317.6 at 25037.4 with limit 316.85
+12:1:16 : SL hit for combined premium: 317.29999999999995 at 25037.75 with limit 316.85
+12:1:16 : SL hit for combined premium: 317.15 at 25037.75 with limit 316.85
+12:1:17 : SL hit for combined premium: 317.3 at 25038.3 with limit 316.85
+12:1:17 : SL hit for combined premium: 317.3 at 25038.3 with limit 316.85
+12:1:17 : SL hit for combined premium: 317.3 at 25038.7 with limit 316.85
+12:1:17 : SL hit for combined premium: 317.3 at 25038.7 with limit 316.85
+12:1:18 : SL hit for combined premium: 317.35 at 25038.25 with limit 316.85
+12:1:19 : SL hit for combined premium: 317.25 at 25037.95 with limit 316.85
+12:1:19 : SL hit for combined premium: 317.25 at 25037.95 with limit 316.85
+12:1:19 : SL hit for combined premium: 317.25 at 25038.6 with limit 316.85
+12:1:19 : SL hit for combined premium: 317.25 at 25038.6 with limit 316.85
+12:1:20 : SL hit for combined premium: 317.25 at 25038.7 with limit 316.85
+12:1:20 : SL hit for combined premium: 317.4 at 25038.7 with limit 316.85
+12:1:21 : SL hit for combined premium: 317.45000000000005 at 25037.9 with limit 316.85
+12:1:21 : SL hit for combined premium: 317.6 at 25037.9 with limit 316.85
+12:1:22 : SL hit for combined premium: 317.75 at 25038.2 with limit 316.85
+12:1:22 : SL hit for combined premium: 317.65 at 25038.2 with limit 316.85
+12:1:22 : SL hit for combined premium: 317.05 at 25038.0 with limit 316.85
+12:1:22 : SL hit for combined premium: 316.95 at 25038.0 with limit 316.85
+12:1:23 : SL hit for combined premium: 316.95 at 25037.9 with limit 316.85
+12:1:24 : SL hit for combined premium: 317.05 at 25038.2 with limit 316.85
+12:1:25 : SL hit for combined premium: 317.05 at 25038.4 with limit 316.85
+12:1:25 : SL hit for combined premium: 317.05 at 25038.4 with limit 316.85
+12:1:26 : SL hit for combined premium: 317.05 at 25038.25 with limit 316.85
+12:1:26 : SL hit for combined premium: 316.9 at 25038.25 with limit 316.85
+12:1:26 : SL hit for combined premium: 317.1 at 25038.35 with limit 316.85
+12:1:27 : SL hit for combined premium: 317.1 at 25039.75 with limit 316.85
+12:1:27 : SL hit for combined premium: 317.1 at 25039.75 with limit 316.85
+12:1:28 : SL hit for combined premium: 317.55 at 25039.75 with limit 316.85
+12:1:28 : SL hit for combined premium: 317.55 at 25039.75 with limit 316.85
+12:1:29 : SL hit for combined premium: 317.55 at 25038.05 with limit 316.85
+12:1:29 : SL hit for combined premium: 317.55 at 25038.05 with limit 316.85
+12:1:33 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -32.3; 187.9 -> 220.2
+ΔPE         : 19.2; 115.15 -> 95.95
+ΔPremium    : -13.1; 303.05 -> 316.15
+Trailing SL : 316.85
+ΔNifty      : 43.85; 24,994.05 -> 25,037.9
+Legs Active :  PE : true ; CE : true 
+
+
+12:1:33 : SL hit for combined premium: 317.1 at 25037.9 with limit 316.85
+12:2:33 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -26.6; 187.9 -> 214.5
+ΔPE         : 17.05; 115.15 -> 98.1
+ΔPremium    : -9.55; 303.05 -> 312.6
+Trailing SL : 316.85
+ΔNifty      : 37.2; 24,994.05 -> 25,031.25
+Legs Active :  PE : true ; CE : true 
+
+
+12:3:34 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -28.15; 187.9 -> 216.05
+ΔPE         : 17.95; 115.15 -> 97.2
+ΔPremium    : -10.2; 303.05 -> 313.25
+Trailing SL : 316.85
+ΔNifty      : 37.3; 24,994.05 -> 25,031.35
+Legs Active :  PE : true ; CE : true 
+
+
+12:4:35 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -29.1; 187.9 -> 217
+ΔPE         : 18.5; 115.15 -> 96.65
+ΔPremium    : -10.6; 303.05 -> 313.65
+Trailing SL : 316.85
+ΔNifty      : 37.3; 24,994.05 -> 25,031.35
+Legs Active :  PE : true ; CE : true 
+
+
+12:5:35 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -27.95; 187.9 -> 215.85
+ΔPE         : 18.15; 115.15 -> 97
+ΔPremium    : -9.8; 303.05 -> 312.85
+Trailing SL : 316.85
+ΔNifty      : 35.6; 24,994.05 -> 25,029.65
+Legs Active :  PE : true ; CE : true 
+
+
+12:6:37 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -29.6; 187.9 -> 217.5
+ΔPE         : 19.35; 115.15 -> 95.8
+ΔPremium    : -10.25; 303.05 -> 313.3
+Trailing SL : 316.85
+ΔNifty      : 39.3; 24,994.05 -> 25,033.35
+Legs Active :  PE : true ; CE : true 
+
+
+12:7:38 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -28.1; 187.9 -> 216
+ΔPE         : 19.15; 115.15 -> 96
+ΔPremium    : -8.95; 303.05 -> 312
+Trailing SL : 316.85
+ΔNifty      : 36.15; 24,994.05 -> 25,030.2
+Legs Active :  PE : true ; CE : true 
+
+
+12:8:39 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -26.8; 187.9 -> 214.7
+ΔPE         : 18.3; 115.15 -> 96.85
+ΔPremium    : -8.5; 303.05 -> 311.55
+Trailing SL : 316.85
+ΔNifty      : 34.2; 24,994.05 -> 25,028.25
+Legs Active :  PE : true ; CE : true 
+
+
+12:9:40 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -29.5; 187.9 -> 217.4
+ΔPE         : 19; 115.15 -> 96.15
+ΔPremium    : -10.5; 303.05 -> 313.55
+Trailing SL : 316.85
+ΔNifty      : 36.7; 24,994.05 -> 25,030.75
+Legs Active :  PE : true ; CE : true 
+
+
+12:10:40 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -29.8; 187.9 -> 217.7
+ΔPE         : 19.4; 115.15 -> 95.75
+ΔPremium    : -10.4; 303.05 -> 313.45
+Trailing SL : 316.85
+ΔNifty      : 39; 24,994.05 -> 25,033.05
+Legs Active :  PE : true ; CE : true 
+
+
+12:11:23 : SL hit for combined premium: 317.25 at 25037.45 with limit 316.85
+12:11:24 : SL hit for combined premium: 317.15 at 25037.45 with limit 316.85
+12:11:42 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -33.65; 187.9 -> 221.55
+ΔPE         : 19.9; 115.15 -> 95.25
+ΔPremium    : -13.75; 303.05 -> 316.8
+Trailing SL : 316.85
+ΔNifty      : 44.85; 24,994.05 -> 25,038.9
+Legs Active :  PE : true ; CE : true 
+
+
+12:12:39 : SL hit for combined premium: 317.0 at 25037.35 with limit 316.85
+12:12:39 : SL hit for combined premium: 317.0 at 25037.35 with limit 316.85
+12:12:40 : SL hit for combined premium: 317.0 at 25037.9 with limit 316.85
+12:12:42 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+ΔCE         : -34; 187.9 -> 221.9
+ΔPE         : 20.15; 115.15 -> 95
+ΔPremium    : -13.85; 303.05 -> 316.9
+Trailing SL : 316.85
+ΔNifty      : 43.6; 24,994.05 -> 25,037.65
+Legs Active :  PE : true ; CE : true 
+
+
+12:12:43 : SL hit for combined premium: 316.9 at 25037.65 with limit 316.85
+12:12:43 : SL hit for combined premium: 316.9 at 25037.65 with limit 316.85
+12:12:43 : SL hit for combined premium: 317.2 at 25037.8 with limit 316.85
+12:12:44 : SL hit for combined premium: 317.1 at 25038.1 with limit 316.85
+12:12:44 : SL hit for combined premium: 316.9 at 25037.75 with limit 316.85
+12:12:45 : SL hit for combined premium: 316.9 at 25038.45 with limit 316.85
+12:12:46 : SL hit for combined premium: 316.95 at 25038.0 with limit 316.85
+12:12:46 : SL hit for combined premium: 316.95 at 25038.0 with limit 316.85
+12:12:46 : SL hit for combined premium: 316.95 at 25038.4 with limit 316.85
+12:12:47 : SL hit for combined premium: 317.1 at 25038.45 with limit 316.85
+12:12:47 : SL hit for combined premium: 317.1 at 25038.45 with limit 316.85
+12:12:48 : SL hit for combined premium: 317.1 at 25038.6 with limit 316.85
+12:12:48 : SL hit for combined premium: 316.9 at 25038.6 with limit 316.85

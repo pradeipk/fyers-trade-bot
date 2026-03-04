@@ -1,0 +1,1266 @@
+12:8:38 : Initializing application with directory: C:\FYER_TRADE
+12:9:14 : Start premium is set to 137.5 with combined premium limit of 162.5 at 24803.85
+12:9:14 : Updating trailing Stop loss to  157.5
+12:9:14 : Updating trailing Stop loss to  157.35
+12:9:15 : Updating trailing Stop loss to  157.15
+12:9:15 : Updating trailing Stop loss to  157.05
+12:9:17 : Updating trailing Stop loss to  156.5
+12:9:26 : Updating trailing Stop loss to  156.3
+12:9:32 : Updating trailing Stop loss to  156.25
+12:9:34 : Updating trailing Stop loss to  156.2
+12:9:36 : Updating trailing Stop loss to  156.15
+12:9:37 : Updating trailing Stop loss to  156.1
+12:9:40 : Updating trailing Stop loss to  156.05
+12:9:44 : Updating trailing Stop loss to  155.9
+12:9:44 : Updating trailing Stop loss to  155.75
+12:9:45 : Updating trailing Stop loss to  155.65
+12:9:46 : Updating trailing Stop loss to  155.65
+12:10:1 : Updating trailing Stop loss to  155.5
+12:10:9 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 4.3; 95.4 -> 91.1
+?PE      : -2.7; 42.1 -> 44.8
+?Gain    : 1.6; 137.5 -> 135.9
+Trail SL : 155.5
+?Nifty    : -5.6; 24,803.85 -> 24,798.25
+Active    :  PE : true ; CE : true 
+
+
+12:10:10 : Updating trailing Stop loss to  155.45
+12:10:31 : Updating trailing Stop loss to  155.3
+12:10:38 : Updating trailing Stop loss to  155.15
+12:10:38 : Updating trailing Stop loss to  154.95
+12:10:39 : Updating trailing Stop loss to  154.9
+12:10:39 : Updating trailing Stop loss to  154.75
+12:11:0 : Updating trailing Stop loss to  154.6
+12:11:10 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 6.3; 95.4 -> 89.1
+?PE      : -3.8; 42.1 -> 45.9
+?Gain    : 2.5; 137.5 -> 135
+Trail SL : 154.6
+?Nifty    : -7.95; 24,803.85 -> 24,795.9
+Active    :  PE : true ; CE : true 
+
+
+12:12:10 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 4.3; 95.4 -> 91.1
+?PE      : -3.05; 42.1 -> 45.15
+?Gain    : 1.25; 137.5 -> 136.25
+Trail SL : 154.6
+?Nifty    : -3.9; 24,803.85 -> 24,799.95
+Active    :  PE : true ; CE : true 
+
+
+12:13:11 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 3.6; 95.4 -> 91.8
+?PE      : -2.6; 42.1 -> 44.7
+?Gain    : 1; 137.5 -> 136.5
+Trail SL : 154.6
+?Nifty    : -4.1; 24,803.85 -> 24,799.75
+Active    :  PE : true ; CE : true 
+
+
+12:14:11 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 5.25; 95.4 -> 90.15
+?PE      : -3.85; 42.1 -> 45.95
+?Gain    : 1.4; 137.5 -> 136.1
+Trail SL : 154.6
+?Nifty    : -8.05; 24,803.85 -> 24,795.8
+Active    :  PE : true ; CE : true 
+
+
+12:15:11 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 0.25; 95.4 -> 95.15
+?PE      : -0.35; 42.1 -> 42.45
+?Gain    : -0.1; 137.5 -> 137.6
+Trail SL : 154.6
+?Nifty    : -2.25; 24,803.85 -> 24,801.6
+Active    :  PE : true ; CE : true 
+
+
+12:16:12 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -0.9; 95.4 -> 96.3
+?PE      : 0.45; 42.1 -> 41.65
+?Gain    : -0.45; 137.5 -> 137.95
+Trail SL : 154.6
+?Nifty    : -0.4; 24,803.85 -> 24,803.45
+Active    :  PE : true ; CE : true 
+
+
+12:17:13 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 0.15; 95.4 -> 95.25
+?PE      : 0.95; 42.1 -> 41.15
+?Gain    : 1.1; 137.5 -> 136.4
+Trail SL : 154.6
+?Nifty    : 0; 24,803.85 -> 24,803.85
+Active    :  PE : true ; CE : true 
+
+
+12:18:13 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 2.4; 95.4 -> 93
+?PE      : -0.6; 42.1 -> 42.7
+?Gain    : 1.8; 137.5 -> 135.7
+Trail SL : 154.6
+?Nifty    : -5.75; 24,803.85 -> 24,798.1
+Active    :  PE : true ; CE : true 
+
+
+12:19:14 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -2.2; 95.4 -> 97.6
+?PE      : 2.3; 42.1 -> 39.8
+?Gain    : 0.1; 137.5 -> 137.4
+Trail SL : 154.6
+?Nifty    : 3.6; 24,803.85 -> 24,807.45
+Active    :  PE : true ; CE : true 
+
+
+12:20:14 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -2.9; 95.4 -> 98.3
+?PE      : 2.65; 42.1 -> 39.45
+?Gain    : -0.25; 137.5 -> 137.75
+Trail SL : 154.6
+?Nifty    : 5; 24,803.85 -> 24,808.85
+Active    :  PE : true ; CE : true 
+
+
+12:21:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -2.45; 95.4 -> 97.85
+?PE      : 2.2; 42.1 -> 39.9
+?Gain    : -0.25; 137.5 -> 137.75
+Trail SL : 154.6
+?Nifty    : 3; 24,803.85 -> 24,806.85
+Active    :  PE : true ; CE : true 
+
+
+12:22:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -3.8; 95.4 -> 99.2
+?PE      : 2.75; 42.1 -> 39.35
+?Gain    : -1.05; 137.5 -> 138.55
+Trail SL : 154.6
+?Nifty    : 4.05; 24,803.85 -> 24,807.9
+Active    :  PE : true ; CE : true 
+
+
+12:23:18 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -4.5; 95.4 -> 99.9
+?PE      : 2.75; 42.1 -> 39.35
+?Gain    : -1.75; 137.5 -> 139.25
+Trail SL : 154.6
+?Nifty    : 5.2; 24,803.85 -> 24,809.05
+Active    :  PE : true ; CE : true 
+
+
+12:24:19 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -3.05; 95.4 -> 98.45
+?PE      : 2; 42.1 -> 40.1
+?Gain    : -1.05; 137.5 -> 138.55
+Trail SL : 154.6
+?Nifty    : 4.35; 24,803.85 -> 24,808.2
+Active    :  PE : true ; CE : true 
+
+
+12:25:20 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -3.55; 95.4 -> 98.95
+?PE      : 1.75; 42.1 -> 40.35
+?Gain    : -1.8; 137.5 -> 139.3
+Trail SL : 154.6
+?Nifty    : 6.25; 24,803.85 -> 24,810.1
+Active    :  PE : true ; CE : true 
+
+
+12:26:21 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -0.2; 95.4 -> 95.6
+?PE      : 0.1; 42.1 -> 42
+?Gain    : -0.1; 137.5 -> 137.6
+Trail SL : 154.6
+?Nifty    : 2.15; 24,803.85 -> 24,806
+Active    :  PE : true ; CE : true 
+
+
+12:27:22 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 0.45; 95.4 -> 94.95
+?PE      : 0.15; 42.1 -> 41.95
+?Gain    : 0.6; 137.5 -> 136.9
+Trail SL : 154.6
+?Nifty    : 0.25; 24,803.85 -> 24,804.1
+Active    :  PE : true ; CE : true 
+
+
+12:28:22 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 0.8; 95.4 -> 94.6
+?PE      : 0.25; 42.1 -> 41.85
+?Gain    : 1.05; 137.5 -> 136.45
+Trail SL : 154.6
+?Nifty    : -1.35; 24,803.85 -> 24,802.5
+Active    :  PE : true ; CE : true 
+
+
+12:29:22 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -0.3; 95.4 -> 95.7
+?PE      : 1; 42.1 -> 41.1
+?Gain    : 0.7; 137.5 -> 136.8
+Trail SL : 154.6
+?Nifty    : 1.4; 24,803.85 -> 24,805.25
+Active    :  PE : true ; CE : true 
+
+
+12:30:23 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 4.35; 95.4 -> 91.05
+?PE      : -1.7; 42.1 -> 43.8
+?Gain    : 2.65; 137.5 -> 134.85
+Trail SL : 154.6
+?Nifty    : -4.6; 24,803.85 -> 24,799.25
+Active    :  PE : true ; CE : true 
+
+
+12:30:44 : Updating trailing Stop loss to  154.55
+12:30:47 : Updating trailing Stop loss to  154.3
+12:31:24 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 4.35; 95.4 -> 91.05
+?PE      : -2.2; 42.1 -> 44.3
+?Gain    : 2.15; 137.5 -> 135.35
+Trail SL : 154.3
+?Nifty    : -7.2; 24,803.85 -> 24,796.65
+Active    :  PE : true ; CE : true 
+
+
+12:31:34 : Updating trailing Stop loss to  154.15
+12:32:24 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 5.05; 95.4 -> 90.35
+?PE      : -2.45; 42.1 -> 44.55
+?Gain    : 2.6; 137.5 -> 134.9
+Trail SL : 154.15
+?Nifty    : -7.4; 24,803.85 -> 24,796.45
+Active    :  PE : true ; CE : true 
+
+
+12:32:56 : Updating trailing Stop loss to  154.05
+12:32:56 : Updating trailing Stop loss to  154
+12:33:7 : Updating trailing Stop loss to  153.85
+12:33:10 : Updating trailing Stop loss to  153.7
+12:33:25 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 10.3; 95.4 -> 85.1
+?PE      : -7.3; 42.1 -> 49.4
+?Gain    : 3; 137.5 -> 134.5
+Trail SL : 153.7
+?Nifty    : -16.25; 24,803.85 -> 24,787.6
+Active    :  PE : true ; CE : true 
+
+
+12:33:49 : Updating trailing Stop loss to  153.65
+12:33:52 : Updating trailing Stop loss to  153.6
+12:33:52 : Updating trailing Stop loss to  153.5
+12:33:53 : Updating trailing Stop loss to  153.25
+12:33:55 : Updating trailing Stop loss to  153.2
+12:33:56 : Updating trailing Stop loss to  153.15
+12:33:58 : Updating trailing Stop loss to  152.85
+12:34:7 : Updating trailing Stop loss to  152.2
+12:34:25 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 11.8; 95.4 -> 83.6
+?PE      : -7.15; 42.1 -> 49.25
+?Gain    : 4.65; 137.5 -> 132.85
+Trail SL : 152.2
+?Nifty    : -17.1; 24,803.85 -> 24,786.75
+Active    :  PE : true ; CE : true 
+
+
+12:34:31 : Updating trailing Stop loss to  152.15
+12:34:41 : Updating trailing Stop loss to  151.9
+12:35:26 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 9.8; 95.4 -> 85.6
+?PE      : -4.9; 42.1 -> 47
+?Gain    : 4.9; 137.5 -> 132.6
+Trail SL : 151.9
+?Nifty    : -13.45; 24,803.85 -> 24,790.4
+Active    :  PE : true ; CE : true 
+
+
+12:36:13 : Updating trailing Stop loss to  151.8
+12:36:15 : Updating trailing Stop loss to  151.75
+12:36:27 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 10.4; 95.4 -> 85
+?PE      : -5.25; 42.1 -> 47.35
+?Gain    : 5.15; 137.5 -> 132.35
+Trail SL : 151.75
+?Nifty    : -14.45; 24,803.85 -> 24,789.4
+Active    :  PE : true ; CE : true 
+
+
+12:36:30 : Updating trailing Stop loss to  151.7
+12:36:34 : Updating trailing Stop loss to  151.65
+12:37:2 : Updating trailing Stop loss to  151.6
+12:37:27 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 11.15; 95.4 -> 84.25
+?PE      : -6.1; 42.1 -> 48.2
+?Gain    : 5.05; 137.5 -> 132.45
+Trail SL : 151.6
+?Nifty    : -13.6; 24,803.85 -> 24,790.25
+Active    :  PE : true ; CE : true 
+
+
+12:38:28 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 10.5; 95.4 -> 84.9
+?PE      : -5.95; 42.1 -> 48.05
+?Gain    : 4.55; 137.5 -> 132.95
+Trail SL : 151.6
+?Nifty    : -13.35; 24,803.85 -> 24,790.5
+Active    :  PE : true ; CE : true 
+
+
+12:39:30 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 11.35; 95.4 -> 84.05
+?PE      : -7.3; 42.1 -> 49.4
+?Gain    : 4.05; 137.5 -> 133.45
+Trail SL : 151.6
+?Nifty    : -16.25; 24,803.85 -> 24,787.6
+Active    :  PE : true ; CE : true 
+
+
+12:40:31 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 10.55; 95.4 -> 84.85
+?PE      : -7.25; 42.1 -> 49.35
+?Gain    : 3.3; 137.5 -> 134.2
+Trail SL : 151.6
+?Nifty    : -14.9; 24,803.85 -> 24,788.95
+Active    :  PE : true ; CE : true 
+
+
+12:41:32 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 12.5; 95.4 -> 82.9
+?PE      : -9.45; 42.1 -> 51.55
+?Gain    : 3.05; 137.5 -> 134.45
+Trail SL : 151.6
+?Nifty    : -18.5; 24,803.85 -> 24,785.35
+Active    :  PE : true ; CE : true 
+
+
+12:42:32 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 16.65; 95.4 -> 78.75
+?PE      : -12.4; 42.1 -> 54.5
+?Gain    : 4.25; 137.5 -> 133.25
+Trail SL : 151.6
+?Nifty    : -24.75; 24,803.85 -> 24,779.1
+Active    :  PE : true ; CE : true 
+
+
+12:43:7 : Updating trailing Stop loss to  151.4
+12:43:7 : Updating trailing Stop loss to  149.75
+12:43:34 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 15.9; 95.4 -> 79.5
+?PE      : -9.75; 42.1 -> 51.85
+?Gain    : 6.15; 137.5 -> 131.35
+Trail SL : 149.75
+?Nifty    : -22.75; 24,803.85 -> 24,781.1
+Active    :  PE : true ; CE : true 
+
+
+12:44:35 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 12.4; 95.4 -> 83
+?PE      : -7.9; 42.1 -> 50
+?Gain    : 4.5; 137.5 -> 133
+Trail SL : 149.75
+?Nifty    : -17.2; 24,803.85 -> 24,786.65
+Active    :  PE : true ; CE : true 
+
+
+12:45:36 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 13.1; 95.4 -> 82.3
+?PE      : -8.5; 42.1 -> 50.6
+?Gain    : 4.6; 137.5 -> 132.9
+Trail SL : 149.75
+?Nifty    : -18.6; 24,803.85 -> 24,785.25
+Active    :  PE : true ; CE : true 
+
+
+12:46:36 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 12.95; 95.4 -> 82.45
+?PE      : -8.65; 42.1 -> 50.75
+?Gain    : 4.3; 137.5 -> 133.2
+Trail SL : 149.75
+?Nifty    : -19.05; 24,803.85 -> 24,784.8
+Active    :  PE : true ; CE : true 
+
+
+12:47:37 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 13.75; 95.4 -> 81.65
+?PE      : -9.35; 42.1 -> 51.45
+?Gain    : 4.4; 137.5 -> 133.1
+Trail SL : 149.75
+?Nifty    : -20.6; 24,803.85 -> 24,783.25
+Active    :  PE : true ; CE : true 
+
+
+12:48:37 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 12.55; 95.4 -> 82.85
+?PE      : -8.45; 42.1 -> 50.55
+?Gain    : 4.1; 137.5 -> 133.4
+Trail SL : 149.75
+?Nifty    : -16.05; 24,803.85 -> 24,787.8
+Active    :  PE : true ; CE : true 
+
+
+12:49:38 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 12.45; 95.4 -> 82.95
+?PE      : -8.5; 42.1 -> 50.6
+?Gain    : 3.95; 137.5 -> 133.55
+Trail SL : 149.75
+?Nifty    : -15.45; 24,803.85 -> 24,788.4
+Active    :  PE : true ; CE : true 
+
+
+12:50:39 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 10.65; 95.4 -> 84.75
+?PE      : -6.5; 42.1 -> 48.6
+?Gain    : 4.15; 137.5 -> 133.35
+Trail SL : 149.75
+?Nifty    : -12.7; 24,803.85 -> 24,791.15
+Active    :  PE : true ; CE : true 
+
+
+12:51:39 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 9.65; 95.4 -> 85.75
+?PE      : -6.1; 42.1 -> 48.2
+?Gain    : 3.55; 137.5 -> 133.95
+Trail SL : 149.75
+?Nifty    : -10.2; 24,803.85 -> 24,793.65
+Active    :  PE : true ; CE : true 
+
+
+12:52:40 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 10.5; 95.4 -> 84.9
+?PE      : -5.5; 42.1 -> 47.6
+?Gain    : 5; 137.5 -> 132.5
+Trail SL : 149.75
+?Nifty    : -10; 24,803.85 -> 24,793.85
+Active    :  PE : true ; CE : true 
+
+
+12:53:41 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 9.6; 95.4 -> 85.8
+?PE      : -5; 42.1 -> 47.1
+?Gain    : 4.6; 137.5 -> 132.9
+Trail SL : 149.75
+?Nifty    : -9.2; 24,803.85 -> 24,794.65
+Active    :  PE : true ; CE : true 
+
+
+12:54:41 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 11.55; 95.4 -> 83.85
+?PE      : -6.4; 42.1 -> 48.5
+?Gain    : 5.15; 137.5 -> 132.35
+Trail SL : 149.75
+?Nifty    : -14.75; 24,803.85 -> 24,789.1
+Active    :  PE : true ; CE : true 
+
+
+12:55:43 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 12; 95.4 -> 83.4
+?PE      : -7.2; 42.1 -> 49.3
+?Gain    : 4.8; 137.5 -> 132.7
+Trail SL : 149.75
+?Nifty    : -16.95; 24,803.85 -> 24,786.9
+Active    :  PE : true ; CE : true 
+
+
+12:56:43 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 10.25; 95.4 -> 85.15
+?PE      : -5.85; 42.1 -> 47.95
+?Gain    : 4.4; 137.5 -> 133.1
+Trail SL : 149.75
+?Nifty    : -15.35; 24,803.85 -> 24,788.5
+Active    :  PE : true ; CE : true 
+
+
+12:57:44 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 8.3; 95.4 -> 87.1
+?PE      : -4.45; 42.1 -> 46.55
+?Gain    : 3.85; 137.5 -> 133.65
+Trail SL : 149.75
+?Nifty    : -10.65; 24,803.85 -> 24,793.2
+Active    :  PE : true ; CE : true 
+
+
+12:58:45 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 8.35; 95.4 -> 87.05
+?PE      : -4.75; 42.1 -> 46.85
+?Gain    : 3.6; 137.5 -> 133.9
+Trail SL : 149.75
+?Nifty    : -8.85; 24,803.85 -> 24,795
+Active    :  PE : true ; CE : true 
+
+
+12:59:46 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 8.4; 95.4 -> 87
+?PE      : -4.2; 42.1 -> 46.3
+?Gain    : 4.2; 137.5 -> 133.3
+Trail SL : 149.75
+?Nifty    : -10.45; 24,803.85 -> 24,793.4
+Active    :  PE : true ; CE : true 
+
+
+13:0:47 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 7.65; 95.4 -> 87.75
+?PE      : -4.5; 42.1 -> 46.6
+?Gain    : 3.15; 137.5 -> 134.35
+Trail SL : 149.75
+?Nifty    : -8.9; 24,803.85 -> 24,794.95
+Active    :  PE : true ; CE : true 
+
+
+13:1:47 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 4.65; 95.4 -> 90.75
+?PE      : -1.95; 42.1 -> 44.05
+?Gain    : 2.7; 137.5 -> 134.8
+Trail SL : 149.75
+?Nifty    : -3.95; 24,803.85 -> 24,799.9
+Active    :  PE : true ; CE : true 
+
+
+13:2:47 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 4; 95.4 -> 91.4
+?PE      : -1; 42.1 -> 43.1
+?Gain    : 3; 137.5 -> 134.5
+Trail SL : 149.75
+?Nifty    : 0.2; 24,803.85 -> 24,804.05
+Active    :  PE : true ; CE : true 
+
+
+13:3:49 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 2.25; 95.4 -> 93.15
+?PE      : 0.45; 42.1 -> 41.65
+?Gain    : 2.7; 137.5 -> 134.8
+Trail SL : 149.75
+?Nifty    : 3.7; 24,803.85 -> 24,807.55
+Active    :  PE : true ; CE : true 
+
+
+13:4:49 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 4.25; 95.4 -> 91.15
+?PE      : -0.2; 42.1 -> 42.3
+?Gain    : 4.05; 137.5 -> 133.45
+Trail SL : 149.75
+?Nifty    : -0.2; 24,803.85 -> 24,803.65
+Active    :  PE : true ; CE : true 
+
+
+13:5:50 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 2.35; 95.4 -> 93.05
+?PE      : 0.95; 42.1 -> 41.15
+?Gain    : 3.3; 137.5 -> 134.2
+Trail SL : 149.75
+?Nifty    : 1.1; 24,803.85 -> 24,804.95
+Active    :  PE : true ; CE : true 
+
+
+13:6:51 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 3.15; 95.4 -> 92.25
+?PE      : 0.45; 42.1 -> 41.65
+?Gain    : 3.6; 137.5 -> 133.9
+Trail SL : 149.75
+?Nifty    : -0.65; 24,803.85 -> 24,803.2
+Active    :  PE : true ; CE : true 
+
+
+13:7:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 2; 95.4 -> 93.4
+?PE      : 1.35; 42.1 -> 40.75
+?Gain    : 3.35; 137.5 -> 134.15
+Trail SL : 149.75
+?Nifty    : 1.9; 24,803.85 -> 24,805.75
+Active    :  PE : true ; CE : true 
+
+
+13:8:52 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 2.15; 95.4 -> 93.25
+?PE      : 1.4; 42.1 -> 40.7
+?Gain    : 3.55; 137.5 -> 133.95
+Trail SL : 149.75
+?Nifty    : 3.05; 24,803.85 -> 24,806.9
+Active    :  PE : true ; CE : true 
+
+
+13:9:53 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 0.2; 95.4 -> 95.2
+?PE      : 2; 42.1 -> 40.1
+?Gain    : 2.2; 137.5 -> 135.3
+Trail SL : 149.75
+?Nifty    : 5.5; 24,803.85 -> 24,809.35
+Active    :  PE : true ; CE : true 
+
+
+13:10:54 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -0.1; 95.4 -> 95.5
+?PE      : 2.3; 42.1 -> 39.8
+?Gain    : 2.2; 137.5 -> 135.3
+Trail SL : 149.75
+?Nifty    : 4.25; 24,803.85 -> 24,808.1
+Active    :  PE : true ; CE : true 
+
+
+13:11:54 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 0.55; 95.4 -> 94.85
+?PE      : 2.25; 42.1 -> 39.85
+?Gain    : 2.8; 137.5 -> 134.7
+Trail SL : 149.75
+?Nifty    : 4.15; 24,803.85 -> 24,808
+Active    :  PE : true ; CE : true 
+
+
+13:12:55 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 0.25; 95.4 -> 95.15
+?PE      : 2.55; 42.1 -> 39.55
+?Gain    : 2.8; 137.5 -> 134.7
+Trail SL : 149.75
+?Nifty    : 1.35; 24,803.85 -> 24,805.2
+Active    :  PE : true ; CE : true 
+
+
+13:13:56 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 4.35; 95.4 -> 91.05
+?PE      : 0.3; 42.1 -> 41.8
+?Gain    : 4.65; 137.5 -> 132.85
+Trail SL : 149.75
+?Nifty    : -3.45; 24,803.85 -> 24,800.4
+Active    :  PE : true ; CE : true 
+
+
+13:14:56 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 3.4; 95.4 -> 92
+?PE      : 1.25; 42.1 -> 40.85
+?Gain    : 4.65; 137.5 -> 132.85
+Trail SL : 149.75
+?Nifty    : 0.05; 24,803.85 -> 24,803.9
+Active    :  PE : true ; CE : true 
+
+
+13:15:57 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 6.55; 95.4 -> 88.85
+?PE      : -1.05; 42.1 -> 43.15
+?Gain    : 5.5; 137.5 -> 132
+Trail SL : 149.75
+?Nifty    : -8.5; 24,803.85 -> 24,795.35
+Active    :  PE : true ; CE : true 
+
+
+13:16:59 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 5; 95.4 -> 90.4
+?PE      : -0.1; 42.1 -> 42.2
+?Gain    : 4.9; 137.5 -> 132.6
+Trail SL : 149.75
+?Nifty    : -7.5; 24,803.85 -> 24,796.35
+Active    :  PE : true ; CE : true 
+
+
+13:18:0 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 4.7; 95.4 -> 90.7
+?PE      : 0; 42.1 -> 42.1
+?Gain    : 4.7; 137.5 -> 132.8
+Trail SL : 149.75
+?Nifty    : -4.15; 24,803.85 -> 24,799.7
+Active    :  PE : true ; CE : true 
+
+
+13:19:0 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 3.1; 95.4 -> 92.3
+?PE      : 1; 42.1 -> 41.1
+?Gain    : 4.1; 137.5 -> 133.4
+Trail SL : 149.75
+?Nifty    : -5.75; 24,803.85 -> 24,798.1
+Active    :  PE : true ; CE : true 
+
+
+13:20:1 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 2; 95.4 -> 93.4
+?PE      : 1.25; 42.1 -> 40.85
+?Gain    : 3.25; 137.5 -> 134.25
+Trail SL : 149.75
+?Nifty    : -7.3; 24,803.85 -> 24,796.55
+Active    :  PE : true ; CE : true 
+
+
+13:21:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 2.25; 95.4 -> 93.15
+?PE      : 0.95; 42.1 -> 41.15
+?Gain    : 3.2; 137.5 -> 134.3
+Trail SL : 149.75
+?Nifty    : -6.8; 24,803.85 -> 24,797.05
+Active    :  PE : true ; CE : true 
+
+
+13:22:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 2.8; 95.4 -> 92.6
+?PE      : 0.8; 42.1 -> 41.3
+?Gain    : 3.6; 137.5 -> 133.9
+Trail SL : 149.75
+?Nifty    : -3.8; 24,803.85 -> 24,800.05
+Active    :  PE : true ; CE : true 
+
+
+13:23:2 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 0.6; 95.4 -> 94.8
+?PE      : 1.45; 42.1 -> 40.65
+?Gain    : 2.05; 137.5 -> 135.45
+Trail SL : 149.75
+?Nifty    : -4.3; 24,803.85 -> 24,799.55
+Active    :  PE : true ; CE : true 
+
+
+13:24:3 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 0.4; 95.4 -> 95
+?PE      : 1.5; 42.1 -> 40.6
+?Gain    : 1.9; 137.5 -> 135.6
+Trail SL : 149.75
+?Nifty    : -3.9; 24,803.85 -> 24,799.95
+Active    :  PE : true ; CE : true 
+
+
+13:25:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -3.8; 95.4 -> 99.2
+?PE      : 3.8; 42.1 -> 38.3
+?Gain    : 0; 137.5 -> 137.5
+Trail SL : 149.75
+?Nifty    : 3.65; 24,803.85 -> 24,807.5
+Active    :  PE : true ; CE : true 
+
+
+13:26:4 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -4.6; 95.4 -> 100
+?PE      : 4.05; 42.1 -> 38.05
+?Gain    : -0.55; 137.5 -> 138.05
+Trail SL : 149.75
+?Nifty    : 5.2; 24,803.85 -> 24,809.05
+Active    :  PE : true ; CE : true 
+
+
+13:27:5 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -4.3; 95.4 -> 99.7
+?PE      : 4.35; 42.1 -> 37.75
+?Gain    : 0.05; 137.5 -> 137.45
+Trail SL : 149.75
+?Nifty    : 11.6; 24,803.85 -> 24,815.45
+Active    :  PE : true ; CE : true 
+
+
+13:28:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -0.55; 95.4 -> 95.95
+?PE      : 3.25; 42.1 -> 38.85
+?Gain    : 2.7; 137.5 -> 134.8
+Trail SL : 149.75
+?Nifty    : 8.6; 24,803.85 -> 24,812.45
+Active    :  PE : true ; CE : true 
+
+
+13:29:6 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -1.4; 95.4 -> 96.8
+?PE      : 2.85; 42.1 -> 39.25
+?Gain    : 1.45; 137.5 -> 136.05
+Trail SL : 149.75
+?Nifty    : 4; 24,803.85 -> 24,807.85
+Active    :  PE : true ; CE : true 
+
+
+13:30:7 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 0.4; 95.4 -> 95
+?PE      : 2.45; 42.1 -> 39.65
+?Gain    : 2.85; 137.5 -> 134.65
+Trail SL : 149.75
+?Nifty    : 4.7; 24,803.85 -> 24,808.55
+Active    :  PE : true ; CE : true 
+
+
+13:31:7 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -2.4; 95.4 -> 97.8
+?PE      : 3.25; 42.1 -> 38.85
+?Gain    : 0.85; 137.5 -> 136.65
+Trail SL : 149.75
+?Nifty    : 8.55; 24,803.85 -> 24,812.4
+Active    :  PE : true ; CE : true 
+
+
+13:32:8 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -0.4; 95.4 -> 95.8
+?PE      : 2.55; 42.1 -> 39.55
+?Gain    : 2.15; 137.5 -> 135.35
+Trail SL : 149.75
+?Nifty    : 5.55; 24,803.85 -> 24,809.4
+Active    :  PE : true ; CE : true 
+
+
+13:33:9 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 0.05; 95.4 -> 95.35
+?PE      : 2.95; 42.1 -> 39.15
+?Gain    : 3; 137.5 -> 134.5
+Trail SL : 149.75
+?Nifty    : 5.5; 24,803.85 -> 24,809.35
+Active    :  PE : true ; CE : true 
+
+
+13:34:9 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 0; 95.4 -> 95.4
+?PE      : 2.8; 42.1 -> 39.3
+?Gain    : 2.8; 137.5 -> 134.7
+Trail SL : 149.75
+?Nifty    : 6.25; 24,803.85 -> 24,810.1
+Active    :  PE : true ; CE : true 
+
+
+13:35:10 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -2.4; 95.4 -> 97.8
+?PE      : 3.95; 42.1 -> 38.15
+?Gain    : 1.55; 137.5 -> 135.95
+Trail SL : 149.75
+?Nifty    : 10.05; 24,803.85 -> 24,813.9
+Active    :  PE : true ; CE : true 
+
+
+13:36:10 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -2.25; 95.4 -> 97.65
+?PE      : 3.95; 42.1 -> 38.15
+?Gain    : 1.7; 137.5 -> 135.8
+Trail SL : 149.75
+?Nifty    : 7.55; 24,803.85 -> 24,811.4
+Active    :  PE : true ; CE : true 
+
+
+13:37:11 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -0.95; 95.4 -> 96.35
+?PE      : 3.2; 42.1 -> 38.9
+?Gain    : 2.25; 137.5 -> 135.25
+Trail SL : 149.75
+?Nifty    : 6.65; 24,803.85 -> 24,810.5
+Active    :  PE : true ; CE : true 
+
+
+13:38:12 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 1.25; 95.4 -> 94.15
+?PE      : 2.2; 42.1 -> 39.9
+?Gain    : 3.45; 137.5 -> 134.05
+Trail SL : 149.75
+?Nifty    : 2.4; 24,803.85 -> 24,806.25
+Active    :  PE : true ; CE : true 
+
+
+13:39:13 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 1.35; 95.4 -> 94.05
+?PE      : 2.2; 42.1 -> 39.9
+?Gain    : 3.55; 137.5 -> 133.95
+Trail SL : 149.75
+?Nifty    : -4.45; 24,803.85 -> 24,799.4
+Active    :  PE : true ; CE : true 
+
+
+13:40:15 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 0.4; 95.4 -> 95
+?PE      : 2.4; 42.1 -> 39.7
+?Gain    : 2.8; 137.5 -> 134.7
+Trail SL : 149.75
+?Nifty    : 1.4; 24,803.85 -> 24,805.25
+Active    :  PE : true ; CE : true 
+
+
+13:41:15 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -2.6; 95.4 -> 98
+?PE      : 3.9; 42.1 -> 38.2
+?Gain    : 1.3; 137.5 -> 136.2
+Trail SL : 149.75
+?Nifty    : 5.1; 24,803.85 -> 24,808.95
+Active    :  PE : true ; CE : true 
+
+
+13:42:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -3.45; 95.4 -> 98.85
+?PE      : 4.75; 42.1 -> 37.35
+?Gain    : 1.3; 137.5 -> 136.2
+Trail SL : 149.75
+?Nifty    : 8.5; 24,803.85 -> 24,812.35
+Active    :  PE : true ; CE : true 
+
+
+13:43:17 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -6.3; 95.4 -> 101.7
+?PE      : 6.2; 42.1 -> 35.9
+?Gain    : -0.1; 137.5 -> 137.6
+Trail SL : 149.75
+?Nifty    : 7.75; 24,803.85 -> 24,811.6
+Active    :  PE : true ; CE : true 
+
+
+13:44:19 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -8.15; 95.4 -> 103.55
+?PE      : 7.05; 42.1 -> 35.05
+?Gain    : -1.1; 137.5 -> 138.6
+Trail SL : 149.75
+?Nifty    : 9.65; 24,803.85 -> 24,813.5
+Active    :  PE : true ; CE : true 
+
+
+13:45:19 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -6.55; 95.4 -> 101.95
+?PE      : 6.1; 42.1 -> 36
+?Gain    : -0.45; 137.5 -> 137.95
+Trail SL : 149.75
+?Nifty    : 9.65; 24,803.85 -> 24,813.5
+Active    :  PE : true ; CE : true 
+
+
+13:46:20 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -5.65; 95.4 -> 101.05
+?PE      : 5.9; 42.1 -> 36.2
+?Gain    : 0.25; 137.5 -> 137.25
+Trail SL : 149.75
+?Nifty    : 1.7; 24,803.85 -> 24,805.55
+Active    :  PE : true ; CE : true 
+
+
+13:47:20 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -3.75; 95.4 -> 99.15
+?PE      : 5.5; 42.1 -> 36.6
+?Gain    : 1.75; 137.5 -> 135.75
+Trail SL : 149.75
+?Nifty    : 5.3; 24,803.85 -> 24,809.15
+Active    :  PE : true ; CE : true 
+
+
+13:48:21 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -0.7; 95.4 -> 96.1
+?PE      : 4.65; 42.1 -> 37.45
+?Gain    : 3.95; 137.5 -> 133.55
+Trail SL : 149.75
+?Nifty    : -0.35; 24,803.85 -> 24,803.5
+Active    :  PE : true ; CE : true 
+
+
+13:49:22 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 1.3; 95.4 -> 94.1
+?PE      : 3.55; 42.1 -> 38.55
+?Gain    : 4.85; 137.5 -> 132.65
+Trail SL : 149.75
+?Nifty    : 1.95; 24,803.85 -> 24,805.8
+Active    :  PE : true ; CE : true 
+
+
+13:50:23 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 0.95; 95.4 -> 94.45
+?PE      : 3.15; 42.1 -> 38.95
+?Gain    : 4.1; 137.5 -> 133.4
+Trail SL : 149.75
+?Nifty    : 1.15; 24,803.85 -> 24,805
+Active    :  PE : true ; CE : true 
+
+
+13:51:23 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 1.65; 95.4 -> 93.75
+?PE      : 2.7; 42.1 -> 39.4
+?Gain    : 4.35; 137.5 -> 133.15
+Trail SL : 149.75
+?Nifty    : -2; 24,803.85 -> 24,801.85
+Active    :  PE : true ; CE : true 
+
+
+13:52:24 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -0.35; 95.4 -> 95.75
+?PE      : 3.1; 42.1 -> 39
+?Gain    : 2.75; 137.5 -> 134.75
+Trail SL : 149.75
+?Nifty    : -1.8; 24,803.85 -> 24,802.05
+Active    :  PE : true ; CE : true 
+
+
+13:53:25 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -0.1; 95.4 -> 95.5
+?PE      : 2.95; 42.1 -> 39.15
+?Gain    : 2.85; 137.5 -> 134.65
+Trail SL : 149.75
+?Nifty    : 5.9; 24,803.85 -> 24,809.75
+Active    :  PE : true ; CE : true 
+
+
+13:54:26 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -1.05; 95.4 -> 96.45
+?PE      : 3.5; 42.1 -> 38.6
+?Gain    : 2.45; 137.5 -> 135.05
+Trail SL : 149.75
+?Nifty    : 4.6; 24,803.85 -> 24,808.45
+Active    :  PE : true ; CE : true 
+
+
+13:55:27 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 0.3; 95.4 -> 95.1
+?PE      : 3.15; 42.1 -> 38.95
+?Gain    : 3.45; 137.5 -> 134.05
+Trail SL : 149.75
+?Nifty    : 2.75; 24,803.85 -> 24,806.6
+Active    :  PE : true ; CE : true 
+
+
+13:56:27 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -0.4; 95.4 -> 95.8
+?PE      : 3.25; 42.1 -> 38.85
+?Gain    : 2.85; 137.5 -> 134.65
+Trail SL : 149.75
+?Nifty    : 2.8; 24,803.85 -> 24,806.65
+Active    :  PE : true ; CE : true 
+
+
+13:57:28 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 0.25; 95.4 -> 95.15
+?PE      : 3.15; 42.1 -> 38.95
+?Gain    : 3.4; 137.5 -> 134.1
+Trail SL : 149.75
+?Nifty    : -1.35; 24,803.85 -> 24,802.5
+Active    :  PE : true ; CE : true 
+
+
+13:58:29 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -0.9; 95.4 -> 96.3
+?PE      : 3.75; 42.1 -> 38.35
+?Gain    : 2.85; 137.5 -> 134.65
+Trail SL : 149.75
+?Nifty    : 3.2; 24,803.85 -> 24,807.05
+Active    :  PE : true ; CE : true 
+
+
+13:59:29 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 1.2; 95.4 -> 94.2
+?PE      : 2.75; 42.1 -> 39.35
+?Gain    : 3.95; 137.5 -> 133.55
+Trail SL : 149.75
+?Nifty    : 0.55; 24,803.85 -> 24,804.4
+Active    :  PE : true ; CE : true 
+
+
+14:0:30 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 1; 95.4 -> 94.4
+?PE      : 3; 42.1 -> 39.1
+?Gain    : 4; 137.5 -> 133.5
+Trail SL : 149.75
+?Nifty    : -0.1; 24,803.85 -> 24,803.75
+Active    :  PE : true ; CE : true 
+
+
+14:1:31 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -0.25; 95.4 -> 95.65
+?PE      : 3.45; 42.1 -> 38.65
+?Gain    : 3.2; 137.5 -> 134.3
+Trail SL : 149.75
+?Nifty    : 1.65; 24,803.85 -> 24,805.5
+Active    :  PE : true ; CE : true 
+
+
+14:2:31 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -0.85; 95.4 -> 96.25
+?PE      : 3.95; 42.1 -> 38.15
+?Gain    : 3.1; 137.5 -> 134.4
+Trail SL : 149.75
+?Nifty    : 0.65; 24,803.85 -> 24,804.5
+Active    :  PE : true ; CE : true 
+
+
+14:3:32 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 2.45; 95.4 -> 92.95
+?PE      : 2.35; 42.1 -> 39.75
+?Gain    : 4.8; 137.5 -> 132.7
+Trail SL : 149.75
+?Nifty    : -3.1; 24,803.85 -> 24,800.75
+Active    :  PE : true ; CE : true 
+
+
+14:4:33 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 0.55; 95.4 -> 94.85
+?PE      : 2.85; 42.1 -> 39.25
+?Gain    : 3.4; 137.5 -> 134.1
+Trail SL : 149.75
+?Nifty    : -3.85; 24,803.85 -> 24,800
+Active    :  PE : true ; CE : true 
+
+
+14:5:34 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 0.15; 95.4 -> 95.25
+?PE      : 3; 42.1 -> 39.1
+?Gain    : 3.15; 137.5 -> 134.35
+Trail SL : 149.75
+?Nifty    : 2.35; 24,803.85 -> 24,806.2
+Active    :  PE : true ; CE : true 
+
+
+14:6:34 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : -1.2; 95.4 -> 96.6
+?PE      : 3.85; 42.1 -> 38.25
+?Gain    : 2.65; 137.5 -> 134.85
+Trail SL : 149.75
+?Nifty    : 5; 24,803.85 -> 24,808.85
+Active    :  PE : true ; CE : true 
+
+
+14:7:36 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 1.2; 95.4 -> 94.2
+?PE      : 3.05; 42.1 -> 39.05
+?Gain    : 4.25; 137.5 -> 133.25
+Trail SL : 149.75
+?Nifty    : -0.2; 24,803.85 -> 24,803.65
+Active    :  PE : true ; CE : true 
+
+
+14:8:41 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 2.9; 95.4 -> 92.5
+?PE      : 2.3; 42.1 -> 39.8
+?Gain    : 5.2; 137.5 -> 132.3
+Trail SL : 149.75
+?Nifty    : 0.35; 24,803.85 -> 24,804.2
+Active    :  PE : true ; CE : true 
+
+
+14:9:41 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 3; 95.4 -> 92.4
+?PE      : 1.85; 42.1 -> 40.25
+?Gain    : 4.85; 137.5 -> 132.65
+Trail SL : 149.75
+?Nifty    : -2.3; 24,803.85 -> 24,801.55
+Active    :  PE : true ; CE : true 
+
+
+14:10:43 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 7.6; 95.4 -> 87.8
+?PE      : -1.4; 42.1 -> 43.5
+?Gain    : 6.2; 137.5 -> 131.3
+Trail SL : 149.75
+?Nifty    : -11.05; 24,803.85 -> 24,792.8
+Active    :  PE : true ; CE : true 
+
+
+14:11:3 : Updating trailing Stop loss to  149.35
+14:11:8 : Updating trailing Stop loss to  149.3
+14:11:35 : Updating trailing Stop loss to  149.15
+14:11:36 : Updating trailing Stop loss to  149.1
+14:11:37 : Updating trailing Stop loss to  149.05
+14:11:37 : Updating trailing Stop loss to  148.75
+14:11:45 : 
+Gain/Loss in premium for (+ive delta is gain in your favour.)
+?CE      : 11; 95.4 -> 84.4
+?PE      : -2.7; 42.1 -> 44.8
+?Gain    : 8.3; 137.5 -> 129.2
+Trail SL : 148.75
+?Nifty    : -23.05; 24,803.85 -> 24,780.8
+Active    :  PE : true ; CE : true 
+
+
+14:11:53 : Updating trailing Stop loss to  148.1
